@@ -1,0 +1,12 @@
+name = "Liberation RX Texture Pack";
+picture = "mod.paa";
+actionName = "Website";
+action = "https://forums.bohemia.net/forums/topic/217186-release-liberation-rx/";
+description = "Liberation RX Texture Pack";
+logo = "mod.paa";
+logoOver = "mod.paa";
+tooltip = "LRX Texture Pack";
+tooltipOwned = "LRX Texture Pack";
+overview = "Liberation RX Texture Pack";
+author = "pSiKO";
+overviewPicture = "mod.paa";

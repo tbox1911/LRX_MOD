@@ -1,0 +1,12 @@
+name = "Liberation RX Music Pack";
+picture = "mod.paa";
+actionName = "Website";
+action = "https://forums.bohemia.net/forums/topic/217186-release-liberation-rx/";
+description = "Liberation RX Music Pack";
+logo = "mod.paa";
+logoOver = "mod.paa";
+tooltip = "LRX Music Pack";
+tooltipOwned = "LRX Music Pack";
+overview = "Liberation RX Music Pack";
+author = "pSiKO";
+overviewPicture = "mod.paa";
