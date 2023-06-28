@@ -1,15 +1,14 @@
 waitUntil {sleep 1; alive player};
 player setVariable ["my_dog", nil];
 player setVariable ["my_dog_actions",[]];
-
 player addEventHandler ["Respawn", { [] spawn LRX_Dog_fnc_dog_add_actions }];
 
 while { true } do {
 	private _my_dog_actions = player getVariable ["my_dog_actions", []];
 	if (count _my_dog_actions == 0) then {
 		[] call LRX_Dog_fnc_dog_add_actions;
-	};	
-	
+	};
+
 	private _my_dog = player getVariable ["my_dog", nil];
 	if (!isNil "_my_dog") then {
 
