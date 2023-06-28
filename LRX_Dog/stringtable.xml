@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="LRX_Dog">
+	<Package name="LRX_Dog">
+		<Key ID="STR_ADD_DOG">
+			<Original>-- REQUEST A DOG</Original>
+			<French>-- DEMANDER UN CHIEN</French>
+		</Key>
+		<Key ID="STR_DOG_FIND">
+			<Original>-- DOG FIND</Original>
+			<Russian>-- СОБАКА, ИСКАТЬ</Russian>
+			<French>-- CHIEN CHERCHE</French>
+			<Japanese>-- 犬に敵を探させる</Japanese>
+			<Chinesesimp>-- 军犬搜寻 --</Chinesesimp>
+			<Chinese>-- 軍犬搜尋 --</Chinese>
+			<Portuguese>-- ENCONTRAR O CÃO</Portuguese>
+			<Czech>-- DOG HLEDEJ</Czech>
+		</Key>
+		<Key ID="STR_DOG_RECALL">
+			<Original>-- DOG RECALL</Original>
+			<Russian>-- СОБАКА, ЗА МНОЙ</Russian>
+			<French>-- CHIEN REVIENS</French>
+			<Japanese>-- 犬を呼び戻す</Japanese>
+			<Chinesesimp>-- 召回军犬 --</Chinesesimp>
+			<Chinese>-- 召回軍犬 --</Chinese>
+			<Portuguese>-- CHAME O CÃO</Portuguese>
+			<Czech>-- DOG ZPĚT</Czech>
+		</Key>
+		<Key ID="STR_DOG_STOP">
+			<Original>-- DOG STOP</Original>
+			<Russian>-- СОБАКА, СИДЕТЬ</Russian>
+			<French>-- CHIEN STOP</French>
+			<Japanese>-- 犬を止める</Japanese>
+			<Chinesesimp>-- 军犬停下 --</Chinesesimp>
+			<Chinese>-- 軍犬停下 --</Chinese>
+			<Portuguese>-- PARAR O CÃO</Portuguese>
+			<Czech>-- DOG STOP</Czech>
+		</Key>
+		<Key ID="STR_DOG_DISMISS">
+			<Original>-- DOG DISMISS</Original>
+			<Russian>-- ВОЗВРАТ СОБАКИ</Russian>
+			<French>-- RENVOYER CHIEN</French>
+			<Japanese>-- 犬とバイバイする</Japanese>
+			<Chinesesimp>-- 解雇军犬 --</Chinesesimp>
+			<Chinese>-- 解僱軍犬 --</Chinese>
+			<Portuguese>-- DISPENSAR O CÃO</Portuguese>
+			<Czech>-- DOG PROPUŠTEN</Czech>
+		</Key>
+		<Key ID="STR_DISMISS_DOG">
+			<Original>&lt;t align='center'&gt;Dismiss the Dog&lt;br/&gt;Are you sure ?&lt;/t&gt;</Original>
+			<Russian>&lt;t align='center'&gt;Отозвать Собаку&lt;br/&gt;Вы уверены ?&lt;/t&gt;</Russian>
+			<French>&lt;t align='center'&gt;Renvoyer le chien&lt;br/&gt;Es tu sûr ?&lt;/t&gt;</French>
+			<Japanese>&lt;t align='center'&gt;犬とバイバイします&lt;br/&gt;よろしいですか？&lt;/t&gt;</Japanese>
+			<Chinesesimp>&lt;t align='center'&gt;即将解雇军犬&lt;br/&gt;你确定吗？&lt;/t&gt;</Chinesesimp>
+			<Chinese>&lt;t align='center'&gt;即將解僱軍犬&lt;br/&gt;你確定嗎？ &lt;/t&gt;</Chinese>
+			<Portuguese>&lt;t align='center'&gt;Dismiss the Dog&lt;br/&gt;Tem certeza ?&lt;/t&gt;</Portuguese>
+			<Czech>&lt;t align='center'&gt;Propustit psa&lt;br/&gt;Jsi si jistý?&lt;/t&gt;</Czech>
+		</Key>
+		<Key ID="STR_DOG_FOUND_NOTHING">
+			<Original>The dog found nothing...</Original>
+			<Russian>Собака ничего не нашла...</Russian>
+			<French>Le chien ne flaire rien ...</French>
+			<Japanese>犬は何も見つけられませんでした...</Japanese>
+			<Chinesesimp>军犬什么也没发现...</Chinesesimp>
+			<Chinese>軍犬什麼也沒發現...</Chinese>
+			<Portuguese>O cão não encontrou nada...</Portuguese>
+			<Czech>Pes nic nenašel...</Czech>
+		</Key>
+		<Key ID="STR_DOG_FOUND">
+			<Original>The dog found something %1m away !!</Original>
+			<Russian>Собака нашла что-то %1m !!</Russian>
+			<French>Le chien a flairé quelque chose à %1m !! </French>
+			<Japanese>犬は %1m離れたところに何か見つけました！！</Japanese>
+			<Chinesesimp>军犬在 %1米外发现了什么！！！</Chinesesimp>
+			<Chinese>軍犬在 %1米外發現了什麼！ ！ ！</Chinese>
+			<Portuguese>O cachorro encontrou algo a %1m de distância !!</Portuguese>
+			<Czech>Pes našel něco %1m daleko!!</Czech>
+		</Key>
+	</Package>
+</Project>
+

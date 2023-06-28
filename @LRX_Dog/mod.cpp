@@ -1,0 +1,12 @@
+name = "Liberation RX Dog Mod";
+picture = "mod.paa";
+actionName = "Website";
+action = "https://forums.bohemia.net/forums/topic/217186-release-liberation-rx/";
+description = "Liberation RX Dog Mod";
+logo = "mod.paa";
+logoOver = "mod.paa";
+tooltip = "LRX Dog Mod";
+tooltipOwned = "LRX Dog Mod";
+overview = "Liberation RX Dog Mod";
+author = "pSiKO";
+overviewPicture = "mod.paa";
