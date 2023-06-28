@@ -1,0 +1,12 @@
+name = "Liberation RX MOD Template Pack";
+picture = "mod.paa";
+actionName = "Website";
+action = "https://forums.bohemia.net/forums/topic/217186-release-liberation-rx/";
+description = "Liberation RX Template Pack";
+logo = "mod.paa";
+logoOver = "mod.paa";
+tooltip = "LRX Template Pack";
+tooltipOwned = "LRX Template Pack";
+overview = "Liberation RX Template Pack";
+author = "pSiKO";
+overviewPicture = "mod.paa";
