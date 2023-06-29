@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="PAR">
+	<Package name="PAR">
+		<Key ID="STR_PAR_Need_Medic1">
+			<Original>I need a medic!</Original>
+			<French>J'ai besoin d'un médecin!</French>
+			<German>Ich brauche einen Sanitäter!</German>
+			<Spanish>¡Necesito un médico!</Spanish>
+			<Russian>Мне нужен медик!</Russian>
+			<Chinesesimp>我需要医疗兵!</Chinesesimp>
+			<Chinese>我需要醫療兵!</Chinese>
+			<Japanese>衛生兵！！</Japanese>
+			<Portuguese>Eu preciso de um médico!</Portuguese>
+			<Czech>Potřebuji lékaře!</Czech>
+		</Key>
+		<Key ID="STR_PAR_Need_Medic2">
+			<Original>I'm hit! Medic!</Original>
+			<French>Je suis touché! Infirmier!</French>
+			<German>Wurde getroffen! Sanitäter!</German>
+			<Spanish>Herido! Médico!</Spanish>
+			<Russian>Меня подстрелили! Медик!</Russian>
+			<Chinesesimp>庸医！我中弹了</Chinesesimp>
+			<Chinese>庸醫！我中彈了</Chinese>
+			<Japanese>負傷した！衛生兵！！</Japanese>
+			<Portuguese>Eu fui atingido! Médico!</Portuguese>
+			<Czech>Jsem zasažen! Medik!</Czech>
+		</Key>
+		<Key ID="STR_PAR_Need_Medic3">
+			<Original>I'm down! Medic!</Original>
+			<French>Je suis à terre! Infirmier!</French>
+			<German>Ich bin gefallen! Sanitäter!</German>
+			<Spanish>Estoy abatido! Médico!</Spanish>
+			<Russian>Я ранен! Медик!</Russian>
+			<Chinesesimp>爷倒了！庸医救我！</Chinesesimp>
+			<Chinese>爺倒了！庸醫救我！</Chinese>
+			<Japanese>ダウンした！衛生兵！！</Japanese>
+			<Portuguese>Estou em baixo! Médico!</Portuguese>
+			<Czech>Jsem dole! Medik!</Czech>
+		</Key>
+		<Key ID="STR_PAR_AC_01">
+			<Original>Revive</Original>
+			<Russian>Возрождение</Russian>
+			<French>Soigner</French>
+			<Chinesesimp>复活</Chinesesimp>
+			<Chinese>復活</Chinese>
+			<Japanese>リバイブ</Japanese>
+			<Portuguese>Revive</Portuguese>
+			<Czech>Oživit</Czech>
+		</Key>
+		<Key ID="STR_PAR_AC_02">
+			<Original>Drag</Original>
+			<Russian>Тащить</Russian>
+			<French>Tirer</French>
+			<Chinesesimp>拖拉</Chinesesimp>
+			<Chinese>拖拉</Chinese>
+			<Japanese>引きずる</Japanese>
+			<Portuguese>Arrastar</Portuguese>
+			<Czech>Táhnout</Czech>
+		</Key>
+		<Key ID="STR_PAR_AC_03">
+			<Original>Release</Original>
+			<Russian>Отпустить</Russian>
+			<French>Lacher</French>
+			<Chinesesimp>释放</Chinesesimp>
+			<Chinese>釋放</Chinese>
+			<Japanese>放す</Japanese>
+			<Portuguese>Liberar</Portuguese>
+			<Czech>Uvolnit</Czech>
+		</Key>
+		<Key ID="STR_PAR_CM_01">
+			<Original>Bad news %1, your medic (%2) is blocked somewhere... (dist: %3m / try: %4)</Original>
+			<Russian>Плохие новости %1, ваш медик (%2) где-то заблокирован... (расстояние: %3m / попытка: %4)</Russian>
+			<French>Mauvaise nouvelle %1, votre médecin (%2) est bloqué quelque part... (dist: %3m / try: %4)</French>
+			<Chinesesimp>坏消息 %1, 你的医生(%2)被堵在了某个地方... (距离: %3米 / 方位角: %4)</Chinesesimp>
+			<Chinese>壞消息 %1, 你的醫生(%2)被堵在了某個地方... (距離: %3米 / 方位角: %4)</Chinese>
+			<Japanese>悪いニュースです %1、 あなたの衛生兵 (%2) はどこかで立ち往生しています... (距離: %3m / 試す: %4)</Japanese>
+			<Portuguese>Más notícias %1, seu médico (%2) está bloqueado em algum lugar... (dist: %3m / try: %4)</Portuguese>
+			<Czech>Špatné zprávy %1, lékař (%2) je daleko... (vzdálenost: %3m / pokus: %4)</Czech>
+		</Key>
+		<Key ID="STR_PAR_CM_02">
+			<Original>Please wait %1, %2 (dist: %3m/%4), is on the way...</Original>
+			<Russian>Подождите, %1, %2 (расстояние: %3m/%4), уже в пути...</Russian>
+			<French>Patience %1, %2 (dist: %3m/%4), est en chemin...</French>
+			<Chinesesimp>请等待 %1, %2 (距离: %3米/%4)，正在路上...</Chinesesimp>
+			<Chinese>請等待 %1, %2 (距離: %3米/%4)，正在路上...</Chinese>
+			<Japanese>お待ちください %1、 %2 (距離: %3m/%4)、 が向かっています...</Japanese>
+			<Portuguese>Aguarde %1, %2 (dist: %3m/%4), está a caminho...</Portuguese>
+			<Czech>Čekejte prosím %1, %2 (vzdálenost: %3m/%4), je na cestě...</Czech>
+		</Key>
+		<Key ID="STR_PAR_CW_01">
+			<Original>I'm going to heal %1 !</Original>
+			<Russian>Я собираюсь вылечить %1!</Russian>
+			<French>Je vais guérir %1 !</French>
+			<Chinesesimp>我前去救 %1 ！</Chinesesimp>
+			<Chinese>我前去救 %1 ！</Chinese>
+			<Japanese>私は %1 を治療に向かう！</Japanese>
+			<Portuguese>Eu vou curar% 1!</Portuguese>
+			<Czech>Chystám se vyléčit %1!</Czech>
+		</Key>
+		<Key ID="STR_PAR_MD_01">
+			<Original>Sorry %1, but there is no medic nearby...</Original>
+			<Russian>Извините %1, но рядом нет медика...</Russian>
+			<French>Désolé %1, mais il n'y a pas de médecin à proximité...</French>
+			<Chinesesimp>抱歉 %1，附近并没有医疗兵...</Chinesesimp>
+			<Chinese>抱歉 %1，附近並沒有醫療兵...</Chinese>
+			<Japanese>すみません %1、近くに衛生兵が居ません...</Japanese>
+			<Portuguese>Desculpe% 1, mas não há médico por perto...</Portuguese>
+			<Czech>Promiňte %1, ale poblíž není žádný lékař...</Czech>
+		</Key>
+		<Key ID="STR_PAR_MD_02">
+			<Original>Units alive in your squad: %1</Original>
+			<Russian>Живых юнитов в вашем отряде: %1</Russian>
+			<French>Unités vivantes dans votre escouade: %1</French>
+			<Chinesesimp>你的小队里还活着的单位: %1</Chinesesimp>
+			<Chinese>你的小隊裡還活著的單位: %1</Chinese>
+			<Japanese>生き残っている分隊AI: %1</Japanese>
+			<Portuguese>Unidades vivas em seu esquadrão: %1</Portuguese>
+			<Czech>Živé jednotky ve vašem týmu: %1</Czech>
+		</Key>
+		<Key ID="STR_PAR_MD_03">
+			<Original>Hold on %1 !, %2 (dist: %3m), is coming to save you !</Original>
+			<Russian>Держись %1 !, %2 (расстояние: %3m), идет, чтобы спасти тебя!</Russian>
+			<French>Tenez bon %1!, %2 (dist: %3m), vient vous sauver !</French>
+			<Chinesesimp>坚持住 %1 ！ %2 (距离: %3 米)，正在来救你！</Chinesesimp>
+			<Chinese>堅持住 %1 ！ %2 (距離: %3 米)，正在來救你！</Chinese>
+			<Japanese>持ちこたえてください %1 !、 %2 (距離: %3m)、 があなたを救おうとしています！</Japanese>
+			<Portuguese>Espere %1!, %2 (dist: %3m), está vindo para te salvar!</Portuguese>
+			<Czech>Vydržte %1!, %2 (vzdálenost: %3m), vás přijde zachránit!</Czech>
+		</Key>
+		<Key ID="STR_PAR_MD_04">
+			<Original>Maybe no more Medic or insuficient Medkit ?</Original>
+			<Russian>Может быть, больше нет медика или недостаточно аптечек?</Russian>
+			<French>Peut etre plus de Médecin ou plus de kit de soins ?</French>
+			<Chinesesimp>也许没有更多的医疗人员，或者医疗包不足？</Chinesesimp>
+			<Chinese>也许没有更多的医疗人员，或者医疗包不足？</Chinese>
+			<Portuguese>Talvez não haja mais Medic ou Medkit insuficiente?</Portuguese>
+			<Czech>Možná už žádný medik nebo nedostatečný medkit?</Czech>
+		</Key>
+		<Key ID="STR_PAR_ST_01">
+			<Original>%1 is healing %2 now...</Original>
+			<Russian>%1 лечит %2 сейчас...</Russian>
+			<French>%1 soigne %2 maintenant...</French>
+			<Chinesesimp>%1 正在治疗 %2 ...</Chinesesimp>
+			<Chinese>%1 正在治療 %2 ...</Chinese>
+			<Japanese>%1 は %2 を治療しています...</Japanese>
+			<Portuguese>%1 está curando %2 agora...</Portuguese>
+			<Czech>%1 se nyní léčí %2...</Czech>
+		</Key>
+		<Key ID="STR_PAR_UC_01">
+			<Original>I need a Medic !!</Original>
+			<Russian>Мне нужен Медик!!</Russian>
+			<French>J'ai besoin d'un médecin !!</French>
+			<Chinesesimp>我需要医疗兵！！</Chinesesimp>
+			<Chinese>我需要醫療兵！ ！</Chinese>
+			<Japanese>衛生兵！！</Japanese>
+			<Portuguese>Eu preciso de um médico!!</Portuguese>
+			<Czech>Potřebuji medika!!</Czech>
+		</Key>
+		<Key ID="STR_PAR_UC_02">
+			<Original>Sorry %1, you no longer have units to revive you...</Original>
+			<Russian>Извините, %1, у вас больше нет юнитов, чтобы оживить вас...</Russian>
+			<French>Désolé %1, vous n'avez plus d'unités pour vous sauver...</French>
+			<Chinesesimp>抱歉 %1，附近没有单位能来救你...</Chinesesimp>
+			<Chinese>抱歉 %1，附近沒有單位能來救你...</Chinese>
+			<Japanese>すみません %1、あなたを生き返らせる分隊員はもう居ません...</Japanese>
+			<Portuguese>Desculpe %1, você não tem mais unidades para reanimá-lo...</Portuguese>
+			<Czech>Omlouváme se %1, již nemáte jednotky, které by vás mohly oživit...</Czech>
+		</Key>
+		<Key ID="STR_PAR_UC_03">
+			<Original>Hey %1, All your units are down, Help them!</Original>
+			<French>Hé %1, Toutes tes unités sont à terre, Aide-les !</French>					
+		</Key>
+		<Key ID="STR_BLEEDOUT_MESSAGE">
+			<Original>Bleedout in %1 seconds</Original>
+			<French>Mort dans %1 secondes</French>
+			<German>Ausbluten in %1 Sekunden</German>
+			<Spanish>Desangrado en %1 segundos</Spanish>
+			<Russian>Вы умрёте через %1 секунд</Russian>
+			<Chinesesimp>将于 %1 秒后失血阵亡</Chinesesimp>
+			<Chinese>將於 %1 秒後失血陣亡</Chinese>
+			<Japanese>失血死まで %1 秒</Japanese>
+			<Portuguese>Sangramento em %1 segundos</Portuguese>
+			<Czech>Krvácení %1 sekund</Czech>
+		</Key>		
+	</Package>
+</Project>

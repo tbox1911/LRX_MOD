@@ -1,0 +1,12 @@
+name = "pSiKO AI Revive";
+picture = "mod.paa";
+actionName = "Website";
+action = "https://forums.bohemia.net/forums/topic/217186-release-liberation-rx/";
+description = "pSiKO AI Revive";
+logo = "mod.paa";
+logoOver = "mod.paa";
+tooltip = "Robust AI Revive";
+tooltipOwned = "Robust AI Revive";
+overview = "pSiKO AI Revive Mod";
+author = "pSiKO";
+overviewPicture = "mod.paa";
