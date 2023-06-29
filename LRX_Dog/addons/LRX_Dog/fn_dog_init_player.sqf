@@ -17,7 +17,6 @@ player addEventHandler ["GetInMan", {
 
 player addEventHandler ["GetOutMan", {
 	params ["_unit", "_role", "_vehicle"];
-	diag_log "getout";
 	[_unit] spawn {
 		params ["_unit"];
 		waitUntil {sleep 1; isTouchingGround (vehicle _unit)};
