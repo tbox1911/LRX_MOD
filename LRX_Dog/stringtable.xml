@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="LRX_Dog">
 	<Package name="LRX_Dog">
+		<Key ID="STR_WARNING">
+			<Original>Warning !</Original>
+			<Russian>Внимание !</Russian>
+			<French>Alerte !</French>
+			<Japanese>警告！</Japanese>
+			<Chinesesimp>警告！</Chinesesimp>
+			<Chinese>警告！</Chinese>
+			<Portuguese>Aviso !</Portuguese>
+			<Czech>Varování !</Czech>
+		</Key>	
 		<Key ID="STR_ADD_DOG">
 			<Original>-- REQUEST A DOG</Original>
 			<French>-- DEMANDER UN CHIEN</French>

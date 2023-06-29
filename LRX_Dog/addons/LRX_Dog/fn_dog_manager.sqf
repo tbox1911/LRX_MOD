@@ -1,12 +1,10 @@
 waitUntil {sleep 1; alive player};
-player setVariable ["my_dog", nil];
-player setVariable ["my_dog_actions",[]];
-player addEventHandler ["Respawn", { [] spawn LRX_Dog_fnc_dog_add_actions }];
 
 while { true } do {
-	private _my_dog_actions = player getVariable ["my_dog_actions", []];
-	if (count _my_dog_actions == 0) then {
-		[] call LRX_Dog_fnc_dog_add_actions;
+	private _init_player = player getVariable ["my_dog_player_init", nil];
+	if (isNil "_init_player") then {
+		[] call fn_dog_init_player;
+		[] call fn_dog_add_actions;
 	};
 
 	private _my_dog = player getVariable ["my_dog", nil];
@@ -35,7 +33,7 @@ while { true } do {
 				private _dist = round (_dog_pos distance2D _man);
 				if (_dist <= 3) then {
 					_my_dog setDir (_my_dog getDir _man);
-					[player, "bark"] remoteExec ["dog_action_remote_call", 2];
+					[player, "bark"] remoteExec ["fn_dog_action_remote_call", 2];
 					_my_dog playMoveNow "Dog_Idle_Bark";
 					sleep selectRandom [3,4,5];
 					_my_dog playMoveNow "Dog_Stop";

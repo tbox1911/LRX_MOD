@@ -19,10 +19,10 @@ class cfgFunctions
 		class functions
 		{
 			file = "LRX_Dog\addons\LRX_Dog";
-			class dog_action_remote_call {};
-			class dog_add_actions {};
-			class dog_manager {};
-			class init_dog { postInit = 1; };
+			class init { postInit = 1; };
 		};
 	};
 };
+
+#include "A3_Base_GUI_defines.hpp"
+#include "dogDisplay.hpp"
