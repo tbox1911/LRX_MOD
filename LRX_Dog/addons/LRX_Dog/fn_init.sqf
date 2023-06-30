@@ -26,19 +26,19 @@ if (MFR_Dog_enabled) then {
 	MFR_Dogs = [
 		"MFR_C_GermanShepherd",
 		"MFR_C_GermanShepherd_Black",
-		"MFR_C_Shepinois"
-		// "MFR_B_GermanShepherd",
-		// "MFR_B_GermanShepherd_Black",
-		// "MFR_B_Shepinois",
-		// "MFR_O_GermanShepherd",
-		// "MFR_O_GermanShepherd_Black",
-		// "MFR_O_Shepinois",
-		// "MFR_I_GermanShepherd_Black_AAF",
-		// "MFR_I_GermanShepherd_Black_IDAP",
-		// "MFR_I_GermanShepherd_AAF",
-		// "MFR_I_GermanShepherd_IDAP",
-		// "MFR_I_Shepinois_AAF",
-		// "MFR_I_Shepinois_IDAP"
+		"MFR_C_Shepinois",
+		"MFR_C_GermanShepherd_IDAP",
+		"MFR_C_GermanShepherd_Black_IDAP",
+		"MFR_C_Shepinois_IDAP",
+		"MFR_C_GermanShepherd_TAN",
+		"MFR_C_GermanShepherd_Black_TAN",
+		"MFR_C_Shepinois_TAN",
+		"MFR_C_GermanShepherd_BLK",
+		"MFR_C_GermanShepherd_Black_BLK",
+		"MFR_C_Shepinois_BLK",
+		"MFR_C_GermanShepherd_OD",
+		"MFR_C_GermanShepherd_Black_OD",
+		"MFR_C_Shepinois_OD"
 	];
 	Dogs_list append MFR_Dogs;
 };
