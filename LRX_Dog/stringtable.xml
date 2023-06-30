@@ -85,6 +85,10 @@
 			<Portuguese>O cachorro encontrou algo a %1m de distância !!</Portuguese>
 			<Czech>Pes našel něco %1m daleko!!</Czech>
 		</Key>
+		<Key ID="STR_DOG_FOUND_GUN">
+			<Original>The dog return with a gun !!</Original>
+			<French>Le chien reviens avec une arme !! </French>
+		</Key>		
 	</Package>
 </Project>
 
