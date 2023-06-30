@@ -136,7 +136,7 @@ PAR_fn_AI_Damage_EH = {
 		params ["_unit", "_idx"];
 		while {alive _unit} do {
 			if (side _unit != playerSide) exitWith {		
-    			_unit removeMPEventHandler ["MPKilled", _idx];
+    			_unit removeEventHandler ["Killed", _idx];
 				_unit setVariable ["PAR_Grp_ID", nil, true];
 			};
 			sleep 1;

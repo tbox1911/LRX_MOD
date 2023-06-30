@@ -96,7 +96,7 @@ while {lifeState _unit == "INCAPACITATED" && time <= _unit getVariable ["PAR_Ble
         _last_msg = player getVariable ["PAR_last_message", 0];
         if (time > _last_msg) then {
           [_unit, _msg] call PAR_fn_globalchat;
-          player setVariable ["PAR_last_message", round(time + 30)];
+          player setVariable ["PAR_last_message", round(time + 20)];
         };
     };
     //systemchat str ((_unit getVariable ["PAR_BleedOutTimer", 0]) - time);
