@@ -7,7 +7,7 @@ while { true } do {
 		[] call fn_dog_init_player;
 		[] call fn_dog_add_actions;
 	};
-
+	
 	// If player have Dog
 	_my_dog = player getVariable ["my_dog", nil];
 	if (!isNil "_my_dog") then {
@@ -53,7 +53,7 @@ while { true } do {
 				_reset = 1;
 			};
 
-			if (_man isKindOf "GroundWeaponHolder") then {
+			if (_man isKindOf "GroundWeaponHolder" || _man isKindOf "WeaponHolderSimulated") then {
 				if (isNull _man) then {
 					_my_dog setVariable ["do_find", nil];
 				} else {
