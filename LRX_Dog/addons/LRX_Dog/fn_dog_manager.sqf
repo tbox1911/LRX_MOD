@@ -62,6 +62,7 @@ while { true } do {
 						_my_dog setDir (_my_dog getDir _man);
 						_offset = [-0.1,0.2,0.6];  // "Alsatian_Random_F"
 						if (_my_dog isKindOf "Fin_random_F") then { _offset = [-0.1,0.15,0.5] };
+						if (_my_dog isKindOf "MFR_Dog_Base") then { _offset = [-0.1,0.4,0.2] };
 						_man attachTo [_my_dog,_offset, "head"];
 						_man setVectorDirAndUp [[1,0,0],[1,0,0]];
 						_my_dog moveTo (getpos player);
