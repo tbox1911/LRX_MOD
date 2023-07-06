@@ -10,7 +10,7 @@
 			<Chinese>警告！</Chinese>
 			<Portuguese>Aviso !</Portuguese>
 			<Czech>Varování !</Czech>
-		</Key>	
+		</Key>
 		<Key ID="STR_ADD_DOG">
 			<Original>-- REQUEST A DOG</Original>
 			<French>-- DEMANDER UN CHIEN</French>
@@ -24,6 +24,14 @@
 			<Chinese>-- 軍犬搜尋 --</Chinese>
 			<Portuguese>-- ENCONTRAR O CÃO</Portuguese>
 			<Czech>-- DOG HLEDEJ</Czech>
+		</Key>
+		<Key ID="STR_DOG_FIND_GUN">
+			<Original>-- DOG BRINGS WEAPON</Original>
+			<French>-- CHIEN RAMÈNE ARME</French>
+		</Key>
+		<Key ID="STR_DOG_PATROL">
+			<Original>-- DOG PATROL</Original>
+			<French>-- CHIEN PATROUILLE</French>
 		</Key>
 		<Key ID="STR_DOG_RECALL">
 			<Original>-- DOG RECALL</Original>
@@ -88,7 +96,11 @@
 		<Key ID="STR_DOG_FOUND_GUN">
 			<Original>The dog return with a gun !!</Original>
 			<French>Le chien reviens avec une arme !! </French>
-		</Key>		
+		</Key>
+		<Key ID="STR_DOG_FOUND_MINE">
+			<Original>The dog found a mine here !!</Original>
+			<French>Le chien à trouvé une mine ici !! </French>
+		</Key>
 	</Package>
 </Project>
 

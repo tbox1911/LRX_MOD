@@ -36,7 +36,7 @@ if (!isNil "_my_dog") then {
 	};
 
 	if (_cmd == "find_gun") then {
-		_weapons_lst = nearestObjects [player, ["GroundWeaponHolder", "WeaponHolderSimulated"], 300];
+		_weapons_lst = nearestObjects [(getPosATL _my_dog), ["GroundWeaponHolder", "WeaponHolderSimulated"], 200];
 		_weapons_lst = _weapons_lst select {
 			_wp = ((getWeaponCargo _x) select 0);
 			if (count _wp > 0) then {
@@ -57,13 +57,29 @@ if (!isNil "_my_dog") then {
 		player globalChat _msg;
 	};
 
+	if (_cmd == "patrol") then {
+		private _dog_pos = getPosATL player;
+		private _radius = 80;
+		private _patrolcorners = [
+			[ (_dog_pos select 0) - _radius, (_dog_pos select 1) - _radius, 0 ],
+			[ (_dog_pos select 0) + _radius, (_dog_pos select 1) - _radius, 0 ],
+			[ (_dog_pos select 0) + _radius, (_dog_pos select 1) + _radius, 0 ],
+			[ (_dog_pos select 0) - _radius, (_dog_pos select 1) + _radius, 0 ]
+		];
+		_my_dog setVariable ["do_find_wp", _patrolcorners];
+		_my_dog setVariable ["do_find", (_patrolcorners select 0)];
+		_my_dog stop false;
+	};
+
 	if (_cmd == "recall") then {
 		_my_dog setVariable ["do_find", nil];
+		_my_dog setVariable ["do_find_wp", nil];
 		_my_dog stop false;
 	};
 
 	if (_cmd == "stop") then {
 		_my_dog setVariable ["do_find", nil];
+		_my_dog setVariable ["do_find_wp", nil];
 		_my_dog stop true;
 		_my_dog playMove "Dog_Stop";
 	};

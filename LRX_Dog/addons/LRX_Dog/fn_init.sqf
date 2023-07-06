@@ -2,7 +2,7 @@
 	Author: pSiKO
 
 	Description:
-	Liberation RX - Dog Mod	v0.3
+	Liberation RX - Dog Mod	v0.5
 	-add support for MFR_Dog
 */
 
