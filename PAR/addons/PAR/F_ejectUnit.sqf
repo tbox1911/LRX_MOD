@@ -18,9 +18,10 @@ if (!isNull objectParent _unit) then { moveOut _unit };
 if (getPos _unit select 2 >= 20) then {
 	_unit setPos (getPosATL _vehicle vectorAdd [([[-15,0,15], 2] call F_getRND), ([[-15,0,15], 2] call F_getRND), 0]);
 	_para = createVehicle ['Steerable_Parachute_F', (getPos _unit),[],0,'none'];
+	sleep 0.5;
 	_unit moveInDriver _para;
 	sleep 1;
-	if (isnull driver (_para)) then {deleteVehicle _para};
+	if (isnull (driver _para)) then {deleteVehicle _para};
 };
 
 sleep 1;

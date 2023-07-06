@@ -65,7 +65,6 @@ PAR_Grp_ID = getPlayerUID player;
 // Init player
 [] call PAR_Player_Init;
 
-diag_log ["multi:", isMultiplayer];
 // Player killed EH
 player addEventHandler ["Killed", { _this spawn PAR_fn_death }];
 
