@@ -46,7 +46,7 @@ while { true } do {
 				};
 				// detect enemy
 				_enemy_lst = (getPosATL _my_dog) nearEntities ["Man", 50];
-				_enemy_lst = _enemy_lst select {alive _x && side _x == playerSide};	
+				_enemy_lst = _enemy_lst select {alive _x && side _x == Dogs_enemy_side};	
 				if (count _enemy_lst > 0) then {
 					_enemy_lst = _enemy_lst apply {[_x distance2D player, _x]};
 					_enemy_lst sort true;

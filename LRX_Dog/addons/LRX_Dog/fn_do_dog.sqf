@@ -1,7 +1,5 @@
 private _cmd = (_this select 3);
 private _my_dog = player getVariable ["my_dog", nil];
-private _enemy_side = east;
-if (playerSide == east) then { _enemy_side = west};
 
 if (!isNil "_my_dog") then {
 
@@ -20,7 +18,7 @@ if (!isNil "_my_dog") then {
 
 	if (_cmd == "find") then {
 		_enemy_lst = (getPos player) nearEntities ["Man", 300];
-		_enemy_lst = _enemy_lst select {alive _x && side _x == _enemy_side};
+		_enemy_lst = _enemy_lst select {alive _x && side _x == Dogs_enemy_side};
 
 		_msg = localize "STR_DOG_FOUND_NOTHING";
 		if (count _enemy_lst > 0) then {
