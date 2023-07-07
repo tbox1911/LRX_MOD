@@ -1,7 +1,7 @@
 // PAR Manage AI
 
 while {true} do {
-    PAR_AI_bros = ((units player) + (units civilian)) select {!isplayer _x && alive _x && ((_x getVariable ["PAR_Grp_ID","0"]) == format["Bros_%1", PAR_Grp_ID])};
+    PAR_AI_bros = allUnits select {!isplayer _x && alive _x && ((_x getVariable ["PAR_Grp_ID","0"]) == format["Bros_%1", PAR_Grp_ID])};
     if (count PAR_AI_bros > 0 ) then {
         {
             // Medic can heal
@@ -40,6 +40,11 @@ while {true} do {
             if (damage _x > 0.6 && vehicle _x == _x) then {
                 private _spray = createVehicle ["BloodSpray_01_New_F", getPos _x, [], 0, "CAN_COLLIDE"];
                 _spray spawn {sleep (10 + floor(random 5)); deleteVehicle _this};
+            };
+
+            // Revoke renegade
+            if (!(side _x in [playerSide, civilian])) then {
+                _x setVariable ["PAR_Grp_ID", nil, true];
             };
             sleep 0.3;
         } forEach PAR_AI_bros;            

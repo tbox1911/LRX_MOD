@@ -107,7 +107,7 @@ PAR_fn_AI_Damage_EH = {
 
 	if ( _unit getVariable ["PAR_EH_Installed", false] ) exitWith {};
 	_unit setVariable ["PAR_EH_Installed", true];
-	_EHdamageIdx = _unit addEventHandler ["HandleDamage", {
+	_unit addEventHandler ["HandleDamage", {
 		params ["_unit","","_dam"];
 		_veh = objectParent _unit;
 		if (!(isNull _veh) && !(player in (crew _veh)) && damage _veh > 0.8) then {[_veh, _unit, true] spawn PAR_fn_eject};
@@ -130,18 +130,6 @@ PAR_fn_AI_Damage_EH = {
 	_unit setVariable ["PAR_busy", nil];
 	_unit setVariable ["PAR_heal", nil];
 	_unit setVariable ["PAR_healed", nil];
-
-	// remove PAR if unit change side
-	[_unit, _EHdamageIdx] spawn {
-		params ["_unit", "_idx"];
-		while {alive _unit} do {
-			if (side _unit != playerSide) exitWith {		
-    			_unit removeEventHandler ["Killed", _idx];
-				_unit setVariable ["PAR_Grp_ID", nil, true];
-			};
-			sleep 1;
-		};
-	};
 };
 
 // Player Section
