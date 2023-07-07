@@ -1,4 +1,4 @@
-player setVariable ["my_dog", nil];
+player setVariable ["my_dog", nil, true];
 player setVariable ["my_dog_actions",nil];
 
 player addEventHandler ["Respawn", { [] spawn fn_dog_add_actions }];

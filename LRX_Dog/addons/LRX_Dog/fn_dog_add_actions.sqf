@@ -1,5 +1,5 @@
 waitUntil {sleep 1; alive player};
-player setVariable ["my_dog", nil];
+player setVariable ["my_dog", nil, true];
 
 no_Dog = {
 	(isNil {player getVariable ["my_dog", nil]})

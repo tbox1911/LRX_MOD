@@ -2,7 +2,7 @@
 	Author: pSiKO
 
 	Description:
-	Liberation RX - Dog Mod	v0.6
+	Liberation RX - Dog Mod	v0.7
 	-add support for MFR_Dog
 */
 
@@ -50,10 +50,11 @@ if (playerSide == east) then { Dogs_enemy_side = west};
 fn_dog_action_remote_call = compileFinal preprocessFileLineNumbers "LRX_Dog\addons\LRX_Dog\fn_dog_action_remote_call.sqf";
 fn_dog_add_actions = compileFinal preprocessFileLineNumbers "LRX_Dog\addons\LRX_Dog\fn_dog_add_actions.sqf";
 fn_dog_init_player = compileFinal preprocessFileLineNumbers "LRX_Dog\addons\LRX_Dog\fn_dog_init_player.sqf";
+fn_dog_bark = compileFinal preprocessFileLineNumbers "LRX_Dog\addons\LRX_Dog\fn_dog_bark.sqf";
 
 [] execVM "LRX_Dog\addons\LRX_Dog\fn_dog_manager.sqf";
 
-//waitUntil {!(isNull (findDisplay 46))};
+waitUntil {!(isNull (findDisplay 46))};
 systemChat "-------- LRX Dog Mod Initialized --------";
 
 player createDiarySubject["LRX","Dog Mod"];
