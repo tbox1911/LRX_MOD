@@ -11,6 +11,8 @@ if (!isNil "_my_dog") then {
 			_my_dog setDir (_my_dog getDir player);
 			[_my_dog, ["dog4.wss", 1]] spawn fn_dog_bark;
 			sleep 4;
+			_id = _my_dog getVariable ["my_dog_marker", 0];
+			(findDisplay 12 displayCtrl 51) ctrlRemoveEventHandler ["Draw", _id];
 			deleteVehicle _my_dog;
 		};
 	};
