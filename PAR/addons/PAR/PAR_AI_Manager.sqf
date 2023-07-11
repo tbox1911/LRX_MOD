@@ -1,4 +1,21 @@
-// PAR Manage AI
+// The PAR Manager
+// by pSiKO
+
+waituntil {sleep 1; alive player};
+// Player group ID
+PAR_Grp_ID = getPlayerUID player;
+
+// Init player
+[] call PAR_Player_Init;
+
+// Player killed EH
+player addEventHandler ["Killed", { _this spawn PAR_fn_death }];
+
+// Player respawn EH
+player addEventHandler ["Respawn", { [] spawn PAR_Player_Init }];
+
+// Handle Damage EH
+player addEventHandler ["HandleDamage", { _this call PAR_HandleDamage_EH }];
 
 while {true} do {
     PAR_AI_bros = allUnits select {!isplayer _x && alive _x && ((_x getVariable ["PAR_Grp_ID","0"]) == format["Bros_%1", PAR_Grp_ID])};

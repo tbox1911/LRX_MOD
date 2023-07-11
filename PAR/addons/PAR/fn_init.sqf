@@ -58,22 +58,7 @@ PAR_MedGarbage = [
 ];
 //------------------------------------------//
 
-waituntil {sleep 1; alive player};
-// Player group ID
-PAR_Grp_ID = getPlayerUID player;
-
-// Init player
-[] call PAR_Player_Init;
-
-// Player killed EH
-player addEventHandler ["Killed", { _this spawn PAR_fn_death }];
-
-// Player respawn EH
-player addEventHandler ["Respawn", { [] spawn PAR_Player_Init }];
-
-// Handle Damage EH
-player addEventHandler ["HandleDamage", { _this call PAR_HandleDamage_EH }];
-[] spawn PAR_AI_Manager;
+[] execVM "PAR\addons\PAR\PAR_AI_Manager.sqf";
 
 diag_log "-------- pSiKo AI Revive Initialized --------";
 

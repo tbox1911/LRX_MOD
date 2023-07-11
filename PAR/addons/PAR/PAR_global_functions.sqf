@@ -1,4 +1,3 @@
-PAR_AI_Manager = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_AI_Manager.sqf";
 PAR_fn_nearestMedic = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_fn_nearestMedic.sqf";
 PAR_fn_medic = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_fn_medic.sqf";
 PAR_fn_medicRelease = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_fn_medicRelease.sqf";

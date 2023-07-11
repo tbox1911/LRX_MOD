@@ -1,3 +1,6 @@
+// The Dog Manager
+// by pSiKO
+
 waitUntil {sleep 1; alive player};
 
 private ["_my_dog","_onfoot","_dog_pos","_man","_dist","_reset"];
