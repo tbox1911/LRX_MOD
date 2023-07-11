@@ -54,8 +54,7 @@ fn_dog_bark = compileFinal preprocessFileLineNumbers "LRX_Dog\addons\LRX_Dog\fn_
 
 [] execVM "LRX_Dog\addons\LRX_Dog\fn_dog_manager.sqf";
 
-waitUntil {!(isNull (findDisplay 46))};
-systemChat "-------- LRX Dog Mod Initialized --------";
+diag_log "-------- LRX Dog Mod Initialized --------";
 
 player createDiarySubject["LRX","Dog Mod"];
 player createDiaryRecord ["LRX", ["Dog Mod", format ["LRX Dog Mod by <font color='#ff4000'>pSiKO</font>."]]];

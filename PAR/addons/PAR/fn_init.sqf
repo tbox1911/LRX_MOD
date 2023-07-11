@@ -75,8 +75,7 @@ player addEventHandler ["Respawn", { [] spawn PAR_Player_Init }];
 player addEventHandler ["HandleDamage", { _this call PAR_HandleDamage_EH }];
 [] spawn PAR_AI_Manager;
 
-waitUntil {!(isNull (findDisplay 46))};
-systemChat "-------- pSiKo AI Revive Initialized --------";
+diag_log "-------- pSiKo AI Revive Initialized --------";
 
 player createDiarySubject["LRX","PAR"];
 player createDiaryRecord ["LRX", ["PAR", format ["PAR Revive by <font color='#ff4000'>pSiKO</font>."]]];
