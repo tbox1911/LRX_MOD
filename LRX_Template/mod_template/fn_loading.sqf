@@ -1,12 +1,6 @@
-// You MUST edit the file: ui\mission_params.hpp
-// to add new side selection (ModPresetWest/ModPresetEast)
+// MOD Template Definition
 
-GRLIB_mod_list_west = [
-	"A3_BLU",
-	"A3_OPF",
-	"A3_BLU_PAC",
-	"A3_OPF_PAC",
-	"A3_IND",
+LRX_mod_list_west = [
 	"CP_BAF_DES",
 	"CP_USMC_W",	// C0br4
 	"CP_USMC_D",	// C0br4
@@ -42,13 +36,7 @@ GRLIB_mod_list_west = [
 	"IFA_WEHRM_W"		// Z@Warrior IFA Wehrmacht Winter	
 ];
 
-GRLIB_mod_list_east = [
-	"A3_OPF",
-	"A3_BLU",
-	"A3_IND",
-	"A3_OPF_PAC",
-	"A3_OPF_UB",
-	"A3_BLU_PAC",
+LRX_mod_list_east = [
 	"CP_TA",
 	"CP_USMC_W",	// C0br4
 	"CP_USMC_D",	// C0br4
@@ -86,13 +74,7 @@ GRLIB_mod_list_east = [
 	"IFA_WEHRM_W"		// Z@Warrior IFA Wehrmacht Winter	
 ];
 
-GRLIB_mod_list_name = [
-	["A3_BLU", "ArmA3 NATO"],
-	["A3_OPF", "ArmA3 CSAT"],
-	["A3_IND", "ArmA3 AAF"],
-	["A3_BLU_PAC", "ArmA3 NATO Pacific"],
-	["A3_OPF_PAC", "ArmA3 CSAT Pacific"],
-	["A3_OPF_UB", "ArmA3 CSAT Urban"],
+LRX_mod_list_name = [
 	["CP_TA", "CUP Takistan"],
 	["CP_BAF_DES", "CUP BAF Desert"],
 	["CP_USMC_W", "CUP USMC Woodland"],
