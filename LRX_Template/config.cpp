@@ -11,25 +11,15 @@ class CfgPatches
 	};		
 };
 
-class LRX_TemplateSources
+class cfgFunctions
 {
-	textures[] = {MyTextur01, MyTextur02, MyTextur03};
-
-	class MyTextur01
+	class LRX_Template
 	{
-		name = "Hello Kitty";
-		texture = "LRX_Texture\textures\hellokitty.paa";
+		tag = "LRX_Template";
+		class functions
+		{
+			file = "mod_template\LRX_Dog";
+			class init { postInit = 1; };
+		};
 	};
-
-	class MyTextur02
-	{
-		name = "TaZ";
-		texture = "LRX_Texture\textures\taz.paa";
-	};
-
-	class MyTextur03
-	{
-		name = "Raven";
-		texture = "LRX_Texture\textures\raven.paa";
-	};	
 };
