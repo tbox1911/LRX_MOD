@@ -1,4 +1,4 @@
-// MOD Template Definition
+// LRX Extended Template Definition
 
 LRX_mod_list_west = [
 	"CP_BAF_DES",
@@ -116,3 +116,10 @@ LRX_mod_list_name = [
 	["IFA_REDARMY_W", "IFA Red Army Winter"],
 	["IFA_WEHRM_W", "IFA Wehrmacht Winter"]	
 ];
+
+player createDiarySubject["LRX Info","MOD Template"];
+{
+	player createDiaryRecord ["LRX Info", ["MOD Template", format ["%1", (_x select 1)]]];
+} forEach LRX_mod_list_name;
+player createDiaryRecord ["LRX Info", ["MOD Template", format ["Available Factions:<br/>"]]];
+player createDiaryRecord ["LRX Info", ["MOD Template", format ["LRX Extended Template"]]];

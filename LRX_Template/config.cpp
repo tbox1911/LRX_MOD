@@ -17,11 +17,10 @@ class cfgFunctions
 	{
 		tag = "LRX_Template";
 		class functions	{
-			file = "LRX_Template\mod_template";
+			file = "LRX_Template";
 			class init { postInit = 1; };
 			class loading {};
+			class readfile {};
 		};
 	};
 };
-
-//call LRX_Template_fnc_loading
