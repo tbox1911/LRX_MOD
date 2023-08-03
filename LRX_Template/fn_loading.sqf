@@ -117,9 +117,9 @@ LRX_mod_list_name = [
 	["IFA_WEHRM_W", "IFA Wehrmacht Winter"]	
 ];
 
-player createDiarySubject["LRX Template","MOD Template"];
+player createDiarySubject["LRX Template","LRX Template"];
 {
-	player createDiaryRecord ["LRX Template", ["MOD Template", format ["%1", (_x select 1)]]];
+	player createDiaryRecord ["LRX Template", ["LRX Template", format ["%1", (_x select 1)]]];
 } forEach LRX_mod_list_name;
-player createDiaryRecord ["LRX Template", ["MOD Template", format ["Available Factions:<br/>"]]];
-player createDiaryRecord ["LRX Template", ["MOD Template", format ["LRX Extended Template"]]];
+player createDiaryRecord ["LRX Template", ["LRX Template", format ["Available Factions:<br/>"]]];
+player createDiaryRecord ["LRX Template", ["LRX Template", format ["LRX Extended Template"]]];
