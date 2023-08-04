@@ -212,7 +212,6 @@ R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
 
 R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
 [
-	Arsenal_typename
 ];
 //--------------- Static ---------------
 
@@ -222,8 +221,16 @@ R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +
 
 R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
 [
+	"CUP_I_M2StaticMG_RACS",
+	"CUP_I_M252_RACS",
+	"CUP_I_M2StaticMG_MiniTripod_RACS",	
+	"CUP_I_M119_RACS"
 ];
 
+R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed +
+[
+	"CUP_I_M119_RACS"
+];
 //--------------- Camping ---------------
 
 R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
