@@ -34,7 +34,7 @@ if ([_medic] call PAR_is_medic) then {
 if (_wnded == player) then {
   _wnded setVariable ["PAR_isUnconscious", 0, true];
   _wnded setVariable ["PAR_isDragged", 0, true];
-  group _wnded selectLeader _wnded;
+  //group _wnded selectLeader _wnded;
 } else {
   _wnded switchMove "amovpknlmstpsraswrfldnon"; //go up
   _wnded playMoveNow "amovpknlmstpsraswrfldnon";

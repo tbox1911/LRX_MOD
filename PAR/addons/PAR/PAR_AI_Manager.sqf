@@ -68,7 +68,7 @@ while {true} do {
     };
     
     {
-        if  ((_x getVariable ["PAR_Grp_ID","0"]) != format["Bros_%1", PAR_Grp_ID]) then {
+        if  (!isplayer _x && (_x getVariable ["PAR_Grp_ID","0"]) != format["Bros_%1", PAR_Grp_ID]) then {
             // Set EH
             [_x] spawn PAR_fn_AI_Damage_EH;
             _x setVariable ["PAR_Grp_ID", format["Bros_%1", PAR_Grp_ID], true];
