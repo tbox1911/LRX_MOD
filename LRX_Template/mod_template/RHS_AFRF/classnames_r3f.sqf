@@ -203,6 +203,11 @@ R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
 	"RHS_M119_WD"
 ];
 
+R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed +
+[
+	"RHS_ZU23_MSV",
+	"RHS_M119_WD"
+];
 //--------------- Camping ---------------
 
 R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +

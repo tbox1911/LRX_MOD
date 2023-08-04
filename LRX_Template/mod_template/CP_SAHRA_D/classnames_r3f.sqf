@@ -231,6 +231,11 @@ R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed +
 [
 	"CUP_I_M119_RACS"
 ];
+
+R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
+[
+	"CUP_I_M119_RACS"
+];
 //--------------- Camping ---------------
 
 R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
