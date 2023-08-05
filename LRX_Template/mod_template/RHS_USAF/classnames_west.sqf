@@ -90,7 +90,6 @@ air_vehicles = [
 	["RHS_UH1Y",10,150,5,GRLIB_perm_air],
 	["rhsusf_CH53e_USMC_cargo",5,350,200,GRLIB_perm_air],
 	["rhsusf_CH53E_USMC_GAU21",5,300,200,GRLIB_perm_air],
-	["RHS_CH_47F",5,350,150,GRLIB_perm_air],
 	["rhsusf_CH53E_USMC",15,500,15,GRLIB_perm_max],
 	["RHS_UH60M",5,350,600,GRLIB_perm_air],
 	["RHS_UH60M2",5,350,600,GRLIB_perm_air],

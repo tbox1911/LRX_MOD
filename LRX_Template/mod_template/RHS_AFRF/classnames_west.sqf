@@ -107,7 +107,6 @@ heavy_vehicles = [
 
 air_vehicles = [
 	["rhs_ka60_c",10,300,20,GRLIB_perm_tank],
-	["RHS_Mi8mt_vv",10,500,20,GRLIB_perm_tank],
 	["RHS_Mi8AMTSh_vvsc",10,1500,20,GRLIB_perm_air],
 	["RHS_Mi24P_vdv",20,700,30,GRLIB_perm_air],
 	["RHS_Mi8MTV3_vdv",20,800,30,GRLIB_perm_inf],
