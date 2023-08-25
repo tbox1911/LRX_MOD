@@ -125,6 +125,7 @@ private _getName = {
 };
 
 private _name = "";
+player createDiarySubject["LRX Template","LRX Template"];
 {
 	_name = [_x] call _getName;
 	player createDiaryRecord ["LRX Template", ["LRX East Template", _name]];
@@ -138,4 +139,3 @@ player createDiaryRecord ["LRX Template", ["LRX East Template", format ["Availab
 player createDiaryRecord ["LRX Template", ["LRX West Template", format ["Available West Factions (%1):<br/>", count LRX_mod_list_west]]];
 
 player createDiaryRecord ["LRX Template", ["LRX Template", format ["LRX Extended Mod Template"]]];
-player createDiarySubject["LRX Template","LRX Template"];
