@@ -23,7 +23,6 @@ opfor_sniper = "uns_US_1ID_MRK3";
 opfor_spotter = "uns_US_1ID_MRK2";
 opfor_engineer = "uns_US_1ID_ENG";
 opfor_paratrooper = "uns_US_1ID_RF5";
-opfor_mrap = "uns_M113_transport";
 opfor_mrap_hmg = "uns_M113_30cal";
 opfor_mrap_gmg = "uns_M113_XM182";
 opfor_transport_helo = "uns_ch47_m60_army";

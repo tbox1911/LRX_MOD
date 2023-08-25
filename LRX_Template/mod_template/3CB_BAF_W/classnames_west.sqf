@@ -32,7 +32,7 @@ infantry_units_west = [
 	["UK3CB_BAF_Marksman_DPMW",1,0,25,GRLIB_perm_inf],
 	["UK3CB_BAF_Sharpshooter_DPMW",1,30,0,GRLIB_perm_inf],
 	["UK3CB_BAF_MGLMG_DPMW",1,35,0,GRLIB_perm_log],
-	["UK3CB_BAF_MAT_DPMW",1,40,0,GRLIB_perm_log],
+	["UK3CB_BAF_LAT_DPMW",1,40,0,GRLIB_perm_log],
 	["UK3CB_BAF_Explosive_DPMW_REC",1,50,0,GRLIB_perm_log],
 	[crewman_classname,1,0,0,GRLIB_perm_inf],
 	[pilot_classname,1,0,0,GRLIB_perm_log]
@@ -204,8 +204,8 @@ blufor_squad_at = [
 	"UK3CB_BAF_SC_DPMW",
 	"UK3CB_BAF_Marksman_556_DPMW",
 	"UK3CB_BAF_MGLMG_DPMW",
-	"UK3CB_BAF_MAT_DPMW",
-	"UK3CB_BAF_MAT_DPMW",
+	"UK3CB_BAF_LAT_DPMW",
+	"UK3CB_BAF_LAT_DPMW",
 	"UK3CB_BAF_LAT_ILAW_DPMW",
 	"UK3CB_BAF_Grenadier_762_DPMW"
 ];
@@ -230,7 +230,7 @@ blufor_squad_mix = [
 	"UK3CB_BAF_Marksman_DPMW_REC",
 	"UK3CB_BAF_Medic_DPMW_REC",
 	"UK3CB_BAF_Explosive_DPMW_REC",
-	"UK3CB_BAF_MAT_DPMW"
+	"UK3CB_BAF_LAT_DPMW"
 ];
 
 squads = [

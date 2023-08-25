@@ -22,7 +22,6 @@ opfor_sniper = "OPTRE_Ins_BJ_Soldier_Scout_Sniper";
 opfor_spotter = "OPTRE_Ins_BJ_Soldier_URB_Scout";
 opfor_engineer = "OPTRE_Ins_BJ_Soldier_Engineer";
 opfor_paratrooper = "OPTRE_Ins_BJ_Soldier_Rifleman_BR";
-opfor_mrap = "OPTRE_M12_FAV_ins";
 opfor_mrap_hmg = "OPTRE_M12A1_LRV_ins";
 opfor_mrap_gmg = "OPTRE_M12_TD_ins";
 opfor_transport_helo = "OPTRE_Pelican_armed_ins";

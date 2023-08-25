@@ -24,7 +24,6 @@ opfor_spotter = "LIB_SOV_scout_sniper_w";
 opfor_engineer = "LIB_SOV_Sapper_w";
 opfor_paratrooper = "LIB_SOV_Staff_sergeant_w";
 
-opfor_mrap = "LIB_Scout_M3_w";
 opfor_mrap_hmg = "LIB_SOV_M3_Halftrack_w";
 opfor_mrap_gmg = "LIB_SdKfz251_captured_FFV_w";
 opfor_transport_helo = "LIB_Li2";

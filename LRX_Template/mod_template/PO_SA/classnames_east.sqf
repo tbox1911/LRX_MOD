@@ -26,7 +26,6 @@ opfor_engineer = "LOP_SLA_Infantry_Engineer";
 opfor_pilot = "LOP_SLA_Infantry_Pilot";
 opfor_crew = "LOP_SLA_Infantry_Crewman";
 opfor_paratrooper = "LOP_SLA_Infantry_MG_Asst";
-opfor_mrap = "LOP_SLA_UAZ";
 opfor_mrap_hmg = "LOP_SLA_UAZ_DshKM";
 opfor_mrap_gmg = "LOP_SLA_UAZ_AGS";
 opfor_transport_helo = "LOP_SLA_Mi8MT_Cargo";

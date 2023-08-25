@@ -22,7 +22,6 @@ opfor_sniper = "PIF_Marksman";
 opfor_spotter = "PIF_O_Adviser";
 opfor_engineer = "PIF_Saboteur";
 opfor_paratrooper = "PIF_Soldier";
-opfor_mrap = "O_MRAP_02_F";
 opfor_mrap_hmg = "PIF_G_Offroad_01_F";
 opfor_mrap_gmg = "PIF_G_Offroad_01_F";
 opfor_transport_helo = "O_Heli_Transport_04_covered_F";

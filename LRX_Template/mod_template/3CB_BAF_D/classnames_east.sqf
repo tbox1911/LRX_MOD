@@ -26,7 +26,6 @@ opfor_engineer = "UK3CB_BAF_Engineer_DDPM_RM";
 opfor_pilot = "UK3CB_BAF_HeliPilot_RN_DDPM";
 opfor_crew = "UK3CB_BAF_Crewman_DDPM_RM";
 opfor_paratrooper = "UK3CB_BAF_Grenadier_762_DDPM_RM";
-opfor_mrap = "UK3CB_BAF_LandRover_Soft_FFR_Sand_A_DDPM";
 opfor_mrap_hmg = "UK3CB_BAF_LandRover_WMIK_GPMG_FFR_Sand_A_DDPM";
 opfor_mrap_gmg = "UK3CB_BAF_LandRover_WMIK_GMG_FFR_Sand_A_DDPM";
 opfor_transport_helo = "UK3CB_BAF_Wildcat_AH1_TRN_8A_DPMW";

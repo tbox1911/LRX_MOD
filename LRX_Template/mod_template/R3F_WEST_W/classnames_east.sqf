@@ -22,7 +22,6 @@ opfor_sniper = "R3F_URR_TE_BLUFOR_CE";
 opfor_spotter = "R3F_URR_OBS_BLUFOR_CE";
 opfor_engineer = "R3F_APSO_BLUFOR_CE";
 opfor_paratrooper = "B_soldier_PG_F";
-opfor_mrap = "R3F_PVP_CE";
 opfor_mrap_hmg = "R3F_PVP_FN_CE";
 opfor_mrap_gmg = "R3F_PVP_WASP_CE";
 opfor_transport_helo = "R3F_LYNX_CE";

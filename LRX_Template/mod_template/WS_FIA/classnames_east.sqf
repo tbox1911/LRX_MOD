@@ -22,7 +22,6 @@ opfor_sniper = "O_SFIA_sharpshooter_lxWS";
 opfor_spotter = "O_spotter_F";
 opfor_engineer = "O_SFIA_repair_lxWS";
 opfor_paratrooper = "O_R_Patrol_Soldier_AR_F";
-opfor_mrap = "O_Tura_Offroad_armor_lxWS";
 opfor_mrap_hmg = "O_Tura_Offroad_armor_armed_lxWS";
 opfor_mrap_gmg = "O_Tura_Offroad_armor_AT_lxWS";
 opfor_transport_helo = "O_Heli_Transport_04_covered_F";

@@ -22,7 +22,6 @@ opfor_sniper = "gm_ge_army_marksman_g3a3_parka_80_win";
 opfor_spotter = "gm_ge_army_marksman_g3a3_parka_80_win";
 opfor_engineer = "gm_ge_army_engineer_g3a4_parka_80_win";
 opfor_paratrooper = "gm_ge_army_paratrooper_g3a4_parka_80_win";
-opfor_mrap = "gm_ge_army_iltis_cargo";
 opfor_mrap_hmg = "gm_ge_army_iltis_mg3";
 opfor_mrap_gmg = "gm_ge_army_iltis_milan";
 opfor_transport_helo = "gm_ge_army_ch53g";

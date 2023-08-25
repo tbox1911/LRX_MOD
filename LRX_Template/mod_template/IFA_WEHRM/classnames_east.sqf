@@ -22,7 +22,6 @@ opfor_sniper = "LNRD_Luftwaffe_sniper";
 opfor_spotter = "LNRD_Luftwaffe_smgunner";
 opfor_engineer = "LIB_GER_sapper";
 opfor_paratrooper = "LIB_GER_scout_smgunner";
-opfor_mrap = "LIB_SdKfz_7_Ammo";
 opfor_mrap_hmg = "LIB_SdKfz251";
 opfor_mrap_gmg = "LIB_SdKfz251_FFV";
 opfor_transport_helo = "LIB_FW190F8";

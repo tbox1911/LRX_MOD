@@ -22,7 +22,6 @@ opfor_sharpshooter = "cwr3_o_soldier82_spotter";
 opfor_sniper = "cwr3_o_soldier82_sniper";
 opfor_engineer = "cwr3_o_soldier82_sapper";
 opfor_paratrooper = "cwr3_o_soldier82_ar";
-opfor_mrap = "cwr3_o_soldier";
 opfor_mrap_armed = "cwr3_o_soldier";
 opfor_mrap_hmg = "cwr3_o_soldier";
 opfor_mrap_gmg = "cwr3_o_uaz_spg9";

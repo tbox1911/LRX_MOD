@@ -22,7 +22,6 @@ opfor_sniper = "ffaa_brilat_francotirador_barrett";
 opfor_spotter = "ffaa_brilat_observador";
 opfor_engineer = "ffaa_brilat_ingeniero";
 opfor_paratrooper = "B_T_Soldier_PG_F";
-opfor_mrap = "ffaa_et_lince_mg3";
 opfor_mrap_hmg = "ffaa_et_lince_m2";
 opfor_mrap_gmg = "ffaa_et_lince_lag40";
 opfor_transport_helo = "ffaa_nh90_tth_armed";

@@ -22,7 +22,6 @@ opfor_sniper = "rhs_msv_emr_marksman";
 opfor_spotter = "rhs_msv_emr_sergeant";
 opfor_engineer = "rhs_msv_emr_engineer";
 opfor_paratrooper = "rhs_vmf_recon_rifleman_lat";
-opfor_mrap = "rhs_tigr_msv";
 opfor_mrap_hmg = "rhs_tigr_sts_msv";
 opfor_mrap_gmg = "rhs_tigr_sts_msv";
 opfor_transport_helo = "RHS_Mi8mt_Cargo_vdv";
@@ -141,8 +140,7 @@ opfor_air = [
 	"rhs_mi28n_s13_vvsc",
 	"rhs_mi28n_vvsc",
 	"RHS_T50_vvs_052",
-	"RHS_Su25SM_KH29_vvsc",
-	"RHS_TU95MS_vvs_irkutsk"
+	"RHS_Su25SM_KH29_vvsc"
 ];
 
 opfor_statics = [
@@ -194,7 +192,6 @@ opfor_recyclable = [
 	["rhs_mi28n_vvsc",10,round (550 / GRLIB_recycling_percentage),10],
 	["RHS_T50_vvs_052",15,round (800 / GRLIB_recycling_percentage),50],
 	["RHS_Su25SM_KH29_vvsc",15,round (1200 / GRLIB_recycling_percentage),50],
-	["RHS_TU95MS_vvs_irkutsk",15,round (1500 / GRLIB_recycling_percentage),50],
 	["rhs_2s3_tv",15,round (2300 / GRLIB_recycling_percentage),35],
 	["RHS_BM21_MSV_01",15,round (2600 / GRLIB_recycling_percentage),15]
 ];

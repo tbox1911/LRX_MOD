@@ -22,7 +22,6 @@ opfor_sniper = "CUP_B_USMC_Sniper_M107";
 opfor_spotter = "CUP_B_USMC_Spotter";
 opfor_engineer = "CUP_B_USMC_Engineer";
 opfor_paratrooper = "CUP_B_BAF_Soldier_Paratrooper_DPM";
-opfor_mrap = "CUP_B_M1151_WDL_USA";
 opfor_mrap_hmg = "CUP_B_M1151_Deploy_WDL_USA";
 opfor_mrap_gmg = "CUP_B_M1151_Mk19_WDL_USA";
 opfor_transport_helo = "CUP_B_MH47E_USA";

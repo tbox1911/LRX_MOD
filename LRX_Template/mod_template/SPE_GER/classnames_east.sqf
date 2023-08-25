@@ -22,7 +22,6 @@ opfor_sniper = "SPE_US_Sniper";
 opfor_spotter = "SPE_GER_rifleman";
 opfor_engineer = "SPE_GER_sapper";
 opfor_paratrooper = "SPE_sturmtrooper_ober_grenadier";
-opfor_mrap = "SPE_OpelBlitz_Open";
 opfor_mrap_hmg = "SPE_SdKfz250_1";
 opfor_mrap_gmg = "SPE_OpelBlitz_Flak38";
 opfor_transport_helo = "SPE_FW190F8";		// no Helo

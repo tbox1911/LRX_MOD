@@ -22,7 +22,6 @@ opfor_sniper = "SPE_US_Sniper";
 opfor_spotter = "SPE_US_Sniper";
 opfor_engineer = "SPE_US_Engineer";
 opfor_paratrooper = "SPE_US_Rangers_grenadier";
-opfor_mrap = "SPE_US_M3_Halftrack_Unarmed_Open";
 opfor_mrap_hmg = "SPE_US_M3_Halftrack";
 opfor_mrap_gmg = "SPE_US_M3_Halftrack";
 opfor_transport_helo = "SPE_P47";		// no Helo

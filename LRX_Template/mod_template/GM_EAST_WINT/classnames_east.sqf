@@ -22,7 +22,6 @@ opfor_sniper = "gm_pl_army_marksman_svd_80_win";
 opfor_spotter = "gm_pl_army_marksman_svd_80_win";
 opfor_engineer = "gm_pl_army_engineer_akm_80_win";
 opfor_paratrooper = "gm_pl_army_paratrooper_pm63_80_win";
-opfor_mrap = "gm_gc_army_uaz469_cargo";
 opfor_mrap_hmg = "gm_gc_army_uaz469_dshkm";
 opfor_mrap_gmg = "gm_gc_army_uaz469_spg9";
 opfor_transport_helo = "gm_pl_airforce_mi2t";

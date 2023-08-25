@@ -22,7 +22,6 @@ opfor_sniper = "vn_b_men_army_11";
 opfor_spotter = "vn_b_men_army_08";
 opfor_engineer = "vn_o_men_nva_04";
 opfor_paratrooper = "vn_o_men_nva_05";
-opfor_mrap = "vn_b_wheeled_m151_mg_04";
 opfor_mrap_hmg = "vn_b_wheeled_m151_mg_02";
 opfor_mrap_gmg = "vn_b_wheeled_m151_mg_03";
 opfor_transport_helo = "vn_i_air_ch34_01_02";

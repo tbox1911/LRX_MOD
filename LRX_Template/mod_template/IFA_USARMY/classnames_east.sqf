@@ -22,7 +22,6 @@ opfor_sniper = "LIB_US_Sniper";
 opfor_spotter = "LIB_US_FC_Rifleman";
 opfor_engineer = "LIB_US_Engineer";
 opfor_paratrooper = "LIB_US_SMGunner";
-opfor_mrap = "LIB_US_Willys_MB_Hood";
 opfor_mrap_hmg = "LIB_US_Willys_MB_M1919";
 opfor_mrap_gmg = "LIB_US_Scout_M3";
 opfor_transport_helo = "LIB_C47_Skytrain";	// ???

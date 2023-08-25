@@ -26,7 +26,6 @@ opfor_engineer = "LOP_UKR_Infantry_engineer";
 opfor_pilot = "LOP_UKR_Infantry_JetPilot";
 opfor_crew = "LOP_UKR_Infantry_crew";
 opfor_paratrooper = "LOP_UKR_Infantry_RPG_Asst";
-opfor_mrap = "LOP_UKR_UAZ";
 opfor_mrap_hmg = "LOP_UKR_UAZ_DshKM";
 opfor_mrap_gmg = "LOP_UKR_UAZ_AGS";
 opfor_transport_helo = "LOP_UKR_Mi8MT_Cargo";

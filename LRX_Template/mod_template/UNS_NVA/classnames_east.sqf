@@ -23,7 +23,6 @@ opfor_sniper = "uns_men_NVA_65_MRK";
 opfor_spotter = "uns_men_NVA_65_HMG";
 opfor_engineer = "uns_men_NVA_65_SAP";
 opfor_paratrooper = "uns_men_NVA_65_AS3";
-opfor_mrap = "uns_Type55";
 opfor_mrap_hmg = "uns_Type55_MG";
 opfor_mrap_gmg = "uns_Type55_M40";
 opfor_transport_helo = "uns_Mi8T_VPAF";

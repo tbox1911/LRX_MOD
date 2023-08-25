@@ -22,7 +22,6 @@ opfor_sniper = "rhsusf_army_ucp_sniper";
 opfor_spotter = "rhsusf_army_ucp_riflemanl";
 opfor_engineer = "rhsusf_army_ucp_engineer";
 opfor_paratrooper = "rhsusf_army_ucp_combatcrewman";
-opfor_mrap = "rhsusf_m1151_usmc_wd";
 opfor_mrap_hmg = "rhsusf_m1151_m2crows_usmc_wd";
 opfor_mrap_gmg = "rhsusf_m1151_mk19crows_usmc_wd";
 opfor_transport_helo = "RHS_CH_47F";
