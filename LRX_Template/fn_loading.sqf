@@ -117,9 +117,25 @@ LRX_mod_list_name = [
 	["IFA_WEHRM_W", "IFA Wehrmacht Winter"]	
 ];
 
-player createDiarySubject["LRX Template","LRX Template"];
+private _getName = {
+	params ["_name"];
+	private _ret = LRX_mod_list_name select {_x select 0 == _name} select 0;
+	if (count _ret == 0) exitWith {"Unknown!"};
+	(_ret select 1);
+};
+
+private _name = "";
 {
-	player createDiaryRecord ["LRX Template", ["LRX Template", format ["%1", (_x select 1)]]];
-} forEach LRX_mod_list_name;
-player createDiaryRecord ["LRX Template", ["LRX Template", format ["Available Factions:<br/>"]]];
-player createDiaryRecord ["LRX Template", ["LRX Template", format ["LRX Extended Template"]]];
+	_name = [_x] call _getName;
+	player createDiaryRecord ["LRX Template", ["LRX East Template", _name]];
+} forEach LRX_mod_list_east;
+player createDiaryRecord ["LRX Template", ["LRX East Template", format ["Available East Factions (%1):<br/>", count LRX_mod_list_east]]];
+
+{
+	_name = [_x] call _getName;
+	player createDiaryRecord ["LRX Template", ["LRX West Template", _name]];
+} forEach LRX_mod_list_west;
+player createDiaryRecord ["LRX Template", ["LRX West Template", format ["Available West Factions (%1):<br/>", count LRX_mod_list_west]]];
+
+player createDiaryRecord ["LRX Template", ["LRX Template", format ["LRX Extended Mod Template"]]];
+player createDiarySubject["LRX Template","LRX Template"];
