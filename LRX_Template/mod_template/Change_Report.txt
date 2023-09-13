@@ -1,0 +1,13 @@
+--------------------------------------------------------------------
+2023-09-13 - Z@Warrior
+
+Implemented crewman.sqf to: 
+3CB_ADA_IND
+3CB_ANA_BLU
+3CB_ARD_BLU
+3CB_ION_IND
+3CB_LDF_OPF
+3CB_MDF_OPF
+3CB_TNA_OPF
+
+--------------------------------------------------------------------
