@@ -11,3 +11,10 @@ Implemented crewman.sqf to:
 3CB_TNA_OPF
 
 --------------------------------------------------------------------
+2023-09-14 - Z@Warrior
+
+Implemented crewman.sqf to: 
+UFP_BLU
+RHS_RACS
+RHS_SLA
+--------------------------------------------------------------------
