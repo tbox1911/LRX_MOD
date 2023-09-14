@@ -17,4 +17,8 @@ Implemented crewman.sqf to:
 UFP_BLU
 RHS_RACS
 RHS_SLA
+CP_BAF_DES
+CP_AFRF_WI
+CP_BW_W
+CP_ION_WI
 --------------------------------------------------------------------
