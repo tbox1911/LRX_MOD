@@ -32,11 +32,10 @@ SPE_GER, SPE_US
 UNS_NVA,UNS_US
 
 
-classnames_west.sqf changed to:
-
+classnames_west.sqf changed to (duplicates of support vehicles removed):
 support_vehicles_west = [
 ];
 
-player_set1.sqf and player_set2.sqf call BIS_fnc_setIdentity removed:
+player_set1.sqf and player_set2.sqf call BIS_fnc_setIdentity removed (face and voices).
 
 --------------------------------------------------------------------
