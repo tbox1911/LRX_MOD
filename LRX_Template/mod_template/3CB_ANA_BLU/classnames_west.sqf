@@ -198,9 +198,6 @@ static_vehicles_AI = [
 ];
 
 support_vehicles_west = [
-	["UK3CB_ANA_B_Ural_Repair",5,200,10,GRLIB_perm_log],
-	["UK3CB_ANA_B_Ural_Fuel",5,200,15,GRLIB_perm_log],
-	["UK3CB_ANA_B_Ural_Ammo",5,200,10,GRLIB_perm_log]
 ];
 
 buildings_west = [
