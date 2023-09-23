@@ -124,9 +124,6 @@ static_vehicles_AI = [
 ];
 
 support_vehicles_west = [
-	["LIB_Zis6_parm_w",5,250,10,GRLIB_perm_inf],
-	["LIB_US6_Ammo",5,250,10,GRLIB_perm_inf],
-	["LIB_Zis5v_fuel_w",5,250,15,GRLIB_perm_inf]
 ];
 
 buildings_west = [
