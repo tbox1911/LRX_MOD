@@ -175,9 +175,6 @@ static_vehicles_AI = [
 ];
 
 support_vehicles_west = [
-	["PRACS_SLA_URAL_Repair",5,200,10,GRLIB_perm_log],
-	["PRACS_SLA_URAL_Fuel",5,200,15,GRLIB_perm_log],
-	["PRACS_SLA_Ural_Ammo",5,200,10,GRLIB_perm_log]
 ];
 
 buildings_west = [
