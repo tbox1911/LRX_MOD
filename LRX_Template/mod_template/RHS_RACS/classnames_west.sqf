@@ -167,9 +167,6 @@ static_vehicles_AI = [
 ];
 
 support_vehicles_west = [
-	["PRACS_M250_Repair",5,200,10,GRLIB_perm_log],
-	["PRACS_M250_fuel",5,200,15,GRLIB_perm_log],
-	["PRACS_M250_Ammo",5,200,10,GRLIB_perm_log]
 ];
 
 buildings_west = [
