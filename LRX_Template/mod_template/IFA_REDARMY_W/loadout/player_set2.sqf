@@ -45,7 +45,5 @@ _unit linkItem "ItemMap";
 _unit linkItem "LIB_GER_ItemCompass_deg";
 _unit linkItem "LIB_GER_ItemWatch";
 
-comment "Set identity";
-[_unit,"LIB_WhiteHead_14_Dirt","male03su"] call BIS_fnc_setIdentity;
 
 
