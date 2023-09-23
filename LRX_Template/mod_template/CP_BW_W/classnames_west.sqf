@@ -268,21 +268,8 @@ static_vehicles_AI = [
 ];
 
 support_vehicles_west = [
-	["CUP_B_M113A3_Repair_GER",5,200,5,GRLIB_perm_inf],
-	["CUP_B_MTVR_Refuel_HIL",5,200,20,GRLIB_perm_inf],
-	["CUP_B_M113A3_Reammo_GER",5,400,5,GRLIB_perm_inf],
-	["CUP_B_M113A3_Med_GER",10,200,5,GRLIB_perm_inf]
 ];
 
-
-if (isClass(configFile >> "CfgPatches" >> "Redd_Vehicles_Main")) then 
-{
-//  support_vehicles_west pushBack ["rnt_lkw_7t_mil_gl_kat_i_mun_fleck",5,150,5,GRLIB_perm_inf];
-//  support_vehicles_west pushBack ["rnt_lkw_5t_mil_gl_kat_i_fuel_fleck",5,150,15,GRLIB_perm_inf];
-//  support_vehicles_west pushBack ["rnt_lkw_10t_mil_gl_kat_i_repair_fleck",5,150,5,GRLIB_perm_inf];
-//  support_vehicles_west pushBack ["Redd_Tank_Fuchs_1A4_San_Flecktarn",5,150,5,GRLIB_perm_inf];
-
-};
 
 buildings_west = [
 	["Land_fort_bagfence_round",0,0,0,0],
