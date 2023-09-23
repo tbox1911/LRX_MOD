@@ -38,6 +38,4 @@ _unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";
 
-//comment "Set identity";
-[_unit,"GreekHead_A3_07","male05eng"] call BIS_fnc_setIdentity;
 
