@@ -34,5 +34,3 @@ _unit linkItem "ItemMap";
 _unit linkItem "LIB_GER_ItemCompass";
 _unit linkItem "LIB_GER_ItemWatch";
 
-comment "Set identity";
-[_unit,"LivonianHead_6","male02su"] call BIS_fnc_setIdentity;
