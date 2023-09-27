@@ -34,6 +34,4 @@ _unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";
 
-//comment "Set identity";
-[_unit,"PersianHead_A3_02","male01per"] call BIS_fnc_setIdentity;
 

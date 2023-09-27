@@ -148,9 +148,6 @@ static_vehicles_AI = [
 ];
 
 support_vehicles_west = [
-	["LIB_OpelBlitz_Ammo",5,250,10,GRLIB_perm_inf],
-	["LIB_OpelBlitz_Parm",5,250,10,GRLIB_perm_inf],
-	["LIB_OpelBlitz_Fuel",5,250,15,GRLIB_perm_inf]
 ];
 
 buildings_west = [

@@ -124,9 +124,6 @@ static_vehicles_AI = ["LIB_Flakvierling_38_w","LIB_Pak40_w","LIB_MG34_Lafette_De
 ];
 
 support_vehicles_west = [
-	["LIB_OpelBlitz_Ammo",5,250,10,GRLIB_perm_inf],
-	["LIB_OpelBlitz_Parm",5,250,10,GRLIB_perm_inf],
-	["LIB_OpelBlitz_Fuel",5,250,15,GRLIB_perm_inf]
 ];
 
 buildings_west = [

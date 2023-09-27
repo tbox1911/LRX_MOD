@@ -142,9 +142,6 @@ static_vehicles_AI = [
 ];
 
 support_vehicles_west = [
-	["uns_nvatruck_refuel",5,200,15,GRLIB_perm_log],
-	["uns_nvatruck_reammo",5,200,5,GRLIB_perm_log],
-	["uns_nvatruck_repair",5,200,5,GRLIB_perm_tank]
 ];
 
 buildings_west = [

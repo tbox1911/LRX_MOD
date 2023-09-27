@@ -165,9 +165,6 @@ static_vehicles_AI = [
 ];
 
 support_vehicles_west = [
-	["uns_M35A2_fueltanker",5,200,15,GRLIB_perm_log],
-	["uns_M35A2_ammo",5,200,5,GRLIB_perm_log],
-	["uns_M35A2_repair",5,200,5,GRLIB_perm_tank]
 ];
 
 buildings_west = [

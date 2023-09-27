@@ -50,5 +50,3 @@ _unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
 _unit linkItem "ItemGPS";
 
-comment "Set identity";
-[_unit,"WhiteHead_12","male01eng"] call BIS_fnc_setIdentity;

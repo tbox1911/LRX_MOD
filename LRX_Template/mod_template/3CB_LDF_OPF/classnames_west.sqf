@@ -197,9 +197,6 @@ static_vehicles_AI = [
 ];
 
 support_vehicles_west = [
-	["UK3CB_LDF_O_T810_Repair",5,200,10,GRLIB_perm_log],
-	["UK3CB_LDF_O_T810_Refuel",5,200,15,GRLIB_perm_log],
-	["UK3CB_LDF_O_T810_Reammo",5,200,10,GRLIB_perm_log]
 ];
 
 buildings_west = [

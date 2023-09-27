@@ -160,9 +160,6 @@ static_vehicles_AI = [
 ];
 
 support_vehicles_west = [
-	["SPE_US_M3_Halftrack_Repair",5,250,10,GRLIB_perm_inf],
-	["SPE_US_M3_Halftrack_Fuel",5,150,20,GRLIB_perm_inf],
-	["SPE_US_M3_Halftrack_Ammo",5,300,10,GRLIB_perm_tank]
 ];
 
 
