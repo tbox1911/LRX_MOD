@@ -1,6 +1,6 @@
 // *** FRIENDLIES ***
 GRLIB_side_friendly = WEST;
-GRLIB_west_modder = "DarkDemon;
+GRLIB_west_modder = "DarkDemon";
 
 // Default classname: scripts\shared\default_classnames.sqf
 // Advanced definition: scripts\shared\classnames.sqf
@@ -52,9 +52,9 @@ light_vehicles = [
 	["CFP_C_ME_SUV_01_F",1,10,3,GRLIB_perm_inf],
 	["CFP_O_IQARMY_Ural_Open_01",1,15,7,0],
 	["CFP_O_IQARMY_UAZ_AGS_30_01",2,25,12,0],
-	["CFP_O_IQARMY_UAZ_Metis_01",5,100,12,GRLIB_perm_inf]
+	["CFP_O_IQARMY_UAZ_Metis_01",5,100,12,GRLIB_perm_inf],
 	["CFP_O_IQARMY_UAZ_SPG_01",1,50,5,GRLIB_perm_inf],
-	["CFP_O_IQARMY_Ural_ZU_23_01",1,50,5,GRLIB_perm_inf],
+	["CFP_O_IQARMY_Ural_ZU_23_01",1,50,5,GRLIB_perm_inf]
 ];
 
 heavy_vehicles = [
