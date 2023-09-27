@@ -7,6 +7,8 @@ LRX_mod_list_west = [
 	"CP_AFRF",	// Z@warrior
 	"CP_BW_W",	// Z@Warrior CUP NATO (US,BAF,BW)
 	"CP_ION_WI",	// Z@Warrior CUP ION PMC Winter
+	"CFP_O_IQARMY", 		// DarkDemon
+	"CFP_O_NKARMY", 		// DarkDemon
 	"EJW_TF",
 	"R3F_WEST_D", 	// C0br4
 	"R3F_WEST_W", 	// C0br4
@@ -54,6 +56,8 @@ LRX_mod_list_east = [
 	"CP_AFRF",	// Z@warrior
 	"CP_SAHRA_D",	// Z@Warrior
 	"CP_ION_WI",	// Z@Warrior
+	"CFP_O_IQARMY", 		// DarkDemon
+	"CFP_O_NKARMY", 		// DarkDemon	
 	"EJW_TA",
 	"R3F_WEST_D", 	// C0br4
 	"R3F_WEST_W", 	// C0br4
@@ -102,6 +106,8 @@ LRX_mod_list_name = [
 	["CP_AFRF", "CUP AFRF Modern MSV"],
 	["CP_SAHRA_D", "CUP Royal Army Corps"],
 	["CP_BW_W", "CUP NATO (US,BAF,BW"],
+	["CFP_O_IQARMY", "Iraq Army"],
+	["CFP_O_NKARMY","NK Army"], 
 	["CP_ION_WI", "CUP ION PMC Winter"],
 	["EJW_TF", "EJW Task Force"],
 	["EJW_TA", "EJW Taliban"],
