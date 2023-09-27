@@ -6,9 +6,10 @@
 	-add support for MFR_Dog
 */
 
-diag_log "LRX Dog Mod by pSiKO";
+waitUntil {sleep 1; getClientStateNumber > 8 };
 
-waitUntil {sleep 1; getClientState == "BRIEFING READ" };
+diag_log "-_- LRX Dog Mod by pSiKO -_-";
+
 if (!isNil "GRLIB_build_version") exitWith { diag_log "-- LRX Dog loading Error : LRX Dog is incompatible with LRX." };
 
 Dogs_list = [
