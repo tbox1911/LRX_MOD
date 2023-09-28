@@ -23,7 +23,8 @@ Based on:
   at : https://forums.bohemia.net/forums/topic/146926-farooqs-revive/
 _________________________________________________________________________*/
 
-waitUntil {sleep 1; getClientStateNumber > 8 };
+if (isMultiplayer) then { waitUntil {sleep 1; getClientStateNumber > 8 } };
+
 if (!isNil "GRLIB_build_version") exitWith { diag_log "-- PAR loading Error : PAR is incompatible with LRX." };
 
 diag_log "-_- LRX PAR Mod by pSiKO -_-";

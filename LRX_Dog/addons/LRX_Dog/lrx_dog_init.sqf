@@ -6,7 +6,7 @@
 	-add support for MFR_Dog
 */
 
-waitUntil {sleep 1; getClientStateNumber > 8 };
+if (isMultiplayer) then { waitUntil {sleep 1; getClientStateNumber > 8 } };
 
 diag_log "-_- LRX Dog Mod by pSiKO -_-";
 
