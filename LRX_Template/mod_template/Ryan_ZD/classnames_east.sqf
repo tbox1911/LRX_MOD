@@ -1,6 +1,6 @@
 // *** BADDIES ***
 GRLIB_side_enemy = EAST;
-GRLIB_east_modder = "pSiKO";
+GRLIB_east_modder = "DarkDemon";
 
 // All class MUST be defined !
 
@@ -85,7 +85,6 @@ militia_squad = [
 	"RyanZombieboss26Opfor",
 	"RyanZombieboss26Opfor",
 	"RyanZombieboss26Opfor"
-	
 ];
 
 militia_loadout_overide = [
@@ -104,77 +103,9 @@ opfor_vehicles_low_intensity = [
 ];
 
 opfor_battlegroup_vehicles = [
-	"RyanZombieSpider32Opfor",
-	"RyanZombieSpider32Opfor",
-	"RyanZombieB_Soldier_05_fOpfor",
-	"RyanZombieB_Soldier_05_fOpfor",
-	"RyanZombieCrawler1Opfor",
-	"RyanZombieCrawler10Opfor",
-	"RyanZombieC_man_hunter_1_FmediumOpfor",
-	"RyanZombieC_man_1mediumOpfor",
-	"RyanZombieB_Soldier_lite_FwalkerOpfor",
-	"RyanZombieB_Soldier_lite_FwalkerOpfor",
-	"RyanZombieB_Soldier_lite_FwalkerOpfor",
-	"RyanZombieboss9Opfor",
-	"RyanZombieboss1Opfor",
-	"RyanZombieboss26Opfor",
-	"RyanZombieboss26Opfor",
-	"RyanZombieboss26Opfor",
-	"RyanZombieboss26Opfor",
-	"RyanZombieSpider32Opfor",
-	"RyanZombieSpider32Opfor",
-	"RyanZombieB_Soldier_05_fOpfor",
-	"RyanZombieB_Soldier_05_fOpfor",
-	"RyanZombieCrawler1Opfor",
-	"RyanZombieCrawler10Opfor",
-	"RyanZombieC_man_hunter_1_FmediumOpfor",
-	"RyanZombieC_man_1mediumOpfor",
-	"RyanZombieB_Soldier_lite_FwalkerOpfor",
-	"RyanZombieB_Soldier_lite_FwalkerOpfor",
-	"RyanZombieB_Soldier_lite_FwalkerOpfor",
-	"RyanZombieboss9Opfor",
-	"RyanZombieboss1Opfor",
-	"RyanZombieboss26Opfor",
-	"RyanZombieboss26Opfor",
-	"RyanZombieboss26Opfor",
-	"RyanZombieboss26Opfor"
 ];
 
 opfor_battlegroup_vehicles_low_intensity = [
-	"RyanZombieSpider32Opfor",
-	"RyanZombieSpider32Opfor",
-	"RyanZombieB_Soldier_05_fOpfor",
-	"RyanZombieB_Soldier_05_fOpfor",
-	"RyanZombieCrawler1Opfor",
-	"RyanZombieCrawler10Opfor",
-	"RyanZombieC_man_hunter_1_FmediumOpfor",
-	"RyanZombieC_man_1mediumOpfor",
-	"RyanZombieB_Soldier_lite_FwalkerOpfor",
-	"RyanZombieB_Soldier_lite_FwalkerOpfor",
-	"RyanZombieB_Soldier_lite_FwalkerOpfor",
-	"RyanZombieboss9Opfor",
-	"RyanZombieboss1Opfor",
-	"RyanZombieboss26Opfor",
-	"RyanZombieboss26Opfor",
-	"RyanZombieboss26Opfor",
-	"RyanZombieboss26Opfor",
-	"RyanZombieSpider32Opfor",
-	"RyanZombieSpider32Opfor",
-	"RyanZombieB_Soldier_05_fOpfor",
-	"RyanZombieB_Soldier_05_fOpfor",
-	"RyanZombieCrawler1Opfor",
-	"RyanZombieCrawler10Opfor",
-	"RyanZombieC_man_hunter_1_FmediumOpfor",
-	"RyanZombieC_man_1mediumOpfor",
-	"RyanZombieB_Soldier_lite_FwalkerOpfor",
-	"RyanZombieB_Soldier_lite_FwalkerOpfor",
-	"RyanZombieB_Soldier_lite_FwalkerOpfor",
-	"RyanZombieboss9Opfor",
-	"RyanZombieboss1Opfor",
-	"RyanZombieboss26Opfor",
-	"RyanZombieboss26Opfor",
-	"RyanZombieboss26Opfor",
-	"RyanZombieboss26Opfor"
 ];
 
 opfor_troup_transports_truck = [
@@ -199,4 +130,11 @@ opfor_texture_overide = [
 ];
 
 opfor_recyclable = [
+	["O_Truck_02_covered_F",5,round (20 / GRLIB_recycling_percentage),5],
+	["O_Truck_02_transport_F",5,round (20 / GRLIB_recycling_percentage),5],
+	["O_Truck_03_covered_F",5,round (50 / GRLIB_recycling_percentage),5],
+	["O_Truck_03_transport_F",5,round (50 / GRLIB_recycling_percentage),5],
+	["O_Heli_Attack_02_dynamicLoadout_F",10,round (1700 / GRLIB_recycling_percentage),20],
+	["O_Heli_Transport_04_covered_F",10,round (1400 / GRLIB_recycling_percentage),20],
+	["O_T_VTOL_02_infantry_F",20,round (2500 / GRLIB_recycling_percentage),20]
 ];
