@@ -1,5 +1,5 @@
 // *** BADDIES ***
-GRLIB_side_enemy = West;
+GRLIB_side_enemy = WEST;
 GRLIB_east_modder = "DarkDemon";
 
 // All class MUST be defined !
