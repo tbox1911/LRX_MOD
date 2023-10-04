@@ -68,7 +68,7 @@ LRX_mod_list_east = [
 	"RHS_USAF",
 	"RHS_AFRF",
 	"RHS_RACS",	// Z@Warrior RACS (Royal Army Corps Sahrani)
-	"RHS_SLA",	// Z@Warrior SLA (Sahrani Liberation Army)
+	"RHS_SLA",	// Z@Warrior SLA (Sahrani Liberation Army)²
 	"UFP_BLU",	// Z@Warrior Ukrainian Factions Project
 	"FFAA_SPAIN_W",	// C0br4
 	"GM_WEST",
