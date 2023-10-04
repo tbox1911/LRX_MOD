@@ -160,8 +160,8 @@ LRX_mod_list_name = [
 	["IFA_REDARMY_W", "IFA Red Army Winter"],
 	["IFA_WEHRM_W", "IFA Wehrmacht Winter"],
 	["UFP_BLU", "Ukraine Forces (RHS)"],
-	["SWTOR", "Star Wars The Old Republic"],
-	["3AS_KF", "3AS Project Knightfall" ],
+	["SW_TOR", "Star Wars The Old Republic"],
+	["3AS_KF", "3AS Project Knightfall"],
 	["Ryan_ZD", "Ryan Zombies and Demons"]
 ];
 
