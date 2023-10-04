@@ -9,6 +9,7 @@ LRX_mod_list_west = [
 	"CP_ION_WI",	// Z@Warrior CUP ION PMC Winter
 	"CFP_O_IQARMY", 		// DarkDemon
 	"CFP_O_NKARMY", 		// DarkDemon
+	"CFP_B_ILIDF", 		// DarkDemon
 	"EJW_TF",
 	"R3F_WEST_D", 	// C0br4
 	"R3F_WEST_W", 	// C0br4
@@ -46,7 +47,9 @@ LRX_mod_list_west = [
 	"IFA_USARMY",		// Z@Warrior US Army 
 	"IFA_REDARMY_W",	// Z@Warrior Red Army Winter
 	"IFA_WEHRM_W",		// Z@Warrior IFA Wehrmacht Winter
-	"UFP_BLU"		// Z@Warrior Ukrain Faction Project
+	"UFP_BLU",			// Z@Warrior Ukrain Faction Project
+	"SW_TOR",	 		// DarkDemon
+	"3AS_KF"			// DarkDemon
 ];
 
 LRX_mod_list_east = [
@@ -58,6 +61,7 @@ LRX_mod_list_east = [
 	"CP_ION_WI",	// Z@Warrior
 	"CFP_O_IQARMY", 		// DarkDemon
 	"CFP_O_NKARMY", 		// DarkDemon	
+	"CFP_B_ILIDF", 		// DarkDemon	
 	"EJW_TA",
 	"R3F_WEST_D", 	// C0br4
 	"R3F_WEST_W", 	// C0br4
@@ -95,7 +99,10 @@ LRX_mod_list_east = [
 	"IFA_USARMY",		// Z@Warrior US Army 
 	"IFA_REDARMY_W",	// Z@Warrior Red Army Winter
 	"IFA_WEHRM_W",		// Z@Warrior IFA Wehrmacht Winter
-	"UFP_BLU"		// Z@Warrior Ukrain Faction Project
+	"UFP_BLU",			// Z@Warrior Ukrain Faction Project
+	"SW_TOR",	 		// DarkDemon
+	"3AS_KF",			// DarkDemon
+	"Ryan_ZD"			// DarkDemon
 ];
 
 LRX_mod_list_name = [
@@ -107,7 +114,8 @@ LRX_mod_list_name = [
 	["CP_SAHRA_D", "CUP Royal Army Corps"],
 	["CP_BW_W", "CUP NATO (US,BAF,BW"],
 	["CFP_O_IQARMY", "CFP Iraq Army"],
-	["CFP_O_NKARMY","CFP NK Army"], 
+	["CFP_O_NKARMY","CFP North Korea Army"], 
+	["CFP_B_ILIDF","CFP Israeli Defence Force"],
 	["CP_ION_WI", "CUP ION PMC Winter"],
 	["EJW_TF", "EJW Task Force"],
 	["EJW_TA", "EJW Taliban"],
@@ -151,7 +159,10 @@ LRX_mod_list_name = [
 	["IFA_USARMY", "IFA US Army "],
 	["IFA_REDARMY_W", "IFA Red Army Winter"],
 	["IFA_WEHRM_W", "IFA Wehrmacht Winter"],
-	["UFP_BLU", "Ukraine Forces (RHS) "]
+	["UFP_BLU", "Ukraine Forces (RHS)"],
+	["SWTOR", "Star Wars The Old Republic"],
+	["3AS_KF", "3AS Project Knightfall" ],
+	["Ryan_ZD", "Ryan Zombies and Demons"]
 ];
 
 private _getName = {
