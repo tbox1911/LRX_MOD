@@ -24,7 +24,6 @@ opfor_sniper = "UK3CB_BAF_Sniper_DPMW_Ghillie_L135";
 opfor_spotter = "UK3CB_BAF_Spotter_DPMW_Ghillie_L129";
 opfor_engineer = "UK3CB_BAF_Engineer_DPMW";
 opfor_pilot = "UK3CB_BAF_HeliPilot_Army_DPMW";
-opfor_crew = "UK3CB_BAF_Crewman_DPMW";
 opfor_paratrooper = "UK3CB_BAF_Grenadier_762_DPMW";
 opfor_mrap_hmg = "UK3CB_BAF_LandRover_WMIK_GPMG_FFR_Green_B_DPMW";
 opfor_mrap_gmg = "UK3CB_BAF_LandRover_WMIK_GMG_FFR_Green_B_DPMW";

@@ -24,7 +24,6 @@ opfor_sniper = "LOP_SLA_Infantry_Marksman";
 opfor_spotter = "LOP_SLA_Infantry_AT_Asst";
 opfor_engineer = "LOP_SLA_Infantry_Engineer";
 opfor_pilot = "LOP_SLA_Infantry_Pilot";
-opfor_crew = "LOP_SLA_Infantry_Crewman";
 opfor_paratrooper = "LOP_SLA_Infantry_MG_Asst";
 opfor_mrap_hmg = "LOP_SLA_UAZ_DshKM";
 opfor_mrap_gmg = "LOP_SLA_UAZ_AGS";

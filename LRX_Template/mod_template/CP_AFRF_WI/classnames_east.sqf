@@ -22,7 +22,6 @@ opfor_sniper = "CUP_O_RU_Soldier_Marksman_Ratnik_Winter";
 opfor_spotter = "CUP_O_RU_Recon_LAT_Ratnik_Winter";
 opfor_engineer = "CUP_O_RU_Soldier_Engineer_Ratnik_Winter";
 opfor_pilot = "CUP_O_RU_Pilot";
-opfor_crew = "CUP_O_RU_Soldier_Lite_Ratnik_Winter";
 opfor_paratrooper = "CUP_O_RU_Recon_Marksman_Ratnik_Winter";
 opfor_mrap_hmg = "CUP_O_UAZ_MG_RU";
 opfor_mrap_gmg = "CUP_O_UAZ_SPG9_RU";

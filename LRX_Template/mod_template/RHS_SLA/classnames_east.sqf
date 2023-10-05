@@ -24,7 +24,6 @@ opfor_sniper = "PRACS_SLA_Guards_Infantry_M";
 opfor_spotter = "PRACS_SLA_Guards_Infantry_PSG";
 opfor_engineer = "PRACS_SLA_Guards_Infantry_ENG";
 opfor_pilot = "PRACS_SLA_Heli_pilot";
-opfor_crew = "PRACS_SLA_Tanker";
 opfor_paratrooper = "PRACS_SLA_Paratrooper";
 opfor_mrap_hmg = "PRACS_SLA_BRDM";
 opfor_mrap_gmg = "PRACS_SLA_BTR60_BG";

@@ -24,7 +24,6 @@ opfor_sniper = "UK3CB_CHD_O_SNI";
 opfor_spotter = "UK3CB_CHD_O_SPOT";
 opfor_engineer = "UK3CB_CHD_O_ENG";
 opfor_pilot = "UK3CB_CHD_O_HELI_PILOT";
-opfor_crew = "UK3CB_CHD_O_CREW";
 opfor_paratrooper = "UK3CB_CHD_O_DEM";
 opfor_mrap_hmg = "UK3CB_CHD_O_Hilux_Pkm";
 opfor_mrap_gmg = "UK3CB_CHD_O_Hilux_GMG";

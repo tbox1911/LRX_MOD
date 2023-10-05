@@ -22,7 +22,6 @@ opfor_sniper = "CFP_B_ILIDF_Sniper_Anti_Material_01";
 opfor_spotter = "CFP_B_ILIDF_Explosive_Specialist_Recon_01";
 opfor_engineer = "CFP_B_ILIDF_Engineer_01";
 opfor_pilot = "CFP_B_ILIDF_Pilot_01";
-opfor_crew = "CFP_B_ILIDF_Crew_01";
 opfor_paratrooper = "CFP_B_ILIDF_Crew_01";
 opfor_mrap = "CFP_B_ILIDF_HMMWV_Unarmed_01";
 opfor_mrap_hmg = "CFP_B_ILIDF_HMMWV_M2_01";

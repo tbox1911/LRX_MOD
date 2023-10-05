@@ -24,7 +24,6 @@ opfor_sniper = "CUP_I_RACS_Sniper";
 opfor_spotter = "CUP_I_RACS_Soldier";
 opfor_engineer = "CUP_I_RACS_Engineer";
 opfor_pilot = "CUP_I_RACS_Pilot";
-opfor_crew = "CUP_I_RACS_Crew";
 opfor_paratrooper = "CUP_I_RACS_Soldier_LAT";
 opfor_mrap_hmg = "CUP_I_LR_MG_RACS";
 opfor_mrap_gmg = "CUP_I_LR_MG_RACS";

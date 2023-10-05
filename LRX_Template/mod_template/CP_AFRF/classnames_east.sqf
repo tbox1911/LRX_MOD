@@ -24,7 +24,6 @@ opfor_sniper = "CUP_O_RU_Sniper_KSVK_M_EMR";
 opfor_spotter = "CUP_O_RU_Spotter_M_EMR";
 opfor_engineer = "CUP_O_RU_Soldier_Engineer_M_EMR_V2";
 opfor_pilot = "CUP_O_RU_Pilot";
-opfor_crew = "CUP_O_RU_Soldier_Crew_M_EMR_V2";
 opfor_paratrooper = "CUP_O_RU_Soldier_Saiga_M_EMR_V2";
 opfor_mrap_hmg = "CUP_O_UAZ_MG_RU";
 opfor_mrap_gmg = "CUP_O_UAZ_SPG9_RU";

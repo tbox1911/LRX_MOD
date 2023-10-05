@@ -22,7 +22,6 @@ opfor_sniper = "CUP_O_TK_Sniper";
 opfor_spotter = "CUP_O_TK_Spotter";
 opfor_engineer = "CUP_O_TK_Engineer";
 opfor_pilot = "CUP_O_TK_Pilot";
-opfor_crew = "CUP_O_TK_Crew";
 opfor_paratrooper = "CUP_O_TK_SpecOps";
 opfor_mrap_hmg = "CUP_O_UAZ_MG_TKA";
 opfor_mrap_gmg = "CUP_O_UAZ_SPG9_TKA";

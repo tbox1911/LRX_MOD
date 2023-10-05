@@ -22,7 +22,6 @@ opfor_sniper = "PRACS_Paratrooper_PSG";
 opfor_spotter = "b_afougf_marksman_svdm";
 opfor_engineer = "b_afougf_sapper";
 opfor_pilot = "b_afougf_pilot_F";
-opfor_crew = "b_afougf_tank_commander_F";
 opfor_paratrooper = "b_afougf_rifleman_sso_lsh_ak74";	// Special Forces
 opfor_mrap_hmg = "PRACS_M1165_M2";
 opfor_mrap_gmg = "b_afougf_btr80_common";
