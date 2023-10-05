@@ -30,10 +30,6 @@ R3F_LOG_CFG_can_transport_cargo = R3F_LOG_CFG_can_transport_cargo +
 
 R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +
 [
-	"CFP_B_ILIDF_M2_Machine_Gun_01",
-	"CFP_B_ILIDF_M2_Minitripod_01",
-	"CFP_B_ILIDF_TOW_Tripod_01",
-	"CFP_B_ILIDF_M252_Mortar_01"
 ];
 
 R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
@@ -166,10 +162,10 @@ R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
 
 R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +
 [
-	"CFP_B_ILIDF_M2_Machine_Gun_01",
-	"CFP_B_ILIDF_M2_Minitripod_01",
-	"CFP_B_ILIDF_TOW_Tripod_01",
-	"CFP_B_ILIDF_M252_Mortar_01"
+	["CFP_B_ILIDF_M2_Machine_Gun_01", 10],
+	["CFP_B_ILIDF_M2_Minitripod_01", 10],
+	["CFP_B_ILIDF_TOW_Tripod_01", 15],
+	["CFP_B_ILIDF_M252_Mortar_01", 20]
 ];
 
 R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
