@@ -7,9 +7,11 @@ LRX_mod_list_west = [
 	"CP_AFRF",	// Z@warrior
 	"CP_BW_W",	// Z@Warrior CUP NATO (US,BAF,BW)
 	"CP_ION_WI",	// Z@Warrior CUP ION PMC Winter
+	"CP_MAF",		// DarkDemon	
 	"CFP_O_IQARMY", 		// DarkDemon
 	"CFP_O_NKARMY", 		// DarkDemon
 	"CFP_B_ILIDF", 		// DarkDemon
+	"DEV_TAF",  		// DarkDemon
 	"EJW_TF",
 	"R3F_WEST_D", 	// C0br4
 	"R3F_WEST_W", 	// C0br4
@@ -24,6 +26,7 @@ LRX_mod_list_west = [
 	"GM_EAST",
 	"GM_EAST_WINT",
 	"OPTRE",
+	"VME_CHINA",  		// DarkDemon
 	"WS_UNA",
 	"SOG_USA",
 	"SOG_VIETCONG",
@@ -59,9 +62,14 @@ LRX_mod_list_east = [
 	"CP_AFRF",	// Z@warrior
 	"CP_SAHRA_D",	// Z@Warrior
 	"CP_ION_WI",	// Z@Warrior
+	"CP_MAF",		// DarkDemon
 	"CFP_O_IQARMY", 		// DarkDemon
 	"CFP_O_NKARMY", 		// DarkDemon	
 	"CFP_B_ILIDF", 		// DarkDemon	
+	"CFP_O_HAMAS", 		// DarkDemon
+	"CFP_O_HEZBOLLAH", 	// DarkDemon
+	"CFP_O_SYARMY", 	// DarkDemon
+	"DEV_TAF",  		// DarkDemon	
 	"EJW_TA",
 	"R3F_WEST_D", 	// C0br4
 	"R3F_WEST_W", 	// C0br4
@@ -71,11 +79,13 @@ LRX_mod_list_east = [
 	"RHS_SLA",	// Z@Warrior SLA (Sahrani Liberation Army)²
 	"UFP_BLU",	// Z@Warrior Ukrainian Factions Project
 	"FFAA_SPAIN_W",	// C0br4
+	"GX_Cartel",   		// DarkDemon
 	"GM_WEST",
 	"GM_WEST_WINT",
 	"GM_EAST",
 	"GM_EAST_WINT",
 	"OPTRE",
+	"VME_CHINA",  		// DarkDemon	
 	"WS_FIA",
 	"SOG_USA",
 	"SOG_VIETCONG",
@@ -113,12 +123,17 @@ LRX_mod_list_name = [
 	["CP_AFRF", "CUP AFRF Modern MSV"],
 	["CP_SAHRA_D", "CUP Royal Army Corps"],
 	["CP_BW_W", "CUP NATO (US,BAF,BW"],
+	["CP_MAF", "CUP Mexican Armed Forces"],
 	["CFP_O_IQARMY", "CFP Iraq Army"],
 	["CFP_O_NKARMY","CFP North Korea Army"], 
+	["CFP_O_HAMAS", "CFP Hamas"],
+	["CFP_O_HEZBOLLAH", "CFP Hezbollah"],
+	["CFP_O_SYARMY", "CFP Syrian Army"],
 	["CFP_B_ILIDF","CFP Israeli Defence Force"],
 	["CP_ION_WI", "CUP ION PMC Winter"],
 	["EJW_TF", "EJW Task Force"],
 	["EJW_TA", "EJW Taliban"],
+	["DEV_TAF", "Turkish Army Force"],	
 	["R3F_WEST_D", "R3F WEST Desert"],
 	["R3F_WEST_W", "R3F WEST Woodland"],
 	["RHS_USAF", "RHS US Armed Force"],
@@ -127,11 +142,13 @@ LRX_mod_list_name = [
 	["UFP_BLU", "RHS UFP (Ukrainian Factions Project)"],
 	["RHS_AFRF", "RHS AF Russian Fed."],
 	["FFAA_SPAIN_W", "FFAA SPAIN Woodland"],
+	["GX_Cartel","GX Blanco Cartel"],
 	["GM_WEST", "Global Mob. WEST"],
 	["GM_WEST_WINT", "Global Mob. WEST Winter"],
 	["GM_EAST", "Global Mob. EAST"],
 	["GM_EAST_WINT", "Global Mob. EAST Winter"],
 	["OPTRE", "Operation Trebuchet"],
+	["VME_CHINA", "VME China Army"],
 	["WS_UNA", "West Sahara UNA"],
 	["WS_FIA", "West Sahara FIA"],
 	["SOG_USA", "SoG Prairie Fire USA"],
