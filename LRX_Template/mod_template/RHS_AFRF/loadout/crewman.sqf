@@ -3,25 +3,26 @@ _unit = _this select 0;
 removeAllWeapons _unit;
 removeAllItems _unit;
 removeAllAssignedItems _unit;
+removeUniform _unit;
 removeVest _unit;
 removeBackpack _unit;
 removeHeadgear _unit;
 removeGoggles _unit;
 
-_unit addWeapon "hgun_PDW2000_F";
-_unit addPrimaryWeaponItem "30Rnd_9x21_Mag";
-_unit addWeapon "hgun_P07_F";
-_unit addHandgunItem "16Rnd_9x21_Mag";
+_unit addWeapon "rhs_weap_ak74m";
+_unit addPrimaryWeaponItem "rhs_acc_dtk";
+_unit addPrimaryWeaponItem "rhs_30Rnd_545x39_7N10_AK";
 
-for "_i" from 1 to 2 do {_unit addItemToUniform "FirstAidKit";};
-for "_i" from 1 to 3 do { _unit addItemToUniform  "16Rnd_9x21_Mag";};
-_unit addVest "V_TacVest_camo";
-for "_i" from 1 to 3 do { _unit addItemToVest "30Rnd_9x21_Mag";};
-for "_i" from 1 to 2 do { _unit addItemToVest "MiniGrenade";};
-for "_i" from 1 to 2 do { _unit addItemToVest "SmokeShell";};
+_unit forceAddUniform "rhs_uniform_vkpo_gloves_alt";
+_unit addVest "rhs_6b45_rifleman_2";
 
-_unit addHeadgear "H_Cap_headphones";
-_unit addGoggles "G_Balaclava_combat";
+_unit addItemToUniform "FirstAidKit";
+for "_i" from 1 to 2 do {_unit addItemToUniform "rhs_30Rnd_545x39_7N10_AK";};
+for "_i" from 1 to 5 do {_unit addItemToVest "rhs_30Rnd_545x39_7N10_AK";};
+for "_i" from 1 to 2 do {_unit addItemToVest "rhs_mag_rgn";};
+_unit addHeadgear "rhs_6b47_emr_1";
+
 _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
+_unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
