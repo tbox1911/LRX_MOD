@@ -30,6 +30,12 @@ LRX_mod_list_west = [
 	"WS_UNA",
 	"SOG_USA",
 	"SOG_VIETCONG",
+	"TFM_MSCA_D",		// Legend_TS13
+	"TFM_MSCA_W",		// Legend_TS13
+	"TFM_MSLI_D",		// Legend_TS13
+	"TFM_MMSLI_W",		// Legend_TS13
+	"TFM_SOG_CA",		// Legend_TS13
+	"TFM_SOG_LI",		// Legend_TS13
 	"PO_UAF",		// Z@Warrior Project Opfor Ukrainian Armed Forces
 	"3CB_BAF_W",		// Z@Warrior British Armed Forces Woodland
 	"3CB_BAF_D",		// Z@Warrior British Armed Forces Desert
@@ -89,6 +95,12 @@ LRX_mod_list_east = [
 	"WS_FIA",
 	"SOG_USA",
 	"SOG_VIETCONG",
+	"TFM_MSCA_D",		// Legend_TS13
+	"TFM_MSCA_W",		// Legend_TS13
+	"TFM_MSLI_D",		// Legend_TS13
+	"TFM_MMSLI_W",		// Legend_TS13
+	"TFM_SOG_CA",		// Legend_TS13
+	"TFM_SOG_LI",		// Legend_TS13	
 	"PO_TA",		// Z@Warrior Project Opfor Takistani Armed Forces
 	"PO_SA",		// Z@Warrior Project Opfor Sahrani Liberation Army
 	"PO_UAF",		// Z@Warrior Project Opfor Ukrainian Armed Forces
@@ -176,6 +188,12 @@ LRX_mod_list_name = [
 	["IFA_USARMY", "IFA US Army "],
 	["IFA_REDARMY_W", "IFA Red Army Winter"],
 	["IFA_WEHRM_W", "IFA Wehrmacht Winter"],
+	["TFM_MSCA_D", "Milsim Combined Arms - Desert"],
+	["TFM_MSCA_W", "Milsim Combined Arms - Woodland"],
+	["TFM_MSLI_D", "Milsim Light Infantry - Desert"],
+	["TFM_MMSLI_W", "Milsim Light Infantry - Woodland"],
+	["TFM_SOG_CA", "SOG US for Combined Arms"],
+	["TFM_SOG_LI", "SOG US for Light Infantry"],
 	["UFP_BLU", "Ukraine Forces (RHS)"],
 	["SW_TOR", "Star Wars The Old Republic"],
 	["3AS_KF", "3AS Project Knightfall"],
