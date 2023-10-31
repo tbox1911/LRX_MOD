@@ -46,7 +46,11 @@ R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
 R3F_LOG_CFG_can_tow = R3F_LOG_CFG_can_tow +
 [
 "cwr3_b_uk_fv620_transport",
+"CUP_B_MTVR_BAF_WOOD",
+"CUP_B_LR_MG_GB_W",
 "cwr3_b_uk_landrover",
+"CUP_B_LR_Special_M2_GB_W",
+"CUP_B_LR_Special_GMG_GB_W",
 "cwr3_b_uk_fv620_reammo",
 "cwr3_b_uk_fv620_refuel",
 "cwr3_b_uk_fv620_repair",
@@ -64,8 +68,13 @@ R3F_LOG_CFG_can_tow = R3F_LOG_CFG_can_tow +
 
 R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed +
 [
+"cwr3_c_jawa",
 "cwr3_b_uk_fv620_transport",
+"CUP_B_MTVR_BAF_WOOD",
+"CUP_B_LR_MG_GB_W",
 "cwr3_b_uk_landrover",
+"CUP_B_LR_Special_M2_GB_W",
+"CUP_B_LR_Special_GMG_GB_W",
 "cwr3_b_uk_fv620_reammo",
 "cwr3_b_uk_fv620_refuel",
 "cwr3_b_uk_fv620_repair",
@@ -88,8 +97,13 @@ R3F_LOG_CFG_can_lift = R3F_LOG_CFG_can_lift +
 
 R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
 [
+"cwr3_c_jawa",
 "cwr3_b_uk_fv620_transport",
+"CUP_B_MTVR_BAF_WOOD",
+"CUP_B_LR_MG_GB_W",
 "cwr3_b_uk_landrover",
+"CUP_B_LR_Special_M2_GB_W",
+"CUP_B_LR_Special_GMG_GB_W",
 "cwr3_b_uk_fv620_reammo",
 "cwr3_b_uk_fv620_refuel",
 "cwr3_b_uk_fv620_repair",
@@ -107,8 +121,13 @@ R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
 
 R3F_LOG_CFG_can_transport_cargo = R3F_LOG_CFG_can_transport_cargo +
 [
+["cwr3_c_jawa", 25],
 ["cwr3_b_uk_fv620_transport", 150],
+["CUP_B_MTVR_BAF_WOOD", 150],
 ["cwr3_b_uk_landrover", 50],
+["CUP_B_LR_Special_M2_GB_W", 50],
+["CUP_B_LR_Special_GMG_GB_W", 50],
+["CUP_B_LR_MG_GB_W", 50],
 ["cwr3_b_uk_fv620_reammo", 50],
 ["cwr3_b_uk_fv620_refuel", 50],
 ["cwr3_b_uk_fv620_repair", 50],
@@ -126,12 +145,12 @@ R3F_LOG_CFG_can_transport_cargo = R3F_LOG_CFG_can_transport_cargo +
 
 R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +
 [
+["cwr3_c_jawa", 10]
 ];
 
 R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
 [
 ];
-
 
 //--------------- Ship ---------------
 
@@ -172,10 +191,22 @@ R3F_LOG_CFG_can_transport_cargo = R3F_LOG_CFG_can_transport_cargo +
 
 R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +
 [
+	["cwr3_bagfence", 2],
+	["cwr3_bagfence_corner", 2]
 ];
 
 R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
 [
+	"cwr3_bagfence",
+	"cwr3_bagfence_corner",
+	"cwr3_bagfence_palet",
+	"cwr3_dragon_teeth",
+	"cwr3_hedgehog",
+	"cwr3_wire",
+	"Land_CncBarrier_F",
+	"Land_Concrete_SmallWall_4m_F",
+	"Land_CncBarrierMedium_F",
+	"Land_CncWall1_F"
 ];
 
 R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +

@@ -19,11 +19,15 @@ opfor_at = "cwr3_o_soldier82_at_at4";
 opfor_aa = "cwr3_o_soldier82_aa_strela";
 opfor_officer = "cwr3_o_officer82";
 opfor_sharpshooter = "cwr3_o_soldier82_spotter";
+opfor_spotter = "cwr3_o_soldier82_spotter";
+opfor_pilot = "cwr3_o_soldier_pilot";
+opfor_crew = "cwr3_o_soldier82_driver";
 opfor_sniper = "cwr3_o_soldier82_sniper";
 opfor_engineer = "cwr3_o_soldier82_sapper";
 opfor_paratrooper = "cwr3_o_soldier82_ar";
-opfor_mrap_armed = "cwr3_o_soldier";
-opfor_mrap_hmg = "cwr3_o_soldier";
+opfor_mrap = "cwr3_o_uaz";
+opfor_mrap_armed = "cwr3_o_uaz_dshkm";
+opfor_mrap_hmg = "cwr3_o_uaz_ags30";
 opfor_mrap_gmg = "cwr3_o_uaz_spg9";
 opfor_transport_helo = "cwr3_o_mi8_amt";
 opfor_transport_truck = "cwr3_o_ural_open";
@@ -57,6 +61,16 @@ militia_squad = [
 militia_loadout_overide = [
 
 ];
+
+divers_squad = [
+	"O_diver_F",
+	"O_diver_F",
+	"O_diver_F",
+	"O_diver_F",
+	"O_diver_F",
+	"O_diver_F"
+];
+
 
 militia_vehicles = [
 	"cwr3_o_uaz_dshkm",
@@ -178,8 +192,7 @@ opfor_air = [
 	"cwr3_o_mig23",
 	"cwr3_o_mig27",
 	"cwr3_o_su17m4",
-	"cwr3_o_su25",
-	"CUP_O_Pchela1T_RU"
+	"cwr3_o_su25"
 ];
 
 opfor_statics = [
@@ -197,70 +210,71 @@ opfor_statics = [
 opfor_texture_overide = [
 ];
 
-opfor_recyclable = [
-	["cwr3_o_zodiac",0,round (75 / GRLIB_recycling_percentage),0],
-	["cwr3_o_boat",0,round (150 / GRLIB_recycling_percentage),0],
-	["CUP_O_Pchela1T_RU",0,round (100 / GRLIB_recycling_percentage),0],
-	["cwr3_o_uaz452",0,round (100 / GRLIB_recycling_percentage),0],
-	["cwr3_o_uaz452_mev",0,round (150 / GRLIB_recycling_percentage),0],
-	["cwr3_o_uaz",0,round (150 / GRLIB_recycling_percentage),0],
-	["cwr3_o_uaz_ags30",0,round (150 / GRLIB_recycling_percentage),0],
-	["cwr3_o_uaz_dshkm",0,round (150 / GRLIB_recycling_percentage),0],
-	["cwr3_o_uaz_spg9",0,round (150 / GRLIB_recycling_percentage),0],
-	["cwr3_o_uaz_mev",0,round (150 / GRLIB_recycling_percentage),0],
-	["cwr3_o_uaz_open",0,round (150 / GRLIB_recycling_percentage),0],
-	["cwr3_o_ural",0,round (200 / GRLIB_recycling_percentage),0],
-	["cwr3_o_ural_empty",0,round (200 / GRLIB_recycling_percentage),0],
-	["cwr3_o_ural_refuel",0,round (200 / GRLIB_recycling_percentage),0],
-	["cwr3_o_ural_hq",0,round (200 / GRLIB_recycling_percentage),0],
-	["cwr3_o_ural_open",0,round (200 / GRLIB_recycling_percentage),0],
-	["cwr3_o_ural_repair",0,round (200 / GRLIB_recycling_percentage),0],
-	["cwr3_o_bmp1",0,round (250 / GRLIB_recycling_percentage),5],
-	["cwr3_o_bmp1p",0,round (250 / GRLIB_recycling_percentage),5],
-	["cwr3_o_bmp2",0,round (250 / GRLIB_recycling_percentage),5],
-	["cwr3_o_bmp2_hq",0,round (250 / GRLIB_recycling_percentage),5],
-	["cwr3_o_bmp2_mev",0,round (250 / GRLIB_recycling_percentage),5],
-	["cwr3_o_brdm2",5,round (300 / GRLIB_recycling_percentage),5],
-	["cwr3_o_brdm2_atgm",5,round (300 / GRLIB_recycling_percentage),5],
-	["cwr3_o_brdm2um",5,round (300 / GRLIB_recycling_percentage),5],
-	["cwr3_o_btr60",5,round (350 / GRLIB_recycling_percentage),10],
-	["cwr3_o_btr80",5,round (350 / GRLIB_recycling_percentage),10],
-	["cwr3_o_mtlb_pk",5,round (350 / GRLIB_recycling_percentage),10],
-	["cwr3_o_mtlb_mev",5,round (350 / GRLIB_recycling_percentage),10],
-	["cwr3_o_mtlb_repair",5,round (250 / GRLIB_recycling_percentage),10],
-	["cwr3_o_pt76b",5,round (250 / GRLIB_recycling_percentage),10],
-	["cwr3_o_t55",10,round (400 / GRLIB_recycling_percentage),15],
-	["cwr3_o_t55a",10,round (400 / GRLIB_recycling_percentage),15],
-	["cwr3_o_t55amv",10,round (400 / GRLIB_recycling_percentage),15],
-	["cwr3_o_t64b",10,round (500 / GRLIB_recycling_percentage),15],
-	["cwr3_o_t64bv",10,round (500 / GRLIB_recycling_percentage),15],
-	["cwr3_o_t72a",10,round (500 / GRLIB_recycling_percentage),15],
-	["cwr3_o_t72b1",10,round (600 / GRLIB_recycling_percentage),15],
-	["cwr3_o_scud",10,round (500 / GRLIB_recycling_percentage),10],
-	["cwr3_o_bm21",10,round (400 / GRLIB_recycling_percentage),10],
-	["cwr3_o_bmp2_zu23",10,round (400 / GRLIB_recycling_percentage),10],
-	["cwr3_o_mtlb_sa13",10,round (400 / GRLIB_recycling_percentage),10],
-	["cwr3_o_ural_zu23",10,round (400 / GRLIB_recycling_percentage),10],
-	["cwr3_o_zsu",10,round (400 / GRLIB_recycling_percentage),10],
-	["cwr3_o_mi6t",15,round (500 / GRLIB_recycling_percentage),15],
-	["cwr3_o_mi8_mtv3",15,round (500 / GRLIB_recycling_percentage),15],
-	["cwr3_o_mi8_amt",15,round (500 / GRLIB_recycling_percentage),15],
-	["cwr3_o_mi24d",15,round (500 / GRLIB_recycling_percentage),15],
-	["cwr3_o_mi24p",15,round (500 / GRLIB_recycling_percentage),15],
-	["cwr3_o_mi24v",15,round (500 / GRLIB_recycling_percentage),15],
-	["cwr3_o_mi8_mtv3",15,round (500 / GRLIB_recycling_percentage),15],
-	["cwr3_o_v80",15,round (600 / GRLIB_recycling_percentage),20],
-	["cwr3_o_mig23",20,round (700 / GRLIB_recycling_percentage),20],
-	["cwr3_o_mig27",20,round (750 / GRLIB_recycling_percentage),20],
-	["cwr3_o_su17m4",20,round (800 / GRLIB_recycling_percentage),25],
-	["cwr3_o_su25",20,round (1000 / GRLIB_recycling_percentage),25],
+_shop_multi = 1;
 
-	["cwr3_o_ags30",0,round (75 / GRLIB_recycling_percentage),20],
-	["cwr3_o_d30_at",0,round (75 / GRLIB_recycling_percentage),20],
-	["cwr3_o_konkurs_tripod",0,round (75 / GRLIB_recycling_percentage),20],
-	["cwr3_o_nsv_high",0,round (75 / GRLIB_recycling_percentage),20],
-	["cwr3_o_nsv_low",0,round (75 / GRLIB_recycling_percentage),20],
-	["cwr3_o_spg9",0,round (100 / GRLIB_recycling_percentage),20],
-	["cwr3_o_zu23",0,round (100 / GRLIB_recycling_percentage),20],
-	["cwr3_o_2b14",0,round (100 / GRLIB_recycling_percentage),20]
+opfor_recyclable = [
+	["cwr3_o_zodiac",1,round (75 * _shop_multi / GRLIB_recycling_percentage),1],
+	["cwr3_o_boat",1,round (150 * _shop_multi / GRLIB_recycling_percentage),1],
+	["CUP_O_Pchela1T_RU",1,round (100 * _shop_multi / GRLIB_recycling_percentage),1],
+	["cwr3_o_uaz452",1,round (100 * _shop_multi / GRLIB_recycling_percentage),1],
+	["cwr3_o_uaz452_mev",1,round (150 * _shop_multi / GRLIB_recycling_percentage),1],
+	["cwr3_o_uaz",1,round (150 * _shop_multi / GRLIB_recycling_percentage),1],
+	["cwr3_o_uaz_ags30",1,round (150 * _shop_multi / GRLIB_recycling_percentage),1],
+	["cwr3_o_uaz_dshkm",1,round (150 * _shop_multi / GRLIB_recycling_percentage),1],
+	["cwr3_o_uaz_spg9",1,round (150 * _shop_multi / GRLIB_recycling_percentage),1],
+	["cwr3_o_uaz_mev",1,round (150 * _shop_multi / GRLIB_recycling_percentage),1],
+	["cwr3_o_uaz_open",1,round (150 * _shop_multi / GRLIB_recycling_percentage),1],
+	["cwr3_o_ural",1,round (200 * _shop_multi / GRLIB_recycling_percentage),2],
+	["cwr3_o_ural_empty",1,round (200 * _shop_multi / GRLIB_recycling_percentage),2],
+	["cwr3_o_ural_refuel",1,round (200 * _shop_multi / GRLIB_recycling_percentage),2],
+	["cwr3_o_ural_hq",1,round (200 * _shop_multi / GRLIB_recycling_percentage),2],
+	["cwr3_o_ural_open",1,round (200 * _shop_multi / GRLIB_recycling_percentage),2],
+	["cwr3_o_ural_repair",1,round (200 * _shop_multi / GRLIB_recycling_percentage),2],
+	["cwr3_o_bmp1",2,round (250 * _shop_multi / GRLIB_recycling_percentage),5],
+	["cwr3_o_bmp1p",2,round (250 * _shop_multi / GRLIB_recycling_percentage),5],
+	["cwr3_o_bmp2",2,round (250 * _shop_multi / GRLIB_recycling_percentage),5],
+	["cwr3_o_bmp2_hq",2,round (250 * _shop_multi / GRLIB_recycling_percentage),5],
+	["cwr3_o_bmp2_mev",2,round (250 * _shop_multi / GRLIB_recycling_percentage),5],
+	["cwr3_o_brdm2",5,round (300 * _shop_multi / GRLIB_recycling_percentage),5],
+	["cwr3_o_brdm2_atgm",5,round (300 * _shop_multi / GRLIB_recycling_percentage),5],
+	["cwr3_o_brdm2um",5,round (300 * _shop_multi / GRLIB_recycling_percentage),5],
+	["cwr3_o_btr60",5,round (350 * _shop_multi / GRLIB_recycling_percentage),10],
+	["cwr3_o_btr80",5,round (350 * _shop_multi / GRLIB_recycling_percentage),10],
+	["cwr3_o_mtlb_pk",5,round (350 * _shop_multi / GRLIB_recycling_percentage),10],
+	["cwr3_o_mtlb_mev",5,round (350 * _shop_multi / GRLIB_recycling_percentage),10],
+	["cwr3_o_mtlb_repair",5,round (250 * _shop_multi / GRLIB_recycling_percentage),10],
+	["cwr3_o_pt76b",5,round (250 * _shop_multi / GRLIB_recycling_percentage),10],
+	["cwr3_o_t55",10,round (400 * _shop_multi / GRLIB_recycling_percentage),15],
+	["cwr3_o_t55a",10,round (400 * _shop_multi / GRLIB_recycling_percentage),15],
+	["cwr3_o_t55amv",10,round (400 * _shop_multi / GRLIB_recycling_percentage),15],
+	["cwr3_o_t64b",10,round (500 * _shop_multi / GRLIB_recycling_percentage),15],
+	["cwr3_o_t64bv",10,round (500 * _shop_multi / GRLIB_recycling_percentage),15],
+	["cwr3_o_t72a",10,round (500 * _shop_multi / GRLIB_recycling_percentage),15],
+	["cwr3_o_t72b1",10,round (600 * _shop_multi / GRLIB_recycling_percentage),15],
+	["cwr3_o_scud",10,round (500 * _shop_multi / GRLIB_recycling_percentage),10],
+	["cwr3_o_bm21",10,round (400 * _shop_multi / GRLIB_recycling_percentage),10],
+	["cwr3_o_bmp2_zu23",10,round (400 * _shop_multi / GRLIB_recycling_percentage),10],
+	["cwr3_o_mtlb_sa13",10,round (400 * _shop_multi / GRLIB_recycling_percentage),10],
+	["cwr3_o_ural_zu23",10,round (400 * _shop_multi / GRLIB_recycling_percentage),10],
+	["cwr3_o_zsu",10,round (400 * _shop_multi / GRLIB_recycling_percentage),10],
+	["cwr3_o_mi6t",15,round (500 * _shop_multi / GRLIB_recycling_percentage),15],
+	["cwr3_o_mi8_mtv3",15,round (500 * _shop_multi / GRLIB_recycling_percentage),15],
+	["cwr3_o_mi8_amt",15,round (500 * _shop_multi / GRLIB_recycling_percentage),15],
+	["cwr3_o_mi24d",15,round (500 * _shop_multi * _shop_multi / GRLIB_recycling_percentage),15],
+	["cwr3_o_mi24p",15,round (500 * _shop_multi / GRLIB_recycling_percentage),15],
+	["cwr3_o_mi24v",15,round (500 * _shop_multi / GRLIB_recycling_percentage),15],
+	["cwr3_o_mi8_mtv3",15,round (500 * _shop_multi / GRLIB_recycling_percentage),15],
+	["cwr3_o_v80",15,round (600 * _shop_multi / GRLIB_recycling_percentage),20],
+	["cwr3_o_mig23",20,round (700 * _shop_multi / GRLIB_recycling_percentage),20],
+	["cwr3_o_mig27",20,round (750 * _shop_multi / GRLIB_recycling_percentage),20],
+	["cwr3_o_su17m4",20,round (800 * _shop_multi / GRLIB_recycling_percentage),25],
+	["cwr3_o_su25",20,round (1000 * _shop_multi / GRLIB_recycling_percentage),25],
+	["cwr3_o_ags30",1,round (75 * _shop_multi / GRLIB_recycling_percentage),2],
+	["cwr3_o_d30_at",1,round (75 * _shop_multi / GRLIB_recycling_percentage),2],
+	["cwr3_o_konkurs_tripod",1,round (75 * _shop_multi / GRLIB_recycling_percentage),2],
+	["cwr3_o_nsv_high",1,round (75 * _shop_multi / GRLIB_recycling_percentage),2],
+	["cwr3_o_nsv_low",1,round (75 * _shop_multi / GRLIB_recycling_percentage),2],
+	["cwr3_o_spg9",1,round (100 * _shop_multi / GRLIB_recycling_percentage),2],
+	["cwr3_o_zu23",1,round (100 * _shop_multi / GRLIB_recycling_percentage),2],
+	["cwr3_o_2b14",1,round (100 * _shop_multi / GRLIB_recycling_percentage),2]
 ];

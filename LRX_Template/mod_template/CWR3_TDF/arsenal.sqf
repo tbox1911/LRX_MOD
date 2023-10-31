@@ -220,3 +220,107 @@ whitelisted_from_arsenal = [
 	"CUP_srifle_M21",
 	"CUP_optic_artel_m14"
 ];
+
+/*
+// unfortunately does not work reliably
+if GRLIB_use_whitelist then {  
+  whitelisted_from_arsenal = [
+	"B_Parachute",
+	"U_B_Wetsuit",
+	"V_RebreatherB",
+	"B_Assault_Diver",
+	"G_B_Diving",
+	"FirstAidKit",
+	"Medikit",
+	"ToolKit",
+	"MineDetector",	
+	"Binocular",
+	//"Rangefinder",	
+	"ItemCompass",
+	//"ItemGPS",	
+	"ItemMap",
+	"ItemRadio",	
+	"ItemWatch",
+	"Bandage",
+	"CUP_HandGrenade_RGD5",
+	"CUP_HandGrenade_RGO",
+	"DemoCharge_Remote_Mag",
+	"CUP_PipeBomb_M",
+	"CUP_MineE_M",
+	"SmokeShell",
+	"SmokeShellBlue",
+	"SmokeShellYellow",
+	"SmokeShellGreen",
+	"SmokeShellOrange",
+	"SmokeShellRed",
+	"SmokeShellPurple",
+	// Primary Weapon
+	"CUP_arifle_FNFAL",
+	"CUP_arifle_FNFAL5060",
+	"CUP_arifle_FNFAL5060_railed",
+	"optic_KHS_old",
+	"optic_AMS",
+	"CUP_20Rnd_762x51_FNFAL_M",
+	"CUP_arifle_RPK74",
+	"CUP_40Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M",
+	"CUP_smg_M3A1",
+	"CUP_30Rnd_45ACP_M3A1_M",
+	"CUP_glaunch_M79",
+	"CUP_1Rnd_HE_M203",
+	"CUP_glaunch_6G30",
+	"CUP_6Rnd_HE_GP25_M",
+	"CUP_arifle_G3A3_ris",
+	"optic_DMS_weathered_F",
+	"CUP_bipod_G3",
+	"CUP_20Rnd_762x51_G3",
+	"CUP_lmg_PKMN",
+	"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",
+	"CUP_srifle_SVD",
+	"CUP_10Rnd_762x54_SVD_M",
+	"CUP_optic_PSO_1",
+	"CUP_arifle_AKMS",
+	"CUP_muzzle_Bizon",
+	"CUP_30Rnd_762x39_AK47_bakelite_M",
+	// Sec. Weapon
+	"launch_B_Titan_F",
+	"Titan_AA",
+	"cwr3_launch_at4",
+	"cwr3_at4_heat_m",
+	"CUP_launch_RPG7V",
+	"CUP_PG7VL_M",
+	// Handgun
+	"cwr3_hgun_aps",
+	"cwr3_20rnd_9x18_aps_m",
+	"CUP_hgun_CZ75",
+	"CUP_16Rnd_9x19_cz75",
+	// Uniforms
+	"cwr3_tdf_uniform_rolled",
+	"cwr3_i_uniform_coverall_grey",
+	"cwr3_tdf_uniform",
+	// Vests
+	"cwr3_i_vest_chicom",
+	"cwr3_i_vest_lbv_mg",
+	"cwr3_i_vest_lbv",
+	"cwr3_i_vest_lbv_olive",
+	// Bagpack
+	"cwr3_i_backpack",
+	"cwr3_i_backpack_medic_empty",
+	// Headgear
+	"cwr3_tdf_headgear_boonie_khaki",
+	"cwr3_tdf_headgear_cap_khaki",
+	"H_Bandanna_khk",
+	"H_Bandanna_gry",
+	"cwr3_o_headgear_tsh4_tan",
+	"cwr3_b_headgear_headband_od",
+	"cwr3_o_headgear_zsh5",
+	// Googles"
+	"cwr3_b_facewear_scrimnet_scarf_olive",
+	"cwr3_b_facewear_balaclava_olive",
+	"cwr3_b_facewear_balaclava_khaki",
+	"cwr3_b_facewear_balaclava_black",
+	// night Vision
+	"cwr3_o_nvg_pnv57",
+	"cwr3_o_nvg_pnv57_tsh3"
+  ];
+};
+*/

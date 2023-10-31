@@ -1,10 +1,15 @@
 Cars:
+"cwr3_c_jawa",
 "cwr3_b_uk_fv620_transport",
 "cwr3_b_uk_landrover",
+"CUP_B_LR_MG_GB_W",
+"CUP_B_LR_Special_M2_GB_W",
+"CUP_B_LR_Special_GMG_GB_W",
 "cwr3_b_uk_fv620_reammo",
 "cwr3_b_uk_fv620_refuel",
 "cwr3_b_uk_fv620_repair",
 "cwr3_b_uk_landrover_mev",
+"CUP_B_MTVR_BAF_WOOD",
 
 Boats:
 "cwr3_b_uk_mk10",

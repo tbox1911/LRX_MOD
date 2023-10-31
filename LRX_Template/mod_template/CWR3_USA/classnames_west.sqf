@@ -9,12 +9,41 @@ GRLIB_west_modder = "Z@Warrior";
 
 huron_typename = "cwr3_b_ch47";
 FOB_typename = "Land_Cargo_HQ_V1_F";
-Respawn_truck_typename = "UK3CB_BAF_LandRover_Amb_FFR_Sand_A_DDPM";
-//FOB_box_typename = "B_Slingload_01_Cargo_F";
-//FOB_truck_typename = "cwr3_b_m939_empty";  	// "B_Truck_01_box_F";
+Respawn_truck_typename = "cwr3_b_hmmwv_mev";
+
+ammo_truck_typename = "cwr3_b_m939_reammo";
+fuel_truck_typename = "cwr3_b_m939_refuel";
+repair_truck_typename = "cwr3_b_m939_repair";
+
 pilot_classname = "cwr3_b_soldier_pilot";
 crewman_classname = "cwr3_b_soldier82_driver";
+
+GRLIB_sar_wreck = "cwr3_ah1f_wreck";
+
+resistance_squad_static = "cwr3_b_fia_mk19";
+
 basic_weapon_typename = "cwr3_crate_basicweapons_us";
+
+Box_Weapon_typename = "cwr3_crate_basicweapons_us";
+Box_Ammo_typename = "cwr3_crate_basicammo_us";
+Box_Support_typename = "cwr3_crate_support_us";
+Box_Launcher_typename = "cwr3_crate_launchers_us";
+Box_Special_typename = "cwr3_crate_specialweapons_us";
+Box_Grenades_typename = "cwr3_crate_grenades_us";
+Box_Explosives_typename = "cwr3_crate_explosives_us";
+Box_Equipment_typename = "cwr3_crate_uniforms_us";
+
+SHOP_Man = "cwr3_c_citizen";
+SELL_Man = "cwr3_c_villager4";
+WRHS_Man = "cwr3_b_soldier80_captive";				// Man in Warehouse
+commander_classname = "cwr3_b_soldier82_light";			// Sell-Man in FOB
+repair_offroad = "cwr3_c_ural_yellow";
+
+//waterbarrel_typename = "";
+//fuelbarrel_typename = "";
+//canister_fuel_typename = "";
+//foodbarrel_typename = "";
+
 chimera_vehicle_overide = [
   ["B_Heli_Light_01_F", "cwr3_b_mh6j"],
   ["B_Heli_Transport_01_F", "cwr3_b_uh60_unarmed"]
@@ -41,69 +70,45 @@ infantry_units_west = [						// Men '82
 
 units_loadout_overide = [];
 
-// *** FIA (CWR III) ***
+// *** Men '85 Ranger ***
 resistance_squad = [
-	"cwr3_i_soldier_aa_strela",
-	"cwr3_i_soldier_aaa_strela",
-	"cwr3_i_soldier_aat_at4",
-	"cwr3_i_soldier_aat_rpg7",
-	"cwr3_i_soldier_aar",
-	"cwr3_i_soldier_amg",
-	"cwr3_i_soldier_at_at4",
-	"cwr3_i_soldier_at_rpg7",
-	"cwr3_i_soldier_ar",
-	"cwr3_i_commander",
-	"cwr3_i_soldier_sapper",
-	"cwr3_i_soldier_engineer",
-	"cwr3_i_soldier_gl",
-	"cwr3_i_soldier_hg",
-	"cwr3_i_soldier_hunter",
-	"cwr3_i_soldier_mg",
-	"cwr3_i_soldier_marksman",
-	"cwr3_i_soldier_medic",
-	"cwr3_i_officer",
-	"cwr3_i_officer_night",
-	"cwr3_i_soldier_radio",
-	"cwr3_i_soldier",
-	"cwr3_i_soldier_backpack",
-	"cwr3_i_soldier_fal",
-	"cwr3_i_soldier_g3",
-	"cwr3_i_soldier_at_rpg75",
-	"cwr3_i_soldier_sks",
-	"cwr3_i_soldier_vz58",
-	"cwr3_i_soldier_saboteur",
-	"cwr3_i_soldier_scout",
-	"cwr3_i_soldier_sniper",
-	"cwr3_i_soldier_spotter",
-	"cwr3_i_soldier_sl",
-	"cwr3_i_soldier_tl"
+"cwr3_b_ranger_gl",
+"cwr3_b_ranger_marksman",
+"cwr3_b_ranger",
+"cwr3_b_ranger_m14",
+"cwr3_b_ranger_at_law",
+"cwr3_b_ranger_tl",
+"cwr3_b_ranger_engineer",
+"cwr3_b_ranger_at_m47",
+"cwr3_b_ranger_aa_stinger"
 ];
+
 
 light_vehicles = [
 	["cwr3_b_zodiac",1,50,5,0],
 	["cwr3_b_boat",1,125,5,0],
-	["cwr3_b_m151",1,100,5,GRLIB_perm_log],
+	["cwr3_b_m151",1,50,5,0],
 	["cwr3_b_hmmwv",1,125,5,GRLIB_perm_log],
 	["cwr3_b_hmmwv_mev",1,150,5,GRLIB_perm_log],
 	["cwr3_b_m939",2,150,10,0],
-	["cwr3_b_m151_m2",2,180,10,0],
+	["cwr3_b_m151_m2",2,180,10,GRLIB_perm_log],
 	["cwr3_b_hmmwv_m2",2,200,10,GRLIB_perm_inf],
 	["cwr3_b_hmmwv_mk19",2,250,10,GRLIB_perm_inf],
 	["cwr3_b_hmmwv_tow",2,400,10,GRLIB_perm_log],
-	["cwr3_b_m577_hq",2,400,10,GRLIB_perm_log],
-	["cwr3_b_m270_he",2,800,10,GRLIB_perm_log]
+	["cwr3_b_m577_hq",2,400,10,GRLIB_perm_log]
 ];
 
 heavy_vehicles = [
 	["cwr3_b_m113a1",5,600,15,GRLIB_perm_log],
 	["cwr3_b_m113a3",5,700,15,GRLIB_perm_log],
 	["cwr3_b_m163",5,900,15,GRLIB_perm_log],
+	["cwr3_b_m901_itv",10,1000,20,GRLIB_perm_tank],
 	["cwr3_b_m2a2",10,1100,20,GRLIB_perm_tank],
 	["cwr3_b_m60a3",10,1200,30,GRLIB_perm_max],
 	["cwr3_b_m1",20,1400,20,GRLIB_perm_max],
-	["cwr3_b_m1a1",20,1500,30,GRLIB_perm_max]
+	["cwr3_b_m1a1",20,1500,30,GRLIB_perm_max],
+	["cwr3_b_m270_he",2,1600,10,GRLIB_perm_max]
 ];
-
 
 air_vehicles = [
 	["cwr3_b_mh6j",10,400,15,GRLIB_perm_tank],
@@ -125,13 +130,10 @@ air_vehicles = [
 ];
 
 blufor_air = [
-	"cwr3_b_kiowa_dyn",
-	"cwr3_b_ah64",
+	"cwr3_b_ah1f",
 	"cwr3_b_uh1_gunship",
-	"cwr3_b_uh60_x4_esss",
-	"cwr3_b_a10"
+	"cwr3_b_ah64_hellfire"
 ];
-
 
 boats_west = [
 	"cwr3_b_zodiac",
@@ -139,30 +141,60 @@ boats_west = [
 ];
 
 static_vehicles = [
-	["cwr3_b_m2hb_high",0,150,0,GRLIB_perm_log],
-	["cwr3_b_mk19",0,150,0,GRLIB_perm_log],
-	["cwr3_b_tow",0,200,0,GRLIB_perm_log]
+
+	["cwr3_b_searchlight",1,150,0,0],
+	["cwr3_b_m2hb_low",1,150,0,GRLIB_perm_log],
+	["cwr3_b_m2hb_high",1,150,0,GRLIB_perm_log],
+	["cwr3_b_mk19",1,150,0,GRLIB_perm_log],
+	["cwr3_b_tow",1,200,0,GRLIB_perm_log],
+	["cwr3_b_m252",0,250,0,GRLIB_perm_tank],
+	["cwr3_b_m119",0,400,0,GRLIB_perm_max]
 ];
 
 // *** Static Weapon with AI ***
 
 static_vehicles_AI = [
+	"cwr3_b_searchlight",
+	"cwr3_b_m2hb_low",
 	"cwr3_b_m2hb_high",
 	"cwr3_b_mk19",
 	"cwr3_b_tow"
 ];
 
-support_vehicles_west = [
-	["cwr3_b_m939_repair",5,200,10,GRLIB_perm_inf],
-	["cwr3_b_m939_refuel",5,200,10,GRLIB_perm_inf],
-	["cwr3_b_m939_reammo",5,200,10,GRLIB_perm_tank]
-];
+
+support_vehicles_west = [];
+
+//buildings_west_overide = true;
 
 buildings_west = [
-	["Land_Cargo_Tower_V1_F",0,0,0,GRLIB_perm_tank],
-	["Land_Cargo_House_V1_F",0,0,0,GRLIB_perm_inf],
-	["Land_Cargo_Patrol_V1_F",0,0,0,GRLIB_perm_log],
-	["Land_LampStreet_small_F",0,0,0,0],
+	["land_cwr3_lampa_ind",0,0,0,0],
+	["land_cwr3_lampa_sidl_3",0,0,0,0],
+	["cwr3_hangarlamp",0,0,0,0],
+	["cwr3_sign_checkpoint_us",0,0,0,0],
+
+	["land_cwr3_tent3",0,0,0,GRLIB_perm_inf],
+	["land_cwr3_tent1_mash",0,0,0,GRLIB_perm_inf],
+	["land_cwr3_bouda3",0,0,0,GRLIB_perm_inf],
+	["cwr3_bagfence",0,0,0,GRLIB_perm_inf],
+	["cwr3_bagfence_corner",0,0,0,GRLIB_perm_inf],
+	["cwr3_bagfence_palet",0,0,0,GRLIB_perm_inf],
+	["land_cwr3_fortress_mini",0,0,0,GRLIB_perm_inf],
+	["StorageBladder_01_fuel_sand_F",0,0,0,GRLIB_perm_inf],
+	["Land_Mil_hangar_EP1",0,0,0,GRLIB_perm_inf],
+	["Land_Hangar_2",0,0,0,GRLIB_perm_inf],
+
+	["cwr3_dragon_teeth",0,0,0,GRLIB_perm_log],
+	["cwr3_hedgehog",0,0,0,GRLIB_perm_log],
+	["cwr3_wire",0,0,0,GRLIB_perm_log],
+	["Land_CncBarrier_F",0,0,0,GRLIB_perm_log],
+	["Land_Concrete_SmallWall_4m_F",0,0,0,GRLIB_perm_log],
+	["Land_CncBarrierMedium_F",0,0,0,GRLIB_perm_log],
+	["Land_CncWall1_F",0,0,0,GRLIB_perm_log],
+	["land_cwr3_fortress_small",0,0,0,GRLIB_perm_log],
+	["land_cwr3_fortress_big",0,0,0,GRLIB_perm_log],
+	["Land_Cargo_House_V2_F",0,0,0,GRLIB_perm_log],
+	["Land_Cargo_HQ_V2_F",0,0,0,GRLIB_perm_log],
+	["Land_Cargo_Tower_V2_F",0,0,0,GRLIB_perm_log],
 	["cwr3_Flag_USA",0,0,0,0]
 ];
 
@@ -185,7 +217,6 @@ blufor_squad_inf = [
 blufor_squad_at = [
 	"cwr3_b_soldier82_tl",
 	"cwr3_b_soldier82_at_law",
-	"cwr3_b_soldier82_medic",
 	"cwr3_b_soldier82_gl",
 	"cwr3_b_soldier82_at_carlgustaf",
 	"cwr3_b_soldier82_at_m47",
@@ -203,7 +234,6 @@ blufor_squad_aa = [
 
 blufor_squad_mix = [
 	"cwr3_b_soldier82_sl",
-	"cwr3_b_soldier82_m14",
 	"cwr3_b_soldier82_marksman",
 	"cwr3_b_soldier82_mg",
 	"cwr3_b_soldier82_sapper",
@@ -222,21 +252,20 @@ squads = [
 
 // All the UAVs must be declared here
 uavs = [
-"CUP_B_USMC_DYN_MQ9"
 ];
 
 // Everything the AI troups should be able to resupply from
 ai_resupply_sources_west = [
-  "cwr3_b_m939_reammo","cwr3_b_m939_refuel","cwr3_b_m939_repair"
+  	Arsenal_typename, FOB_typename,ammo_truck_typename,fuel_truck_typename,repair_truck_typename
 ];
 
 // Everything the AI troups should be able to healing from
 ai_healing_sources_west = [
-	"cwr3_b_hmmwv_mev"
+	Arsenal_typename,FOB_typename,Respawn_truck_typename,"Land_MedicalTent_01_MTP_closed_F"
 ];
 
 vehicle_rearm_sources_west = [
-	"cwr3_b_m939_reammo","cwr3_b_m939_refuel"
+	Arsenal_typename, FOB_typename,ammo_truck_typename,fuel_truck_typename
 ];
 
 vehicle_big_units_west = [
