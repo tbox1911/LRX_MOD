@@ -112,9 +112,9 @@ GRLIB_perm_max*2	Super Colonel 	2000
 
 light_vehicles = [
 	["cwr3_i_zodiac",1,50,1,0],
-	["cwr3_tdf_uaz",1,50,1,GRLIB_perm_inf],
+	["cwr3_tdf_uaz",1,50,1,0],
 	["cwr3_tdf_ural",1,200,1,0],
-	["cwr3_tdf_uaz_dshkm",1,75,1,0],
+	["cwr3_tdf_uaz_dshkm",1,75,1,GRLIB_perm_inf],
 	["cwr3_tdf_uaz_ags30",1,125,1,GRLIB_perm_inf],
 	["cwr3_tdf_uaz_spg9",1,150,1,GRLIB_perm_inf],
 	["cwr3_tdf_uaz_aa",1,200,1,GRLIB_perm_log],
