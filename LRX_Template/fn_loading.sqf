@@ -46,7 +46,10 @@ LRX_mod_list_west = [
 	"3CB_TNA_OPF",		// Z@Warrior 3CB Takistan National Army
 	"BW_MOD",		// Z@Warrior Bundenswehr Tropentarn
 	"CWR3_USA",		// Z@Warrior Cold War Rearmed III - US
+	"CWR3_SOV",		// Z@Warrior Cold War Rearmed III - SOVIET
 	"CWR3_BAF",		// Z@Warrior Cold War Rearmed III - BAF
+	"CWR3_FIA",
+	"CWR3_TDF",
 	"UNS_US",		// Z@Warrior Unsung
 	"UNS_NVA",		// Z@Warrior Unsung
 	"SPE_US",		// Z@Warrior DLC Spearhead 1944
@@ -111,11 +114,15 @@ LRX_mod_list_east = [
 	"3CB_LDF_OPF",		// Z@Warrior 3CB Livonia Defence Force
 	"3CB_MDF_OPF",		// Z@Warrior 3CB Malden Defence Force
 	"3CB_TNA_OPF",		// Z@Warrior 3CB Takistan National Army
-	"CWR3_SOV",		// Z@Warrior Cold War Rearmed III - SOVIET
-	"UNS_US",		// Z@Warrior Unsung
-	"UNS_NVA",		// Z@Warrior Unsung
-	"SPE_US",		// Z@Warrior DLC Spearhead 1944
-	"SPE_GER",		// Z@Warrior DLC Spearhead 1944
+	"CWR3_USA",			// Z@Warrior Cold War Rearmed III - US
+	"CWR3_SOV",			// Z@Warrior Cold War Rearmed III - SOVIET
+	"CWR3_BAF",			// Z@Warrior Cold War Rearmed III - BAF
+	"CWR3_FIA",
+	"CWR3_TDF",
+	"UNS_US",			// Z@Warrior Unsung
+	"UNS_NVA",			// Z@Warrior Unsung
+	"SPE_US",			// Z@Warrior DLC Spearhead 1944
+	"SPE_GER",			// Z@Warrior DLC Spearhead 1944
 	"IFA_WEHRM",		// Z@Warrior IFA Wehrmacht
 	"IFA_REDARMY",		// Z@Warrior Red Army
 	"IFA_USARMY",		// Z@Warrior US Army 
@@ -179,6 +186,8 @@ LRX_mod_list_name = [
 	["CWR3_USA", "Cold War Rearmed USA"],
 	["CWR3_BAF", "Cold War Rearmed - BAF"],
 	["CWR3_SOV", "Cold War Rearmed - SOVIET"],
+	["CWR3_TDF", "Cold War Rearmed - TONALI"],
+	["CWR3_FIA", "Cold War Rearmed - FIA"],	
 	["UNS_US", "Unsung USA"],
 	["UNS_NVA", "Unsung NVA"],
 	["SPE_US", "SPE - USA"],	
