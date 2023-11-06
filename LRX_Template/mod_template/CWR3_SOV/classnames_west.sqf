@@ -50,7 +50,7 @@ SHOP_Man = "cwr3_c_citizen";
 SELL_Man = "cwr3_c_villager4";
 WRHS_Man = "cwr3_o_soldier82_captive";				// Man in Warehouse
 commander_classname = "cwr3_o_soldier82_light";			// Sell-Man in FOB
-repair_offroad = "cwr3_c_ural_yellow";
+repair_offroad = "CUP_O_V3S_Repair_TKA";
 
 //waterbarrel_typename = "";
 //fuelbarrel_typename = "";
