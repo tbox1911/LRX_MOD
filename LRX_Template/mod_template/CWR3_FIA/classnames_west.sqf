@@ -48,7 +48,7 @@ SELL_Man = "cwr3_c_villager1";
 WRHS_Man = "cwr3_i_soldier_captive";					// Man in Warehouse
 commander_classname = "cwr3_i_soldier_light";				// Sell-Man in FOB
 
-repair_offroad = "cwr3_c_ural_yellow";
+repair_offroad = "CUP_O_V3S_Repair_TKA";
 
 resistance_squad_static = "cwr3_i_dshkm_high";
 
