@@ -1,0 +1,78 @@
+// Boats
+"I_C_Boat_Transport_01_F",
+"CUP_I_TowingTractor_RACS",
+"CUP_I_LCU1600_RACS",
+"CUP_I_LCVP_RACS",
+"CUP_I_LCVP_VIV_RACS",
+"CUP_I_Frigate_RACS",
+"CUP_I_RHIB_RACS",
+"CUP_I_RHIB2Turret_RACS",
+
+// Cars
+"CUP_O_Hilux_unarmed_CR_CIV",
+"CUP_I_LR_Ambulance_RACS",
+"CUP_I_LR_MG_RACS",
+"CUP_I_LR_Transport_RACS",
+"CUP_I_MTVR_RACS",
+"CUP_I_MTVR_Ammo_RACS",
+"CUP_I_MTVR_Refuel_RACS",
+"CUP_I_MTVR_Repair_RACS",
+"CUP_I_TowingTractor_RACS",
+
+
+// Troup Transporter
+"CUP_I_AAV_Unarmed_RACS",
+"CUP_I_AAV_RACS",
+"CUP_I_LAV25_RACS",
+"CUP_I_LAV25M240_RACS",
+"CUP_I_LAV25_HQ_RACS",
+"CUP_I_M113A1_RACS",
+"CUP_I_M113A1_RACS_URB",
+"CUP_I_M113A1_Med_RACS",
+"CUP_I_M113A3_Reammo_RACS",
+"CUP_I_M113A3_Repair_RACS",
+
+// Tanks
+"CUP_I_M60A3_RACS",
+"CUP_I_M60A3_TTS_RACS",
+"CUP_B_M1A2SEP_RACS",
+"CUP_B_M1A2SEP_TUSK_RACS",
+"CUP_I_T72_RACS",
+
+// Anti Air & Arty
+"CUP_I_LR_AA_RACS",
+"CUP_I_M163_Vulcan_RACS",
+"CUP_I_M270_DPICM_RACS",
+"CUP_I_M270_HE_RACS",
+
+//Helicopter
+"CUP_I_AH6J_RACS",
+"CUP_I_CH47F_RACS",
+"CUP_I_CH47F_VIV_RACS",
+"CUP_I_MH6J_RACS",
+"CUP_I_SA330_Puma_HC1_RACS",
+"CUP_I_SA330_Puma_HC2_RACS",
+"CUP_I_UH1H_RACS",
+"CUP_I_UH1H_Armed_RACS",
+"CUP_I_UH1H_gunship_RACS",
+"CUP_I_UH1H_Slick_RACS",
+"CUP_I_UH60L_RACS",
+"CUP_I_UH60L_FFV_RACS",
+"CUP_I_UH60L_Unarmed_RACS",
+"CUP_I_UH60L_Unarmed_FFV_Racs",
+"CUP_I_UH60L_Unarmed_FFV_MEV_Racs",
+
+// Planes
+"CUP_I_JAS39_RACS",
+"CUP_I_C130J_RACS",
+"CUP_I_C130J_Cargo_RACS",
+"CUP_I_CESSNA_T41_UNARMED_RACS",
+"CUP_I_CESSNA_T41_ARMED_RACS",
+
+// Static Weapons
+
+"CUP_I_M119_RACS",
+"CUP_I_M2StaticMG_RACS",
+"CUP_I_M252_RACS",
+"CUP_I_M2StaticMG_MiniTripod_RACS",
+"CUP_I_SearchLight_static_RACS",
