@@ -5,6 +5,7 @@ LRX_mod_list_west = [
 	"CP_USMC_W",	// C0br4
 	"CP_USMC_D",	// C0br4
 	"CP_AFRF",	// Z@warrior
+	"CP_SAHRA_D",	// Z@Warrior
 	"CP_BW_W",	// Z@Warrior CUP NATO (US,BAF,BW)
 	"CP_ION_WI",	// Z@Warrior CUP ION PMC Winter
 	"CP_MAF",		// DarkDemon	
