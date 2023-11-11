@@ -70,6 +70,18 @@ militia_vehicles = [
 	"vn_b_wheeled_m151_02_mp"
 ];
 
+guard_squad = [
+	"vn_b_men_aus_army_70_22",
+	"vn_b_men_aus_army_70_08",
+	"vn_b_men_aus_army_70_08",
+	"vn_b_men_aus_army_70_08",
+	"vn_b_men_aus_army_70_08"
+];
+
+guard_loadout_overide = [];
+
+vip_vehicle = "vn_b_wheeled_lr2a_02_aus_army";
+
 opfor_boats = [
 	"vn_o_boat_02_mg_02",
 	"vn_o_boat_01_mg_02",
