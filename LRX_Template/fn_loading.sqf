@@ -45,6 +45,7 @@ LRX_mod_list_west = [
 	"ML700_IMPERIALS",
 	"NF_FINNISH",
 	"OPTRE",
+	"OPTRE_UNSC",
 	"PO_UAF",		// Z@Warrior Project Opfor Ukrainian Armed Forces
 	"R3F_WEST_D", 	// C0br4
 	"R3F_WEST_W", 	// C0br4
@@ -66,10 +67,9 @@ LRX_mod_list_west = [
 	"TFM_SOG_CA",		// Legend_TS13
 	"TFM_SOG_LI",		// Legend_TS13
 	"UFP_BLU",			// Z@Warrior Ukrain Faction Project
-	"UFP_BLU",	// Z@Warrior Ukrainian Factions Project
+	"UFP_BLU",		// Z@Warrior Ukrainian Factions Project
 	"UNS_NVA",		// Z@Warrior Unsung
 	"UNS_US",		// Z@Warrior Unsung
-	"UNSC",
 	"VME_CHINA",  		// DarkDemon
 	"VTF_KDF",
 	"WS_UNA"
@@ -124,7 +124,7 @@ LRX_mod_list_east = [
 	"ML700_IMPERIALS",
 	"NF_FINNISH",
 	"OPTRE",
-	"OPTREW",
+	"OPTRE_COV",
 	"PO_SA",		// Z@Warrior Project Opfor Sahrani Liberation Army
 	"PO_TA",		// Z@Warrior Project Opfor Takistani Armed Forces
 	"PO_UAF",		// Z@Warrior Project Opfor Ukrainian Armed Forces
@@ -151,7 +151,7 @@ LRX_mod_list_east = [
 	"TIOW_CSP",
 	"TIOW_TAU",
 	"UFP_BLU",			// Z@Warrior Ukrain Faction Project
-	"UFP_BLU",	// Z@Warrior Ukrainian Factions Project
+	"UFP_BLU",			// Z@Warrior Ukrainian Factions Project
 	"UNS_NVA",			// Z@Warrior Unsung
 	"UNS_US",			// Z@Warrior Unsung
 	"VME_CHINA",  		// DarkDemon
@@ -213,9 +213,9 @@ LRX_mod_list_name = [
 	["IRI_IRAN", "Iran"],
 	["ML700_Imperials", "Imperials"],
 	["NF_FINNISH", "Finnish"],
-	["OPTRE_UNSC", "UNSC"],
 	["OPTRE", "Operation Trebuchet"],
-	["OPTREW", "Covenant"],
+	["OPTRE_UNSC", "OPTRE UNSC"],
+	["OPTRE_COV", "OPTRE Covenant"],
 	["PO_SA", "Project Opfor Sahrani Army"],
 	["PO_TA", "Project Opfor Takistani Army"],
 	["PO_UAF", "Project Opfor Ukrainian Army"],
@@ -256,7 +256,7 @@ LRX_mod_list_name = [
 private _getName = {
 	params ["_name"];
 	private _ret = LRX_mod_list_name select {_x select 0 == _name} select 0;
-	if (count _ret == 0) exitWith {"Unknown!"};
+	if (isNil "_ret") exitWith {"Unknown!"};
 	(_ret select 1);
 };
 

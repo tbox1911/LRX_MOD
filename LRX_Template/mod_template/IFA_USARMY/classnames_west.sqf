@@ -23,7 +23,7 @@ WRHS_Man = "LIB_CIV_SchoolTeacher";			// Man in Warehouse
 commander_classname = "LIB_CIV_Assistant";		// Sell-Man in FOB
 pilot_classname = "LIB_US_Pilot";
 crewman_classname = "LIB_US_Driver";
-A3W_BoxWps = "LIB_BasicWeaponsBox_US";
+basic_weapon_typename = "LIB_BasicWeaponsBox_US";
 
 chimera_vehicle_overide = [
 	["B_Heli_Light_01_F", "LIB_US_Willys_MB"],

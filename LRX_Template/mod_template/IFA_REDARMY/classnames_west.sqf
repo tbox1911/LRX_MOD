@@ -21,7 +21,7 @@ Radio_tower = "Land_Vysilac_FM2";
 GRLIB_sar_wreck = "Land_Wreck_C130J_EP1_ruins";
 pilot_classname = "LIB_SOV_pilot";
 crewman_classname = "LIB_SOV_LC_rifleman";
-A3W_BoxWps = "LIB_BasicWeaponsBox_SU";
+basic_weapon_typename = "LIB_BasicWeaponsBox_SU";
 WRHS_Man = "LIB_CIV_SchoolTeacher";			// Man in Warehouse
 commander_classname = "LIB_CIV_Assistant";		// Sell-Man in FOB
 
