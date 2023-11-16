@@ -62,6 +62,18 @@ militia_vehicles = [
 	"vn_o_wheeled_btr40_mg_02_nva65"
 ];
 
+guard_squad = [
+	"vn_o_men_vc_01",
+	"vn_o_men_vc_12",
+	"vn_o_men_vc_12",
+	"vn_o_men_vc_12",
+	"vn_o_men_vc_12"
+];
+
+guard_loadout_overide = [];
+
+vip_vehicle = "vn_c_car_02_01";
+
 opfor_boats = [
 	"vn_o_boat_02_mg_02",
 	"vn_o_boat_01_mg_02",
