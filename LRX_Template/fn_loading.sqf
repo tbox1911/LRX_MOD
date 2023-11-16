@@ -265,13 +265,13 @@ player createDiarySubject["LRX Template","LRX Template"];
 {
 	_name = [_x] call _getName;
 	player createDiaryRecord ["LRX Template", ["LRX East Template", _name]];
-} forEach LRX_mod_list_east;
+} forEach (reverse LRX_mod_list_east);
 player createDiaryRecord ["LRX Template", ["LRX East Template", format ["Available East Factions (%1):<br/>", count LRX_mod_list_east]]];
 
 {
 	_name = [_x] call _getName;
 	player createDiaryRecord ["LRX Template", ["LRX West Template", _name]];
-} forEach LRX_mod_list_west;
+} forEach (reverse LRX_mod_list_west);
 player createDiaryRecord ["LRX Template", ["LRX West Template", format ["Available West Factions (%1):<br/>", count LRX_mod_list_west]]];
 
 player createDiaryRecord ["LRX Template", ["LRX Template", format ["LRX Extended Mod Template"]]];
