@@ -142,13 +142,13 @@ R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
 
 R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +
 [
-	"B_HMG_01_F", 
-	"B_HMG_01_high_F",
-	"B_GMG_01_F",
-	"B_GMG_01_high_F",
-	"sfp_rbs97",
-	"sfp_rbs70",
-	"sfp_grk84"
+	["B_HMG_01_F", 5],
+	["B_HMG_01_high_F", 5],
+	["B_GMG_01_F", 5],
+	["B_GMG_01_high_F", 5],
+	["sfp_rbs97", 5],
+	["sfp_rbs70", 5],
+	["sfp_grk84", 5]
 ];
 
 R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
