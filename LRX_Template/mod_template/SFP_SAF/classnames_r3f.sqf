@@ -108,8 +108,8 @@ R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +
 
 R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
 [
-	["sfp_strb90", 10],
-	["sfp_strb90_rws", 10]
+	"sfp_strb90",
+	"sfp_strb90_rws"
 ];
 
 R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
