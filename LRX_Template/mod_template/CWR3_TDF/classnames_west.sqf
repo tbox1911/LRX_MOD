@@ -82,7 +82,7 @@ infantry_units_west = [
 	[pilot_classname,1,0,0,GRLIB_perm_log]
 ];
 
-units_loadout_overide = [];
+units_loadout_overide = ["cwr3_tdf_soldier_sapper"];
 
 // *** Tonali Defence Forces ***
 resistance_squad = [
