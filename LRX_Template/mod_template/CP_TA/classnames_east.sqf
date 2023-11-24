@@ -22,7 +22,9 @@ opfor_sniper = "CUP_O_TK_Sniper";
 opfor_spotter = "CUP_O_TK_Spotter";
 opfor_engineer = "CUP_O_TK_Engineer";
 opfor_pilot = "CUP_O_TK_Pilot";
+opfor_crew = "CUP_O_TK_Crew";
 opfor_paratrooper = "CUP_O_TK_SpecOps";
+opfor_mrap = "CUP_O_UAZ_Open_TKA";
 opfor_mrap_hmg = "CUP_O_UAZ_MG_TKA";
 opfor_mrap_gmg = "CUP_O_UAZ_SPG9_TKA";
 opfor_transport_helo = "CUP_O_MI6T_TKA";
@@ -80,7 +82,7 @@ militia_vehicles = [
 ];
 
 opfor_boats = [
-	"I_Boat_Armed_01_minigun_F"
+	"CUP_O_PBX_RU"
 ];
 
 opfor_vehicles = [
@@ -163,26 +165,28 @@ opfor_troup_transports_heli = [
 opfor_air = [
 	"CUP_O_Su25_Dyn_TKA",
 	"CUP_O_L39_TK",
-	"CUP_O_AN2_TK",
 	"CUP_O_MI6A_TKA",
 	"CUP_O_Mi24_D_Dynamic_TK"
 ];
 
 opfor_statics = [
-	"O_HMG_01_high_F",
-	"O_GMG_01_high_F",
-	"O_static_AA_F",
-	"O_static_AT_F",
-	"O_Mortar_01_F"
+"CUP_O_KORD_high_TK",
+"CUP_O_ZU23_TK",
+"CUP_O_2b14_82mm_TK",
+"CUP_O_KORD_TK",
+"CUP_O_Igla_AA_pod_TK",
+"CUP_O_AGS_TK"
 ];
 
 opfor_recyclable = [
-	["O_HMG_01_high_F",0,round (80 / GRLIB_recycling_percentage),0],
-	["O_GMG_01_high_F",0,round (80 / GRLIB_recycling_percentage),0],
-	["O_static_AA_F",0,round (80 / GRLIB_recycling_percentage),0],
-	["O_static_AT_F",0,round (80 / GRLIB_recycling_percentage),0],
-	["O_Mortar_01_F",0,round (300 / GRLIB_recycling_percentage),0],
+	["CUP_O_KORD_high_TK",1,round (150 / GRLIB_recycling_percentage),1],
+	["CUP_O_ZU23_TK",1,round (200 / GRLIB_recycling_percentage),1],
+	["CUP_O_2b14_82mm_TK",1,round (300 / GRLIB_recycling_percentage),1],
+	["CUP_O_KORD_TK",1,round (150 / GRLIB_recycling_percentage),1],
+	["CUP_O_Igla_AA_pod_TK",1,round (400 / GRLIB_recycling_percentage),1],
+	["CUP_O_AGS_TK",1,round (350 / GRLIB_recycling_percentage),1],
 	["CUP_O_MTLB_pk_TK_MILITIA",0,round (20 / GRLIB_recycling_percentage),5],
+	["CUP_O_PBX_RU",1,round (50 / GRLIB_recycling_percentage),1],
 	["CUP_O_V3S_Open_TKM",5,round (25 / GRLIB_recycling_percentage),5],
 	["CUP_O_V3S_Covered_TKM",5,round (28 / GRLIB_recycling_percentage),5],
 	["CUP_O_LR_MG_TKA",1,round (30 / GRLIB_recycling_percentage),2],
