@@ -27,7 +27,7 @@ if (isClass(configFile >> "CfgPatches" >> "Redd_Vehicles_Main")) then
 
 pilot_classname = "CUP_B_GER_HPilot";
 crewman_classname = "CUP_B_GER_BW_Fleck_Soldier";
-basic_weapon_typename = "CUP_LocalBasicWeaponsBox";
+A3W_BoxWps = "CUP_LocalBasicWeaponsBox";
 
 chimera_vehicle_overide = [
   ["B_Heli_Transport_01_F", "CUP_B_UH1D_GER_KSK"],
@@ -95,8 +95,13 @@ infantry_units_west = [
 units_loadout_overide = [
 	"CUP_B_BAF_Soldier_RiflemanAT_DDPM",
 	"CUP_B_BAF_Soldier_AA_DDPM",
-	"CUP_B_BAF_Soldier_AT_DDPM"
+	"CUP_B_BAF_Soldier_AT_DDPM",
+	"CUP_B_GER_Fleck_Soldier_Engineer",
+	"CUP_B_USMC_Engineer",
+	"CUP_B_BAF_Soldier_Engineer_DPM",
+	"CUP_B_CZ_Engineer_WDL"
 ];	
+
 
 light_vehicles = [
 	["CUP_O_TT650_TKA",1,5,1,0],
@@ -270,6 +275,15 @@ static_vehicles_AI = [
 support_vehicles_west = [
 ];
 
+
+if (isClass(configFile >> "CfgPatches" >> "Redd_Vehicles_Main")) then 
+{
+//  support_vehicles_west pushBack ["rnt_lkw_7t_mil_gl_kat_i_mun_fleck",5,150,5,GRLIB_perm_inf];
+//  support_vehicles_west pushBack ["rnt_lkw_5t_mil_gl_kat_i_fuel_fleck",5,150,15,GRLIB_perm_inf];
+//  support_vehicles_west pushBack ["rnt_lkw_10t_mil_gl_kat_i_repair_fleck",5,150,5,GRLIB_perm_inf];
+//  support_vehicles_west pushBack ["Redd_Tank_Fuchs_1A4_San_Flecktarn",5,150,5,GRLIB_perm_inf];
+
+};
 
 buildings_west = [
 	["Land_fort_bagfence_round",0,0,0,0],
