@@ -1,8 +1,16 @@
 waitUntil {sleep 1; alive player};
 player setVariable ["lrx_dog", nil, true];
 
+is_DogAllowed = {
+	private _ret = true;
+	if (!isNil "LRX_Dog_Allow") then {
+		if !((getPlayerUID player) in LRX_Dog_Allow) then { _ret = false };
+	};
+	_ret;
+};
+
 no_Dog = {
-	(isNil {player getVariable ["lrx_dog", nil]})
+	(call is_DogAllowed) && (isNil {player getVariable ["lrx_dog", nil]})
 };
 
 is_DogOnDuty = {

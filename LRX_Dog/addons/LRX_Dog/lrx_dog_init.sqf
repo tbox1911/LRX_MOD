@@ -3,7 +3,23 @@
 
 	Description:
 	Liberation RX - Dog Mod	v0.8
-	-add support for MFR_Dog
+	add support for MFR_Dog
+	add Whitelist
+*/
+
+/*
+Whitelist:
+  if there is a public variable named "LRX_Dog_Allow",
+  and the player steamID is in this list, then the player can use a dog.
+
+  if this variable don't exist all players can have a dog.
+
+  this can be done at any time in the game.
+
+how to use:
+  LRX_Dog_Allow = [(getPlayerUID player1), (getPlayerUID player2)];
+  publicVariable "LRX_Dog_Allow";
+
 */
 
 if (isMultiplayer) then { waitUntil {sleep 1; getClientStateNumber > 8 } };
