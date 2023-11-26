@@ -44,8 +44,8 @@ LRX_mod_list_west = [
 	"IFA_WEHRM",		// Z@Warrior IFA Wehrmacht
 	"ML700_IMPERIALS",
 	"NF_FINNISH",
-	"OPTRE",
 	"OPTRE_UNSC",
+	"OPTRE",
 	"PO_UAF",		// Z@Warrior Project Opfor Ukrainian Armed Forces
 	"R3F_WEST_D", 	// C0br4
 	"R3F_WEST_W", 	// C0br4
@@ -123,8 +123,8 @@ LRX_mod_list_east = [
 	"IRI_IRAN",
 	"ML700_IMPERIALS",
 	"NF_FINNISH",
-	"OPTRE",
 	"OPTRE_COV",
+	"OPTRE",
 	"PO_SA",		// Z@Warrior Project Opfor Sahrani Liberation Army
 	"PO_TA",		// Z@Warrior Project Opfor Takistani Armed Forces
 	"PO_UAF",		// Z@Warrior Project Opfor Ukrainian Armed Forces

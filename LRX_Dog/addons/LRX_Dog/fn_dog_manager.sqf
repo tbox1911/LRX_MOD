@@ -12,7 +12,7 @@ while { true } do {
 	};
 	
 	// If player have Dog
-	_my_dog = player getVariable ["my_dog", nil];
+	_my_dog = player getVariable ["lrx_dog", nil];
 	if (!isNil "_my_dog") then {
 		// Hide Dog
 		// managed by EventHandler

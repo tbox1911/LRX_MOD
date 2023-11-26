@@ -1,12 +1,12 @@
 waitUntil {sleep 1; alive player};
-player setVariable ["my_dog", nil, true];
+player setVariable ["lrx_dog", nil, true];
 
 no_Dog = {
-	(isNil {player getVariable ["my_dog", nil]})
+	(isNil {player getVariable ["lrx_dog", nil]})
 };
 
 is_DogOnDuty = {
-	private _my_dog = player getVariable ["my_dog", nil];
+	private _my_dog = player getVariable ["lrx_dog", nil];
     (!isNil {_my_dog getVariable ["do_find", nil]} || stopped _my_dog);
 };
 

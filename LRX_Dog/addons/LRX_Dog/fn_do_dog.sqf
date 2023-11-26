@@ -1,5 +1,5 @@
 private _cmd = (_this select 3);
-private _my_dog = player getVariable ["my_dog", nil];
+private _my_dog = player getVariable ["lrx_dog", nil];
 
 if (!isNil "_my_dog") then {
 
@@ -7,7 +7,7 @@ if (!isNil "_my_dog") then {
 		_msg = format [localize "STR_DISMISS_DOG"];
 		_result = [_msg, localize "STR_WARNING", true, true] call BIS_fnc_guiMessage;
 		if (_result) then {
-			player setVariable ["my_dog", nil, true];
+			player setVariable ["lrx_dog", nil, true];
 			_my_dog setDir (_my_dog getDir player);
 			[_my_dog, ["dog4.wss", 1]] spawn fn_dog_bark;
 			sleep 4;
