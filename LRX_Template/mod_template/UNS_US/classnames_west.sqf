@@ -30,7 +30,7 @@ GRLIB_sar_wreck = "vn_air_uh1d_med_wreck";
 canisterFuel = "Land_CanisterFuel_Red_F";
 basic_weapon_typename = "uns_HiddenAmmoBox";
 
-//repair_sling_typename = "B_Slingload_01_repair_F";
+//repair_sling_typename = "B_Slingload_01_Repair_F";
 //fuel_sling_typename = "B_Slingload_01_Fuel_F";
 //ammo_sling_typename = "B_Slingload_01_Ammo_F";
 //medic_sling_typename = "B_Slingload_01_Medevac_F";
