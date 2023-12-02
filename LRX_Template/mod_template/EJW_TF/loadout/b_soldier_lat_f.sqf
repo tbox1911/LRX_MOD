@@ -26,13 +26,9 @@ _unit addVest "V_PlateCarrierL_McamUS";
 _unit addWeapon "launch_MRAWS_green_F";
 _unit addSecondaryWeaponItem "MRAWS_HEAT_F";
 
+removeBackpack _unit;
 _unit addBackpack "Kitbag_Mcam";
-_backpack = unitBackpack _unit;
-clearItemCargo _backpack;
-clearWeaponCargo _backpack;
-clearMagazineCargo _backpack;
-clearItemCargo _backpack;
-
+clearAllItemsFromBackpack _unit;
 _unit addItemToBackpack "MRAWS_HEAT_F";
 _unit addItemToBackpack "MRAWS_HEAT_F";
 _unit addItemToBackpack "MRAWS_HE_F";

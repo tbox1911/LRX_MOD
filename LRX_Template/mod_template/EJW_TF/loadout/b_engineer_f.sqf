@@ -24,13 +24,9 @@ _unit addItemToUniform "SmokeShell";
 _unit addVest "V_PlateCarrierL_McamUS";
 _unit addItemToVest "MineDetector";
 
+removeBackpack _unit;
 _unit addBackpack "Kitbag_Mcam";
-_backpack = unitBackpack _unit;
-clearItemCargo _backpack;
-clearWeaponCargo _backpack;
-clearMagazineCargo _backpack;
-clearItemCargo _backpack;
-
+clearAllItemsFromBackpack _unit;
 _unit addItemToBackpack "ToolKit";
 
 _unit addHeadgear "H_HelmetB_light_TFB";

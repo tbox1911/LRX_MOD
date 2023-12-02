@@ -23,13 +23,9 @@ _unit addItemToUniform "SmokeShell";
 
 _unit addVest "V_PlateCarrierL_McamUS";
 
+removeBackpack _unit;
 _unit addBackpack "TFBlack_Medic_Bag";
-_backpack = unitBackpack _unit;
-clearItemCargo _backpack;
-clearWeaponCargo _backpack;
-clearMagazineCargo _backpack;
-clearItemCargo _backpack;
-
+clearAllItemsFromBackpack _unit;
 _unit addItemToBackpack "Medikit";
 
 _unit addHeadgear "H_HelmetB_light_TFB";

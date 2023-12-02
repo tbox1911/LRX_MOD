@@ -22,6 +22,7 @@ _unit addItemToUniform "SmokeShell";
 
 _unit addVest "V_PlateCarrierL_McamUS";
 _unit addItemToVest "MineDetector";
+removeBackpack _unit;
 _unit addBackpack "B_Parachute";
 _unit addHeadgear "H_PilotHelmetHeli_B";
 _unit addGoggles "ej_Oakleys";

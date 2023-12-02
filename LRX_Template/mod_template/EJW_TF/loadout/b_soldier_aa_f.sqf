@@ -26,13 +26,9 @@ _unit addVest "V_PlateCarrierL_McamUS";
 _unit addWeapon "launch_I_Titan_F";
 _unit addSecondaryWeaponItem "Titan_AA";
 
+removeBackpack _unit;
 _unit addBackpack "Kitbag_Mcam";
-_backpack = unitBackpack _unit;
-clearItemCargo _backpack;
-clearWeaponCargo _backpack;
-clearMagazineCargo _backpack;
-clearItemCargo _backpack;
-
+clearAllItemsFromBackpack _unit;
 _unit addItemToBackpack "Titan_AA";
 _unit addItemToBackpack "Titan_AA";
 

@@ -9,12 +9,10 @@ removeBackpack _unit;
 removeHeadgear _unit;
 removeGoggles _unit;
 
-
 _unit addWeapon "gm_akm_wud";
 _unit addPrimaryWeaponItem "gm_30Rnd_762x39mm_B_M43_ak47_blk";
 _unit addWeapon "launch_I_Titan_F";
 _unit addSecondaryWeaponItem "Titan_AA";
-
 
 _unit forceAddUniform "gm_pl_army_uniform_soldier_80_win";
 _unit addVest "gm_pl_army_vest_80_rifleman_gry";
