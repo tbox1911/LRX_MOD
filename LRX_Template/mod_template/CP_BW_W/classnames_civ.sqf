@@ -65,7 +65,6 @@ civilians = [
 "CUP_C_TK_Man_03_Jack",
 "CUP_C_TK_Man_03_Waist"
 ];
-
 civilian_vehicles = [
 "CUP_C_AN2_AEROSCHROT_TK_CIV",
 "CUP_C_AN2_AIRTAK_TK_CIV",
@@ -88,5 +87,51 @@ civilian_vehicles = [
 "CUP_C_Mi17_Civilian_RU",
 "CUP_C_AN2_AEROSCHROT_TK_CIV"
 ];
+};
 
+// If east= CUP AFRF
+if (["CP_AFRF", GRLIB_mod_east, true] call F_startsWith) then 
+{
+civilians = [
+"CUP_C_R_Bully_02",
+"CUP_C_R_Bully_01",
+"CUP_C_R_Bully_04",
+"CUP_C_R_Citizen_02",
+"CUP_C_R_Citizen_01",
+"CUP_C_R_Citizen_04",
+"CUP_C_R_Functionary_01",
+"CUP_C_R_Functionary_03",
+"CUP_C_R_Worker_05",
+"CUP_C_R_Mechanic_01",
+"CUP_C_R_Profiteer_02",
+"CUP_C_R_Profiteer_01",
+"CUP_C_R_Racketeer_04",
+"CUP_C_R_Rocker_02",
+"CUP_C_R_Schoolteacher_01",
+"CUP_C_R_Citizen_Random",
+"CUP_C_R_Villager_04",
+"CUP_C_R_Villager_03",
+"CUP_C_R_Woodlander_02",
+"CUP_C_R_Worker_03",
+"CUP_C_R_Worker_02",
+"CUP_C_R_Worker_01"
+];
+civilian_vehicles = [
+"CUP_C_TT650_RU",
+"CUP_C_Skoda_Green_CIV",
+"CUP_C_S1203_CIV_CR",
+"CUP_C_S1203_Militia_CIV",
+"CUP_C_Datsun_Plain",
+"CUP_C_Volha_CR_CIV",
+"CUP_O_Hilux_unarmed_CR_CIV",
+"CUP_C_Tractor_CIV",
+"CUP_C_Lada_CIV",
+"CUP_C_Lada_Red_CIV",
+"CUP_C_Lada_White_CIV",
+"CUP_C_AN2_CIV",
+"CUP_C_DC3_ChernAvia_CIV",
+"CUP_C_SA330_Puma_HC1_ChernAvia",
+"CUP_C_Ural_Civ_03",
+"CUP_C_Ural_Open_Civ_03"
+];
 };
