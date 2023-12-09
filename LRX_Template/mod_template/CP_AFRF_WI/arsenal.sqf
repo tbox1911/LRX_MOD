@@ -29,6 +29,8 @@ whitelisted_from_arsenal = [
 	"Bandage",
 	"HandGrenade",
 	"MiniGrenade",
+	"O_UavTerminal",
+	"SmokeShell",
 	//"Laserbatteries",
 	//"APERSMine_Range_Mag",
 	//"APERSBoundingMine_Range_Mag",
