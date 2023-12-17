@@ -78,8 +78,6 @@ infantry_units_west = [
 ];
 
 units_loadout_overide = [
-	"CUP_I_RACS_Medic",
-	"CUP_I_RACS_Engineer"
 ];
 
 light_vehicles = [
