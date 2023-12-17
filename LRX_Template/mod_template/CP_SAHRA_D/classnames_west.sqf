@@ -76,7 +76,10 @@ infantry_units_west = [
 	[crewman_classname,1,0,0,GRLIB_perm_inf],
 	[pilot_classname,1,0,0,GRLIB_perm_log]
 ];
+
 units_loadout_overide = [
+	"CUP_I_RACS_Medic",
+	"CUP_I_RACS_Engineer"
 ];
 
 light_vehicles = [
