@@ -139,6 +139,7 @@ static_vehicles = [
 	["rhs_Kornet_9M133_2_msv",0,50,0,GRLIB_perm_tank],
 	["RHS_ZU23_MSV",0,500,0,GRLIB_perm_air],
 	["RHS_M119_WD",10,600,0,GRLIB_perm_air],
+	["RHS_M252_WD",0,500,0,GRLIB_perm_air],
 	["RHS_BM21_MSV_01",10,2600,0,GRLIB_perm_max]
 ];
 

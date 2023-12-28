@@ -182,10 +182,11 @@ opfor_air = [
 
 opfor_statics = [
 	"RHS_M2StaticMG_WD",
-	"RHS_M2StaticMG_MiniTripod_WD",
+	"RHS_M2StaticMG_WD",	
 	"RHS_TOW_TriPod_WD",
 	"RHS_Stinger_AA_pod_WD",
-	"RHS_MK19_TriPod_WD"
+	"RHS_MK19_TriPod_WD",
+	"RHS_M252_WD"
 ];
 
 opfor_recyclable = [
@@ -196,7 +197,7 @@ opfor_recyclable = [
 	["RHS_TOW_TriPod_WD",0,round (80 / GRLIB_recycling_percentage),0],
 	["RHS_Stinger_AA_pod_WD",0,round (80 / GRLIB_recycling_percentage),0],
 	["RHS_MK19_TriPod_WD",0,round (80 / GRLIB_recycling_percentage),0],
-	["B_Mortar_01_F",0,round (200 / GRLIB_recycling_percentage),0],
+	["RHS_M252_WD",0,round (500 / GRLIB_recycling_percentage),0],
 	["rhsusf_m1151_m2crows_usarmy_wd",1,round (120 / GRLIB_recycling_percentage),2],
 	["rhsusf_m1151_mk19crows_usarmy_wd",1,round (130 / GRLIB_recycling_percentage),2],
 	["rhsusf_m1151_m2_lras3_v1_usarmy_wd",1,round (220 / GRLIB_recycling_percentage),2],

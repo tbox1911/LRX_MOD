@@ -145,8 +145,10 @@ opfor_air = [
 
 opfor_statics = [
 	"rhs_KORD_high_MSV",
+	"rhs_KORD_high_MSV",	
 	"rhs_Igla_AA_pod_msv",
 	"rhs_Metis_9k115_2_msv",
+	"RHS_M252_WD",
 	"RHS_ZU23_MSV"
 ];
 
@@ -157,7 +159,8 @@ opfor_recyclable = [
 	["rhs_KORD_high_MSV",0,round (80 / GRLIB_recycling_percentage),0],
 	["rhs_Igla_AA_pod_msv",0,round (180 / GRLIB_recycling_percentage),0],
 	["rhs_Metis_9k115_2_msv",0,round (180 / GRLIB_recycling_percentage),0],
-	["RHS_ZU23_MSV",0,round (300 / GRLIB_recycling_percentage),0],
+	["RHS_M252_WD",0,round (500 / GRLIB_recycling_percentage),0],
+	["RHS_ZU23_MSV",0,round (500 / GRLIB_recycling_percentage),0],
 	["rhs_tigr_msv",5,round (150 / GRLIB_recycling_percentage),5],
 	["rhs_tigr_sts_msv",5,round (350 / GRLIB_recycling_percentage),5],
 	["rhs_sprut_vdv",5,round (520 / GRLIB_recycling_percentage),5],
