@@ -46,19 +46,20 @@ LRX_mod_list_west = [
 	"NF_FINNISH",
 	"OPTRE_UNSC",
 	"OPTRE",
-	"PO_UAF",		// Z@Warrior Project Opfor Ukrainian Armed Forces
-	"R3F_WEST_D", 	// C0br4
-	"R3F_WEST_W", 	// C0br4
-	"RHS_AFRF",
-	"RHS_RACS",	// Z@Warrior RACS (Royal Army Corps Sahrani)
-	"RHS_SLA",	// Z@Warrior SLA (Sahrani Liberation Army)
+	"PO_UAF",			// Z@Warrior Project Opfor Ukrainian Armed Forces
+	"R3F_WEST_D", 		// C0br4
+	"R3F_WEST_W", 		// C0br4
 	"RHS_USAF",
+	"RHS_AFRF",
+	"RHS_RACS",			// Z@Warrior RACS (Royal Army Corps Sahrani)
+	"RHS_SLA",			// Z@Warrior SLA (Sahrani Liberation Army)
+	"RHS_UFP",			// Z@Warrior Ukrain Faction Project
 	"SAF2035",
 	"SFP_SAF",
 	"SOG_USA",
 	"SOG_VIETCONG",
-	"SPE_GER",		// Z@Warrior DLC Spearhead 1944
-	"SPE_US",		// Z@Warrior DLC Spearhead 1944
+	"SPE_GER",			// Z@Warrior DLC Spearhead 1944
+	"SPE_US",			// Z@Warrior DLC Spearhead 1944
 	"SW_TOR",	 		// DarkDemon
 	"TFM_MMSLI_W",		// Legend_TS13
 	"TFM_MSCA_D",		// Legend_TS13
@@ -66,10 +67,8 @@ LRX_mod_list_west = [
 	"TFM_MSLI_D",		// Legend_TS13
 	"TFM_SOG_CA",		// Legend_TS13
 	"TFM_SOG_LI",		// Legend_TS13
-	"UFP_BLU",			// Z@Warrior Ukrain Faction Project
-	"UFP_BLU",		// Z@Warrior Ukrainian Factions Project
-	"UNS_NVA",		// Z@Warrior Unsung
-	"UNS_US",		// Z@Warrior Unsung
+	"UNS_NVA",			// Z@Warrior Unsung
+	"UNS_US",			// Z@Warrior Unsung
 	"VME_CHINA",  		// DarkDemon
 	"VTF_KDF",
 	"WS_UNA"
@@ -88,17 +87,17 @@ LRX_mod_list_east = [
 	"CFP_B_ILIDF", 		// DarkDemon
 	"CFP_O_HAMAS", 		// DarkDemon
 	"CFP_O_HEZBOLLAH", 	// DarkDemon
-	"CFP_O_IQARMY", 		// DarkDemon
-	"CFP_O_NKARMY", 		// DarkDemon
+	"CFP_O_IQARMY", 	// DarkDemon
+	"CFP_O_NKARMY", 	// DarkDemon
 	"CFP_O_SYARMY", 	// DarkDemon
 	"CFP_SUDAN",
-	"CP_AFRF",	// Z@warrior
-	"CP_ION_WI",	// Z@Warrior
-	"CP_MAF",		// DarkDemon
-	"CP_SAHRA_D",	// Z@Warrior
+	"CP_AFRF",			// Z@warrior
+	"CP_ION_WI",		// Z@Warrior
+	"CP_MAF",			// DarkDemon
+	"CP_SAHRA_D",		// Z@Warrior
 	"CP_TA",
-	"CP_USMC_D",	// C0br4
-	"CP_USMC_W",	// C0br4
+	"CP_USMC_D",		// C0br4
+	"CP_USMC_W",		// C0br4
 	"CWR3_BAF",			// Z@Warrior Cold War Rearmed III - BAF
 	"CWR3_FIA",
 	"CWR3_SOV",			// Z@Warrior Cold War Rearmed III - SOVIET
@@ -125,15 +124,16 @@ LRX_mod_list_east = [
 	"NF_FINNISH",
 	"OPTRE_COV",
 	"OPTRE",
-	"PO_SA",		// Z@Warrior Project Opfor Sahrani Liberation Army
-	"PO_TA",		// Z@Warrior Project Opfor Takistani Armed Forces
-	"PO_UAF",		// Z@Warrior Project Opfor Ukrainian Armed Forces
-	"R3F_WEST_D", 	// C0br4
-	"R3F_WEST_W", 	// C0br4
-	"RHS_AFRF",
-	"RHS_RACS",	// Z@Warrior RACS (Royal Army Corps Sahrani)
-	"RHS_SLA",	// Z@Warrior SLA (Sahrani Liberation Army)²
+	"PO_SA",			// Z@Warrior Project Opfor Sahrani Liberation Army
+	"PO_TA",			// Z@Warrior Project Opfor Takistani Armed Forces
+	"PO_UAF",			// Z@Warrior Project Opfor Ukrainian Armed Forces
+	"R3F_WEST_D", 		// C0br4
+	"R3F_WEST_W", 		// C0br4
 	"RHS_USAF",
+	"RHS_AFRF",
+	"RHS_RACS",			// Z@Warrior RACS (Royal Army Corps Sahrani)
+	"RHS_SLA",			// Z@Warrior SLA (Sahrani Liberation Army)
+	"RHS_UFP",			// Z@Warrior Ukrain Faction Project	
 	"Ryan_ZD",			// DarkDemon
 	"SAF2035",
 	"SFP_SAF",
@@ -150,8 +150,6 @@ LRX_mod_list_east = [
 	"TFM_SOG_LI",		// Legend_TS13
 	"TIOW_CSP",
 	"TIOW_TAU",
-	"UFP_BLU",			// Z@Warrior Ukrain Faction Project
-	"UFP_BLU",			// Z@Warrior Ukrainian Factions Project
 	"UNS_NVA",			// Z@Warrior Unsung
 	"UNS_US",			// Z@Warrior Unsung
 	"VME_CHINA",  		// DarkDemon
@@ -225,6 +223,7 @@ LRX_mod_list_name = [
 	["RHS_RACS", "RHS RACS (Royal Army Corps Sahrani)"],
 	["RHS_SLA", "RHS SLA (Sahrani Liberation Army)"],
 	["RHS_USAF", "RHS US Armed Force"],
+	["RHS_UFP", "RHS UFP (Ukrainian Factions Project)"],
 	["Ryan_ZD", "Ryan Zombies and Demons"],
 	["SAF2035", "South African Armed Forces"],
 	["SFP_SAF", "Swedish armed Forces"],
@@ -241,8 +240,6 @@ LRX_mod_list_name = [
 	["TFM_SOG_LI", "SOG US for Light Infantry"],
 	["TIOW_CSP", "Chaos Space Marines"],
 	["TIOW_TAU", "Tau Alliance"],
-	["UFP_BLU", "RHS UFP (Ukrainian Factions Project)"],
-	["UFP_BLU", "Ukraine Forces (RHS)"],
 	["UNS_NVA", "Unsung NVA"],
 	["UNS_US", "Unsung USA"],
 	["VME_CHINA", "VME China Army"],
