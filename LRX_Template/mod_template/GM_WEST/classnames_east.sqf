@@ -150,8 +150,7 @@ opfor_air = [
 ];
 
 opfor_statics = [
-	"B_HMG_01_F",
-	"B_HMG_01_high_F",
+	"gm_ge_army_mg3_aatripod",
 	"gm_ge_army_mg3_aatripod",
 	"gm_ge_army_milan_launcher_tripod",
 	"B_Mortar_01_F"

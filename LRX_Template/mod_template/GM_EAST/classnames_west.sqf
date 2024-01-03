@@ -127,8 +127,6 @@ boats_west = [
 ];
 
 static_vehicles = [
-	["O_HMG_01_F",0,10,0,GRLIB_perm_inf],
-	["O_HMG_01_high_F",0,10,0,GRLIB_perm_log],
 	["gm_gc_army_dshkm_aatripod",0,15,0,GRLIB_perm_log],
 	["gm_gc_army_fagot_launcher_tripod",0,75,0,GRLIB_perm_tank],
 	["gm_gc_army_spg9_tripod",0,50,0,GRLIB_perm_tank],
@@ -261,5 +259,4 @@ GRLIB_AirDrop_5 = [
 ];
 
 GRLIB_AirDrop_6 = [
-	"O_Boat_Armed_01_hmg_F"
 ];
