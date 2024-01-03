@@ -68,8 +68,8 @@ resistance_squad = [
 
 light_vehicles = [
 	// boat
-	["I_Boat_Transport_01_F",1,25,1,0],
-	["I_Boat_Armed_01_minigun_F",3,125,3,GRLIB_perm_log],
+	["O_Boat_Transport_01_F",1,25,1,0],
+	["O_Boat_Armed_01_hmg_F",3,125,3,GRLIB_perm_log],
 	// lvl 0
 	["gm_gc_army_bicycle_01_oli",0,5,0,0],
 	["gm_gc_army_p601",1,10,1,0],
@@ -121,13 +121,12 @@ blufor_air = [
 ];
 
 boats_west = [
-	"I_Boat_Transport_01_F",
-	"I_Boat_Armed_01_minigun_F"
+	"O_Boat_Transport_01_F",
+	"O_Boat_Armed_01_hmg_F"
 ];
 
 static_vehicles = [
-	["O_HMG_01_F",0,10,0,GRLIB_perm_inf],
-	["O_HMG_01_high_F",0,10,0,GRLIB_perm_log],
+	["gm_gc_army_dshkm_aatripod",0,15,0,GRLIB_perm_log],	
 	["gm_gc_army_dshkm_aatripod",0,15,0,GRLIB_perm_log],
 	["gm_gc_army_fagot_launcher_tripod",0,75,0,GRLIB_perm_tank],
 	["gm_gc_army_spg9_tripod",0,50,0,GRLIB_perm_tank],
@@ -260,5 +259,5 @@ GRLIB_AirDrop_5 = [
 ];
 
 GRLIB_AirDrop_6 = [
-	"I_Boat_Armed_01_minigun_F"
+	"O_Boat_Armed_01_hmg_F"
 ];

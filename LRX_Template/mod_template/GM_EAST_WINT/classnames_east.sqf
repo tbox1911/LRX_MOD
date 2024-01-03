@@ -64,7 +64,7 @@ militia_vehicles = [
 ];
 
 opfor_boats = [
-	"I_Boat_Armed_01_minigun_F"
+	"O_Boat_Armed_01_hmg_F"
 ];
 
 opfor_vehicles = [
@@ -136,8 +136,7 @@ opfor_air = [
 ];
 
 opfor_statics = [
-	"O_HMG_01_F",
-	"O_HMG_01_high_F",
+	"gm_gc_army_dshkm_aatripod",
 	"gm_gc_army_dshkm_aatripod",
 	"gm_gc_army_fagot_launcher_tripod",
 	"gm_gc_army_spg9_tripod",
@@ -151,7 +150,7 @@ opfor_recyclable = [
 	["gm_gc_army_dshkm_aatripod",0,round (7 / GRLIB_recycling_percentage),0],
 	["gm_gc_army_spg9_tripod",0,round (25 / GRLIB_recycling_percentage),0],
 	// boat
-	["I_Boat_Armed_01_minigun_F",3,round (65 / GRLIB_recycling_percentage),3],
+	["O_Boat_Armed_01_hmg_F",3,round (65 / GRLIB_recycling_percentage),3],
 	// ground
 	["gm_gc_army_uaz469_cargo",1,round (10 / GRLIB_recycling_percentage),1],
 	["gm_gc_army_uaz469_dshkm",2,round (25 / GRLIB_recycling_percentage),2],

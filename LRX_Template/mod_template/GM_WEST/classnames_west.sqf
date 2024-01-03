@@ -130,16 +130,13 @@ blufor_air = [
 
 boats_west = [
   	"B_Boat_Transport_01_F",
-	"B_Boat_Armed_01_minigun_F",
-	"B_T_Boat_Armed_01_minigun_F"
+	"B_Boat_Armed_01_minigun_F"
 ];
 
 static_vehicles = [
-	["B_HMG_01_F",0,10,0,GRLIB_perm_inf],
-	["B_HMG_01_high_F",0,10,0,GRLIB_perm_log],
-	["gm_ge_army_mg3_aatripod",0,50,0,GRLIB_perm_tank],
-	["gm_ge_army_milan_launcher_tripod",0,50,0,GRLIB_perm_tank],
-	["B_Mortar_01_F",0,500,0,GRLIB_perm_max]
+	["gm_ge_army_mg3_aatripod",0,50,0,GRLIB_perm_log],
+	["gm_ge_army_milan_launcher_tripod",0,50,0,GRLIB_perm_log],
+	["B_Mortar_01_F",0,500,0,GRLIB_perm_tank]
 ];
 
 // *** Static Weapon with AI ***

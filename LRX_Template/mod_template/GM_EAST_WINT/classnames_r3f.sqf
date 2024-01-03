@@ -236,8 +236,8 @@ R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
 
 R3F_LOG_CFG_can_transport_cargo = R3F_LOG_CFG_can_transport_cargo +
 [
-	["I_Boat_Transport_01_F", 15],
-	["I_Boat_Armed_01_minigun_F", 30]
+	["O_Boat_Transport_01_F", 15],
+	["O_Boat_Armed_01_hmg_F", 30]
 ];
 
 R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +
@@ -246,20 +246,20 @@ R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +
 
 R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
 [
-	"I_Boat_Transport_01_F",
-	"I_Boat_Armed_01_minigun_F"
+	"O_Boat_Transport_01_F",
+	"O_Boat_Armed_01_hmg_F"
 ];
 
 R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
 [
-	"I_Boat_Transport_01_F",
-	"I_Boat_Armed_01_minigun_F"
+	"O_Boat_Transport_01_F",
+	"O_Boat_Armed_01_hmg_F"
 ];
 
 R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed +
 [
-	"I_Boat_Transport_01_F",
-	"I_Boat_Armed_01_minigun_F"
+	"O_Boat_Transport_01_F",
+	"O_Boat_Armed_01_hmg_F"
 ];
 
 //--------------- Building ---------------

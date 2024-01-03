@@ -68,14 +68,13 @@ resistance_squad = [
 
 light_vehicles = [
 	// boat
-	["I_Boat_Transport_01_F",1,25,1,0],
-	["I_Boat_Armed_01_minigun_F",3,125,3,GRLIB_perm_log],
+	["B_Boat_Transport_01_F",1,25,1,0],
+	["B_Boat_Armed_01_minigun_F",3,125,3,GRLIB_perm_log],
 	// lvl 0
 	["gm_ge_army_k125",0,5,0,0],
 	["gm_ge_army_typ1200_cargo",1,10,1,0],
 	["gm_ge_army_iltis_cargo",1,20,1,0],
 	["gm_ge_civ_u1300l",2,40,5,0],
-
 	// lvl 1
 	["gm_ge_army_iltis_mg3",2,50,2,GRLIB_perm_inf],
 	["gm_ge_army_kat1_451_container",1,90,1,GRLIB_perm_inf],
@@ -129,16 +128,14 @@ blufor_air = [
 ];
 
 boats_west = [
-	"I_Boat_Transport_01_F",
-	"I_Boat_Armed_01_minigun_F"
+  	"B_Boat_Transport_01_F",
+	"B_Boat_Armed_01_minigun_F"
 ];
 
 static_vehicles = [
-	["B_HMG_01_F",0,10,0,GRLIB_perm_inf],
-	["B_HMG_01_high_F",0,10,0,GRLIB_perm_log],
-	["gm_ge_army_mg3_aatripod",0,50,0,GRLIB_perm_tank],
-	["gm_ge_army_milan_launcher_tripod",0,50,0,GRLIB_perm_tank],
-	["B_Mortar_01_F",0,500,0,GRLIB_perm_max]
+	["gm_ge_army_mg3_aatripod",0,50,0,GRLIB_perm_log],
+	["gm_ge_army_milan_launcher_tripod",0,50,0,GRLIB_perm_log],
+	["B_Mortar_01_F",0,500,0,GRLIB_perm_tank]
 ];
 
 // *** Static Weapon with AI ***
@@ -267,5 +264,5 @@ GRLIB_AirDrop_5 = [
 ];
 
 GRLIB_AirDrop_6 = [
-	"I_Boat_Armed_01_minigun_F"
+	"B_Boat_Armed_01_minigun_F"
 ];
