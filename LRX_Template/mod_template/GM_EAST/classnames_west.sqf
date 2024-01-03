@@ -259,5 +259,4 @@ GRLIB_AirDrop_5 = [
 ];
 
 GRLIB_AirDrop_6 = [
-	"O_Boat_Armed_01_hmg_F"
 ];
