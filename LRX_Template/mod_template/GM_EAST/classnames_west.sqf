@@ -65,6 +65,7 @@ resistance_squad = [
 	"gm_gc_army_sf_rifleman_mpikms72_80_str",
 	"gm_gc_army_sf_marksman_svd_80_str"
 ];
+resistance_squad_static = "gm_gc_army_dshkm_aatripod";
 
 light_vehicles = [
 	// boat
