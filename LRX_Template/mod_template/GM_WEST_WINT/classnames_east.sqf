@@ -78,6 +78,16 @@ militia_vehicles = [
 	"gm_ge_army_iltis_milan"
 ];
 
+guard_squad = [
+	"gm_ge_bgs_squadleader_mp5a2_p2a1_80_smp",
+	"gm_ge_bgs_machinegunner_mg3_80_smp",
+	"gm_ge_bgs_machinegunner_g8a1_80_smp",
+	"gm_ge_bgs_rifleman_mp5a2_80_smp",
+	"gm_ge_bgs_crew_80_grn"	
+];
+
+vip_vehicle = "gm_ge_army_w123_cargo";
+
 opfor_boats = [
 	"B_Boat_Armed_01_minigun_F"
 ];
