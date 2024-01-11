@@ -19,6 +19,7 @@ ammo_sling_typename = "gm_ge_army_shelteraceII_reammo";
 medic_sling_typename = "gm_ge_army_shelteraceII_medic";
 pilot_classname = "gm_ge_army_pilot_p1_80_oli";
 crewman_classname = "gm_ge_army_crew_mp2a1_80_oli";
+commander_classname = "gm_ge_army_officer_p1_90_win";
 PAR_Medikit = "gm_ge_army_medkit_80";
 PAR_AidKit = "gm_ge_army_burnBandage";
 basic_weapon_typename = "gm_pl_army_ammobox_allmagazines_80";
