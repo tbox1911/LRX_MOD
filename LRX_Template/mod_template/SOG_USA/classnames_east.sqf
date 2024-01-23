@@ -80,7 +80,7 @@ guard_squad = [
 
 guard_loadout_overide = [];
 
-vip_vehicle = "vn_b_wheeled_lr2a_02_aus_army";
+a3w_vip_vehicle = "vn_b_wheeled_lr2a_02_aus_army";
 
 opfor_boats = [
 	"vn_o_boat_02_mg_02",
