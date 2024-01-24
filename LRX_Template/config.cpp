@@ -6,6 +6,7 @@ class CfgPatches
 		name = "Liberation RX Template Pack";
 		author = "pSiKO";
 		url = "https://forums.bohemia.net/forums/topic/217186-release-liberation-rx/";
+		version = 2;
 		weapons[] = {};
 		units[] = {};
 	};		
