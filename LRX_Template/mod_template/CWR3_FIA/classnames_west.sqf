@@ -1,5 +1,5 @@
 // *** FRIENDLIES ***
-GRLIB_side_friendly = INDEPENDENT;
+GRLIB_side_friendly = WEST;
 GRLIB_east_modder = "Z@Warrior";
 
 /*

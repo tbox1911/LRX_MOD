@@ -1,5 +1,5 @@
 // *** FRIENDLIES ***
-GRLIB_side_friendly = INDEPENDENT;
+GRLIB_side_friendly = WEST;
 GRLIB_west_modder = "Z@Warrior";
 
 // CUP Royal Army Corps od Sahrani (Desert)
