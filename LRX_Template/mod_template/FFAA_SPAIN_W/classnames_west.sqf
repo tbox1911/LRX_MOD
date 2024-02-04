@@ -217,7 +217,7 @@ squads = [
 ];
 
 // All the UAVs must be declared here
-uavs = [
+uavs_west = [
 	"ffaa_raven",
 	"ffaa_et_searcherIII",
 	"ffaa_ea_reaper",

@@ -197,7 +197,7 @@ squads = [
 ];
 
 // All the UAVs must be declared here
-uavs = [
+uavs_west = [
 	"R3F_DLO"
 ];
 

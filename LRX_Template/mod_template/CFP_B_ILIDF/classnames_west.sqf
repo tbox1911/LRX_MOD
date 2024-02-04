@@ -167,7 +167,7 @@ squads = [
 ];
 
 // All the UAVs must be declared here
-uavs = [
+uavs_west = [
 	"CFP_B_ILIDF_MQ_9Reaper_01"
 ];
 

@@ -186,7 +186,7 @@ squads = [
 ];
 
 // All the UAVs must be declared here
-uavs = [
+uavs_west = [
 	"JLTS_UAV_prowler_cis",
 	"3as_CIS_ScavDroid",
 	"B_DBA_DwarfProbeDroidCISOOM_F",

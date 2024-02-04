@@ -263,7 +263,7 @@ squads = [
 ];
 
 // All the UAVs must be declared here
-uavs = [
+uavs_west = [
 	"b_afousf_uav_bdzhmil",
 	"b_afousf_uav_hrusch",
 	"b_afousf_uav_peacekeeper"

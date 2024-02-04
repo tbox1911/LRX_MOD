@@ -226,7 +226,7 @@ squads = [
 // bis hier her
 
 // All the UAVs must be declared here
-uavs = [
+uavs_west = [
 	"rhs_pchela1t_vvsc"
 ];
 

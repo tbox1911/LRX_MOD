@@ -189,7 +189,7 @@ squads = [
 ];
 
 // All the UAVs must be declared here
-uavs = [
+uavs_west = [
 	"SAF2035_A_Utility",
 	"SANDF_A_Peltor",
 	"SANDF_A_Roller",

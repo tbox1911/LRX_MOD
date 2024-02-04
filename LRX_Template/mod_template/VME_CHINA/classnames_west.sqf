@@ -301,7 +301,7 @@ squads = [
 ];
 
 // All the UAVs must be declared here
-uavs = [
+uavs_west = [
 	"PLA_UAV_01",
 	"vme_CH3",
 	"vme_CH7",

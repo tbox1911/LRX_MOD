@@ -172,7 +172,7 @@ squads = [
 ];
 
 // All the UAVs must be declared here
-uavs = [
+uavs_west = [
 	"sfp_uav01",
 	"sfp_uav03"
 ];

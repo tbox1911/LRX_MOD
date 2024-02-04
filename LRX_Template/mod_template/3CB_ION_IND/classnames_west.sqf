@@ -235,7 +235,7 @@ squads = [
 ];
 
 // All the UAVs must be declared here
-uavs = [];
+uavs_west = [];
 
 // Everything the AI troups should be able to resupply from
 ai_resupply_sources_west = [

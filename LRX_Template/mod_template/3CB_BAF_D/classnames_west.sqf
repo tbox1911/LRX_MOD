@@ -241,7 +241,7 @@ squads = [
 ];
 
 // All the UAVs must be declared here
-uavs = [
+uavs_west = [
 	"UK3CB_BAF_MQ9_Reaper_MTP",
 	"UK3CB_BAF_LandRover_Panama_Sand_A_DDPM"
 ];

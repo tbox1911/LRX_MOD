@@ -180,7 +180,7 @@ squads = [
 ];
 
 // All the UAVs must be declared here
-uavs = [
+uavs_west = [
 	"TIOW_Tau_Gun_Drone2_DY",
 	"TIOW_Tau_Marker_Drone_DY",
 	"TIOW_Tau_Missile_Drone_DY",

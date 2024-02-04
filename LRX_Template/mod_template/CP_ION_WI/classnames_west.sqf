@@ -191,7 +191,7 @@ squads = [
 ];
 
 // All the UAVs must be declared here
-uavs = [
+uavs_west = [
 	"I_UAV_01_F",
 	"I_UAV_02_dynamicLoadout_F",
 	"I_T_UAV_03_dynamicLoadout_F",
