@@ -26,7 +26,7 @@ SELL_Man = "uns_civilian3_b1";	//"C_Story_Mechanic_01_F";
 Radio_tower = "Antenna";
 waterbarrel_typename = "Land_WaterBottle_01_stack_F";
 foodbarrel_typename = "Land_FoodSacks_01_large_brown_idap_F";
-GRLIB_sar_wreck = "vn_air_uh1d_med_wreck";
+GRLIB_sar_wreck = "uns_ah1g_Wreck";
 canisterFuel = "Land_CanisterFuel_Red_F";
 basic_weapon_typename = "uns_HiddenAmmoBox";
 
