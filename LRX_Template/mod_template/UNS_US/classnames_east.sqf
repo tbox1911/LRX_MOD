@@ -6,7 +6,7 @@ GRLIB_east_modder = "Z@Warrior";
 // Unsung Men (US 1st Infantery Division'65)
 
 opfor_sentry = "uns_US_1ID_RF6";
-opfor_rifleman = "uns_US_1ID_RF1";
+opfor_rifleman = "uns_US_1ID_RF3";
 opfor_grenadier = "uns_US_1ID_GL";
 opfor_squad_leader = "uns_US_1ID_PL";
 opfor_team_leader = "uns_US_1ID_COM";

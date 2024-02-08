@@ -50,7 +50,7 @@ chimera_vehicle_overide = [
 infantry_units_west = [
 	["Alsatian_Random_F",0,0,0,GRLIB_perm_max],
 	["Fin_random_F",0,0,0,0],
-	["uns_US_1ID_RF1",1,0,0,0],
+	["uns_US_1ID_RF3",1,0,0,0],
 	["uns_US_1ID_MED",1,0,0,0],
 	["uns_US_1ID_ENG",1,0,0,0],
 	["uns_US_1ID_GL",1,0,0,GRLIB_perm_inf],
@@ -201,7 +201,7 @@ buildings_west = [
 
 blufor_squad_inf_light = [
 	"uns_US_1ID_PL",
-	"uns_US_1ID_RF1",
+	"uns_US_1ID_RF3",
 	"uns_US_1ID_RF3",
 	"uns_US_1ID_TRI",
 	"uns_US_1ID_MED"
@@ -210,7 +210,7 @@ blufor_squad_inf_light = [
 
 blufor_squad_inf = [
 	"uns_US_1ID_PL",
-	"uns_US_1ID_RF1",
+	"uns_US_1ID_RF3",
 	"uns_US_1ID_TRI",
 	"uns_US_1ID_MED",
 	//"uns_US_1ID_GL"
@@ -221,7 +221,7 @@ blufor_squad_inf = [
 
 blufor_squad_at = [
 	"uns_US_1ID_PL",
-	"uns_US_1ID_RF1",
+	"uns_US_1ID_RF3",
 	"uns_US_1ID_MED",
 	"uns_US_1ID_HMG",
 	"uns_US_1ID_AT",
@@ -231,7 +231,7 @@ blufor_squad_at = [
 
 blufor_squad_aa = [
 	"uns_US_1ID_PL",
-	"uns_US_1ID_RF1",
+	"uns_US_1ID_RF3",
 	"uns_US_1ID_MED",
 	"uns_US_1ID_AT",
 	"uns_US_1ID_MRK2",
@@ -241,7 +241,7 @@ blufor_squad_aa = [
 
 blufor_squad_mix = [
 	"uns_US_1ID_PL",
-	"uns_US_1ID_RF1",
+	"uns_US_1ID_RF3",
 	"uns_US_1ID_MED",
 	"uns_US_1ID_HMG",
 	"uns_US_1ID_AT",
