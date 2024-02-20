@@ -65,9 +65,7 @@ militia_squad = [
 	"uns_men_VC_regional_MRK"
 ];
 
-militia_loadout_overide = [
-
-];
+militia_loadout_overide = [];
 
 divers_squad = [
 	"O_diver_F",
