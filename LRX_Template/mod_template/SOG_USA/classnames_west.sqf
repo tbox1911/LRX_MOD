@@ -32,6 +32,7 @@ waterbarrel_typename = "Land_WaterBottle_01_stack_F";
 fuelbarrel_typename = "Land_MetalBarrel_F";
 foodbarrel_typename = "Land_FoodSacks_01_large_brown_idap_F";
 basic_weapon_typename = "Land_vn_pavn_weapons_stack1";
+commander_classname = "vn_b_men_army_28";
 chimera_vehicle_overide = [
   ["B_Heli_Light_01_F",  "vn_b_air_oh6a_01"],
   ["B_Heli_Transport_01_F", "vn_b_air_uh1d_02_04"]
