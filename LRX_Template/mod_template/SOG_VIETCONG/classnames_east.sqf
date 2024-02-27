@@ -89,8 +89,8 @@ opfor_vehicles = [
 	"vn_o_armor_pt76a_01_nva65",
 	"vn_o_armor_pt76b_01_nva65",	
 	"vn_o_wheeled_btr40_mg_01_nva65",
-	"vn_o_wheeled_btr40_mg_02_nva65",
 	"vn_o_armor_btr50pk_02_nva65",
+	"vn_o_armor_btr50pk_02_nva65",	
 	"vn_o_wheeled_z157_mg_02_nva65"
 ];
 
@@ -99,8 +99,11 @@ opfor_vehicles_low_intensity = [
 	"vn_o_armor_pt76b_01_nva65",	
 	"vn_o_wheeled_btr40_mg_02_nva65",
 	"vn_o_wheeled_btr40_mg_01_nva65",
+	"vn_o_armor_btr50pk_02_nva65",
 	"vn_o_wheeled_z157_mg_01_nva65",
-	"vn_o_wheeled_z157_mg_02_nva65"
+	"vn_o_wheeled_z157_mg_02_nva65",
+	"vn_o_armor_m113_acav_03",
+	"vn_o_armor_m113_acav_01"	
 ];
 
 opfor_battlegroup_vehicles = [
@@ -147,15 +150,26 @@ opfor_troup_transports_heli = [
 
 opfor_air = [
 	"vn_o_air_mi2_03_04",
+	"vn_o_air_mi2_03_04",
 	"vn_o_air_mi2_05_02",
 	"vn_o_air_mi2_05_06",
 	"vn_o_air_mi2_04_02",
 	"vn_o_air_mig19_at",
 	"vn_o_air_mig19_bmb",
 	"vn_o_air_mig19_gun",
+	"vn_o_air_mig19_cap",
+	"vn_o_air_mig19_cas",
+	"vn_o_air_mig19_hbmb",
+	"vn_o_air_mig19_mr",
 	"vn_o_air_mig21_at",
+	"vn_o_air_mig21_atgm",
+	"vn_o_air_mig21_bmb",
+	"vn_o_air_mig21_gun",
+	"vn_o_air_mig21_cap",
+	"vn_o_air_mig21_cas",
+	"vn_o_air_mig21_hbmb",
 	"vn_o_air_mig21_hcas",
-	"vn_o_air_mig21_gun"
+	"vn_o_air_mig21_mr"
 ];
 
 opfor_statics = [
@@ -200,6 +214,8 @@ opfor_recyclable = [
 	["vn_o_wheeled_btr40_mg_02_nva65",4,round (150 / GRLIB_recycling_percentage),10],
 	["vn_o_wheeled_btr40_mg_01_nva65",4,round (175 / GRLIB_recycling_percentage),10],
 	["vn_o_armor_btr50pk_02_nva65",4,round (275 / GRLIB_recycling_percentage),10],
+	["vn_o_armor_m113_acav_03",4,round (375 / GRLIB_recycling_percentage),10],
+	["vn_o_armor_m113_acav_01",4,round (375 / GRLIB_recycling_percentage),10],
 	["vn_o_armor_pt76a_01_nva65",10,round (550 / GRLIB_recycling_percentage),25],
 	["vn_o_armor_pt76b_01_nva65",10,round (550 / GRLIB_recycling_percentage),25],
 	["vn_o_armor_t54b_01_nva65",10,round (1150 / GRLIB_recycling_percentage),25],
