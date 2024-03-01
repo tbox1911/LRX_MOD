@@ -8,15 +8,12 @@ blacklisted_weapon = [
 ];
 
 whitelisted_from_arsenal = [
-	//"FirstAidKit",
-	//"Medikit",
+	"OPTRE_Biofoam",
   	"OPTRE_MedKit",
   	"OPTRE_Medigel",
 	"ToolKit",
 	"MineDetector",
-	//"Binocular",
 	"OPTRE_Binoculars",
-	//"Rangefinder",
 	"OPTRE_Smartfinder",
 	"ItemCompass",
 	"ItemGPS",
