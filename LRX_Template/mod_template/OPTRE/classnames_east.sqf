@@ -146,6 +146,10 @@ opfor_texture_overide = [
 ];
 
 opfor_recyclable = [
+	["OPTRE_Static_M41",0,round (100 / GRLIB_recycling_percentage),0],
+	["OPTRE_Static_ATGM_Ins",0,round (100 / GRLIB_recycling_percentage),0],
+	["OPTRE_Static_AA_Ins", 0,round (150 / GRLIB_recycling_percentage),0],
+	["OPTRE_Static_Gauss", 0,round (150 / GRLIB_recycling_percentage),0],
 	["OPTRE_M12_FAV_ins",0,round (100 / GRLIB_recycling_percentage),0],
 	["OPTRE_M12_FAV_APC",0,round (150 / GRLIB_recycling_percentage),0],
 	["OPTRE_M12_LRV_ins",0,round (150 / GRLIB_recycling_percentage),0],

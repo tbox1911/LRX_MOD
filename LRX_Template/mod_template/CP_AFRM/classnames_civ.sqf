@@ -1,0 +1,30 @@
+// *** CIVILIAN ***
+
+civilians = [
+	"C_CUPAFRCIV_Civ_1_01",
+	"C_CUPAFRCIV_Civ_10_01",
+	"C_CUPAFRCIV_Civ_11_01",
+	"C_CUPAFRCIV_Civ_12_01",
+	"C_CUPAFRCIV_Civ_13_01",
+	"C_CUPAFRCIV_Civ_14_01",
+	"C_CUPAFRCIV_Civ_2_01",
+	"C_CUPAFRCIV_Civ_3_01",
+	"C_CUPAFRCIV_Civ_4_01",
+	"C_CUPAFRCIV_Civ_5_01",
+	"C_CUPAFRCIV_Civ_6_01",
+	"C_CUPAFRCIV_Civ_7_01",
+	"C_CUPAFRCIV_Civ_8_01",
+	"C_CUPAFRCIV_Civ_9_01"
+];
+
+civilian_vehicles = [
+	"C_CUPAFRCIV_Golf_01",
+	"C_CUPAFRCIV_Ikarus_01",
+	"C_CUPAFRCIV_Land_Rover_01",
+	"C_CUPAFRCIV_Pickup_Old_01",
+	"C_CUPAFRCIV_Skoda_01",
+	"C_CUPAFRCIV_SUV_01",
+	"C_CUPAFRCIV_SUV_2_01",
+	"C_CUPAFRCIV_Truck_Boxer_01",
+	"C_CUPAFRCIV_Zamak_01"
+];
