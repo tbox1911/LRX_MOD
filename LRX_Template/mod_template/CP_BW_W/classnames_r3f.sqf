@@ -113,11 +113,11 @@ R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
 
 R3F_LOG_CFG_can_tow = R3F_LOG_CFG_can_tow +
 [
-"CUP_B_M113A3_GER",
-"CUP_B_M113A3_Repair_GER",
-"CUP_B_MTVR_Refuel_HIL",
-"CUP_B_M113A3_Reammo_GER",
-"CUP_B_M113A3_Med_GER",
+	"CUP_B_M113A3_GER",
+	"CUP_B_M113A3_Repair_GER",
+	"CUP_B_MTVR_Refuel_HIL",
+	"CUP_B_M113A3_Reammo_GER",
+	"CUP_B_M113A3_Med_GER",
 	"CUP_O_TT650_TKA",
 	"CUP_B_M1030_USMC",
 	"B_Boat_Transport_01_F",
@@ -170,11 +170,11 @@ R3F_LOG_CFG_can_tow = R3F_LOG_CFG_can_tow +
 
 R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed +
 [
-"CUP_B_M113A3_GER",
-"CUP_B_M113A3_Repair_GER",
-"CUP_B_MTVR_Refuel_HIL",
-"CUP_B_M113A3_Reammo_GER",
-"CUP_B_M113A3_Med_GER",
+	"CUP_B_M113A3_GER",
+	"CUP_B_M113A3_Repair_GER",
+	"CUP_B_MTVR_Refuel_HIL",
+	"CUP_B_M113A3_Reammo_GER",
+	"CUP_B_M113A3_Med_GER",
 	"CUP_O_TT650_TKA",
 	"CUP_B_M1030_USMC",
 	"B_Boat_Transport_01_F",
@@ -232,11 +232,11 @@ R3F_LOG_CFG_can_lift = R3F_LOG_CFG_can_lift +
 
 R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
 [
-"CUP_B_M113A3_GER",
-"CUP_B_M113A3_Repair_GER",
-"CUP_B_MTVR_Refuel_HIL",
-"CUP_B_M113A3_Reammo_GER",
-"CUP_B_M113A3_Med_GER",
+	"CUP_B_M113A3_GER",
+	"CUP_B_M113A3_Repair_GER",
+	"CUP_B_MTVR_Refuel_HIL",
+	"CUP_B_M113A3_Reammo_GER",
+	"CUP_B_M113A3_Med_GER",
 	"CUP_O_TT650_TKA",
 	"CUP_B_M1030_USMC",
 	"B_Boat_Transport_01_F",
@@ -294,13 +294,11 @@ R3F_LOG_CFG_can_transport_cargo = R3F_LOG_CFG_can_transport_cargo +
 	["CUP_B_M1030_USMC", 050],
 	["CUP_B_MK10_GB", 050],
 	["CUP_B_T810_Unarmed_CZ_WDL", 100],
-
 	["CUP_B_M113A3_GER", 100],
 	["CUP_B_M113A3_Repair_GER", 100],
 	["CUP_B_MTVR_Refuel_HIL", 100],
 	["CUP_B_M113A3_Reammo_GER", 100],
 	["CUP_B_M113A3_Med_GER", 100],
-
 	["CUP_B_T810_Armed_CZ_WDL", 100],
 	["CUP_B_MTVR_BAF_WOOD", 100],
 	["CUP_B_LR_Transport_GB_W", 150],
@@ -455,16 +453,14 @@ R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
 "Land_ConcreteKerb_01_4m_F",
 "Land_Mil_WallBig_4m_battered_F",
 "Land_Mil_WallBig_corner_battered_F",
-
 "Flag_NATO_F"
 ];
 
 R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
 [
-	"StorageBladder_01_fuel_forest_F",
-	Arsenal_typename
-
+	"StorageBladder_01_fuel_forest_F"
 ];
+
 //--------------- Static ---------------
 
 R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +
@@ -521,7 +517,7 @@ R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +
 // Additional from Mod - - - - - - - - Redd'n Tank Vehicles - - - - - - - -
 // Additional from Mod - - - - - - - - Redd'n Tank Vehicles - - - - - - - -
 
-if (isClass(configFile >> "CfgPatches" >> "Redd_Vehicles_Main")) then 
+if (isClass(configFile >> "CfgPatches" >> "Redd_Vehicles_Main")) then
 {
   R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed + ["Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_FueFu"];
   R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed + ["Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_FJg"];
