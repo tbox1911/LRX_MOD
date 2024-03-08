@@ -276,5 +276,9 @@ reverse _list;
 	player createDiaryRecord ["LRX Template", ["Template West", _name]];
 } forEach _list;
 
-player createDiaryRecord ["LRX Template", ["LRX Template", format ["Available East Factions: (%1)", count LRX_mod_list_east]]];
-player createDiaryRecord ["LRX Template", ["LRX Template", format ["Available West Factions: (%1)", count LRX_mod_list_west]]];
+private _count_mod_west = count LRX_mod_list_west;
+private _count_mod_east = count LRX_mod_list_east;
+player createDiaryRecord ["LRX Template", ["LRX Template", format ["Available East Factions: (%1)", _count_mod_east]]];
+player createDiaryRecord ["LRX Template", ["LRX Template", format ["Available West Factions: (%1)", _count_mod_west]]];
+
+diag_log format ["--- LRX MOD Template Loaded - West:%1 - East:%2", _count_mod_west, _count_mod_east];
