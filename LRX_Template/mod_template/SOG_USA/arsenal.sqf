@@ -1,7 +1,6 @@
 //Blacklist Items
 blacklisted_bag = [
     "vn_prop_",
-    "vn_b_item_radio_urc10_",
     "vn_o_item_radio",
     "vn_rocket",
     "vn_missile",
