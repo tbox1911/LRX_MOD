@@ -118,28 +118,20 @@ R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
 
 R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +
 [
-	["O_Static_Designator_01_F",3],
-	["O_HMG_01_F",5],
-	["O_HMG_01_high_F",5],
-	["O_GMG_01_F",5],
-	["O_GMG_01_high_F",5],
-	["O_static_AA_F",10],
+	["O_SFIA_HMG_02_high_lxWS",10],
+	["O_GMG_01_high_F",10],
+	["O_SFIA_ZU23_lxWS",15],
 	["O_static_AT_F",10],
-	["O_Mortar_01_F",10],
-	["O_Tura_ZU23_lxWS", 10]
+	["O_SFIA_Mortar_lxWS",10]
 ];
 
 R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
 [
-	"O_Static_Designator_01_F",
-	"O_HMG_01_F",
-	"O_HMG_01_high_F",
-	"O_GMG_01_F",
+	"O_SFIA_HMG_02_high_lxWS",
 	"O_GMG_01_high_F",
-	"O_static_AA_F",
+	"O_SFIA_ZU23_lxWS",
 	"O_static_AT_F",
-	"O_Mortar_01_F",
-	"O_Tura_ZU23_lxWS"
+	"O_SFIA_Mortar_lxWS"
 ];
 
 //--------------- Camping ---------------
