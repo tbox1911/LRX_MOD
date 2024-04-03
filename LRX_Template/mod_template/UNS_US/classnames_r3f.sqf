@@ -195,7 +195,6 @@ R3F_LOG_CFG_can_transport_cargo = R3F_LOG_CFG_can_transport_cargo +
 
 R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +
 [
-	["UNS_Zodiac_W",10]
 ];
 
 R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
@@ -293,6 +292,16 @@ R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
 	"uns_M40_106mm_US",
 	"Uns_M55_Quad",
 	"uns_US_MK18_low",
+	"Uns_M114_artillery"
+];
+
+R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed +
+[
+	"Uns_M114_artillery"
+];
+
+R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
+[
 	"Uns_M114_artillery"
 ];
 

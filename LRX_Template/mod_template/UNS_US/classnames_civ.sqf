@@ -18,26 +18,17 @@ civilians = [
 ];
 
 civilian_vehicles = [
-    "C_Truck_02_transport_F",
-    "C_Offroad_02_unarmed_F",
-    "C_Tractor_01_F",
     "uns_skymaster_civ_blue",
     "uns_skymaster_civ_gold",
     "uns_skymaster_civ_yellow",
-    "uns_M35A2",
-    "uns_M35A2_Open",
-    "uns_m37b1_m1919",
-    "uns_willys",
-    "uns_willys_2_usmp",
-    "uns_nvatruck",
-    "uns_nvatruck_mg",
-    "uns_Type55",
-    "uns_willys_2_arvn",
-    "uns_zil157",
-    "uns_nvatruck_repair",
-    "uns_nvatruck_refuel",
-    "uns_M35A2_fuel",
-    "uns_M35A2_repair"
+    "C_Offroad_02_unarmed_F",
+    "C_Tractor_01_F",
+    "C_Van_02_transport_F",
+    "C_Van_01_transport_F",
+    "C_Van_01_box_F",
+    "C_Truck_02_box_F",
+    "C_Truck_02_transport_F",
+    "C_Truck_02_covered_F"
 ];
 
 civilian_boats = [

@@ -8,11 +8,10 @@ GRLIB_west_modder = "Z@Warrior / pSiKO";
 
 Arsenal_typename = "uns_AmmoBox_ANZAC";
 huron_typename = "uns_ch47_m60_army";
-FOB_typename = "Land_Cargo_HQ_V1_F";
+FOB_typename = "LAND_uns_tentbarracks"; 	//"Land_Cargo_HQ_V1_F";
 FOB_box_typename = "B_Slingload_01_Cargo_F";
 FOB_truck_typename = "uns_m37b1_m1919";
-FOB_typename = "Land_Cargo_HQ_V1_F";
-FOB_outpost = "Land_BagBunker_Tower_F";
+FOB_outpost = "LAND_uns_tent3supply";	//"Land_BagBunker_Tower_F";
 FOB_box_outpost = "Land_Cargo10_grey_F";
 Respawn_truck_typename = "uns_M577_amb";
 ammo_truck_typename = "uns_M35A2_ammo";
@@ -23,6 +22,16 @@ crewman_classname = "uns_US_2MI_DRV";
 repair_offroad = "uns_zil157_repair";
 SHOP_Man = "uns_civilian4";	    //"C_Man_formal_1_F";
 SELL_Man = "uns_civilian3_b1";	//"C_Story_Mechanic_01_F";
+
+WRHS_Man = "uns_pilot16";				// Man in Warehouse
+commander_classname = "uns_pilot16";			// Sell-Man in FOB
+a3w_vip_vehicle = "uns_willys_2_arvn";
+a3w_br_planes = "uns_skymaster_civ_gold";
+
+/*
+a3w_sd_item  -> suite case
+*/
+
 Radio_tower = "Antenna";
 waterbarrel_typename = "Land_WaterBottle_01_stack_F";
 foodbarrel_typename = "Land_FoodSacks_01_large_brown_idap_F";
@@ -70,6 +79,23 @@ units_loadout_overide = [
 	"uns_US_1ID_MED",			// Add Medikit
 	"uns_US_1ID_ENG"			// Add Toolkit
 ];
+
+
+
+// *** RESISTANCE
+resistance_squad = [
+"uns_men_US_1AC_COM",
+"uns_men_US_1AC_MGSG",
+"uns_men_US_1AC_HMG",
+"uns_men_US_1AC_MRK2",
+"uns_men_US_1AC_MED",
+"uns_men_US_1AC_PL",
+"uns_men_US_1AC_SAP",
+"uns_men_US_1AC_TPR1",
+"uns_men_US_1AC_ENG"
+];
+
+resistance_squad_static = "uns_m2_high";
 
 
 // [CLASSNAME, MANPOWER, AMMO, FUEL, RANK]
@@ -147,12 +173,19 @@ blufor_air = [
 	"uns_F4B_CAS"
 ];
 
+boats_west = [
+"UNS_Zodiac_W",
+"uns_PBR_M10",
+"uns_pbr",
+"uns_pbr_mk18"
+];
+
 static_vehicles = [
 	["uns_US_MK18_low",1,30,0,0],
 	["uns_m60_high",1,40,0,GRLIB_perm_inf],
 	["uns_m60_bunker_large",1,140,0,GRLIB_perm_log],
 	["uns_m2_high",1,80,0,GRLIB_perm_log],
-	["uns_M40_106mm_US",0,240,0,GRLIB_perm_log],
+	["uns_M40_106mm_US",1,240,0,GRLIB_perm_log],
 	["uns_M2_60mm_mortar",0,300,0,GRLIB_perm_log],
 	["uns_M1_81mm_mortar",1,360,0,GRLIB_perm_tank],
 	["uns_M30_107mm_mortar",0,470,0,GRLIB_perm_air],
@@ -162,6 +195,14 @@ static_vehicles = [
 
 // *** Static Weapon with AI ***
 static_vehicles_AI = [
+"uns_US_MK18_low",
+"uns_m60_high",
+"uns_m60_bunker_large",
+"uns_m2_high",
+"uns_M40_106mm_US",
+"uns_M1_81mm_mortar",
+"Uns_M55_Quad",
+"Uns_M114_artillery"
 ];
 
 support_vehicles_west = [
