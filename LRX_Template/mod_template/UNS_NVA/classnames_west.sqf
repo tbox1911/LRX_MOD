@@ -9,11 +9,10 @@ GRLIB_west_modder = "Z@Warrior / pSiKO";
 
 Arsenal_typename = "uns_AmmoBoxVC";
 huron_typename = "uns_Mi8T_VPAF";
-FOB_typename = "Land_Cargo_HQ_V1_F";
+FOB_typename = "Land_barrack02"; 	//"Land_Cargo_HQ_V1_F";
 FOB_box_typename = "B_Slingload_01_Cargo_F";
 FOB_truck_typename = "uns_nvatruck";
-FOB_typename = "Land_Cargo_HQ_V1_F";
-FOB_outpost = "Land_BagBunker_Tower_F";
+FOB_outpost = "LAND_uns_eastbunker1"; //"Land_BagBunker_Tower_F";
 FOB_box_outpost = "Land_Cargo10_grey_F";
 Respawn_truck_typename = "uns_Type63_amb";
 ammo_truck_typename = "uns_nvatruck_reammo";
@@ -21,9 +20,19 @@ fuel_truck_typename = "uns_nvatruck_refuel";
 repair_truck_typename = "uns_nvatruck_repair";
 pilot_classname = "uns_nvaf_pilot2";
 crewman_classname = "uns_nvaf_pilot5";
-repair_offroad = "C_Offroad_01_repair_F";
+repair_offroad = "uns_zil157_repair";
 SHOP_Man = "uns_civilian4";	
 SELL_Man = "uns_civilian3_b1";
+
+WRHS_Man = "uns_civilian3";				// Man in Warehouse
+commander_classname = "uns_civilian3";			// Sell-Man in FOB
+a3w_vip_vehicle = "uns_willys";
+a3w_br_planes = "uns_skymaster_civ_gold";
+
+/*
+a3w_sd_item  -> suite case
+*/
+
 Radio_tower = "Antenna";
 waterbarrel_typename = "Land_WaterBottle_01_stack_F";
 foodbarrel_typename = "Land_FoodSacks_01_large_brown_idap_F";
@@ -42,8 +51,8 @@ basic_weapon_typename = "uns_HiddenAmmoBox";
 
 
 chimera_vehicle_overide = [
-  ["B_Heli_Light_01_F", "B_Heli_Light_01_F"],
-  ["B_Heli_Transport_01_F", ""]		// "O_Heli_Light_02_unarmed_F"
+  ["B_Heli_Light_01_F", "uns_H13_transport_USMC"],		// uns_H13_transport_USMC
+  ["B_Heli_Transport_01_F", ""]		
 ];
 
 
@@ -65,6 +74,22 @@ infantry_units_west = [
 ];
 
 units_loadout_overide = [];
+
+// *** RESISTANCE
+resistance_squad = [
+"uns_men_VC_local_AS5",
+"uns_men_VC_local_MED",
+"uns_men_VC_local_MGS",
+"uns_men_VC_local_RF5",
+"uns_men_VC_local_RF7",
+"uns_men_VC_local_off",
+"uns_men_VC_local_AS7",
+"uns_men_VC_local_AS4"
+];
+
+resistance_squad_static = "uns_ZPU2_VC";
+
+
 
 // [CLASSNAME, MANPOWER, AMMO, FUEL, RANK]
 
@@ -124,21 +149,36 @@ blufor_air = [
 	"uns_an2_cas"
 ];
 
+boats_west = [
+	"UNS_Zodiac_NVA",
+	"UNS_ASSAULT_BOAT_VC",
+	"UNS_PATROL_BOAT_NVA"
+];
+
 static_vehicles = [
-	["uns_m1941_82mm_mortarNVA_arty",0,70,0,GRLIB_perm_log],
-	["uns_M40_106mm_NVA",0,40,0,GRLIB_perm_log],
-	["uns_KS19_NVA",0,40,0,GRLIB_perm_log],
-	["uns_ZPU4_NVA",0,40,0,GRLIB_perm_log],
-	["uns_pk_high_NVA",1,40,0,GRLIB_perm_log],
-	["uns_dshk_armoured_NVA",1,140,0,GRLIB_perm_log],
-	["uns_dshk_twin_NVA",1,40,0,GRLIB_perm_log],
-	["uns_Type36_57mm_NVA",1,40,0,GRLIB_perm_log],
-	["uns_Type74_NVA",1,40,0,GRLIB_perm_log],
-	["uns_ZU23_NVA",1,40,0,GRLIB_perm_log]
+	["uns_m1941_82mm_mortarNVA",0,70,0,GRLIB_perm_log],
+	["uns_M40_106mm_NVA",1,120,0,GRLIB_perm_log],
+	["uns_KS19_NVA",1,150,0,GRLIB_perm_log],
+	["uns_ZPU4_NVA",1,180,0,GRLIB_perm_log],
+	["uns_pk_high_NVA",1,50,0,GRLIB_perm_log],
+	["uns_dshk_armoured_NVA",1,120,0,GRLIB_perm_log],
+	["uns_dshk_twin_NVA",1,100,0,GRLIB_perm_log],
+	["uns_Type36_57mm_NVA",1,160,0,GRLIB_perm_log],
+	["uns_Type74_NVA",2,240,0,GRLIB_perm_log],
+	["uns_ZU23_NVA",2,180,0,GRLIB_perm_log]
 ];
 
 // *** Static Weapon with AI ***
 static_vehicles_AI = [
+"uns_M40_106mm_NVA",
+"uns_KS19_NVA",
+"uns_ZPU4_NVA",
+"uns_pk_high_NVA",
+"uns_dshk_armoured_NVA",
+"uns_dshk_twin_NVA",
+"uns_Type36_57mm_NVA",
+"uns_Type74_NVA",
+"uns_ZU23_NVA"
 ];
 
 support_vehicles_west = [

@@ -14,7 +14,8 @@ R3F_LOG_CFG_can_lift = R3F_LOG_CFG_can_lift +
 	"uns_UH1D_vnaf_m60_light",
 	"uns_ch34_VNAF_M60",
 	"B_Heli_Light_01_F",
-	"O_Heli_Light_02_unarmed_F"
+	"O_Heli_Light_02_unarmed_F",
+	"uns_H13_transport_USMC"
 ];
 
 R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
@@ -28,7 +29,9 @@ R3F_LOG_CFG_can_transport_cargo = R3F_LOG_CFG_can_transport_cargo +
 	["uns_UH1D_vnaf_m60_light",250],
 	["uns_ch34_VNAF_M60",250],
 	["B_Heli_Light_01_F",150],
-	["O_Heli_Light_02_unarmed_F",200]
+	["O_Heli_Light_02_unarmed_F",200],
+	["uns_H13_transport_USMC",100]
+	
 ];
 
 R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +
