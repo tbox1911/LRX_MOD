@@ -1,6 +1,7 @@
 // LRX Extended Template Definition
 
 LRX_mod_list_west = [
+	"AMF_BLU",			// Vladimir French Force
 	"3AS_KF",			// DarkDemon
 	"3CB_BAF_D",		// Z@Warrior British Armed Forces Desert
 	"3CB_BAF_W",		// Z@Warrior British Armed Forces Woodland
@@ -160,6 +161,7 @@ LRX_mod_list_east = [
 ];
 
 LRX_mod_list_name = [
+	["AMF_BLU", "AMF French Forces"],
 	["3AS_KF", "3AS Project Knightfall"],
 	["3CB_BAF_D", "3CB British Army Desert"],
 	["3CB_BAF_W", "3CB British Army Woodland"],
