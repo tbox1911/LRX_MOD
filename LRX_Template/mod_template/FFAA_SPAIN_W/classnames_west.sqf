@@ -21,7 +21,8 @@ pilot_classname = "ffaa_piloto_hmsd_famet";
 crewman_classname = "ffaa_brilat_carrista";
 chimera_vehicle_overide = [
   ["B_Heli_Light_01_F",  "ffaa_famet_ec135"],
-  ["B_Heli_Transport_01_F", "ffaa_famet_cougar_armed"]
+  ["B_Heli_Transport_01_F", "ffaa_famet_cougar_armed"],
+  ["C_Plane_Civil_01_F", "ffaa_ar_harrier"]
 ];
 
 // [CLASSNAME, MANPOWER, AMMO, FUEL, RANK]
@@ -53,55 +54,42 @@ units_loadout_overide = [
 ];
 
 light_vehicles = [
-    ["C_Scooter_Transport_01_F",1,5,1,0],
-	["B_Boat_Transport_01_F",1,25,1,GRLIB_perm_inf],
+	["ffaa_ar_supercat",1,20,2,0],
+	["ffaa_ar_zodiac_hurricane",2,35,2,0],
 	["ffaa_ar_zodiac_hurricane_long",2,50,2,GRLIB_perm_inf],
 	["ffaa_ar_lcm",5,150,5,GRLIB_perm_tank],
-	["B_Boat_Armed_01_minigun_F",5,100,5,GRLIB_perm_log],
-	["B_SDV_01_F",5,50,2,GRLIB_perm_log],
-	["B_Quadbike_01_F",1,5,1,0],
-	["SUV_01_base_black_F",1,10,1,0],
-	["C_SUV_01_F",1,10,3,GRLIB_perm_inf],
-	["C_Van_01_transport_F",1,15,7,0],
-	["ffaa_et_anibal",1,10,5,0],
-	["ffaa_et_neton_mk2",1,25,5,GRLIB_perm_inf],
-	["ffaa_et_vamtac_trans",2,50,5,GRLIB_perm_inf],
-	["ffaa_et_vamtac_m2",5,100,7,GRLIB_perm_inf],
-	["ffaa_et_vamtac_lag40",7,125,7,GRLIB_perm_log],
-	["ffaa_et_vamtac_crows",7,175,7,GRLIB_perm_log],
-	["ffaa_et_vamtac_tow",7,200,7,GRLIB_perm_tank],
-	["ffaa_et_vamtac_st5_spike",10,350,7,GRLIB_perm_tank],
-	["ffaa_et_vamtac_mistral",7,200,7,GRLIB_perm_air],
-	["ffaa_et_vamtac_cardom",25,1500,20,GRLIB_perm_max],
-	["ffaa_et_pegaso_carga",5,100,7,GRLIB_perm_log],
-	["ffaa_et_pegaso_carga_lona",5,125,7,GRLIB_perm_tank],
-	["ffaa_et_m250_carga_blin",7,175,7,GRLIB_perm_tank],
-	["ffaa_et_m250_carga_lona_blin",7,200,7,GRLIB_perm_air],
-	["ffaa_et_m250_estacion_nasams_blin",15,400,15,GRLIB_perm_max],
-	["ffaa_et_m250_sistema_nasams_blin",50,4000,50,GRLIB_perm_max],
-	["ffaa_et_lince_mg3",10,200,10,GRLIB_perm_log],
-	["ffaa_et_lince_m2",10,225,10,GRLIB_perm_tank],
-	["ffaa_et_lince_lag40",10,275,10,GRLIB_perm_tank],
-	["B_UGV_01_F",5,10,5,GRLIB_perm_inf],
-	["B_UGV_01_rcws_F",7,300,5,GRLIB_perm_tank]
+	["ffaa_et_pegaso_carga_lona",2,50,5,0],
+	["ffaa_et_m250_recuperacion_blin",2,40,2,0],
+	["ffaa_et_anibal",1,25,5,0],
+	["ffaa_et_vamtac_ume",1,125,5,0],
+	["ffaa_et_vamtac_st5_lag40",2,150,5,GRLIB_perm_inf],
+	["ffaa_et_vamtac_st5_m2",5,150,5,GRLIB_perm_inf],
+	["ffaa_et_vamtac_tow",5,200,5,GRLIB_perm_tank],
+	["ffaa_et_vamtac_crows",5,175,5,GRLIB_perm_log],
+	["ffaa_et_vamtac_mistral",5,200,5,GRLIB_perm_tank],
+	["ffaa_et_vamtac_st5_spike",10,250,5,GRLIB_perm_tank],
+	["ffaa_et_lince_m2",7,250,7,GRLIB_perm_tank],
+	["ffaa_et_lince_lag40",7,250,7,GRLIB_perm_tank],
+	["ffaa_et_rg31_samson",7,350,7,GRLIB_perm_tank],
+	["ffaa_et_m250_sistema_nasams_blin",15,2000,15,GRLIB_perm_max],
+	["ffaa_et_m250_estacion_nasams_blin",10,500,5,GRLIB_perm_tank],
+	["ffaa_et_vamtac_cardom",10,3000,10,GRLIB_perm_max]
 ];
 
 heavy_vehicles = [
-	["ffaa_ar_piranhaIIIC",15,500,20,GRLIB_perm_tank],
 	["ffaa_et_toa_zapador",10,350,20,GRLIB_perm_log],
-	["ffaa_et_toa_ambulancia",10,300,20,GRLIB_perm_log],
-	["ffaa_et_toa_spike",20,600,20,GRLIB_perm_log],
-	["ffaa_et_rg31_rollers",10,400,15,GRLIB_perm_log],
-	["ffaa_et_pizarro_mauser",15,600,20,GRLIB_perm_tank],
-	["ffaa_et_leopardo",35,2000,40,GRLIB_perm_max],
-	["ffaa_ar_piranhaIIIC_lance",20,800,25,GRLIB_perm_air],
-	["ffaa_ar_m109",40,3500,40,GRLIB_perm_max]
+	["ffaa_et_toa_spike",20,450,20,GRLIB_perm_tank],
+	["ffaa_ar_piranhaIIIC",15,500,20,GRLIB_perm_tank],
+	["ffaa_ar_piranhaIIIC_lance",20,2000,25,GRLIB_perm_air],
+	["ffaa_et_pizarro_mauser",15,2500,20,GRLIB_perm_air],
+	["ffaa_et_leopardo",35,3000,40,GRLIB_perm_max],
+	["ffaa_ar_m109",40,4000,40,GRLIB_perm_max]
 ];
 
 air_vehicles = [
-	["ffaa_et_searcherIII",5,200,5,GRLIB_perm_log],
+	["ffaa_raven",1,30,5,GRLIB_perm_log],
+	["ffaa_et_searcherIII",5,300,5,GRLIB_perm_tank],
 	["ffaa_ea_reaper",20,2000,25,GRLIB_perm_max],
-	["C_Plane_Civil_01_F",1,100,5,GRLIB_perm_log],
 	["ffaa_famet_ec135",5,200,10,GRLIB_perm_tank],
 	["ffaa_famet_cougar",10,350,20,GRLIB_perm_tank],
 	["ffaa_famet_cougar_armed",15,450,25,GRLIB_perm_air],
@@ -148,7 +136,6 @@ static_vehicles_AI = [
 
 support_vehicles_west = [
 	["B_G_Offroad_01_repair_F",5,50,5,GRLIB_perm_inf],
-	["ffaa_nh90_nfh_transport",15,600,15,GRLIB_perm_log],
 	["B_G_Van_01_fuel_F",5,50,20,GRLIB_perm_inf],
 	["Box_FFAA_WpsLaunch_F",0,300,0,GRLIB_perm_tank],
 	["B_APC_Tracked_01_CRV_F",15,2000,50,GRLIB_perm_max]
@@ -252,7 +239,7 @@ GRLIB_vehicle_blacklist_west = [
 ];
 
 GRLIB_AirDrop_1 = [
-	"B_Quadbike_01_F"
+	"ffaa_et_anibal"
 ];
 
 GRLIB_AirDrop_2 = [
@@ -273,5 +260,5 @@ GRLIB_AirDrop_5 = [
 ];
 
 GRLIB_AirDrop_6 = [
-	"B_Boat_Armed_01_minigun_F"
+	"ffaa_ar_zodiac_hurricane_long"
 ];

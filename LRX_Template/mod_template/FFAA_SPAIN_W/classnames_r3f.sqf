@@ -5,9 +5,10 @@ R3F_LOG_CFG_can_tow = R3F_LOG_CFG_can_tow +
 
 R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed +
 [
-    "ffaa_et_searcherIII",
+    "ffaa_raven",
+	"ffaa_et_searcherIII",
 	"ffaa_ea_reaper",
-	"C_Plane_Civil_01_F",
+	"ffaa_famet_ec135",
 	"ffaa_famet_cougar",
 	"ffaa_famet_cougar_armed",
 	"ffaa_nh90_tth_transport",
@@ -16,9 +17,10 @@ R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed +
 	"ffaa_famet_ch47_mg",
 	"ffaa_famet_ch47_mg_cargo",
 	"ffaa_famet_tigre",
+	"ffaa_ea_hercules",
+	"ffaa_ea_hercules_cargo",
 	"ffaa_ar_harrier",
 	"ffaa_ea_ef18m",
-	"ffaa_famet_ec135",
 	"ffaa_nh90_nfh_transport"
 ];
 
@@ -32,7 +34,6 @@ R3F_LOG_CFG_can_lift = R3F_LOG_CFG_can_lift +
 	"ffaa_famet_ch47_mg",
 	"ffaa_famet_ch47_mg_cargo",
 	"ffaa_famet_tigre",
-	"ffaa_famet_ec135",
 	"ffaa_nh90_nfh_transport"
 ];
 
@@ -43,22 +44,17 @@ R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
 
 R3F_LOG_CFG_can_transport_cargo = R3F_LOG_CFG_can_transport_cargo +
 [
-	["ffaa_et_searcherIII",10],
-	["ffaa_ea_reaper",10],
-	["C_Plane_Civil_01_F",10],
-	["ffaa_famet_cougar",50],
-	["ffaa_famet_cougar_armed",35],
-	["ffaa_nh90_tth_transport",75],
-	["ffaa_nh90_tth_cargo",150],
-	["ffaa_nh90_tth_armed",50],
-	["ffaa_famet_ch47_mg",75],
-	["ffaa_famet_ch47_mg_cargo",200],
-	["ffaa_famet_tigre",15],
-	["ffaa_ea_hercules",150],
-	["ffaa_ea_hercules_cargo",300],
-	["ffaa_ar_harrier",10],
-	["ffaa_ea_ef18m",10],
 	["ffaa_famet_ec135",50],
+	["ffaa_famet_cougar",50],
+	["ffaa_famet_cougar_armed",50],
+	["ffaa_nh90_tth_transport",75],
+	["ffaa_nh90_tth_cargo",75],
+	["ffaa_nh90_tth_armed",75],
+	["ffaa_famet_ch47_mg",100],
+	["ffaa_famet_ch47_mg_cargo",100],
+	["ffaa_famet_tigre",15],
+	["ffaa_ea_hercules",200],
+	["ffaa_ea_hercules_cargo",200],
 	["ffaa_nh90_nfh_transport",75]
 ];
 
@@ -78,65 +74,63 @@ R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
 
 R3F_LOG_CFG_can_tow = R3F_LOG_CFG_can_tow +
 [
-    "ffaa_et_anibal",
-	"ffaa_et_neton_mk2",
-	"ffaa_et_vamtac_trans",
-	"ffaa_et_vamtac_m2",
-	"ffaa_et_vamtac_lag40",
-	"ffaa_et_vamtac_crows",
+    "ffaa_ar_supercat",
+	"ffaa_ar_zodiac_hurricane",
+	"ffaa_ar_zodiac_hurricane_long",
+	"ffaa_ar_lcm",
+	"ffaa_et_pegaso_carga_lona",
+	"ffaa_et_m250_recuperacion_blin",
+	"ffaa_et_anibal",
+	"ffaa_et_vamtac_ume",
+	"ffaa_et_vamtac_st5_lag40",
+	"ffaa_et_vamtac_st5_m2",
 	"ffaa_et_vamtac_tow",
-	"ffaa_et_vamtac_st5_spike",
+	"ffaa_et_vamtac_crows",
 	"ffaa_et_vamtac_mistral",
-	"ffaa_et_vamtac_cardom",
-	"ffaa_et_pegaso_carga",
-    "ffaa_et_pegaso_carga_lona",
-	"ffaa_et_m250_carga_blin",
-	"ffaa_et_m250_carga_lona_blin",
-	"ffaa_et_m250_estacion_nasams_blin",
-	"ffaa_et_m250_sistema_nasams_blin",
-	"ffaa_et_lince_mg3",
+	"ffaa_et_vamtac_st5_spike",
 	"ffaa_et_lince_m2",
 	"ffaa_et_lince_lag40",
-	"ffaa_ar_piranhaIIIC",
+	"ffaa_et_rg31_samson",
+	"ffaa_et_m250_sistema_nasams_blin",
+	"ffaa_et_m250_estacion_nasams_blin",
+	"ffaa_et_vamtac_cardom",
 	"ffaa_et_toa_zapador",
-	"ffaa_et_toa_ambulancia",
 	"ffaa_et_toa_spike",
-	"ffaa_et_rg31_rollers",
+	"ffaa_ar_piranhaIIIC",
+	"ffaa_ar_piranhaIIIC_lance",
 	"ffaa_et_pizarro_mauser",
 	"ffaa_et_leopardo",
-	"ffaa_ar_piranhaIIIC_lance",
 	"ffaa_ar_m109"
 ];
 
 R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed +
 [
-    "ffaa_et_anibal",
-	"ffaa_et_neton_mk2",
-	"ffaa_et_vamtac_trans",
-	"ffaa_et_vamtac_m2",
-	"ffaa_et_vamtac_lag40",
-	"ffaa_et_vamtac_crows",
+    "ffaa_ar_supercat",
+	"ffaa_ar_zodiac_hurricane",
+	"ffaa_ar_zodiac_hurricane_long",
+	"ffaa_ar_lcm",
+	"ffaa_et_pegaso_carga_lona",
+	"ffaa_et_m250_recuperacion_blin",
+	"ffaa_et_anibal",
+	"ffaa_et_vamtac_ume",
+	"ffaa_et_vamtac_st5_lag40",
+	"ffaa_et_vamtac_st5_m2",
 	"ffaa_et_vamtac_tow",
-	"ffaa_et_vamtac_st5_spike",
+	"ffaa_et_vamtac_crows",
 	"ffaa_et_vamtac_mistral",
-	"ffaa_et_vamtac_cardom",
-	"ffaa_et_pegaso_carga",
-    "ffaa_et_pegaso_carga_lona",
-	"ffaa_et_m250_carga_blin",
-	"ffaa_et_m250_carga_lona_blin",
-	"ffaa_et_m250_estacion_nasams_blin",
-	"ffaa_et_m250_sistema_nasams_blin",
-	"ffaa_et_lince_mg3",
+	"ffaa_et_vamtac_st5_spike",
 	"ffaa_et_lince_m2",
 	"ffaa_et_lince_lag40",
-	"ffaa_ar_piranhaIIIC",
+	"ffaa_et_rg31_samson",
+	"ffaa_et_m250_sistema_nasams_blin",
+	"ffaa_et_m250_estacion_nasams_blin",
+	"ffaa_et_vamtac_cardom",
 	"ffaa_et_toa_zapador",
-	"ffaa_et_toa_ambulancia",
 	"ffaa_et_toa_spike",
-	"ffaa_et_rg31_rollers",
+	"ffaa_ar_piranhaIIIC",
+	"ffaa_ar_piranhaIIIC_lance",
 	"ffaa_et_pizarro_mauser",
 	"ffaa_et_leopardo",
-	"ffaa_ar_piranhaIIIC_lance",
 	"ffaa_ar_m109"
 ];
 
@@ -146,72 +140,60 @@ R3F_LOG_CFG_can_lift = R3F_LOG_CFG_can_lift +
 
 R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
 [
-    "ffaa_et_anibal",
-	"ffaa_et_neton_mk2",
-	"ffaa_et_vamtac_trans",
-	"ffaa_et_vamtac_m2",
-	"ffaa_et_vamtac_lag40",
-	"ffaa_et_vamtac_crows",
+    "ffaa_ar_supercat",
+	"ffaa_ar_zodiac_hurricane",
+	"ffaa_ar_zodiac_hurricane_long",
+	"ffaa_ar_lcm",
+	"ffaa_et_pegaso_carga_lona",
+	"ffaa_et_m250_recuperacion_blin",
+	"ffaa_et_anibal",
+	"ffaa_et_vamtac_ume",
+	"ffaa_et_vamtac_st5_lag40",
+	"ffaa_et_vamtac_st5_m2",
 	"ffaa_et_vamtac_tow",
-	"ffaa_et_vamtac_st5_spike",
+	"ffaa_et_vamtac_crows",
 	"ffaa_et_vamtac_mistral",
-	"ffaa_et_vamtac_cardom",
-	"ffaa_et_pegaso_carga",
-    "ffaa_et_pegaso_carga_lona",
-	"ffaa_et_m250_carga_blin",
-	"ffaa_et_m250_carga_lona_blin",
-	"ffaa_et_m250_estacion_nasams_blin",
-	"ffaa_et_m250_sistema_nasams_blin",
-	"ffaa_et_lince_mg3",
+	"ffaa_et_vamtac_st5_spike",
 	"ffaa_et_lince_m2",
 	"ffaa_et_lince_lag40",
-	"ffaa_ar_piranhaIIIC",
+	"ffaa_et_rg31_samson",
+	"ffaa_et_m250_sistema_nasams_blin",
+	"ffaa_et_m250_estacion_nasams_blin",
+	"ffaa_et_vamtac_cardom",
 	"ffaa_et_toa_zapador",
-	"ffaa_et_toa_ambulancia",
 	"ffaa_et_toa_spike",
-	"ffaa_et_rg31_rollers",
+	"ffaa_ar_piranhaIIIC",
+	"ffaa_ar_piranhaIIIC_lance",
 	"ffaa_et_pizarro_mauser",
 	"ffaa_et_leopardo",
-	"ffaa_ar_piranhaIIIC_lance",
 	"ffaa_ar_m109"
 ];
 
 R3F_LOG_CFG_can_transport_cargo = R3F_LOG_CFG_can_transport_cargo +
 [
-    ["B_Quadbike_01_F",5],
-	["SUV_01_base_black_F",10],
-	["C_SUV_01_F",10],
-	["C_Van_01_transport_F",30],
-	["ffaa_et_anibal",15],
-	["ffaa_et_neton_mk2",10],
-	["ffaa_et_vamtac_trans",20],
-	["ffaa_et_vamtac_m2",20],
-	["ffaa_et_vamtac_lag40",20],
-	["ffaa_et_vamtac_crows",20],
-	["ffaa_et_vamtac_tow",20],
-	["ffaa_et_vamtac_st5_spike",20],
-	["ffaa_et_vamtac_mistral",20],
-	["ffaa_et_vamtac_cardom",20],
-	["ffaa_et_pegaso_carga",45],
-    ["ffaa_et_pegaso_carga_lona",50],
-	["ffaa_et_m250_carga_blin",65],
-	["ffaa_et_m250_carga_lona_blin",80],
-	["ffaa_et_m250_estacion_nasams_blin",30],
-	["ffaa_et_m250_sistema_nasams_blin",10],
-	["ffaa_et_lince_mg3",25],
-	["ffaa_et_lince_m2",25],
-	["ffaa_et_lince_lag40",25],
+	["ffaa_et_pegaso_carga_lona",50],
+	["ffaa_et_m250_recuperacion_blin",60],
+	["ffaa_et_anibal",20],
+	["ffaa_et_vamtac_ume",25],
+	["ffaa_et_vamtac_st5_lag40",25],
+	["ffaa_et_vamtac_st5_m2",25],
+	["ffaa_et_vamtac_tow",25],
+	["ffaa_et_vamtac_crows",25],
+	["ffaa_et_vamtac_mistral",25],
+	["ffaa_et_vamtac_st5_spike",25],
+	["ffaa_et_lince_m2",30],
+	["ffaa_et_lince_lag40",30],
+	["ffaa_et_rg31_samson",30],
+	["ffaa_et_m250_sistema_nasams_blin",25],
+	["ffaa_et_m250_estacion_nasams_blin",25],
+	["ffaa_et_vamtac_cardom",25],
+	["ffaa_et_toa_zapador",40],
+	["ffaa_et_toa_spike",40],
 	["ffaa_ar_piranhaIIIC",30],
-	["ffaa_et_toa_zapador",45],
-	["ffaa_et_toa_ambulancia",45],
-	["ffaa_et_toa_spike",30],
-	["ffaa_et_rg31_rollers",25],
-	["ffaa_et_pizarro_mauser",30],
-	["ffaa_et_leopardo",30],
-	["ffaa_ar_piranhaIIIC_lance",30],
-	["ffaa_ar_m109",15],
-	["B_UGV_01_F",10],
-	["B_UGV_01_rcws_F",10]
+	["ffaa_ar_piranhaIIIC_lance",25],
+	["ffaa_et_pizarro_mauser",25],
+	["ffaa_et_leopardo",25],
+	["ffaa_ar_m109",25]
 ];
 
 R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +
@@ -226,12 +208,10 @@ R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
 
 R3F_LOG_CFG_can_transport_cargo = R3F_LOG_CFG_can_transport_cargo +
 [
-    ["C_Scooter_Transport_01_F",5],
-	["B_Boat_Transport_01_F",10],
-	["ffaa_ar_zodiac_hurricane_long",15],
-	["ffaa_ar_lcm",45],
-	["B_Boat_Armed_01_minigun_F",15],
-	["B_SDV_01_F",15]
+    ["ffaa_ar_supercat",10],
+	["ffaa_ar_zodiac_hurricane",10],
+	["ffaa_ar_zodiac_hurricane_long",10],
+	["ffaa_ar_lcm",10]
 ];
 
 R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +
@@ -240,30 +220,25 @@ R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +
 
 R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
 [
-    "C_Scooter_Transport_01_F",
-	"B_Boat_Transport_01_F",
-	"ffaa_ar_zodiac_hurricane_long",
-	"ffaa_ar_lcm",
-	"B_Boat_Armed_01_minigun_F",
-	"B_SDV_01_F"
+    "ffaa_ar_supercat",
+	"ffaa_ar_zodiac_hurricane",
+	"ffaa_ar_zodiac_hurricane_long"
 ];
 
 R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
 [
-    "C_Scooter_Transport_01_F",
-	"B_Boat_Transport_01_F",
+    "ffaa_ar_supercat",
+	"ffaa_ar_zodiac_hurricane",
 	"ffaa_ar_zodiac_hurricane_long",
-	"B_Boat_Armed_01_minigun_F",
-	"B_SDV_01_F"
+	"ffaa_ar_lcm"
 ];
 
 R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed +
 [
-    "C_Scooter_Transport_01_F",
-	"B_Boat_Transport_01_F",
+    "ffaa_ar_supercat",
+	"ffaa_ar_zodiac_hurricane",
 	"ffaa_ar_zodiac_hurricane_long",
-	"B_Boat_Armed_01_minigun_F",
-	"B_SDV_01_F"
+	"ffaa_ar_lcm"
 ];
 
 //--------------- Building ---------------

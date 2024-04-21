@@ -10,6 +10,7 @@ box_transport_config = box_transport_config + [
     [ "ffaa_et_pegaso_carga_lona", -6.5, [0.05, -1, 0.4], [0.05, -2.6, 0.4] ],
     [ "ffaa_et_m250_carga_blin", -6.5, [-0.1, 0.6, 0.3], [-0.1, -1, 0.3], [-0.1, -2.6, 0.3] ],
     [ "ffaa_et_m250_carga_lona_blin", -6.5, [-0.1, 0.6, 0.3], [-0.1, -1, 0.3], [-0.1, -2.6, 0.3] ],
+    [ "ffaa_et_m250_recuperacion_blin", -6.5, [-0.1, 0.6, 0.3], [-0.1, -1, 0.3], [-0.1, -2.6, 0.3], [-0,1, -4, 0,3] ],
     [ "ffaa_et_m250_estacion_nasams_blin", -6.5,  [-0.1, -1.5, 0.3], [-0.1, -3.1, 0.3] ],
     [ "ffaa_famet_cougar", -12, [0.15, 2.45, -1.05] ],
     [ "ffaa_famet_ch47_mg_cargo", -10, [0, 1.3, -1.9], [0, -0.5, -1.9], [0, -2.1, -1.9] ],

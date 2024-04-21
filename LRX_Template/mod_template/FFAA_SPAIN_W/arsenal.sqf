@@ -85,7 +85,7 @@ blacklisted_bag = [
 	"I_E_HMG_02_high_weapon_F",
 	"I_C_HMG_02_high_weapon_F",
 	"I_G_HMG_02_high_weapon_F",
-	"O_G_HMG_02_high_weapon_F",	
+	"O_G_HMG_02_high_weapon_F",
 	"UGV_02_backpack_base_F",
 	"UGV_02_Science_backpack_base_F",
 	"UGV_02_Demining_backpack_base_F",
@@ -94,7 +94,7 @@ blacklisted_bag = [
 	"C_IDAP_UGV_02_Demining_backpack_F",
 	"I_E_UAV_01_backpack_F",
 	"I_E_UAV_06_backpack_F",
-	"I_E_UAV_06_medical_backpack_F",	
+	"I_E_UAV_06_medical_backpack_F",
 	"I_E_HMG_01_support_F",
 	"I_E_HMG_01_support_high_F",
 	"I_E_Mortar_01_support_F",
@@ -106,7 +106,7 @@ blacklisted_bag = [
 	"I_E_HMG_01_A_Weapon_F",
 	"I_E_Mortar_01_Weapon_F",
 	"I_E_AT_01_weapon_F",
-	"I_E_AA_01_weapon_F",	
+	"I_E_AA_01_weapon_F",
 	"B_AA_01_weapon_F",
 	"O_AA_01_weapon_F",
 	"I_AA_01_weapon_F",
@@ -123,7 +123,7 @@ blacklisted_bag = [
 	"C_UAV_06_backpack_F",
 	"C_IDAP_UAV_06_antimine_backpack_F",
 	"C_IDAP_UAV_06_medical_backpack_F",
-	"C_UAV_06_medical_backpack_F",	
+	"C_UAV_06_medical_backpack_F",
 	"B_Mortar_01_support_grn_F",
 	"B_GMG_01_Weapon_grn_F",
 	"B_Mortar_01_Weapon_grn_F",
@@ -134,7 +134,8 @@ blacklisted_bag = [
 	"I_Protagonist_VR_F",
 	"U_I_Protagonist_VR",
 	"C_Protagonist_VR_F",
-	"U_C_Protagonist_VR"
+	"U_C_Protagonist_VR",
+	"ffaa_mochila_raven"
 ];
 
 blacklisted_weapon = [
@@ -163,6 +164,7 @@ whitelisted_from_arsenal = [
 	"Rangefinder",
 	"ItemCompass",
 	"ItemGPS",
+	"B_UavTerminal",
 	"ItemMap",
 	"ItemRadio",
 	"ItemWatch",
@@ -177,5 +179,9 @@ whitelisted_from_arsenal = [
 	"SatchelCharge_Remote_Mag",
 	"DemoCharge_Remote_Mag",
 	"SLAMDirectionalMine_Wire_Mag",
-	"ClaymoreDirectionalMine_Remote_Mag"
+	"ClaymoreDirectionalMine_Remote_Mag",
+	"launch_I_Titan_F",
+	"launch_B_Titan_F",
+	"launch_O_Titan_ghex_F",
+	"launch_B_Titan_tna_F"
 ];
