@@ -15,7 +15,7 @@ R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed +
 	"AMF_TIGRE_01",
 	"B_AMF_PLANE_TRANSPORT_01_F",
 	"B_AMF_REAPER_dynamicLoadout_F",
-	"AMF_RAFALE_B_01_F",
+	"AMF_RAFALE_M_01_F",
 	"AMF_RAFALE_C_01_F",
 	"B_AMF_PLANE_FIGHTER_02_F"
 ];

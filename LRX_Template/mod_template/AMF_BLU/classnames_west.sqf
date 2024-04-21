@@ -8,7 +8,7 @@ GRLIB_west_modder = "KoOrigan_Vladimir";
 huron_typename = "amf_nh90_tth_transport";
 FOB_box_typename = "B_Slingload_01_Cargo_F";
 FOB_truck_typename = "B_Truck_01_box_F";
-Respawn_truck_typename = "AMF_GBC180_PERS_01";
+Respawn_truck_typename = "B_T_TRUCK_01_medical_F";
 ammo_truck_typename = "AMF_GBC180_AmmoTruck";
 fuel_truck_typename = "B_T_Truck_01_fuel_F";
 repair_truck_typename = "AMF_GBC180_MECA_01";
@@ -33,15 +33,15 @@ infantry_units_west = [
 	["B_medic_F",1,0,0,0],
 	["B_engineer_F",1,0,0,0],
 	["B_Soldier_GL_F",1,0,0,GRLIB_perm_inf],
-	["B_soldier_M_F",1,0,0,GRLIB_perm_inf],
-	["B_soldier_LAT_F",1,0,0,0],
+	["B_Soldier_M_F",1,0,0,GRLIB_perm_inf],
+	["B_Soldier_LAT_F",1,0,0,0],
 	["B_Sharpshooter_F",1,0,0,GRLIB_perm_inf],
 	["B_HeavyGunner_F",1,0,0,GRLIB_perm_inf],
 	["B_recon_F",1,0,0,GRLIB_perm_log],
 	["B_diver_F",1,0,0,GRLIB_perm_log],
 	["B_Recon_Sharpshooter_F",1,0,0,GRLIB_perm_log],
-	["B_soldier_AA_F",1,0,0,GRLIB_perm_log],
-	["B_soldier_AT_F",1,0,0,GRLIB_perm_log],
+	["B_Soldier_AA_F",1,0,0,GRLIB_perm_log],
+	["B_Soldier_AT_F",1,0,0,GRLIB_perm_log],
 	["B_sniper_F",1,0,0,GRLIB_perm_log],
 	["B_soldier_PG_F",1,0,0,GRLIB_perm_log],
 	[crewman_classname,1,0,0,GRLIB_perm_inf],
@@ -53,25 +53,24 @@ units_loadout_overide = [
 	"B_medic_F",
 	"B_engineer_F",
 	"B_Soldier_GL_F",
-	"B_soldier_M_F",
-	"B_soldier_LAT_F",
+	"B_Soldier_m_F",
+	"B_Soldier_LAT_F",
 	"B_HeavyGunner_F",
-	"B_soldier_AA_F",
-	"B_soldier_AT_F",
+	"B_Soldier_AA_F",
+	"B_Soldier_AT_F",
 	"B_sniper_F"
 ];
 
 light_vehicles = [
-	["AMF_GBC180_PLATEAU_01",5,50,5,0],
     ["AMF_GBC180_ViV",5,50,5,0],
     ["AMF_GBC180_PERS_01",5,50,5,0],
     ["B_AMF_VAB_ULTIMA_X8_F",5,150,5,GRLIB_perm_inf],
     ["amf_pvp_01_mag_CE_f",5,200,5,GRLIB_perm_inf],
     ["amf_pvp_01_top_CE_f",5,200,5,GRLIB_perm_inf],
     ["B_AMF_VAB_ULTIMA_TOP_X8_F",10,300,10,GRLIB_perm_log],
-    ["AMF_VBMR_L_CE_01",10,400,10,GRLIB_perm_tank],
-    ["AMF_VBMR_SAN_CE",10,500,10,GRLIB_perm_tank],
-    ["AMF_VBMR_HMG_CE",10,500,10,GRLIB_perm_tank]
+    ["AMF_VBMR_L_CE_01",10,350,10,GRLIB_perm_tank],
+    ["AMF_VBMR_SAN_CE",10,400,10,GRLIB_perm_tank],
+    ["AMF_VBMR_HMG_CE",10,450,10,GRLIB_perm_tank]
 ];
 
 heavy_vehicles = [
@@ -135,8 +134,8 @@ blufor_squad_inf_light = [
 	"B_Soldier_SL_F",
 	"B_medic_F",
 	"B_Soldier_GL_F",
-	"B_soldier_AR_F",
-	"B_soldier_LAT_F",
+	"B_Soldier_M_F",
+	"B_Soldier_LAT_F",
 	"B_Soldier_lite_F",
 	"B_Soldier_lite_F",
 	"B_Soldier_lite_F"
@@ -144,9 +143,9 @@ blufor_squad_inf_light = [
 blufor_squad_inf = [
 	"B_Soldier_SL_F",
 	"B_medic_F",
-	"B_soldier_M_F",
+	"B_Soldier_M_F",
 	"B_Soldier_AR_F",
-	"B_soldier_LAT_F",
+	"B_Soldier_LAT_F",
 	"B_HeavyGunner_F",
 	"B_Sharpshooter_F",
 	"B_Soldier_F",
@@ -156,24 +155,24 @@ blufor_squad_inf = [
 blufor_squad_at = [
 	"B_Soldier_SL_F",
 	"B_medic_F",
-	"B_soldier_AT_F",
-	"B_soldier_AT_F",
+	"B_Soldier_AT_F",
+	"B_Soldier_AT_F",
 	"B_Soldier_F",
 	"B_Soldier_F"
 ];
 blufor_squad_aa = [
 	"B_Soldier_SL_F",
 	"B_medic_F",
-	"B_soldier_AA_F",
-	"B_soldier_AA_F",
+	"B_Soldier_AA_F",
+	"B_Soldier_AA_F",
 	"B_Soldier_F",
 	"B_Soldier_F"
 ];
 blufor_squad_mix = [
 	"B_Soldier_SL_F",
 	"B_medic_F",
-	"B_soldier_AA_F",
-	"B_soldier_AT_F",
+	"B_Soldier_AA_F",
+	"B_Soldier_AT_F",
 	"B_Soldier_F",
 	"B_Soldier_F"
 ];
@@ -216,4 +215,29 @@ GRLIB_vehicle_whitelist_west = [
 
 GRLIB_vehicle_blacklist_west = [
 
+];
+
+GRLIB_AirDrop_1 = [
+	"B_Quadbike_01_F"
+];
+
+GRLIB_AirDrop_2 = [
+	"amf_pvp_01_mag_CE_f"
+];
+
+GRLIB_AirDrop_3 = [
+	"AMF_VBMR_L_CE_01"
+];
+
+GRLIB_AirDrop_4 = [
+	"AMF_GBC180_PERS_01"
+];
+
+GRLIB_AirDrop_5 = [
+	"AMF_EBRC_CE_01",
+	"B_AMF_AMX10_RCR_SEPAR_01_F"
+];
+
+GRLIB_AirDrop_6 = [
+	"B_Boat_Transport_01_F"
 ];
