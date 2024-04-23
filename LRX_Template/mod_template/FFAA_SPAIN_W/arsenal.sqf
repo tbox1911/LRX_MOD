@@ -152,7 +152,9 @@ blacklisted_weapon = [
 	"O_V_Soldier_Viper_hex_F",
 	"_missiles",
 	"_Leaflets",
-	"_esd_"
+	"_esd_",
+	"_tripode_",
+	"_Tripod_"
 ];
 
 whitelisted_from_arsenal = [

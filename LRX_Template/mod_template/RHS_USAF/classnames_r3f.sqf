@@ -112,7 +112,8 @@ R3F_LOG_CFG_can_transport_cargo = R3F_LOG_CFG_can_transport_cargo +
 	["rhsusf_m1151_base", 50],
 	["rhsusf_m1152_base", 40],
 	["rhsusf_m1165_base", 30],
-	["rhsusf_stryker_base", 25]
+	["rhsusf_stryker_base", 25],
+	["rhsusf_M1239_M2_Deploy_socom_d", 100]
 ];
 
 R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +

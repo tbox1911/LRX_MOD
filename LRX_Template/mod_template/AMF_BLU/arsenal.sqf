@@ -140,5 +140,5 @@ whitelisted_from_arsenal = [
 	"SLAMDirectionalMine_Wire_Mag",
 	"ClaymoreDirectionalMine_Remote_Mag",
     "launch_B_Titan_tna_F",
-    "lanch_I_Titan_F"
+    "launch_I_Titan_F"
 ];
