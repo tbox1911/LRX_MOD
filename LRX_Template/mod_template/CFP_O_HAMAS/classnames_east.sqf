@@ -68,7 +68,6 @@ militia_loadout_overide = [
 
 militia_vehicles = [
 	"CFP_O_HAMAS_Ural_ZU_23_01",
-	"CFP_O_HAMAS_Hilux_01",
 	"CFP_O_HAMAS_Hilux_AGS_30_01",
 	"CFP_O_HAMAS_Hilux_DShKM_01",
 	"CFP_O_HAMAS_Hilux_Igla_01",
@@ -80,7 +79,6 @@ militia_vehicles = [
 	"CFP_O_HAMAS_Technical_Metis_01",
 	"CFP_O_HAMAS_Technical_MG_01",
 	"CFP_O_HAMAS_Technical_SPG_01",
-	"CFP_O_HAMAS_Technical_Unarmed_01",
 	"CFP_O_HAMAS_Truck_01",
 	"CFP_O_BH_Ural_01",
 	"CFP_O_BH_Pickup_PK_01",
@@ -96,7 +94,6 @@ opfor_boats = [
 
 opfor_vehicles = [
 	"CFP_O_HAMAS_Ural_ZU_23_01",
-	"CFP_O_HAMAS_Hilux_01",
 	"CFP_O_HAMAS_Hilux_AGS_30_01",
 	"CFP_O_HAMAS_Hilux_DShKM_01",
 	"CFP_O_HAMAS_Hilux_Igla_01",
@@ -108,7 +105,6 @@ opfor_vehicles = [
 	"CFP_O_HAMAS_Technical_Metis_01",
 	"CFP_O_HAMAS_Technical_MG_01",
 	"CFP_O_HAMAS_Technical_SPG_01",
-	"CFP_O_HAMAS_Technical_Unarmed_01",
 	"CFP_O_HAMAS_Truck_01",
 	"CFP_O_BH_Ural_01",
 	"CFP_O_BH_Pickup_PK_01",
@@ -121,7 +117,6 @@ opfor_vehicles = [
 
 opfor_vehicles_low_intensity = [
 	"CFP_O_HAMAS_Ural_ZU_23_01",
-	"CFP_O_HAMAS_Hilux_01",
 	"CFP_O_HAMAS_Hilux_AGS_30_01",
 	"CFP_O_HAMAS_Hilux_DShKM_01",
 	"CFP_O_HAMAS_Hilux_Igla_01",
@@ -133,7 +128,6 @@ opfor_vehicles_low_intensity = [
 	"CFP_O_HAMAS_Technical_Metis_01",
 	"CFP_O_HAMAS_Technical_MG_01",
 	"CFP_O_HAMAS_Technical_SPG_01",
-	"CFP_O_HAMAS_Technical_Unarmed_01",
 	"CFP_O_HAMAS_Truck_01",
 	"CFP_O_BH_Ural_01",
 	"CFP_O_BH_Pickup_PK_01",
@@ -146,7 +140,6 @@ opfor_vehicles_low_intensity = [
 
 opfor_battlegroup_vehicles = [
 	"CFP_O_HAMAS_Ural_ZU_23_01",
-	"CFP_O_HAMAS_Hilux_01",
 	"CFP_O_HAMAS_Hilux_AGS_30_01",
 	"CFP_O_HAMAS_Hilux_DShKM_01",
 	"CFP_O_HAMAS_Hilux_Igla_01",
@@ -158,8 +151,7 @@ opfor_battlegroup_vehicles = [
 	"CFP_O_HAMAS_Technical_Metis_01",
 	"CFP_O_HAMAS_Technical_MG_01",
 	"CFP_O_HAMAS_Technical_SPG_01",
-	"CFP_O_HAMAS_Technical_Unarmed_01",
-	"CFP_O_HAMAS_Truck_01",
+	"CFP_O_HAMAS_Truck_01",	
 	"CFP_O_BH_Ural_01",
 	"CFP_O_BH_Pickup_PK_01",
 	"CFP_O_BH_Hilux_UB_32_01",
@@ -171,7 +163,6 @@ opfor_battlegroup_vehicles = [
 
 opfor_battlegroup_vehicles_low_intensity = [
 	"CFP_O_HAMAS_Ural_ZU_23_01",
-	"CFP_O_HAMAS_Hilux_01",
 	"CFP_O_HAMAS_Hilux_AGS_30_01",
 	"CFP_O_HAMAS_Hilux_DShKM_01",
 	"CFP_O_HAMAS_Hilux_Igla_01",
@@ -183,7 +174,6 @@ opfor_battlegroup_vehicles_low_intensity = [
 	"CFP_O_HAMAS_Technical_Metis_01",
 	"CFP_O_HAMAS_Technical_MG_01",
 	"CFP_O_HAMAS_Technical_SPG_01",
-	"CFP_O_HAMAS_Technical_Unarmed_01",
 	"CFP_O_HAMAS_Truck_01",
 	"CFP_O_BH_Ural_01",
 	"CFP_O_BH_Pickup_PK_01",
@@ -200,6 +190,7 @@ opfor_troup_transports_truck = [
 ];
 
 opfor_troup_transports_heli = [
+	"CFP_O_IRARMY_Mi_8MT_01"
 ];
 
 opfor_air = [
