@@ -11,8 +11,13 @@ removeGoggles _unit;
 
 #include "loadout_init.sqf"
 private _amfce_weapon = [ 
-    "LMG_Mk200_F",
-    "LMG_Zafir_F"
+    "amf_mini_mg_tactical_mk3",
+    "amf_mag58_01_f",
+    "amf_aanf1_01_f"
+];
+
+private _amfce_optic = [ 
+    "AMF_Aimpoint_CompM5"
 ];
 
 _unit addGoggles (selectRandom _amfce_goggles);

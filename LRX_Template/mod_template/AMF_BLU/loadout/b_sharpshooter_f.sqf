@@ -11,13 +11,12 @@ removeGoggles _unit;
 
 #include "loadout_init.sqf"
 private _amfce_weapon = [ 
-    "AMF_PGM_ULTIMA_RATIO_01_F",
-    "AMF_RFF2_01_F"
+    "AMF_714_Long_01_F",
+    "AMF_SCAR_H_01_F"
 ];
 
 private _amfce_optic = [ 
-    "AMF_Scrome_J8",
-    "AMF_schmidt_benderx4"
+    "AMF_xps3_magnigier_side"
 ];
 
 _unit addGoggles (selectRandom _amfce_goggles);
