@@ -69,7 +69,6 @@ militia_vehicles = [
 	"CFP_O_HAMAS_Hilux_DShKM_01",
 	"CFP_O_HAMAS_Hilux_Igla_01",
 	"CFP_O_HAMAS_Hilux_Metis_01",
-	"CFP_O_HAMAS_Hilux_Podnos_01",
 	"CFP_O_HAMAS_Hilux_SPG_01",
 	"CFP_O_HAMAS_Hilux_ZU_23_01",
 	"CFP_O_HAMAS_Technical_Metis_01",
@@ -90,7 +89,6 @@ opfor_vehicles = [	//
 	"CFP_O_HAMAS_Hilux_DShKM_01",
 	"CFP_O_HAMAS_Hilux_Igla_01",
 	"CFP_O_HAMAS_Hilux_Metis_01",
-	"CFP_O_HAMAS_Hilux_Podnos_01",
 	"CFP_O_HAMAS_Hilux_SPG_01",
 	"CFP_O_HAMAS_Hilux_ZU_23_01",
 	"CFP_O_HAMAS_Technical_Metis_01",
@@ -101,7 +99,6 @@ opfor_vehicles = [	//
 	"CFP_O_ABUSAYYAF_M113_01",
 	"CFP_O_ABUSAYYAF_Ural_01",
 	"CFP_O_ALQAEDA_Ural_Open_01",
-	"CFP_O_HAMAS_Hilux_MLRS_01",
 	"CFP_O_HAMAS_Ural_ZU_23_01"
 
 ];
@@ -111,7 +108,6 @@ opfor_vehicles_low_intensity = [	//
 	"CFP_O_HAMAS_Hilux_DShKM_01",
 	"CFP_O_HAMAS_Hilux_Igla_01",
 	"CFP_O_HAMAS_Hilux_Metis_01",
-	"CFP_O_HAMAS_Hilux_Podnos_01",
 	"CFP_O_HAMAS_Hilux_SPG_01",
 	"CFP_O_HAMAS_Hilux_ZU_23_01",
 	"CFP_O_HAMAS_Technical_Metis_01",
@@ -125,7 +121,6 @@ opfor_vehicles_low_intensity = [	//
 ];
 
 opfor_battlegroup_vehicles = [
-	"CFP_O_HAMAS_Hilux_MLRS_01",
 	"CFP_O_HAMAS_Ural_ZU_23_01",
 	"CFP_O_HEZBOLLAH_BTR_60PB_01",
 	"CFP_O_HEZBOLLAH_BMP_2_01",
@@ -138,7 +133,6 @@ opfor_battlegroup_vehicles = [
 ];
 
 opfor_battlegroup_vehicles_low_intensity = [
-	"CFP_O_HAMAS_Hilux_MLRS_01",
 	"CFP_O_HAMAS_Ural_ZU_23_01",
 	"CFP_O_HEZBOLLAH_BTR_60PB_01",
 	"CFP_O_WAGNER_BTR_80_WDL_01",
@@ -161,7 +155,6 @@ opfor_air = [
 ];
 
 opfor_statics = [	//
-	"CFP_O_BH_D30_AT_01",
 	"CFP_O_HAMAS_DShKM_01",
 	"CFP_O_HAMAS_SPG_9_01",
 	"CFP_O_HAMAS_Metis_01",
@@ -181,13 +174,14 @@ opfor_recyclable = [
 	["CFP_O_ALQAEDA_Ural_Open_01",1,round (30 / GRLIB_recycling_percentage),5],
 	["CFP_O_BH_Landrover_M2_01",1,round (30 / GRLIB_recycling_percentage),2],
 	["CFP_O_BH_Landrover_SPG9_01",1,round (50 / GRLIB_recycling_percentage),2],
-	["CFP_O_HAMAS_Hilux_AGS_30_01",1,round (40 / GRLIB_recycling_percentage),2],
-	["CFP_O_HAMAS_Hilux_DShKM_01",1,round (30 / GRLIB_recycling_percentage),2],
-	["CFP_O_HAMAS_Hilux_Igla_01",2,round (50 / GRLIB_recycling_percentage),2],
-	["CFP_O_HAMAS_Hilux_Metis_01",3,round (80 / GRLIB_recycling_percentage),2],
-	["CFP_O_HAMAS_Hilux_Podnos_01",2,round (200 / GRLIB_recycling_percentage),5],
-	["CFP_O_HAMAS_Hilux_SPG_01",2,round (80 / GRLIB_recycling_percentage),3],
-	["CFP_O_HAMAS_Hilux_ZU_23_01",3,round (150 / GRLIB_recycling_percentage),3],
+	["CFP_O_HAMAS_Hilux_AGS_30_01",1,round (140 / GRLIB_recycling_percentage),3],
+	["CFP_O_HAMAS_Hilux_DShKM_01",1,round (130 / GRLIB_recycling_percentage),3],
+	["CFP_O_HAMAS_Hilux_Igla_01",2,round (150 / GRLIB_recycling_percentage),3],
+	["CFP_O_HAMAS_Hilux_Metis_01",3,round (180 / GRLIB_recycling_percentage),3],
+	["CFP_O_HAMAS_Hilux_Podnos_01",2,round (240 / GRLIB_recycling_percentage),5],
+	["CFP_O_HAMAS_Hilux_SPG_01",2,round (180 / GRLIB_recycling_percentage),5],
+	["CFP_O_HAMAS_Hilux_ZU_23_01",3,round (250 / GRLIB_recycling_percentage),5],
+	["CFP_O_HAMAS_Hilux_MLRS_01",3,round (750 / GRLIB_recycling_percentage),5],
 	["CFP_O_HAMAS_Technical_Metis_01",2,round (80 / GRLIB_recycling_percentage),2],
 	["CFP_O_BH_Pickup_PK_01",2,round (50 / GRLIB_recycling_percentage),2],
 	["CFP_O_BH_Humvee_M2_01",5,round (150 / GRLIB_recycling_percentage),3],
@@ -198,6 +192,5 @@ opfor_recyclable = [
 	["CFP_O_TBAN_BMP_1_01",7,round (750 / GRLIB_recycling_percentage),15],
 	["CFP_O_WAGNER_BTR_80_WDL_01",7,round (450 / GRLIB_recycling_percentage),10],
 	["CFP_O_ALSHABAAB_Hilux_UB_32_01",5,round (300 / GRLIB_recycling_percentage),5],
-	["CFP_O_IRARMY_Mi_8MT_01",10,round (1500 / GRLIB_recycling_percentage),20],
-	["CFP_O_HAMAS_Hilux_MLRS_01",3,round (250 / GRLIB_recycling_percentage),5]
+	["CFP_O_IRARMY_Mi_8MT_01",10,round (1500 / GRLIB_recycling_percentage),20]
 ];
