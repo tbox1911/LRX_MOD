@@ -28,6 +28,27 @@ private _amfce_weapon = [
     "AMF_614_short_FS4_BLK"
 ];
 
+private _amfce_weapon_heavy = [ 
+    "amf_mini_mg_tactical_mk3",
+    "amf_mag58_01_f",
+    "amf_aanf1_01_f"
+];
+
+private _amfce_weapon_sharp = [ 
+    "AMF_714_Long_01_F",
+    "AMF_SCAR_H_01_F"
+];
+
+private _amfce_weapon_sniper = [ 
+    "AMF_PGM_ULTIMA_RATIO_01_F",
+    "AMF_RFF2_01_F"
+];
+
+private _amfce_optic_sniper = [ 
+    "AMF_Scrome_J8",
+    "AMF_schmidt_benderx4"
+];
+
 private _amfce_optic = [ 
     "optic_Holosight_blk_F",
     "optic_ACO_grn",

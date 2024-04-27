@@ -10,20 +10,10 @@ removeHeadgear _unit;
 removeGoggles _unit;
 
 #include "loadout_init.sqf"
-private _amfce_weapon = [ 
-    "srifle_DMR_03_tan_F",
-    "srifle_DMR_03_khaki_F",
-    "srifle_DMR_03_F"
-];
-
-private _amfce_optic = [ 
-    "optic_SOS_khk_F",
-    "optic_SOS"
-];
 
 _unit addGoggles (selectRandom _amfce_goggles);
-_unit addWeapon (selectRandom _amfce_weapon);
-_unit addPrimaryWeaponItem (selectRandom _amfce_optic);
+_unit addWeapon (selectRandom _amfce_weapon_sharp);
+_unit addPrimaryWeaponItem "AMF_xps3_magnigier_side";
 _unit addPrimaryWeaponItem "acc_flashlight";
 _unit forceAddUniform (selectRandom _amfce_uniforms);
 _unit addVest (selectRandom _amfce_vest);
