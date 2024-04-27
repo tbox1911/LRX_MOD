@@ -15,7 +15,7 @@ _unit addGoggles (selectRandom _amfce_goggles);
 _unit addWeapon (selectRandom _amfce_weapon);
 _unit addPrimaryWeaponItem (selectRandom _amfce_optic);
 _unit addPrimaryWeaponItem "acc_flashlight";
-_unit addWeapon "launch_NLAW_F";
+_unit addWeapon "AMF_AT4CS_Loaded";
 _unit forceAddUniform (selectRandom _amfce_uniforms);
 _unit addVest (selectRandom _amfce_vest);
 _unit addBackpack (selectRandom _amfce_backpack);

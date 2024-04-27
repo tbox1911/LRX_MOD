@@ -1,14 +1,6 @@
 //Blacklist Items
 
 blacklisted_bag = [
-	"AMF_rush24_01_MTP",
-	"AMF_rush24_01_BLK",
-	"AMF_Bergen_F2_DA",
-	"amf_tecpack_30L_BME",
-	"AMF_FELIN_BACKPACK_BME",
-	"AMF_FELIN_BACKPACK_LIGHT_BME",
-	"AMF_FELIN_BACKPACK_MEDIC_BME",
-	"amf_tecpack_70L_BME",
 	"AMF_TVMMP_weapon",
 	"AMF_MMP_support",
 	"AMF_WiredMMP_weapon",

@@ -5,10 +5,10 @@
 
 box_transport_config = box_transport_config + [
     // the 'opfor_transport_truck' MUST be declared here
-    [ "AMF_GBC180_PLATEAU_01", -8, [0, -0.3, 0.4], [0, -1.9, 0.4], [0, -3,5, 0,4] ],
-    [ "AMF_GBC180_ViV", -8, [0, -0.3, 0.4], [0, -1.9, 0.4], [0, -3,5, 0,4] ],
-    [ "AMF_GBC180_PERS_01", -8, [0, -0.3, 0.4], [0, -1.9, 0.4], [0, -3,5, 0,4] ],
-    [ "amf_nh90_tth_cargo", -10, [0, -0,3, 0,4] ]
+    [ "AMF_GBC180_ViV", -5.3, [0, -0.2, 2.6], [0, -1.8, 2.6] ],
+    [ "amf_nh90_tth_cargo", -10, [0, 0.2, -1.1], [0, 1.8, -1.1], [0, 3.4, -1.1] ],
+    [ "amf_cougar", -10, [0.1, 2.4, -1] ],
+    [ "B_T_Truck_01_medical_F", -6.5, [0, -0.4, 0.4], [0, -2.1, 0.4], [0, -3.8, 0.4] ]
 ];
 
 // Additional offset per object
