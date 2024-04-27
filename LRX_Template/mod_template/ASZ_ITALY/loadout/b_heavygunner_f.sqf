@@ -10,15 +10,9 @@ removeHeadgear _unit;
 removeGoggles _unit;
 
 #include "loadout_init.sqf"
-private _italy_weapon = [ 
-    "LMG_mas_itl_mg3_F",
-    "LMG_mas_itl_02_F",
-    "LMG_mas_itl_03_F",
-    "ASZ_M249mk1_base"
-];
 
 _unit addGoggles (selectRandom _italy_goggles);
-_unit addWeapon (selectRandom _italy_weapon);
+_unit addWeapon (selectRandom _italy_weapon_heavygunner);
 _unit addPrimaryWeaponItem (selectRandom _italy_optic);
 _unit addPrimaryWeaponItem "acc_flashlight";
 _unit forceAddUniform (selectRandom _italy_uniforms);
