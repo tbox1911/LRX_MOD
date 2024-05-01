@@ -116,7 +116,6 @@ opfor_vehicles_low_intensity = [
 
 opfor_battlegroup_vehicles = [
 	"CUP_O_L39_TK",
-	"CUP_O_AN2_TK",
 	"CUP_O_MI6A_TKA",
 	"CUP_O_BRDM2_TKA",
 	"CUP_O_BRDM2_ATGM_TKA",
@@ -129,9 +128,7 @@ opfor_battlegroup_vehicles = [
 	"CUP_O_BMP1P_TKA",
 	"CUP_O_UH1H_slick_TKA",
 	"CUP_O_BTR40_MG_TKA",
-	"CUP_O_T72_TKA",
-	"CUP_O_UH1H_armed_TKA",
-	"CUP_O_Mi17_TK"
+	"CUP_O_T72_TKA"
 ];
 
 opfor_battlegroup_vehicles_low_intensity = [
@@ -147,8 +144,7 @@ opfor_battlegroup_vehicles_low_intensity = [
 	"CUP_O_BRDM2_TKA",
 	"CUP_O_LR_MG_TKA",
 	"CUP_O_UH1H_slick_TKA",
-	"CUP_O_V3S_Open_TKM",
-	"CUP_O_MI6T_TKA"
+	"CUP_O_V3S_Open_TKM"
 ];
 
 opfor_troup_transports_truck = [
@@ -157,6 +153,7 @@ opfor_troup_transports_truck = [
 ];
 
 opfor_troup_transports_heli = [
+	"CUP_O_AN2_TK",
 	"CUP_O_Mi17_TK",
 	"CUP_O_MI6T_TKA",
 	"CUP_O_UH1H_armed_TKA"
@@ -170,12 +167,12 @@ opfor_air = [
 ];
 
 opfor_statics = [
-"CUP_O_KORD_high_TK",
-"CUP_O_ZU23_TK",
-"CUP_O_2b14_82mm_TK",
-"CUP_O_KORD_TK",
-"CUP_O_Igla_AA_pod_TK",
-"CUP_O_AGS_TK"
+	"CUP_O_KORD_high_TK",
+	"CUP_O_ZU23_TK",
+	"CUP_O_2b14_82mm_TK",
+	"CUP_O_KORD_TK",
+	"CUP_O_Igla_AA_pod_TK",
+	"CUP_O_AGS_TK"
 ];
 
 opfor_recyclable = [
