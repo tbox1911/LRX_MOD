@@ -1,3 +1,7 @@
+// PAR Global Functions - Client side
+PAR_EventHandler = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_EventHandler.sqf";
+PAR_AI_Manager = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_AI_Manager.sqf";
+PAR_ActionManager = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_ActionManager.sqf";
 PAR_fn_nearestMedic = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_fn_nearestMedic.sqf";
 PAR_fn_medic = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_fn_medic.sqf";
 PAR_fn_medicRelease = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_fn_medicRelease.sqf";
@@ -8,40 +12,63 @@ PAR_fn_sortie = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_fn_so
 PAR_fn_death = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_fn_death.sqf";
 PAR_fn_unconscious = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_fn_unconscious.sqf";
 PAR_fn_eject = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_fn_eject.sqf";
-PAR_fn_checkWounded = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_fn_checkWounded.sqf";
+PAR_fn_heal = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_fn_heal.sqf";
 PAR_fn_deathSound = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_fn_deathSound.sqf";
 F_ejectUnit = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\F_ejectUnit.sqf";
 F_getRND = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\F_getRND.sqf";
 
+PAR_medic_units = {
+	PAR_AI_bros select { lifeState _x != "INCAPACITATED" && isNil {_x getVariable 'PAR_busy'} };
+};
 PAR_unblock_AI = {
 	// Unblock unit(s) 0-8-1
 	params ["_unit_array"];
 	if (player getVariable ["SOG_player_in_tunnel", false]) exitWith {};
 	if ( isNull (objectParent player) && count _unit_array == 0 ) then {
-		private _grp = group player;
-		player setPosATL (getPosATL player vectorAdd [([] call F_getRND), ([] call F_getRND), 0.5]);
+		if (surfaceIsWater (getPos player)) then {
+			private _pos = getPosASL player;
+			private _zpos = _pos select 2;
+			if (_zpos < -1.4) then { _pos set [2, -1.4 max _zpos] };
+			player setPosASL _pos;
+			player switchMove "";
+			player playMoveNow "";				
+		} else {
+			player setPosATL (getPosATL player vectorAdd [([] call F_getRND), ([] call F_getRND), 0.3]);
+		};
 	} else {
 		{
 			_unit = _x;
-			if (isNull (objectParent _unit) && round (player distance2D _unit) < 50 && (lifeState _unit != 'INCAPACITATED') && vehicle _unit == _unit) then {
-				doStop _unit;
+			if (isNull (objectParent _unit) && (player distance2D _unit) < 50 && (lifeState _unit != 'INCAPACITATED')) then {
+				_unit stop true;
 				sleep 1;
 				_unit doWatch objNull;
 				_unit switchmove "";
 				_unit disableAI "ALL";
-				_grp = createGroup [playerSide, true];
+				private _grp = createGroup [playerSide, true];
 				[_unit] joinSilent _grp;
-				doStop _unit;
+				sleep 0.2;
 				unAssignVehicle _unit;
 				[_unit] orderGetIn false;
 				[_unit] allowGetIn false;
-				sleep 1;
-				_unit setPosATL (getPosATL player vectorAdd [([] call F_getRND), ([] call F_getRND), 0.5]);
-				[_unit] joinSilent (group player);
+				sleep 0.2;
+				if (surfaceIsWater (getPos _unit)) then {
+					_unit setPosASL (getPosASL player vectorAdd [([] call F_getRND), ([] call F_getRND), 0]);
+				} else {
+					_unit setPosATL (getPosATL player vectorAdd [([] call F_getRND), ([] call F_getRND), 0.3]);
+				};
+				sleep 0.2;
+				_unit stop false;
 				_unit enableAI "ALL";
-				_unit doFollow leader player;
-				_unit switchMove "AmovPercMwlkSrasWrflDf";
-				_unit playMoveNow "AmovPercMwlkSrasWrflDf";
+				[_unit] joinSilent (group player);
+				sleep 0.2;
+				_unit doFollow player;
+				if (surfaceIsWater (getPos _unit)) then {
+					_unit switchMove "";
+					_unit playMoveNow "";
+				} else {
+					_unit switchMove "AmovPercMwlkSrasWrflDf";
+					_unit playMoveNow "AmovPercMwlkSrasWrflDf";
+				};
 			} else {
 				hintSilent "Unit is in a vehicle or is unconscious,\n or is too far. (max 50m)";
 			};
@@ -49,30 +76,36 @@ PAR_unblock_AI = {
 	};
 };
 PAR_fn_globalchat = {
-  params ["_speaker", "_msg"];
-  if (isDedicated) exitWith {};
-  if (!(local _speaker)) exitWith {};
-  if ((_speaker getVariable ["PAR_Grp_ID","0"]) == format["Bros_%1",PAR_Grp_ID] || isPlayer _speaker) then {
-    player globalChat _msg;
-  };
+	params ["_speaker", "_msg"];
+	if (isDedicated) exitWith {};
+	if (!(local _speaker)) exitWith {};
+	if ((_speaker getVariable ["PAR_Grp_ID","0"]) == format ["Bros_%1", PAR_Grp_ID] || isPlayer _speaker) then {
+		player globalChat _msg;
+	};
+};
+PAR_fn_fixPos = {
+	params ["_list"];
+	{
+		private _pos = getPosASL _x;
+		if (surfaceIsWater _pos) then {
+			if (isPlayer _x) then {
+				_x switchMove ""; // reset
+				_x playMoveNow "";
+			} else {
+				private _zpos = _pos select 2;
+				if (_zpos < -1.2) then { _pos set [2, -1.2 max _zpos] };
+				_x setPosASL _pos;
+			};
+		};
+	} forEach _list;
 };
 PAR_is_medic = {
 	params ["_unit"];
-	private _ret = false;
-
-	if ( getNumber (configOf _unit >> "attendant") == 1 ) then {
-		_ret = true;
-	};
-	_ret
+	(getNumber (configOf _unit >> "attendant") == 1);
 };
 PAR_has_medikit = {
 	params ["_unit"];
-	private _ret = false;
-
-	if ( PAR_AidKit in (items _unit) || PAR_Medikit in (items _unit) ) then {
-		_ret = true;
-	};
-	_ret
+	(PAR_AidKit in (items _unit) || PAR_Medikit in (items _unit));
 };
 PAR_public_EH = {
 	params ["_EH", "_target"];
@@ -91,40 +124,72 @@ PAR_public_EH = {
 	};
 };
 PAR_show_marker = {
-	_mk1 = createMarker [format ["PAR_marker_%1", name player], position player];
-	_mk1 setMarkerType "loc_Hospital";
+	private _mk1 = createMarkerLocal [format ["PAR_marker_%1", PAR_Grp_ID], getPosATL player];
+	_mk1 setMarkerTypeLocal "loc_Hospital";
+	_mk1 setMarkerTextLocal format ["%1 Injured", name player];
 	_mk1 setMarkerColor "ColorRed";
-	_mk1 setMarkerText format ["%1 Injured", name player];
 };
 PAR_del_marker = {
-	deletemarker format ["PAR_marker_%1", name player];
+	deletemarker format ["PAR_marker_%1", PAR_Grp_ID];
+};
+PAR_revive_max = {
+	params ["_unit"];
+
+	private _cur_revive = (_unit getVariable ["PAR_revive_max", PAR_ai_revive]) - 1;
+	_unit setVariable ["PAR_revive_max", _cur_revive];
+	if (_cur_revive <= 3) then {
+		private _msg = format ["%1 last revive (%2) !!", name _unit, _cur_revive];
+		[_unit, _msg] call PAR_fn_globalchat;
+	};
+
+	private _timer = 20;
+	while { _timer >= 0 && alive _unit } do {
+		private _near_medical = (count (nearestObjects [_unit, [medic_heal_typename], 10]) > 0);
+		if (_near_medical) then {
+			if (_unit distance2D player < 100) then {
+				private _msg = format ["%1 is healing faster...", name _unit];
+				[_unit, _msg] call PAR_fn_globalchat;
+			};
+			sleep 25;
+		} else {
+			sleep 60;
+		};
+		_timer = _timer - 1;
+	};
+
+	if (!alive _unit) exitWith {};
+	private _revive = (_unit getVariable ["PAR_revive_max", PAR_ai_revive]) + 1;
+	_unit setVariable ["PAR_revive_max", _revive];
+	private _msg = format ["%1 revive restored (%2) !!", name _unit, _revive];
+	[_unit, _msg] call PAR_fn_globalchat;
+
+};
+PAR_spawn_gargbage = {
+	params ["_target"];
+	private _pos = getPos _target;
+	if (surfaceIsWater _pos) exitWith {};
+	if (_pos select 2 > 10) exitWith {};
+	private _grbg = createVehicle [(selectRandom PAR_MedGarbage), _pos, [], 0, "CAN_COLLIDE"];
+	_grbg spawn {sleep (60 + floor(random 30)); deleteVehicle _this};
+};
+PAR_spawn_blood = {
+	params ["_target"];
+	private _pos = getPos _target;
+	if (surfaceIsWater _pos) exitWith {objNull};
+	if (_pos select 2 > 10) exitWith {objNull};
+	private _grbg = createVehicle [(selectRandom PAR_BloodSplat), _pos, [], 0, "CAN_COLLIDE"];
+	_grbg;
 };
 
 // AI Section
 PAR_fn_AI_Damage_EH = {
 	params ["_unit"];
-
-	if ( _unit getVariable ["PAR_EH_Installed", false] ) exitWith {};
+	if (_unit getVariable ["PAR_EH_Installed", false]) exitWith {};
 	_unit setVariable ["PAR_EH_Installed", true];
-	_unit addEventHandler ["HandleDamage", {
-		params ["_unit","","_dam"];
-		_veh = objectParent _unit;
-		if (!(isNull _veh) && !(player in (crew _veh)) && damage _veh > 0.8) then {[_veh, _unit, true] spawn PAR_fn_eject};
-
-		private _isNotWounded = !(_unit getVariable ["PAR_wounded", false]);
-		if (_isNotWounded && _dam >= 0.86) then {
-			if (!isNull _veh) then {[_veh, _unit] spawn PAR_fn_eject};
-			_unit allowDamage false;
-			_unit setVariable ["PAR_wounded", true];
-			_unit setUnconscious true;
-			_unit setVariable ["PAR_BleedOutTimer", round(time + PAR_BleedOut), true];
-			[_unit] spawn PAR_fn_unconscious;
-		};
-		_dam min 0.86;
-	}];
-
-	_unit addEventHandler ["Killed", { _this spawn PAR_fn_death }];
-	_unit setVariable ["PAR_wounded", false];
+	[_unit] call PAR_EventHandler;
+	_unit setVariable ["PAR_wounded", false, true];
+	_unit setVariable ["PAR_isUnconscious", false, true];
+	_unit setVariable ["PAR_isDragged", 0, true];
 	_unit setVariable ["PAR_myMedic", nil];
 	_unit setVariable ["PAR_busy", nil];
 	_unit setVariable ["PAR_heal", nil];
@@ -133,8 +198,8 @@ PAR_fn_AI_Damage_EH = {
 
 // Player Section
 PAR_Player_Init = {
-	player setVariable ["PAR_isUnconscious", 0, true];
-	player setVariable ["PAR_wounded", false];
+	player setVariable ["PAR_wounded", false, true];
+	player setVariable ["PAR_isUnconscious", false, true];
 	player setVariable ["PAR_isDragged", 0, true];
 	player setVariable ["ace_sys_wounds_uncon", false];
 	player setVariable ["PAR_Grp_ID", format["Bros_%1", PAR_Grp_ID], true];
@@ -146,19 +211,11 @@ PAR_Player_Init = {
 	player setUnitRecoilCoefficient 0.6;
 	player setCaptive false;
 	PAR_isDragging = false;
+	[player] call add_player_actions;
 	1 fadeSound 1;
 	1 fadeRadio 1;
 	hintSilent "";
 	showMap true;
-
-	// Unblock units
-	private _actions = missionNamespace getVariable ["BIS_fnc_addCommMenuItem_menu", []];
-	private _id = (count _actions / 2) + 1;
-	_actions = _actions + [
-		["Do it !", true],
-		["Unblock unit.", [_id + 1], "", -5, [["expression", "[groupSelectedUnits player] spawn PAR_unblock_AI"]], str _id, str _id]
-	];
-	missionNamespace setVariable ["BIS_fnc_addCommMenuItem_menu", _actions];
 };
 
 PAR_HandleDamage_EH = {
@@ -166,7 +223,7 @@ PAR_HandleDamage_EH = {
 	if (isNull _unit) exitWith {0};
 	if (!isNull _instigator) then {
 		if (isNull (getAssignedCuratorLogic _instigator)) then {
-	    	_killer = _instigator;
+			_killer = _instigator;
 		};
 	} else {
 		if (!(_killer isKindOf "CAManBase")) then {
@@ -180,12 +237,10 @@ PAR_HandleDamage_EH = {
 	if (!(isNull _veh_unit) && damage _veh_unit > 0.8) then {[_veh_unit, _unit, true] spawn PAR_fn_eject};
 
 	if ( _isNotWounded && _amountOfDamage >= 0.86) then {
-		if (!(isNull _veh_unit)) then {[_veh_unit, _unit] spawn PAR_fn_eject};		
-		_unit setVariable ["PAR_wounded", true];
-		_unit setVariable ["PAR_isUnconscious", 1, true];
-		_unit setCaptive true;
-		_unit allowDamage false;
-		_unit setVariable ["PAR_BleedOutTimer", round(time + PAR_BleedOut), true];
+		if (!(isNull _veh_unit)) then {[_unit, _veh_unit] spawn PAR_fn_eject};
+		_unit setVariable ["PAR_wounded", true, true];
+		_unit setVariable ["PAR_isUnconscious", true, true];
+		_unit setVariable ["PAR_BleedOutTimer", round(time + PAR_bleedout), true];
 		[_unit, _killer] spawn PAR_Player_Unconscious;
 	};
 
@@ -202,21 +257,18 @@ PAR_Player_Unconscious = {
 		["PAR_deathMessage", [_unit, _killer]] remoteExec ["PAR_public_EH", 0];
 	};
 
-	_random_medic_message = floor (random 3);
-	_medic_message = "";
+	private _random_medic_message = floor (random 3);
+	private _medic_message = "";
 	switch (_random_medic_message) do {
 		case 0 : { _medic_message = localize "STR_PAR_Need_Medic1"; };
 		case 1 : { _medic_message = localize "STR_PAR_Need_Medic2"; };
 		case 2 : { _medic_message = localize "STR_PAR_Need_Medic3"; };
 	};
-	[_medic_message] remoteExec ["sidechat", -2];
+	_unit globalChat _medic_message;
 
 	disableUserInput false;
 	disableUserInput true;
 	disableUserInput false;
-
-	// PAR AI Revive Call
-	_unit setUnconscious true;
 
 	// Mute Radio
 	5 fadeRadio 0;
@@ -225,17 +277,17 @@ PAR_Player_Unconscious = {
 	_my_dog = player getVariable ["my_dog", nil];
 	if (!isNil "_my_dog") then { _my_dog setVariable ["do_find", player] };
 
-	_unit switchMove "";
+	// PAR AI Revive Call
 	[_unit] spawn PAR_fn_unconscious;
 
-	while { !isNull _unit && alive _unit && _unit getVariable ["PAR_isUnconscious", 0] == 1 } do {
+	while { !isNull _unit && alive _unit && (_unit getVariable ["PAR_isUnconscious", false])} do {
 		_bleedOut = player getVariable ["PAR_BleedOutTimer", 0];
-		_bleedout_message = format [localize "STR_BLEEDOUT_MESSAGE", round (_bleedOut - time)];
-		titleText [ _bleedout_message, "PLAIN DOWN" ];
-		sleep 2;
+		public_bleedout_message = format [localize "STR_BLEEDOUT_MESSAGE", round (_bleedOut - time)];
+		public_bleedout_timer = round (_bleedOut - time);
+		sleep 0.5;
 	};
-	titleText [ "", "PLAIN DOWN" ];
-	if (alive _unit && _unit getVariable ["PAR_isUnconscious", 0] == 0) then {
+
+	if (alive _unit && !(_unit getVariable ["PAR_isUnconscious", false])) then {
 		// Player got revived
 		_unit switchMove "amovppnemstpsraswrfldnon";
 		_unit playMoveNow "amovppnemstpsraswrfldnon";
@@ -244,9 +296,7 @@ PAR_Player_Unconscious = {
 		5 fadeRadio 1;
 
 		// Unmute ACRE
-		if (isPlayer _unit) then {
-			_unit setVariable ["ace_sys_wounds_uncon", false];
-		};
+		_unit setVariable ["ace_sys_wounds_uncon", false];
 
 		// Dog stop
 		if (!isNil "_my_dog") then { _my_dog setVariable ["do_find", nil] };

@@ -1,28 +1,22 @@
-params ["_vehicle", "_unit", ["_slow", true]];
-if (isNull _unit || !alive _unit) exitWith {};
-if (!local _unit) exitWith {
-	_owner = owner _unit;
-	if (_owner != 0) then {
-		[_vehicle, _unit] remoteExec ["F_ejectUnit", owner _unit];
+params ["_unit", ["_slow", true]];
+if (isNull objectParent _unit || isNull _unit || !alive _unit) exitWith {};
+if ((vehicle _unit) isKindOf "ParachuteBase") exitWith {};
+
+unAssignVehicle _unit;
+[_unit] orderGetIn false;
+[_unit] allowGetIn false;
+
+if (_slow) then { sleep 2 };
+moveOut _unit;
+sleep 1;
+if (!alive _unit) exitWith {};
+
+if (getPos _unit select 2 >= 50) then {
+	private _pos = _unit getPos [50, 360];
+	if (backpack _unit != "B_Parachute") then {
+		private _para = createVehicle ["Steerable_Parachute_F",_pos,[],0,"FLY"];
+		_unit moveInDriver _para;
+		sleep 3;
+		if (isNull (driver _para)) then { deleteVehicle _para };
 	};
 };
-
-_unit allowDamage false;
-unAssignVehicle _unit;
-if (_slow) then { sleep (random 2) };
-_unit action ["eject", _vehicle];
-_unit action ["getout", _vehicle];
-sleep 1;
-if (!isNull objectParent _unit) then { moveOut _unit };
-
-if (getPos _unit select 2 >= 20) then {
-	_unit setPos (getPosATL _vehicle vectorAdd [([[-15,0,15], 2] call F_getRND), ([[-15,0,15], 2] call F_getRND), 0]);
-	_para = createVehicle ['Steerable_Parachute_F', (getPos _unit),[],0,'none'];
-	sleep 0.5;
-	_unit moveInDriver _para;
-	sleep 1;
-	if (isnull (driver _para)) then {deleteVehicle _para};
-};
-
-sleep 1;
-_unit allowDamage true;
