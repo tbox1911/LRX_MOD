@@ -22,6 +22,10 @@ Based on:
 
   Farooq's Revive by farooqaaa
   at : https://forums.bohemia.net/forums/topic/146926-farooqs-revive/
+
+todo:
+ - cleanup if unit leave group
+
 _________________________________________________________________________*/
 
 if (!isDedicated && !hasInterface && isMultiplayer) exitWith {};
