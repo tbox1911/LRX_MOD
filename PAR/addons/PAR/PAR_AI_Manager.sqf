@@ -84,7 +84,7 @@ while {true} do {
                 if (time > _timer) then {
                     private _msg = "";
                     private _cur_revive = _unit getVariable ["PAR_revive_max", PAR_ai_revive];
-                    private _near_medical = (count (nearestObjects [_unit, [medic_heal_typename], 10]) > 0);
+                    private _near_medical = (count (nearestObjects [_unit, [PAR_medical_source], 10]) > 0);
                     if (_cur_revive <= 3 && !_near_medical) then {
                         _msg = format ["WARN: %1 need Medical Support Now !!", name _unit];
                     };
@@ -105,7 +105,6 @@ while {true} do {
         if  (!isplayer _x && (_x getVariable ["PAR_Grp_ID","0"]) != format["Bros_%1", PAR_Grp_ID]) then {
             // Set EH
             [_x] spawn PAR_fn_AI_Damage_EH;
-            _x setVariable ["PAR_Grp_ID", format["Bros_%1", PAR_Grp_ID], true];
             player globalChat format ["%1 protected by PAR.", name _x];
             diag_log format ["%1 protected by PAR.", name _x];
         };

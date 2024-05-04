@@ -144,7 +144,7 @@ PAR_revive_max = {
 
 	private _timer = 20;
 	while { _timer >= 0 && alive _unit } do {
-		private _near_medical = (count (nearestObjects [_unit, [medic_heal_typename], 10]) > 0);
+		private _near_medical = (count (nearestObjects [_unit, [PAR_medical_source], 10]) > 0);
 		if (_near_medical) then {
 			if (_unit distance2D player < 100) then {
 				private _msg = format ["%1 is healing faster...", name _unit];
@@ -187,6 +187,8 @@ PAR_fn_AI_Damage_EH = {
 	if (_unit getVariable ["PAR_EH_Installed", false]) exitWith {};
 	_unit setVariable ["PAR_EH_Installed", true];
 	[_unit] call PAR_EventHandler;
+    _unit setVariable ["PAR_Grp_ID", format["Bros_%1", PAR_Grp_ID], true];
+    _unit setVariable ["PAR_revive_max", PAR_ai_revive ];	
 	_unit setVariable ["PAR_wounded", false, true];
 	_unit setVariable ["PAR_isUnconscious", false, true];
 	_unit setVariable ["PAR_isDragged", 0, true];
@@ -211,7 +213,6 @@ PAR_Player_Init = {
 	player setUnitRecoilCoefficient 0.6;
 	player setCaptive false;
 	PAR_isDragging = false;
-	[player] call add_player_actions;
 	1 fadeSound 1;
 	1 fadeRadio 1;
 	hintSilent "";

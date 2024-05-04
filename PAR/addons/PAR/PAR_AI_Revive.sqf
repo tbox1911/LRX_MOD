@@ -30,6 +30,7 @@ if (!isNil "GRLIB_build_version") exitWith { diag_log "-- PAR loading Error : PA
 
 diag_log "-_- LRX PAR Mod by pSiKO -_-";
 
+//--- Configuration ---------------------------------------//
 // PAR Main mode
 // 0 - Enabled - Everyone can revive
 // 1 - Enabled - Everyone can revive using Medikit/FAK
@@ -45,7 +46,7 @@ PAR_bleedout = 300;
 PAR_bleedout_extra = 60;
 
 // Max AI revive counter
-PAR_ai_revive = 10;
+PAR_ai_revive = 7;
 
 // Enable Grave + Stuff box
 PAR_grave = 1;
@@ -55,6 +56,9 @@ PAR_EnableDeathMessages = true;
 
 // player AI brothers
 PAR_AI_bros = [];
+
+// PAR player group ID
+PAR_Grp_ID = getPlayerUID player;
 
 //--- Classnames ---------------------------------------//
 PAR_Medikit = "Medikit";
@@ -76,16 +80,17 @@ PAR_graves = [
 	"Land_Grave_dirt_F"
 ];
 PAR_grave_box = "Land_PlasticCase_01_small_black_F";
+PAR_medical_source = "Land_MedicalTent_01_NATO_generic_open_F";
 
 // Grave Marker
-_marker = createMarkerLocal ["player_grave_box", markers_reset];
+_marker = createMarkerLocal ["player_grave_box", [0,0,10000]];
 _marker setMarkerShapeLocal "ICON";
 _marker setMarkerTypeLocal "KIA";
 _marker setMarkerTextlocal format ["%1's Grave.", name player];
 
 // Grave Box
-PAR_grave_box = createVehicle [PAR_grave_box, ([] call F_getFreePos), [], 0, "NONE"];
-[PAR_grave_box, playerbox_cargospace] remoteExec ["setMaxLoad", 2];
+PAR_grave_box = createVehicle [PAR_grave_box, [0,0,10000], [], 0, "NONE"];
+[PAR_grave_box, 7000] remoteExec ["setMaxLoad", 2];
 PAR_grave_box allowDamage false;
 PAR_grave_box enableSimulationGlobal false;
 PAR_grave_box lock 3;
