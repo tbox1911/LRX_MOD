@@ -80,18 +80,9 @@ PAR_medical_source = "Land_MedicalTent_01_base_F";
 //--- Init functions --------------------------------//
 [] call compile preprocessFile "PAR\addons\PAR\PAR_global_functions.sqf";
 
-//--- Manager ---------------------------------------//
-// Init player
-[] call PAR_Player_Init;
-
-// Init player EH
-[player] call PAR_EventHandler;
-
-// Action Manager
-[] spawn PAR_ActionManager;
-
-// AI Manager
+//--- PAR Manager ---------------------------------------//
 [] spawn PAR_AI_Manager;
+[] spawn PAR_ActionManager;
 
 diag_log "LRX PAR Mod Initialized.";
 

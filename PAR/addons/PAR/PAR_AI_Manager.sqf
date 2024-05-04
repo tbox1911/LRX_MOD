@@ -2,33 +2,16 @@
 // by pSiKO
 
 waituntil {sleep 1; alive player};
-// Player group ID
-PAR_Grp_ID = getPlayerUID player;
-
-// Init player
-[] call PAR_Player_Init;
-
-// Player killed EH
-player addEventHandler ["Killed", { _this spawn PAR_fn_death }];
-
-// Player respawn EH
-player addEventHandler ["Respawn", { [] spawn PAR_Player_Init }];
-
-// Handle Damage EH
-player addEventHandler ["HandleDamage", { _this call PAR_HandleDamage_EH }];
 
 private _comm_id1 = 0;
-private ["_unit", "_is_medic", "_has_medikit", "_wnded_list", "_wnded", "_have_priso"];
+private ["_unit", "_is_medic", "_has_medikit", "_wnded_list", "_wnded"];
 
 while {true} do {
-    waitUntil { sleep 1; count (units player) > 0 };
+    waitUntil { sleep 1; alive player && count (units player) > 0 };
     PAR_AI_bros = ((units player) + (units civilian)) select {!isPlayer _x && alive _x && (_x getVariable ["PAR_Grp_ID","0"]) == format["Bros_%1", PAR_Grp_ID]};
     if ( count PAR_AI_bros > 0) then {
         {
             _unit = _x;
-            // Set PAR EventHandler
-            //[_x] spawn PAR_fn_AI_Damage_EH;
-
             if (PAR_revive != 0) then {
                 // Medic can heal auto
                 _wnded_list = (units player) select {
@@ -89,10 +72,15 @@ while {true} do {
     
     {
         if (count PAR_AI_bros < PAR_ai_limit) then {
-            if  (!isplayer _x && (_x getVariable ["PAR_Grp_ID","0"]) != format["Bros_%1", PAR_Grp_ID]) then {
-                // Set EH
-                [_x] spawn PAR_fn_AI_Damage_EH;
-                player globalChat format ["%1 protected by PAR.", name _x];
+            _unit = _x;
+            if  ((_unit getVariable ["PAR_Grp_ID","0"]) != format["Bros_%1", PAR_Grp_ID]) then {          
+                if (_unit == player) then {
+                    [] call PAR_Player_Init;
+                    [player] call PAR_EventHandler;
+                } else {
+                    [_unit] call PAR_fn_AI_Damage_EH;
+                };
+                player globalChat format ["%1 protected by PAR.", name _unit];
             };
             sleep 0.3;
         };
