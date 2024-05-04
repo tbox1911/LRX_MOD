@@ -151,7 +151,7 @@
 			<Russian>Мне нужен Медик!!</Russian>
 			<French>J'ai besoin d'un médecin !!</French>
 			<Chinesesimp>我需要医疗兵！！</Chinesesimp>
-			<Chinese>我需要醫療兵！ ！</Chinese>
+			<Chinese>我需要醫療兵！!</Chinese>
 			<Japanese>衛生兵！！</Japanese>
 			<Portuguese>Eu preciso de um médico!!</Portuguese>
 			<Czech>Potřebuji medika!!</Czech>
@@ -160,15 +160,15 @@
 			<Original>Sorry %1, you no longer have units to revive you...</Original>
 			<Russian>Извините, %1, у вас больше нет юнитов, чтобы оживить вас...</Russian>
 			<French>Désolé %1, vous n'avez plus d'unités pour vous sauver...</French>
-			<Chinesesimp>抱歉 %1，附近没有单位能来救你...</Chinesesimp>
-			<Chinese>抱歉 %1，附近沒有單位能來救你...</Chinese>
+			<Chinesesimp>抱歉 %1,附近没有单位能来救你...</Chinesesimp>
+			<Chinese>抱歉 %1,附近沒有單位能來救你...</Chinese>
 			<Japanese>すみません %1、あなたを生き返らせる分隊員はもう居ません...</Japanese>
 			<Portuguese>Desculpe %1, você não tem mais unidades para reanimá-lo...</Portuguese>
 			<Czech>Omlouváme se %1, již nemáte jednotky, které by vás mohly oživit...</Czech>
 		</Key>
 		<Key ID="STR_PAR_UC_03">
 			<Original>Hey %1, All your units are down, Help them!</Original>
-			<French>Hé %1, Toutes tes unités sont à terre, Aide-les !</French>					
+			<French>Hé %1, Toutes tes unités sont à terre, Aide-les !</French>
 		</Key>
 		<Key ID="STR_BLEEDOUT_MESSAGE">
 			<Original>Bleedout in %1 seconds</Original>
@@ -181,6 +181,10 @@
 			<Japanese>失血死まで %1 秒</Japanese>
 			<Portuguese>Sangramento em %1 segundos</Portuguese>
 			<Czech>Krvácení %1 sekund</Czech>
-		</Key>		
+		</Key>
+		<Key ID="STR_PAR_DE_01">
+			<Original>Bad news, we lost soldier %1...</Original>
+			<French>Mauvaise nouvelle, on as perdu le soldat %1...</French>
+		</Key>
 	</Package>
 </Project>

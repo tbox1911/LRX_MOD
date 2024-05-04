@@ -6,7 +6,7 @@ if (isPlayer _unit) then {
 	[] call PAR_show_marker;
 	PAR_backup_loadout = [player] call F_getCargoUnit;
 } else {
-	[_unit] call F_deathSound;
+	[_unit] call PAR_fn_deathSound;
 };
 
 _unit setUnconscious true;

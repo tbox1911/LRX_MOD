@@ -26,7 +26,6 @@ if (_unit == player) then {
 	_unit addEventHandler ["Killed", { _this spawn PAR_fn_death }];	
 
 	// AI Handle Damage EH
-	_unit addEventHandler ["HandleDamage", { _this call damage_manager_friendly }];
 	if (PAR_revive != 0) then {
 		_unit addEventHandler ["HandleDamage", {
 			params ["_unit","","_dam"];

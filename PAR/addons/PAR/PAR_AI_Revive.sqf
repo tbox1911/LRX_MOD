@@ -32,24 +32,25 @@ diag_log "-_- LRX PAR Mod by pSiKO -_-";
 
 //--- Configuration ---------------------------------------//
 // PAR Main mode
-// 0 - Enabled - Everyone can revive
-// 1 - Enabled - Everyone can revive using Medikit/FAK
-// 2 - Enabled - Only medics can revive
-// 3 - Disabled
-PAR_revive = 0;
-if (PAR_revive == 3) exitWith {};
+// 0 - Disabled
+// 1 - Enabled - Everyone can revive
+// 2 - Enabled - Everyone can revive using Medikit/FAK
+// 3 - Enabled - Only medics can revive
+
+if (isNil "PAR_revive") then { PAR_revive = 1 };
+if (PAR_revive == 0) exitWith {};
 
 // Seconds until unconscious unit bleeds out and dies.
-PAR_bleedout = 300;
+if (isNil "PAR_bleedout") then { PAR_bleedout = 300 };
 
 // Revive extra boost
-PAR_bleedout_extra = 60;
+if (isNil "PAR_bleedout_extra") then { PAR_bleedout_extra = 60 };
 
 // Max AI revive counter
-PAR_ai_revive = 7;
+if (isNil "PAR_ai_revive") then { PAR_ai_revive = 7 };
 
 // Enable Grave + Stuff box
-PAR_grave = 1;
+if (isNil "PAR_grave") then { PAR_grave = 1 };
 
 // Enable info killer message
 PAR_EnableDeathMessages = true;

@@ -188,7 +188,7 @@ PAR_fn_AI_Damage_EH = {
 	_unit setVariable ["PAR_EH_Installed", true];
 	[_unit] call PAR_EventHandler;
     _unit setVariable ["PAR_Grp_ID", format["Bros_%1", PAR_Grp_ID], true];
-    _unit setVariable ["PAR_revive_max", PAR_ai_revive ];	
+    _unit setVariable ["PAR_revive_max", PAR_ai_revive];	
 	_unit setVariable ["PAR_wounded", false, true];
 	_unit setVariable ["PAR_isUnconscious", false, true];
 	_unit setVariable ["PAR_isDragged", 0, true];
@@ -265,7 +265,7 @@ PAR_Player_Unconscious = {
 		case 1 : { _medic_message = localize "STR_PAR_Need_Medic2"; };
 		case 2 : { _medic_message = localize "STR_PAR_Need_Medic3"; };
 	};
-	_unit globalChat _medic_message;
+	[_medic_message] remoteExec ["sidechat", -2];
 
 	disableUserInput false;
 	disableUserInput true;
@@ -281,12 +281,14 @@ PAR_Player_Unconscious = {
 	// PAR AI Revive Call
 	[_unit] spawn PAR_fn_unconscious;
 
+	private ["_bleedOut", "_bleedout_message"];
 	while { !isNull _unit && alive _unit && (_unit getVariable ["PAR_isUnconscious", false])} do {
 		_bleedOut = player getVariable ["PAR_BleedOutTimer", 0];
-		public_bleedout_message = format [localize "STR_BLEEDOUT_MESSAGE", round (_bleedOut - time)];
-		public_bleedout_timer = round (_bleedOut - time);
-		sleep 0.5;
+		_bleedout_message = format [localize "STR_BLEEDOUT_MESSAGE", round (_bleedOut - time)];
+		titleText [ _bleedout_message, "PLAIN DOWN" ];
+		sleep 2;
 	};
+	titleText [ "", "PLAIN DOWN" ];
 
 	if (alive _unit && !(_unit getVariable ["PAR_isUnconscious", false])) then {
 		// Player got revived
