@@ -64,20 +64,6 @@ while {true} do {
                 _spray spawn {sleep (10 + floor(random 5)); deleteVehicle _this};
             };
 
-            // AI stop doing shit !
-            private _not_leader = !(leader (group player) == player);
-            if (lifeState player == 'INCAPACITATED' && _not_leader) then {
-                if (_unit distance2D player <= 500) then {
-                    unassignVehicle _unit;
-                    [_unit] orderGetIn false;
-                    if !(isNull objectParent _unit) then {
-                        if !("turret" in (assignedVehicleRole _unit)) then {
-                            [_unit, false] spawn F_ejectUnit;
-                        };
-                    };
-                };
-            };
-
             // AI revive
             if (PAR_ai_revive > 0) then {
                 private _timer = _unit getVariable ["PAR_revive_msg_timer", 0];
@@ -102,13 +88,14 @@ while {true} do {
     };
     
     {
-        if  (!isplayer _x && (_x getVariable ["PAR_Grp_ID","0"]) != format["Bros_%1", PAR_Grp_ID]) then {
-            // Set EH
-            [_x] spawn PAR_fn_AI_Damage_EH;
-            player globalChat format ["%1 protected by PAR.", name _x];
-            diag_log format ["%1 protected by PAR.", name _x];
+        if (count PAR_AI_bros < PAR_ai_limit) then {
+            if  (!isplayer _x && (_x getVariable ["PAR_Grp_ID","0"]) != format["Bros_%1", PAR_Grp_ID]) then {
+                // Set EH
+                [_x] spawn PAR_fn_AI_Damage_EH;
+                player globalChat format ["%1 protected by PAR.", name _x];
+            };
+            sleep 0.3;
         };
-        sleep 0.3;
     } forEach (units player);
 
     sleep 5;

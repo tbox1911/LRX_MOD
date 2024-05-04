@@ -4,7 +4,6 @@ if (rating _unit < -2000) exitWith {_unit setDamage 1};
 
 if (isPlayer _unit) then {
 	[] call PAR_show_marker;
-	PAR_backup_loadout = [player] call F_getCargoUnit;
 } else {
 	[_unit] call PAR_fn_deathSound;
 };

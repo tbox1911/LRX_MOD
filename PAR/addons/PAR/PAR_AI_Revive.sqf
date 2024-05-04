@@ -46,11 +46,11 @@ if (isNil "PAR_bleedout") then { PAR_bleedout = 300 };
 // Revive extra boost
 if (isNil "PAR_bleedout_extra") then { PAR_bleedout_extra = 60 };
 
+// Max AI in PAR group
+if (isNil "PAR_ai_limit") then { PAR_ai_limit = 5 };
+
 // Max AI revive counter
 if (isNil "PAR_ai_revive") then { PAR_ai_revive = 7 };
-
-// Enable Grave + Stuff box
-if (isNil "PAR_grave") then { PAR_grave = 1 };
 
 // Enable info killer message
 PAR_EnableDeathMessages = true;
@@ -75,38 +75,7 @@ PAR_MedGarbage = [
   "MedicalGarbage_01_3x3_v1_F",
   "MedicalGarbage_01_3x3_v2_F"
 ];
-PAR_graves = [
-	"Land_Grave_rocks_F",
-	"Land_Grave_forest_F",
-	"Land_Grave_dirt_F"
-];
-PAR_grave_box = "Land_PlasticCase_01_small_black_F";
-PAR_medical_source = "Land_MedicalTent_01_NATO_generic_open_F";
-
-// Grave Marker
-_marker = createMarkerLocal ["player_grave_box", [0,0,10000]];
-_marker setMarkerShapeLocal "ICON";
-_marker setMarkerTypeLocal "KIA";
-_marker setMarkerTextlocal format ["%1's Grave.", name player];
-
-// Grave Box
-PAR_grave_box = createVehicle [PAR_grave_box, [0,0,10000], [], 0, "NONE"];
-[PAR_grave_box, 7000] remoteExec ["setMaxLoad", 2];
-PAR_grave_box allowDamage false;
-PAR_grave_box enableSimulationGlobal false;
-PAR_grave_box lock 3;
-player setvariable ["PAR_grave_box", PAR_grave_box, true];
-PAR_backup_loadout = [];
-
-// Grave Name
-addMissionEventHandler ["Draw3D",{
-	private _near_grave = nearestObjects [player, PAR_graves, 2];
-	if (count (_near_grave) > 0) then {
-		private _grave = _near_grave select 0;
-		private _grave_pos = ASLToAGL getPosASL _grave;
-		drawIcon3D [getMissionPath "res\skull.paa", [1,1,1,1], _grave_pos vectorAdd [0, 0, 1], 2, 2, 0, (_grave getVariable ["PAR_grave_message", ""]), 2, 0.05, "RobotoCondensed", "center"];
-	};
-}];
+PAR_medical_source = "Land_MedicalTent_01_base_F";
 
 //--- Init functions --------------------------------//
 [] call compile preprocessFile "PAR\addons\PAR\PAR_global_functions.sqf";
