@@ -72,7 +72,8 @@ LRX_mod_list_west = [
 	"UNS_US",			// Z@Warrior Unsung
 	"VME_CHINA",  		// DarkDemon
 	"VTF_KDF",
-	"WS_UNA"
+	"WS_UNA",
+	"ROAF_BLU"			//Miledino
 ];
 
 LRX_mod_list_east = [
@@ -157,7 +158,8 @@ LRX_mod_list_east = [
 	"VTF_KDF",
 	"VTF_KI",
 	"WBK_ORKS",
-	"WS_FIA"
+	"WS_FIA",
+	"ROAF_BLU"			//Miledino
 ];
 
 LRX_mod_list_name = [
@@ -249,7 +251,8 @@ LRX_mod_list_name = [
 	["VTF_KI","Korsac Insurgents"],
 	["WBK_ORKS", "Orks"],
 	["WS_FIA", "West Sahara FIA"],
-	["WS_UNA", "West Sahara UNA"]
+	["WS_UNA", "West Sahara UNA"],
+	["ROAF_BLU", "Romanian Armed Forces"]			
 ];
 
 private _getName = {
