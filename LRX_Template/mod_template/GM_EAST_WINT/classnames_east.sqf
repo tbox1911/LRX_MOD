@@ -72,6 +72,7 @@ guard_squad = [
 ];
 
 a3w_vip_vehicle = "gm_ge_army_w123_cargo";
+a3w_br_planes = [];
 
 opfor_boats = [
 	"O_Boat_Armed_01_hmg_F"
