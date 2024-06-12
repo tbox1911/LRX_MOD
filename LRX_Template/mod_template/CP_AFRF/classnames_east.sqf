@@ -40,14 +40,17 @@ opfor_hq = "Land_Cargo_HQ_V3_F";
 
 // Chern. Movement of the Red Star
 militia_squad = [
-	"CUP_O_INS_Medic",
-	"CUP_O_INS_Soldier_Ammo",
-	"CUP_O_INS_Soldier_Exp",
-	"CUP_O_INS_Saboteur",
-	"CUP_O_INS_Soldier_LAT",
-	"CUP_O_INS_Soldier_MG",
-	"CUP_O_INS_Soldier_Engineer",
-	"CUP_O_INS_Soldier_GL"
+"CUP_O_RU_Soldier_VDV",
+"CUP_O_RU_Soldier_TL_VDV",
+"CUP_O_RU_Engineer_VDV",
+"CUP_O_RU_Soldier_GL_VDV",
+"CUP_O_RU_Soldier_AR_VDV",
+"CUP_O_RU_Soldier_AT_VDV",
+"CUP_O_RU_Soldier_Saiga_VDV",
+"CUP_O_RU_Medic_VDV",
+"CUP_O_RU_Soldier_LAT_VDV",
+"CUP_O_RU_Soldier_MG_VDV",
+"CUP_O_RU_Soldier_Marksman_VDV"
 ];
 
 militia_loadout_overide = [
@@ -69,10 +72,13 @@ divers_squad = [
 ];
 
 militia_vehicles = [
-	"CUP_O_UAZ_MG_CHDKZ",
-	"CUP_O_UAZ_SPG9_CHDKZ",
-	"CUP_O_MTLB_pk_ChDKZ",
-	"CUP_O_BRDM2_CHDKZ"
+"CUP_O_BRDM2_RUS",
+"CUP_O_BTR90_HQ_RU",
+"CUP_O_UAZ_MG_RU",
+"CUP_O_UAZ_AGS30_RU",
+"CUP_O_UAZ_SPG9_RU",
+"CUP_O_Tigr_M_233114_KORD_RU",
+"CUP_O_Tigr_233014_PK_RU"
 ];
 
 opfor_boats = [
@@ -92,7 +98,8 @@ opfor_vehicles = [
 	"CUP_O_BTR90_HQ_RU",
 	"CUP_O_T72_RU",
 	"CUP_O_T90_RU",
-	"CUP_O_2S6_RU"
+	"CUP_O_2S6_RU",
+	"CUP_O_T90M_CAMO_RU"
 ];
 
 opfor_vehicles_low_intensity = [
@@ -122,11 +129,8 @@ opfor_battlegroup_vehicles = [
 	"CUP_O_BTR90_HQ_RU",
 	"CUP_O_T72_RU",
 	"CUP_O_T90_RU",
-	"CUP_O_2S6_RU",
-	"CUP_O_Kamaz_RU",
-	"CUP_O_Mi8AMT_RU",
-	"CUP_O_Ka60_Grey_RU",
-	"CUP_O_Ka52_RU"
+	"CUP_O_2S6_RU",	
+	"CUP_O_T90M_CAMO_RU"
 ];
 
 opfor_battlegroup_vehicles_low_intensity = [
@@ -142,9 +146,7 @@ opfor_battlegroup_vehicles_low_intensity = [
 	"CUP_O_GAZ_Vodnik_AGS_RU",
 	"CUP_O_GAZ_Vodnik_BPPU_RU",
 	"CUP_O_GAZ_Vodnik_KPVT_RU",
-	"CUP_O_UAZ_AGS30_RU",
-	"CUP_O_Ka60_Grey_RU",
-	"CUP_O_MI6T_RU"
+	"CUP_O_UAZ_AGS30_RU"
 ];
 
 opfor_troup_transports_truck = [
@@ -218,6 +220,7 @@ opfor_recyclable = [
 	["CUP_O_BRDM2_ATGM_RUS",1,round (500 / GRLIB_recycling_percentage),2],
 	["CUP_O_BTR90_HQ_RU",1,round (600 / GRLIB_recycling_percentage),2],
 	["CUP_O_T72_RU",1,round (850 / GRLIB_recycling_percentage),2],
+	["CUP_O_T90M_CAMO_RU",1,round (980 / GRLIB_recycling_percentage),2],
 	["CUP_O_T90_RU",1,round (960 / GRLIB_recycling_percentage),2],
 	["CUP_O_2S6_RU",1,round (800 / GRLIB_recycling_percentage),2],
 
@@ -226,6 +229,8 @@ opfor_recyclable = [
 	["CUP_O_UAZ_SPG9_CHDKZ",0,round (80 / GRLIB_recycling_percentage),0],
 	["CUP_O_MTLB_pk_ChDKZ",1,round (100 / GRLIB_recycling_percentage),2],
 	["CUP_O_BRDM2_CHDKZ",1,round (100 / GRLIB_recycling_percentage),2],
+	["CUP_O_Tigr_233014_PK_RU",1,round (100 / GRLIB_recycling_percentage),2],
+	["CUP_O_Tigr_M_233114_KORD_RU",1,round (100 / GRLIB_recycling_percentage),2],
 
 	// attack heli
 	["CUP_O_Ka60_Grey_RU",10,round (740 / GRLIB_recycling_percentage),15],
