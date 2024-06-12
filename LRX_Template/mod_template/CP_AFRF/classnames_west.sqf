@@ -20,6 +20,12 @@ medic_sling_typename = "Land_Pod_Heli_Transport_04_medevac_F";
 pilot_classname = "CUP_O_RU_Pilot";
 crewman_classname = "CUP_O_RU_Soldier_Crew_M_EMR_V2";
 basic_weapon_typename = "CUP_BOX_RU_Wps_F";
+
+SHOP_Man = "CUP_C_C_Functionary_02";
+SELL_Man = "CUP_C_C_Mechanic_02";
+WRHS_Man = "CUP_O_RU_Soldier_Light_EMR";	// Man in Warehouse
+commander_classname = "CUP_O_RU_Officer_EMR";	// Sell-Man in FOB
+
 chimera_vehicle_overide = [
   ["B_Heli_Light_01_F", "CUP_O_UH1H_SLA"],
   ["B_Heli_Transport_01_F", "CUP_O_Mi8_VIV_RU"]
@@ -145,6 +151,12 @@ buildings_west = [
 	["Land_Cargo_House_V3_F",0,0,0,GRLIB_perm_inf],
 	["Land_Cargo_Patrol_V3_F",0,0,0,GRLIB_perm_log],
 	["CUP_Flag_Black",0,0,0,0]
+];
+
+// Boats
+boats_west = [
+	"O_Boat_Transport_01_F",
+	"O_Boat_Armed_01_hmg_F"
 ];
 
 blufor_squad_inf_light = [
