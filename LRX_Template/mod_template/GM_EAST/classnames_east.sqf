@@ -110,7 +110,7 @@ opfor_battlegroup_vehicles = [
 	"gm_gc_army_btr60pb",
 	"gm_pl_army_ot64a",
 	"gm_gc_army_t55ak",
-	"gm_pl_airforce_mi2p",
+	"gm_gc_army_t55ak",	
 	"gm_gc_army_btr60pb"
 ];
 
@@ -118,12 +118,13 @@ opfor_battlegroup_vehicles_low_intensity = [
 	"gm_gc_army_uaz469_dshkm",
 	"gm_gc_army_uaz469_spg9",
 	"gm_gc_army_brdm2",
+	"gm_gc_army_bmp1sp2",	
+	"gm_gc_army_brdm2",
 	"gm_gc_army_bmp1sp2",
 	"gm_gc_army_pt76b",
 	"gm_gc_army_zsu234v1",
 	"gm_gc_army_ural375d_cargo",
-	"gm_gc_army_btr60pb",
-	"gm_pl_airforce_mi2t"
+	"gm_gc_army_btr60pb"
 ];
 
 opfor_troup_transports_truck = [
@@ -185,5 +186,7 @@ opfor_recyclable = [
 	["gm_gc_airforce_mi2us",30,round (300 / GRLIB_recycling_percentage),15],
 	["gm_pl_airforce_mi2urp",30,round (300 / GRLIB_recycling_percentage),15],
 	["gm_pl_airforce_mi2us",10,round (250 / GRLIB_recycling_percentage),15],
-	["gm_pl_airforce_mi2p",5,round (150 / GRLIB_recycling_percentage),10]
+	["gm_pl_airforce_mi2urpg",10,round (250 / GRLIB_recycling_percentage),15],
+	["gm_pl_airforce_mi2urn",5,round (250 / GRLIB_recycling_percentage),10],	
+	["gm_pl_airforce_mi2p",5,round (150 / GRLIB_recycling_percentage),10]	
 ];
