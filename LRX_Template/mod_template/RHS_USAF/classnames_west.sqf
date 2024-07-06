@@ -90,13 +90,13 @@ air_vehicles = [
 	["RHS_UH1Y",10,150,5,GRLIB_perm_air],
 	["rhsusf_CH53e_USMC_cargo",5,350,200,GRLIB_perm_air],
 	["rhsusf_CH53E_USMC_GAU21",5,300,200,GRLIB_perm_air],
-	["rhsusf_CH53E_USMC",15,500,15,GRLIB_perm_max],
-	["RHS_UH60M",5,350,600,GRLIB_perm_air],
-	["RHS_UH60M2",5,350,600,GRLIB_perm_air],
-	["RHS_AH64D_wd",10,800,5,GRLIB_perm_air],
-	["RHS_AH1Z_wd",10,1000,5,GRLIB_perm_air],
-	["rhsusf_f22",15,1500,15,GRLIB_perm_max],
-	["RHS_A10",15,1500,15,GRLIB_perm_max]
+	["rhsusf_CH53E_USMC",15,500,45,GRLIB_perm_max],
+	["RHS_UH60M",5,350,60,GRLIB_perm_air],
+	["RHS_UH60M2",5,350,60,GRLIB_perm_air],
+	["RHS_AH64D_wd",10,800,35,GRLIB_perm_air],
+	["RHS_AH1Z_wd",10,1000,35,GRLIB_perm_air],
+	["rhsusf_f22",15,1500,45,GRLIB_perm_max],
+	["RHS_A10",15,1500,45,GRLIB_perm_max]
 ];
 
 // Additional Airplanes
