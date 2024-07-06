@@ -44,6 +44,8 @@ LRX_mod_list_west = [
 	"IFA_USARMY",		// Z@Warrior US Army
 	"IFA_WEHRM_W",		// Z@Warrior IFA Wehrmacht Winter
 	"IFA_WEHRM",		// Z@Warrior IFA Wehrmacht
+	"JELY_BLU",			// Levibugs
+	"JELY_RED",			// Levibugs	
 	"ML700_IMPERIALS",
 	"NF_FINNISH",
 	"OPTRE_UNSC",
@@ -124,6 +126,8 @@ LRX_mod_list_east = [
 	"IFA_WEHRM_W",		// Z@Warrior IFA Wehrmacht Winter
 	"IFA_WEHRM",		// Z@Warrior IFA Wehrmacht
 	"IRI_IRAN",
+	"JELY_BLU",			// Levibugs
+	"JELY_RED",			// Levibugs		
 	"ML700_IMPERIALS",
 	"NF_FINNISH",
 	"OPTRE_COV",
@@ -216,6 +220,8 @@ LRX_mod_list_name = [
 	["IFA_WEHRM_W", "IFA Wehrmacht Winter"],
 	["IFA_WEHRM", "IFA Wehrmacht"],
 	["IRI_IRAN", "Iran"],
+	["JELY_BLU", "JELY BLU"],
+	["JELY_RED", "JELY RED"],	
 	["ML700_Imperials", "Imperials"],
 	["NF_FINNISH", "Finnish"],
 	["OPTRE", "Operation Trebuchet"],
