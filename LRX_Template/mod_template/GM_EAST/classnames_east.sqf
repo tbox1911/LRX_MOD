@@ -161,6 +161,7 @@ opfor_recyclable = [
 	["gm_gc_army_fagot_launcher_tripod",0,round (40 / GRLIB_recycling_percentage),0],
 	["gm_gc_army_dshkm_aatripod",0,round (7 / GRLIB_recycling_percentage),0],
 	["gm_gc_army_spg9_tripod",0,round (25 / GRLIB_recycling_percentage),0],
+	["O_Mortar_01_F",0,round (125 / GRLIB_recycling_percentage),0],
 	// boat
 	["O_Boat_Armed_01_hmg_F",3,round (65 / GRLIB_recycling_percentage),3],
 	// ground
