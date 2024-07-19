@@ -68,7 +68,6 @@ light_vehicles = [
 	["CUP_O_GAZ_Vodnik_AGS_RU",1,80,7,GRLIB_perm_log],
 	["CUP_O_GAZ_Vodnik_BPPU_RU",1,80,7,GRLIB_perm_log],
 	["CUP_O_GAZ_Vodnik_KPVT_RU",1,80,7,GRLIB_perm_log],
-	["CUP_O_BM21_RU",5,100,2,GRLIB_perm_inf],
 	["CUP_O_Kamaz_Open_RU",5,10,10,GRLIB_perm_inf],
 	["CUP_O_Kamaz_RU",5,50,10,GRLIB_perm_log],
 	["O_Truck_02_covered_F",5,10,5,GRLIB_perm_inf],
@@ -89,7 +88,8 @@ heavy_vehicles = [
 	["CUP_O_Ural_ZU23_RU",15,2500,15,GRLIB_perm_tank],
 	["CUP_O_T72_RU",15,2500,15,GRLIB_perm_air],
 	["CUP_O_T90_RU",15,3500,15,GRLIB_perm_max],
-	["CUP_O_2S6_RU",15,4000,15,GRLIB_perm_max]
+	["CUP_O_2S6_RU",15,4000,15,GRLIB_perm_max],
+	["CUP_O_BM21_RU",10,3700,20,GRLIB_perm_max]	
 ];
 
 air_vehicles = [
