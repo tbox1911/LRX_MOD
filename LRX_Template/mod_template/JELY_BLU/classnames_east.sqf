@@ -247,7 +247,9 @@ opfor_statics = [
 	"CUP_B_M2StaticMG_MiniTripod_US",
 	"CUP_B_M2StaticMG_US",
 	"CUP_B_M252_US",
-	"CUP_B_M119_US"
+	"CUP_B_M119_US",
+	"B_TwinMortar_RF",
+	"B_Mortar_01_F"
 ];
 
 opfor_recyclable = [
@@ -293,6 +295,8 @@ opfor_recyclable = [
 	["CUP_B_M2StaticMG_US",0,round (20 / GRLIB_recycling_percentage),0],
 	["CUP_B_M252_US",1,round (200 / GRLIB_recycling_percentage),2],
 	["CUP_B_M119_US",1,round (400 / GRLIB_recycling_percentage),2],
+	["B_Mortar_01_F",1,round (200 / GRLIB_recycling_percentage),2],
+	["B_TwinMortar_RF",1,round (400 / GRLIB_recycling_percentage),2],
 	// Boat
 	["CUP_B_RHIB_USMC",3,round (100 / GRLIB_recycling_percentage),6],
 	["CUP_B_RHIB2Turret_USMC",4,round (125 / GRLIB_recycling_percentage),8],

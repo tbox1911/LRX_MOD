@@ -532,7 +532,9 @@ R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
 "CUP_B_TOW_TriPod_US",
 "CUP_B_TOW2_TriPod_US",
 "CUP_B_CUP_Stinger_AA_pod_US",
-"B_TwinMortar_RF"
+"B_TwinMortar_RF",
+"B_Radar_System_01_F",
+"B_SAM_System_03_F"
 ];
 
 R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed +
@@ -543,7 +545,9 @@ R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed +
 R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
 [
 	"CUP_B_M119_HIL",
-	"B_TwinMortar_RF"
+	"B_TwinMortar_RF",
+	"B_Radar_System_01_F",
+	"B_SAM_System_03_F"
 ];
 
 //--------------- Camping ---------------
