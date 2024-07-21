@@ -189,6 +189,10 @@ opfor_statics = [
 ];
 
 opfor_recyclable = [
+	// Boat
+	["CUP_I_RHIB_RACS",2,round (75 / GRLIB_recycling_percentage),2],
+	["CUP_I_RHIB2Turret_RACS",3,round (100 / GRLIB_recycling_percentage),3],
+
 	// Static
 	["CUP_I_M2StaticMG_RACS",0,round (75 / GRLIB_recycling_percentage),0],
 	["CUP_I_M252_RACS",0,round (75 / GRLIB_recycling_percentage),0],
