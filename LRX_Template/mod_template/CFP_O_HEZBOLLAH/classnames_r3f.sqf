@@ -180,15 +180,15 @@ R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
 
 R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +
 [
-	"CFP_O_HEZBOLLAH_ZU_23_01",
-	"CFP_O_HEZBOLLAH_TOW_AT_01",
-	"CFP_O_HEZBOLLAH_SPG_9_01",
-	"CFP_O_HEZBOLLAH_Podnos_2B14_01",
-	"CFP_O_HEZBOLLAH_Metis_AT_13_01",
-	"CFP_O_HEZBOLLAH_DShKM_Low_01",
-	"CFP_O_HEZBOLLAH_DShKM_01",
-	"CFP_O_HEZBOLLAH_Hilux_MLRS_01",
-	"CFP_O_HEZBOLLAH_Hilux_Podnos_01"
+	["CFP_O_HEZBOLLAH_ZU_23_01",20],
+	["CFP_O_HEZBOLLAH_TOW_AT_01",15],
+	["CFP_O_HEZBOLLAH_SPG_9_01",10],
+	["CFP_O_HEZBOLLAH_Podnos_2B14_01",10],
+	["CFP_O_HEZBOLLAH_Metis_AT_13_01",10],
+	["CFP_O_HEZBOLLAH_DShKM_Low_01",5],
+	["CFP_O_HEZBOLLAH_DShKM_01",5],
+	["CFP_O_HEZBOLLAH_Hilux_MLRS_01",20],
+	["CFP_O_HEZBOLLAH_Hilux_Podnos_01",20]
 ];
 
 R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
