@@ -56,6 +56,26 @@ R3F_LOG_CFG_can_tow = R3F_LOG_CFG_can_tow +
 
 R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed +
 [
+	"CFP_O_HEZBOLLAH_Ural_ZU_23_01",
+	"CFP_O_HEZBOLLAH_BMP_2_01",
+	"CFP_O_HEZBOLLAH_BTR_60PB_01",
+	"CFP_O_HEZBOLLAH_Hilux_01",
+	"CFP_O_HEZBOLLAH_Hilux_AGS_30_01",
+	"CFP_O_HEZBOLLAH_Hilux_DShKM_01",
+	"CFP_O_HEZBOLLAH_Hilux_Igla_01",
+	"CFP_O_HEZBOLLAH_Hilux_Metis_01",
+	"CFP_O_HEZBOLLAH_Hilux_MLRS_01",
+	"CFP_O_HEZBOLLAH_Hilux_Podnos_01",
+	"CFP_O_HEZBOLLAH_Hilux_SPG_01",
+	"CFP_O_HEZBOLLAH_Hilux_ZU_23_01",
+	"CFP_O_HEZBOLLAH_Offroad_01",
+	"CFP_O_HEZBOLLAH_Offroad_flag_01",
+	"CFP_O_HEZBOLLAH_Offroad_Armed_01",
+	"CFP_O_HEZBOLLAH_Offroad_Armed_flag_01",
+	"CFP_O_HEZBOLLAH_Quad_Bike_01",
+	"CFP_O_HEZBOLLAH_Truck_01",
+	"CFP_O_HEZBOLLAH_T55_flag_01",
+	"CFP_O_HEZBOLLAH_T72_flag_01"
 ];
 
 R3F_LOG_CFG_can_lift = R3F_LOG_CFG_can_lift +

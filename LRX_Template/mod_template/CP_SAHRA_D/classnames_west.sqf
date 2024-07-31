@@ -18,14 +18,11 @@ CUP Weapons, http://steamcommunity.com/sharedfiles/filedetails/?id=497660133
 huron_typename = "CUP_I_CH47F_VIV_RACS";
 FOB_typename = "Land_Cargo_HQ_V1_F";
 Respawn_truck_typename = "CUP_I_LR_Ambulance_RACS";
-
 ammo_truck_typename = "CUP_I_MTVR_Ammo_RACS";
 fuel_truck_typename = "CUP_I_MTVR_Refuel_RACS";
 repair_truck_typename = "CUP_I_MTVR_Repair_RACS";
-
 pilot_classname = "CUP_I_RACS_Pilot";
 crewman_classname = "CUP_I_RACS_Soldier";
-
 basic_weapon_typename = "CUP_BOX_RACS_Wps_F";
 Box_Weapon_typename = "CUP_BOX_RACS_Wps_F";
 Box_Ammo_typename = "CUP_BOX_RACS_Ammo_F";
@@ -35,7 +32,6 @@ Box_Special_typename = "CUP_BOX_RACS_WpsSpecial_F";
 Box_Grenades_typename = "CUP_BOX_RACS_Grenades_F";
 Box_Explosives_typename = "CUP_BOX_RACS_AmmoOrd_F";
 Box_Equipment_typename = "CUP_BOX_RACS_Uniforms_F";
-
 SHOP_Man = "CUP_C_TK_Man_08_Jack";
 SELL_Man = "CUP_C_TK_Man_01_Waist";
 WRHS_Man = "CUP_I_RACS_Soldier_Unarmed";				// Man in Warehouse
@@ -81,12 +77,13 @@ units_loadout_overide = [
 ];
 
 light_vehicles = [
-	["I_C_Boat_Transport_01_F",1,25,1,GRLIB_perm_inf],
+	["I_C_Boat_Transport_01_F",1,25,1,0],
 	["CUP_I_RHIB_RACS",3,200,3,GRLIB_perm_log],
 	["CUP_I_RHIB2Turret_RACS",3,250,3,GRLIB_perm_log],
 	["CUP_I_LCVP_RACS",5,400,5,GRLIB_perm_tank],
 	["CUP_O_Hilux_unarmed_CR_CIV",1,50,1,0],
 	["CUP_I_LR_Transport_RACS",1,100,1,0],
+	["C_Van_01_transport_F",1,15,7,0],
 	["CUP_I_MTVR_RACS",1,150,3,GRLIB_perm_inf],
 	["CUP_I_LR_MG_RACS",2,180,2,GRLIB_perm_inf],
 	["CUP_I_M113A1_RACS",3,250,3,GRLIB_perm_log],
@@ -119,10 +116,9 @@ air_vehicles = [
 ];
 
 blufor_air = [
-
-"CUP_I_UH1H_gunship_RACS",
-"CUP_I_UH60L_RACS",
-"CUP_I_AH6J_RACS"
+	"CUP_I_UH1H_gunship_RACS",
+	"CUP_I_UH60L_RACS",
+	"CUP_I_AH6J_RACS"
 ];
 
 static_vehicles = [
@@ -135,9 +131,6 @@ static_vehicles = [
 
 // *** Static Weapon with AI ***
 static_vehicles_AI = [
-	"CUP_I_SearchLight_static_RACS",
-	"CUP_I_M2StaticMG_RACS",
-	"CUP_I_M2StaticMG_MiniTripod_RACS"
 ];
 
 support_vehicles_west = [
@@ -182,43 +175,43 @@ buildings_west = [
 ];
 
 blufor_squad_inf_light = [
-"CUP_I_RACS_SL",
-"CUP_I_RACS_Medic",
-"CUP_I_RACS_Soldier_Light",
-"CUP_I_RACS_Soldier"
+	"CUP_I_RACS_SL",
+	"CUP_I_RACS_Medic",
+	"CUP_I_RACS_Soldier_Light",
+	"CUP_I_RACS_Soldier"
 ];
 
 blufor_squad_inf = [
-"CUP_I_RACS_SL",
-"CUP_I_RACS_Medic",
-"CUP_I_RACS_Soldier_Light",
-"CUP_I_RACS_Soldier",
-"CUP_I_RACS_GL"
+	"CUP_I_RACS_SL",
+	"CUP_I_RACS_Medic",
+	"CUP_I_RACS_Soldier_Light",
+	"CUP_I_RACS_Soldier",
+	"CUP_I_RACS_GL"
 ];
 
 blufor_squad_at = [
-"CUP_I_RACS_SL",
-"CUP_I_RACS_Medic",
-"CUP_I_RACS_Soldier_Light",
-"CUP_I_RACS_Soldier_MAT",
-"CUP_I_RACS_Soldier_MAT"
+	"CUP_I_RACS_SL",
+	"CUP_I_RACS_Medic",
+	"CUP_I_RACS_Soldier_Light",
+	"CUP_I_RACS_Soldier_MAT",
+	"CUP_I_RACS_Soldier_MAT"
 ];
 
 blufor_squad_aa = [
-"CUP_I_RACS_SL",
-"CUP_I_RACS_Medic",
-"CUP_I_RACS_Soldier_Light",
-"CUP_I_RACS_Soldier_AA",
-"CUP_I_RACS_Soldier_AA"
+	"CUP_I_RACS_SL",
+	"CUP_I_RACS_Medic",
+	"CUP_I_RACS_Soldier_Light",
+	"CUP_I_RACS_Soldier_AA",
+	"CUP_I_RACS_Soldier_AA"
 ];
 
 blufor_squad_mix = [
-"CUP_I_RACS_SL",
-"CUP_I_RACS_Medic",
-"CUP_I_RACS_Soldier_Light",
-"CUP_I_RACS_Soldier_AA",
-"CUP_I_RACS_Soldier_MAT",
-"CUP_I_RACS_AR"
+	"CUP_I_RACS_SL",
+	"CUP_I_RACS_Medic",
+	"CUP_I_RACS_Soldier_Light",
+	"CUP_I_RACS_Soldier_AA",
+	"CUP_I_RACS_Soldier_MAT",
+	"CUP_I_RACS_AR"
 ];
 
 squads = [
