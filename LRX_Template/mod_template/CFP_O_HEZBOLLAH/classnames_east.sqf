@@ -65,12 +65,16 @@ militia_squad = [
 militia_loadout_overide = [
 ];
 
-
 militia_vehicles = [
-	"I_G_Offroad_01_armed_F",
-	"I_G_Offroad_01_armed_F",
-	"I_G_Offroad_01_AT_F",
-	"I_C_Offroad_02_LMG_F"
+	"CFP_O_HEZBOLLAH_Hilux_01",
+	"CFP_O_HEZBOLLAH_Hilux_DShKM_01",
+	"CFP_O_HEZBOLLAH_Hilux_Igla_01",
+	"CFP_O_HEZBOLLAH_Hilux_Metis_01",
+	"CFP_O_HEZBOLLAH_Hilux_SPG_01",
+	"CFP_O_HEZBOLLAH_Offroad_Armed_01",
+	"CFP_O_HEZBOLLAH_Offroad_Armed_flag_01",	
+	"CFP_O_HEZBOLLAH_Offroad_Armed_01",
+	"CFP_O_HEZBOLLAH_Offroad_Armed_flag_01"
 ];
 
 opfor_boats = [
@@ -84,43 +88,29 @@ opfor_vehicles = [
 	"CFP_O_HEZBOLLAH_Hilux_01",
 	"CFP_O_HEZBOLLAH_Hilux_AGS_30_01",
 	"CFP_O_HEZBOLLAH_Hilux_DShKM_01",
+	"CFP_O_HEZBOLLAH_Hilux_DShKM_01",	
 	"CFP_O_HEZBOLLAH_Hilux_Igla_01",
 	"CFP_O_HEZBOLLAH_Hilux_Metis_01",
 	"CFP_O_HEZBOLLAH_Hilux_MLRS_01",
-	"CFP_O_HEZBOLLAH_Hilux_Podnos_01",
 	"CFP_O_HEZBOLLAH_Hilux_SPG_01",
 	"CFP_O_HEZBOLLAH_Hilux_ZU_23_01",
-	"CFP_O_HEZBOLLAH_Offroad_01",
-	"CFP_O_HEZBOLLAH_Offroad_flag_01",
-	"CFP_O_HEZBOLLAH_Offroad_Armed_01",
-	"CFP_O_HEZBOLLAH_Offroad_Armed_flag_01",
-	"CFP_O_HEZBOLLAH_Quad_Bike_01",
 	"CFP_O_HEZBOLLAH_Truck_01",
 	"CFP_O_HEZBOLLAH_T55_flag_01",
 	"CFP_O_HEZBOLLAH_T72_flag_01"
 ];
 
 opfor_vehicles_low_intensity = [
-	"CFP_O_HEZBOLLAH_Ural_ZU_23_01",
-	"CFP_O_HEZBOLLAH_BMP_2_01",
 	"CFP_O_HEZBOLLAH_BTR_60PB_01",
 	"CFP_O_HEZBOLLAH_Hilux_01",
 	"CFP_O_HEZBOLLAH_Hilux_AGS_30_01",
 	"CFP_O_HEZBOLLAH_Hilux_DShKM_01",
+	"CFP_O_HEZBOLLAH_Hilux_DShKM_01",	
 	"CFP_O_HEZBOLLAH_Hilux_Igla_01",
 	"CFP_O_HEZBOLLAH_Hilux_Metis_01",
-	"CFP_O_HEZBOLLAH_Hilux_MLRS_01",
-	"CFP_O_HEZBOLLAH_Hilux_Podnos_01",
 	"CFP_O_HEZBOLLAH_Hilux_SPG_01",
-	"CFP_O_HEZBOLLAH_Hilux_ZU_23_01",
-	"CFP_O_HEZBOLLAH_Offroad_01",
-	"CFP_O_HEZBOLLAH_Offroad_flag_01",
 	"CFP_O_HEZBOLLAH_Offroad_Armed_01",
 	"CFP_O_HEZBOLLAH_Offroad_Armed_flag_01",
-	"CFP_O_HEZBOLLAH_Quad_Bike_01",
-	"CFP_O_HEZBOLLAH_Truck_01",
-	"CFP_O_HEZBOLLAH_T55_flag_01",
-	"CFP_O_HEZBOLLAH_T72_flag_01"
+	"CFP_O_HEZBOLLAH_Truck_01"
 ];
 
 opfor_battlegroup_vehicles = [
@@ -130,25 +120,18 @@ opfor_battlegroup_vehicles = [
 	"CFP_O_HEZBOLLAH_Hilux_01",
 	"CFP_O_HEZBOLLAH_Hilux_AGS_30_01",
 	"CFP_O_HEZBOLLAH_Hilux_DShKM_01",
+	"CFP_O_HEZBOLLAH_Hilux_DShKM_01",	
 	"CFP_O_HEZBOLLAH_Hilux_Igla_01",
 	"CFP_O_HEZBOLLAH_Hilux_Metis_01",
 	"CFP_O_HEZBOLLAH_Hilux_MLRS_01",
-	"CFP_O_HEZBOLLAH_Hilux_Podnos_01",
 	"CFP_O_HEZBOLLAH_Hilux_SPG_01",
 	"CFP_O_HEZBOLLAH_Hilux_ZU_23_01",
-	"CFP_O_HEZBOLLAH_Offroad_01",
-	"CFP_O_HEZBOLLAH_Offroad_flag_01",
-	"CFP_O_HEZBOLLAH_Offroad_Armed_01",
-	"CFP_O_HEZBOLLAH_Offroad_Armed_flag_01",
-	"CFP_O_HEZBOLLAH_Quad_Bike_01",
 	"CFP_O_HEZBOLLAH_Truck_01",
 	"CFP_O_HEZBOLLAH_T55_flag_01",
 	"CFP_O_HEZBOLLAH_T72_flag_01"
 ];
 
 opfor_battlegroup_vehicles_low_intensity = [
-	"CFP_O_HEZBOLLAH_Ural_ZU_23_01",
-	"CFP_O_HEZBOLLAH_BMP_2_01",
 	"CFP_O_HEZBOLLAH_BTR_60PB_01",
 	"CFP_O_HEZBOLLAH_Hilux_01",
 	"CFP_O_HEZBOLLAH_Hilux_AGS_30_01",
@@ -156,17 +139,11 @@ opfor_battlegroup_vehicles_low_intensity = [
 	"CFP_O_HEZBOLLAH_Hilux_Igla_01",
 	"CFP_O_HEZBOLLAH_Hilux_Metis_01",
 	"CFP_O_HEZBOLLAH_Hilux_MLRS_01",
-	"CFP_O_HEZBOLLAH_Hilux_Podnos_01",
 	"CFP_O_HEZBOLLAH_Hilux_SPG_01",
 	"CFP_O_HEZBOLLAH_Hilux_ZU_23_01",
-	"CFP_O_HEZBOLLAH_Offroad_01",
-	"CFP_O_HEZBOLLAH_Offroad_flag_01",
 	"CFP_O_HEZBOLLAH_Offroad_Armed_01",
 	"CFP_O_HEZBOLLAH_Offroad_Armed_flag_01",
-	"CFP_O_HEZBOLLAH_Quad_Bike_01",
-	"CFP_O_HEZBOLLAH_Truck_01",
-	"CFP_O_HEZBOLLAH_T55_flag_01",
-	"CFP_O_HEZBOLLAH_T72_flag_01"
+	"CFP_O_HEZBOLLAH_Truck_01"
 ];
 
 opfor_troup_transports_truck = [
@@ -174,7 +151,6 @@ opfor_troup_transports_truck = [
 ];
 
 opfor_troup_transports_heli = [
-
 ];
 
 opfor_air = [
@@ -187,36 +163,38 @@ opfor_statics = [
 	"CFP_O_HEZBOLLAH_Podnos_2B14_01",
 	"CFP_O_HEZBOLLAH_Metis_AT_13_01",
 	"CFP_O_HEZBOLLAH_DShKM_Low_01",
-	"CFP_O_HEZBOLLAH_DShKM_01",
-	"CFP_O_HEZBOLLAH_Hilux_MLRS_01",
-	"CFP_O_HEZBOLLAH_Hilux_Podnos_01"
+	"CFP_O_HEZBOLLAH_DShKM_01"	
 ];
 
 opfor_recyclable = [
 	["CFP_O_HEZBOLLAH_DShKM_01",0,round (20 / GRLIB_recycling_percentage),0],
 	["CFP_O_HEZBOLLAH_DShKM_Low_01",0,round (50 / GRLIB_recycling_percentage),0],
 	["CFP_O_HEZBOLLAH_Metis_AT_13_01",0,round (70 / GRLIB_recycling_percentage),0],
-	["CFP_O_HEZBOLLAH_Podnos_2B14_01",0,round (80 / GRLIB_recycling_percentage),0],
 	["CFP_O_HEZBOLLAH_SPG_9_01",0,round (80 / GRLIB_recycling_percentage),0],
 	["CFP_O_HEZBOLLAH_TOW_AT_01",0,round (80 / GRLIB_recycling_percentage),0],
-	["CFP_O_HEZBOLLAH_ZU_23_01",0,round (80 / GRLIB_recycling_percentage),0],
-	["CFP_O_HEZBOLLAH_Ural_ZU_23_01",0,round (300 / GRLIB_recycling_percentage),0],
-	["CFP_O_HEZBOLLAH_BMP_2_01",1,round (20 / GRLIB_recycling_percentage),2],
-	["CFP_O_HEZBOLLAH_BTR_60PB_01",1,round (40 / GRLIB_recycling_percentage),2],
-	["CFP_O_HEZBOLLAH_Hilux_01",1,round (30 / GRLIB_recycling_percentage),2],
-	["CFP_O_HEZBOLLAH_Hilux_AGS_30_01",1,round (40 / GRLIB_recycling_percentage),2],
-	["CFP_O_HEZBOLLAH_Hilux_DShKM_01",1,round (30 / GRLIB_recycling_percentage),2],
-	["CFP_O_HEZBOLLAH_Hilux_Igla_01",1,round (30 / GRLIB_recycling_percentage),2],
-	["CFP_O_HEZBOLLAH_Hilux_Metis_01",1,round (30 / GRLIB_recycling_percentage),2],
-	["CFP_O_HEZBOLLAH_Hilux_MLRS_01",5,round (20 / GRLIB_recycling_percentage),5],
-	["CFP_O_HEZBOLLAH_Hilux_SPG_01",5,round (20 / GRLIB_recycling_percentage),5],
-	["CFP_O_HEZBOLLAH_Hilux_Podnos_01",2,round (100 / GRLIB_recycling_percentage),2],
-	["CFP_O_HEZBOLLAH_Hilux_ZU_23_01",15,round (600 / GRLIB_recycling_percentage),15],
-	["CFP_O_HEZBOLLAH_Offroad_01",15,round (500 / GRLIB_recycling_percentage),15],
-	["CFP_O_HEZBOLLAH_Offroad_flag_01",15,round (1200 / GRLIB_recycling_percentage),15],
-	["CFP_O_HEZBOLLAH_Offroad_Armed_flag_01",10,round (150 / GRLIB_recycling_percentage),15],
-	["CFP_O_HEZBOLLAH_Quad_Bike_01",10,round (500 / GRLIB_recycling_percentage),10],
-	["CFP_O_HEZBOLLAH_Truck_01",20,round (1000 / GRLIB_recycling_percentage),30],
-	["CFP_O_HEZBOLLAH_T55_flag_01",20,round (1000 / GRLIB_recycling_percentage),30],
-	["CFP_O_HEZBOLLAH_T72_flag_01",20,round (1000 / GRLIB_recycling_percentage),30]
+	["CFP_O_HEZBOLLAH_Podnos_2B14_01",0,round (410 / GRLIB_recycling_percentage),0],
+	["CFP_O_HEZBOLLAH_ZU_23_01",0,round (340 / GRLIB_recycling_percentage),0],
+	
+	["CFP_O_HEZBOLLAH_Quad_Bike_01",1,round (10 / GRLIB_recycling_percentage),1],
+	["CFP_O_HEZBOLLAH_Offroad_01",1,round (30 / GRLIB_recycling_percentage),2],
+	["CFP_O_HEZBOLLAH_Offroad_flag_01",1,round (30 / GRLIB_recycling_percentage),2],
+	["CFP_O_HEZBOLLAH_Offroad_Armed_flag_01",1,round (40 / GRLIB_recycling_percentage),2],
+	["CFP_O_HEZBOLLAH_Truck_01",1,round (20 / GRLIB_recycling_percentage),5],
+
+	["CFP_O_HEZBOLLAH_Hilux_01",1,round (30 / GRLIB_recycling_percentage),3],
+	["CFP_O_HEZBOLLAH_Hilux_AGS_30_01",1,round (40 / GRLIB_recycling_percentage),3],
+	["CFP_O_HEZBOLLAH_Hilux_DShKM_01",1,round (30 / GRLIB_recycling_percentage),3],
+	["CFP_O_HEZBOLLAH_Hilux_Igla_01",1,round (30 / GRLIB_recycling_percentage),3],
+	["CFP_O_HEZBOLLAH_Hilux_Metis_01",1,round (30 / GRLIB_recycling_percentage),3],
+	["CFP_O_HEZBOLLAH_Hilux_SPG_01",1,round (100 / GRLIB_recycling_percentage),3],
+	["CFP_O_HEZBOLLAH_Hilux_Podnos_01",1,round (450 / GRLIB_recycling_percentage),3],
+	["CFP_O_HEZBOLLAH_Hilux_ZU_23_01",1,round (380 / GRLIB_recycling_percentage),3],
+	["CFP_O_HEZBOLLAH_Hilux_MLRS_01",1,round (420 / GRLIB_recycling_percentage),3],
+
+	["CFP_O_HEZBOLLAH_Ural_ZU_23_01",3,round (420 / GRLIB_recycling_percentage),10],
+	["CFP_O_HEZBOLLAH_BMP_2_01",3,round (200 / GRLIB_recycling_percentage),12],
+	["CFP_O_HEZBOLLAH_BTR_60PB_01",3,round (240 / GRLIB_recycling_percentage),12],
+
+	["CFP_O_HEZBOLLAH_T55_flag_01",10,round (1200 / GRLIB_recycling_percentage),30],
+	["CFP_O_HEZBOLLAH_T72_flag_01",15,round (1400 / GRLIB_recycling_percentage),30]
 ];
