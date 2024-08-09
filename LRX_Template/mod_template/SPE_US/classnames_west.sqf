@@ -94,17 +94,22 @@ units_loadout_overide = [
 light_vehicles = [
 	// Boat
 	// Land
-	["SPE_US_M3_Halftrack_Unarmed",1,50,1,0],
-	["SPE_US_M3_Halftrack",1,75,2,GRLIB_perm_inf],
-	["SPE_US_M16_Halftrack",1,100,2,GRLIB_perm_inf]
+	["SPE_US_G503_MB",1,50,1,0],
+	["SPE_US_G503_MB_Armoured",1,75,1,0],
+	["SPE_US_G503_MB_M2_Armoured",1,125,1,0],
+	["SPE_US_M3_Halftrack_Unarmed",1,250,1,GRLIB_perm_inf],
+	["SPE_US_M3_Halftrack",1,275,2,GRLIB_perm_inf],
+	["SPE_US_M16_Halftrack",1,300,2,GRLIB_perm_inf],
+	["SPE_M20_AUC",1,350,2,GRLIB_perm_log]
 ];
 
 heavy_vehicles = [
 	["SPE_M4A0_75_Early",5,400,5,GRLIB_perm_tank],
 	["SPE_M18_Hellcat",10,500,10,GRLIB_perm_tank],
+	["SPE_M8_LAC",10,550,10,GRLIB_perm_tank],
 	["SPE_M10",10,600,10,GRLIB_perm_tank],
 	["SPE_M4A1_T34_Calliope_Direct",10,700,10,GRLIB_perm_max],
-	["SPE_M4A1_T34_Calliope",10,750,10,GRLIB_perm_max]
+	["SPE_M4A3_75",10,800,10,GRLIB_perm_max]
 ];
 
 air_vehicles = [

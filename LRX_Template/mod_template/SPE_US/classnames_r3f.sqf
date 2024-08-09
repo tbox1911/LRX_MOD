@@ -84,7 +84,13 @@ R3F_LOG_CFG_can_tow = R3F_LOG_CFG_can_tow +
   "SPE_M4A1_76",
   "SPE_M4A1_75",
   "SPE_M4A1_T34_Calliope_Direct",
-  "SPE_M4A1_T34_Calliope"
+  "SPE_M4A1_T34_Calliope",
+  "SPE_US_G503_MB",
+  "SPE_US_G503_MB_Armoured",
+  "SPE_US_G503_MB_M2_Armoured",
+  "SPE_M20_AUC",
+  "SPE_M8_LAC",
+  "SPE_M4A3_75"
 ];
 
 R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed +
@@ -106,7 +112,13 @@ R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed +
   "SPE_M4A1_76",
   "SPE_M4A1_75",
   "SPE_M4A1_T34_Calliope_Direct",
-  "SPE_M4A1_T34_Calliope"
+  "SPE_M4A1_T34_Calliope",
+  "SPE_US_G503_MB",
+  "SPE_US_G503_MB_Armoured",
+  "SPE_US_G503_MB_M2_Armoured",
+  "SPE_M20_AUC",
+  "SPE_M8_LAC",
+  "SPE_M4A3_75"
 ];
 
 R3F_LOG_CFG_can_lift = R3F_LOG_CFG_can_lift +
@@ -132,7 +144,13 @@ R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
   "SPE_M4A1_76",
   "SPE_M4A1_75",
   "SPE_M4A1_T34_Calliope_Direct",
-  "SPE_M4A1_T34_Calliope"
+  "SPE_M4A1_T34_Calliope",
+  "SPE_US_G503_MB",
+  "SPE_US_G503_MB_Armoured",
+  "SPE_US_G503_MB_M2_Armoured",
+  "SPE_M20_AUC",
+  "SPE_M8_LAC",
+  "SPE_M4A3_75"
 ];
 
 R3F_LOG_CFG_can_transport_cargo = R3F_LOG_CFG_can_transport_cargo +
@@ -142,8 +160,8 @@ R3F_LOG_CFG_can_transport_cargo = R3F_LOG_CFG_can_transport_cargo +
   ["SPE_US_M3_Halftrack_Ammo", 50],
   ["SPE_US_M3_Halftrack_Repair", 50],
   ["SPE_US_M3_Halftrack_Fuel", 50],
-  ["SPE_US_M3_Halftrack_Unarmed", 50],
-  ["SPE_US_M3_Halftrack_Unarmed_Open", 50],
+  ["SPE_US_M3_Halftrack_Unarmed", 75],
+  ["SPE_US_M3_Halftrack_Unarmed_Open", 75],
   ["SPE_US_M3_Halftrack", 50],
   ["SPE_M10", 50],
   ["SPE_M18_Hellcat", 50],
@@ -152,7 +170,13 @@ R3F_LOG_CFG_can_transport_cargo = R3F_LOG_CFG_can_transport_cargo +
   ["SPE_M4A1_76", 50],
   ["SPE_M4A1_75", 50],
   ["SPE_M4A1_T34_Calliope_Direct", 50],
-  ["SPE_M4A1_T34_Calliope", 50]
+  ["SPE_M4A1_T34_Calliope", 50],
+  ["SPE_US_G503_MB", 25],
+  ["SPE_US_G503_MB_Armoured", 25],
+  ["SPE_US_G503_MB_M2_Armoured", 25],
+  ["SPE_M20_AUC", 50],
+  ["SPE_M8_LAC", 50],
+  ["SPE_M4A3_75", 50]
 ];
 
 R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +
