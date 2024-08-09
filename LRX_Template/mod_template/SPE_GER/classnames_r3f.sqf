@@ -69,6 +69,8 @@ R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
 R3F_LOG_CFG_can_tow = R3F_LOG_CFG_can_tow +
 [
   //Cars:
+  "SPE_GER_R200_Unarmed",
+  "SPE_GER_R200_MG34",
   "SPE_OpelBlitz",
   "SPE_OpelBlitz_Flak38",
   "SPE_OpelBlitz_Ambulance",
@@ -85,12 +87,16 @@ R3F_LOG_CFG_can_tow = R3F_LOG_CFG_can_tow +
   "SPE_PzKpfwIII_N",
   "SPE_PzKpfwIV_G",
   "SPE_PzKpfwVI_H1",
-  "SPE_Nashorn"
+  "SPE_Nashorn",
+  "SPE_StuG_III_G_Early",
+  "SPE_Jagdpanther_G1"
 ];
 
 R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed +
 [
   //Cars:
+  "SPE_GER_R200_Unarmed",
+  "SPE_GER_R200_MG34",
   "SPE_OpelBlitz",
   "SPE_OpelBlitz_Flak38",
   "SPE_OpelBlitz_Ambulance",
@@ -107,7 +113,9 @@ R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed +
   "SPE_PzKpfwIII_N",
   "SPE_PzKpfwIV_G",
   "SPE_PzKpfwVI_H1",
-  "SPE_Nashorn"
+  "SPE_Nashorn",
+  "SPE_StuG_III_G_Early",
+  "SPE_Jagdpanther_G1"
 ];
 
 R3F_LOG_CFG_can_lift = R3F_LOG_CFG_can_lift +
@@ -117,6 +125,8 @@ R3F_LOG_CFG_can_lift = R3F_LOG_CFG_can_lift +
 R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
 [
   //Cars:
+  "SPE_GER_R200_Unarmed",
+  "SPE_GER_R200_MG34",
   "SPE_OpelBlitz",
   "SPE_OpelBlitz_Flak38",
   "SPE_OpelBlitz_Ambulance",
@@ -133,11 +143,15 @@ R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
   "SPE_PzKpfwIII_N",
   "SPE_PzKpfwIV_G",
   "SPE_PzKpfwVI_H1",
-  "SPE_Nashorn"
+  "SPE_Nashorn",
+  "SPE_StuG_III_G_Early",
+  "SPE_Jagdpanther_G1"
 ];
 
 R3F_LOG_CFG_can_transport_cargo = R3F_LOG_CFG_can_transport_cargo +
 [
+  ["SPE_GER_R200_Unarmed", 25],
+  ["SPE_GER_R200_MG34", 25],
   ["SPE_OpelBlitz", 50],
   ["SPE_OpelBlitz_Flak38", 50],
   ["SPE_OpelBlitz_Ambulance", 50],
@@ -153,7 +167,9 @@ R3F_LOG_CFG_can_transport_cargo = R3F_LOG_CFG_can_transport_cargo +
   ["SPE_PzKpfwIII_N", 50],
   ["SPE_PzKpfwIV_G", 50],
   ["SPE_PzKpfwVI_H1", 50],
-  ["SPE_Nashorn", 50]
+  ["SPE_Nashorn", 50],
+  ["SPE_StuG_III_G_Early", 50],
+  ["SPE_Jagdpanther_G1", 50]
 ];
 
 R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +

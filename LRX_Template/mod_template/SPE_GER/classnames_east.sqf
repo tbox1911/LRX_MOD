@@ -89,7 +89,9 @@ opfor_vehicles = [
 	"SPE_PzKpfwIII_N",
 	"SPE_PzKpfwIV_G",
 	"SPE_PzKpfwVI_H1",
-	"SPE_Nashorn"
+	"SPE_Nashorn",
+	"SPE_StuG_III_G_Early",
+	"SPE_Jagdpanther_G1"
 ];
 
 opfor_vehicles_low_intensity = [
@@ -112,7 +114,9 @@ opfor_battlegroup_vehicles = [
 	"SPE_PzKpfwIII_L",
 	"SPE_PzKpfwIII_N",
 	"SPE_PzKpfwVI_H1",
-	"SPE_Nashorn"
+	"SPE_Nashorn",
+	"SPE_StuG_III_G_Early",
+	"SPE_Jagdpanther_G1"
 ];
 
 opfor_battlegroup_vehicles_low_intensity = [
@@ -202,6 +206,8 @@ opfor_recyclable = [
 	["SPE_PzKpfwIV_G_DLV",5,round (125 / GRLIB_recycling_percentage),15],
 	["SPE_PzKpfwVI_H1_DLV",5,round (250 / GRLIB_recycling_percentage),15],
 	["SPE_Nashorn_DLV",5,round (250 / GRLIB_recycling_percentage),15],
+	["SPE_StuG_III_G_Early",5,round (350 / GRLIB_recycling_percentage),15],
+	["SPE_Jagdpanther_G1",5,round (450 / GRLIB_recycling_percentage),15],
 	//
 	["SPE_FW190F8",6,round (250 / GRLIB_recycling_percentage),15]
 ];

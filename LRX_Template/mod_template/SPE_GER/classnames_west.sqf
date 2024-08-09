@@ -36,7 +36,7 @@ Box_Special_typename = "SPE_Ammocrate_Grenades_Frag_GER";
 SHOP_Man = "SPE_CIV_pak2_zwart_tie_alt";
 SELL_Man = "SPE_CIV_Worker_Coverall_1";
 WRHS_Man = "SPE_CIV_Worker_3";						// Man in Warehouse
-commander_classname = "SPE_US_Pilot_Unequipped";			// Sell-Man in FOB
+commander_classname = "SPE_GER_oberst";					// Sell-Man in FOB
 repair_offroad = "SPE_FFI_OpelBlitz_Repair";
 //waterbarrel_typename = "Land_WaterBottle_01_stack_F";
 fuelbarrel_typename = "Land_SPE_Jerrycan";
@@ -92,6 +92,8 @@ units_loadout_overide = [
 light_vehicles = [
 	// Boat
 	// Land
+	["SPE_GER_R200_Unarmed",1,25,1,0],
+	["SPE_GER_R200_MG34",1,50,1,GRLIB_perm_inf],
 	["SPE_OpelBlitz",1,50,1,0],
 	["SPE_OpelBlitz_Flak38",1,100,2,GRLIB_perm_inf],
 	["SPE_SdKfz250_1",1,150,2,GRLIB_perm_inf]
@@ -102,7 +104,9 @@ heavy_vehicles = [
 	["SPE_PzKpfwIII_L",10,500,10,GRLIB_perm_tank],
 	["SPE_PzKpfwIII_N",10,600,10,GRLIB_perm_tank],
 	["SPE_PzKpfwVI_H1",10,700,10,GRLIB_perm_max],
-	["SPE_Nashorn",10,750,10,GRLIB_perm_max]
+	["SPE_Nashorn",10,750,10,GRLIB_perm_max],
+	["SPE_StuG_III_G_Early",10,850,10,GRLIB_perm_tank],
+	["SPE_Jagdpanther_G1",10,950,10,GRLIB_perm_max]
 ];
 
 air_vehicles = [
