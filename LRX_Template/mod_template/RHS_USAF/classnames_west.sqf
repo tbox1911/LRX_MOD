@@ -221,13 +221,6 @@ GRLIB_vehicle_whitelist_west = [
 ];
 
 GRLIB_vehicle_blacklist_west = [
-	"RHS_M2StaticMG_MiniTripod_WD",
-	"RHS_M2StaticMG_WD",
-	"RHS_MK19_TriPod_WD",
-	"RHS_TOW_TriPod_WD",
-	"RHS_Stinger_AA_pod_WD",
-	"RHS_M119_WD",
-	"RHS_M252_WD"
 ];
 
 GRLIB_AirDrop_1 = [			// Unarmed Offroader 50
