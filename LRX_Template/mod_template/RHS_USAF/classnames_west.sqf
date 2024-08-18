@@ -84,7 +84,7 @@ heavy_vehicles = [
 ];
 
 air_vehicles = [
-	["RHS_MELB_MH6M",10,20,15,GRLIB_perm_tank],
+	["RHS_MELB_MH6M",10,20,15,GRLIB_perm_log],
 	["RHS_MELB_AH6M",10,50,15,GRLIB_perm_air],
 	["RHS_UH1Y_UNARMED",10,100,5,GRLIB_perm_tank],
 	["RHS_UH1Y",10,150,5,GRLIB_perm_air],
