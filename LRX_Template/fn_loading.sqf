@@ -24,6 +24,9 @@ LRX_mod_list_west = [
 	"CP_SAHRA_D",	// Z@Warrior
 	"CP_USMC_D",	// C0br4
 	"CP_USMC_W",	// C0br4
+	"CP_BELKA_D",	// Z@Warrior CUP Belka Desert
+	"CP_BELKA_W",	// Z@Warrior CUP Belka Woodland
+	"CP_BELKA_WI",	// Z@Warrior CUP Belka Winter
 	"CWR3_BAF",		// Z@Warrior Cold War Rearmed III - BAF
 	"CWR3_FIA",
 	"CWR3_SOV",		// Z@Warrior Cold War Rearmed III - SOVIET
@@ -104,6 +107,9 @@ LRX_mod_list_east = [
 	"CP_TA",
 	"CP_USMC_D",		// C0br4
 	"CP_USMC_W",		// C0br4
+	"CP_BELKA_D",	// Z@Warrior CUP Belka Desert
+	"CP_BELKA_W",	// Z@Warrior CUP Belka Woodland
+	"CP_BELKA_WI",	// Z@Warrior CUP Belka Winter
 	"CWR3_BAF",			// Z@Warrior Cold War Rearmed III - BAF
 	"CWR3_FIA",
 	"CWR3_SOV",			// Z@Warrior Cold War Rearmed III - SOVIET
@@ -197,6 +203,9 @@ LRX_mod_list_name = [
 	["CP_TA", "CUP Takistan"],
 	["CP_USMC_D", "CUP USMC Desert"],
 	["CP_USMC_W", "CUP USMC Woodland"],
+	["CP_BELKA_D", "CUP Belka Desert"],
+	["CP_BELKA_W", "CUP Belka Woodland"],
+	["CP_BELKA_WI", "CUP Belka Winter"],
 	["CWR3_BAF", "Cold War Rearmed - BAF"],
 	["CWR3_FIA", "Cold War Rearmed - FIA"],
 	["CWR3_SOV", "Cold War Rearmed - SOVIET"],
