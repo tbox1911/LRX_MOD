@@ -251,12 +251,10 @@ static_vehicles = [
 	["CUP_B_TOW_TriPod_US",1,250,0,GRLIB_perm_tank],
 	["CUP_B_TOW2_TriPod_US",0,250,0,GRLIB_perm_tank],
 	["CUP_B_CUP_Stinger_AA_pod_US",1,250,0,GRLIB_perm_tank],
-
 	["B_SAM_System_01_F",10,1500,0,GRLIB_perm_air],
 	["B_SAM_System_02_F",10,1500,0,GRLIB_perm_air],
 	["CUP_B_M134_A_GB",0,200,0,GRLIB_perm_air],
 	["CUP_B_M119_HIL",0,250,0,GRLIB_perm_air],
-
 	["B_AAA_System_01_F",10,1500,0,GRLIB_perm_max],
 	["B_Radar_System_01_F",10,1000,0,GRLIB_perm_max],
 	["B_SAM_System_03_F",10,1500,0,GRLIB_perm_max],
@@ -268,15 +266,6 @@ static_vehicles_AI = [
 	"B_SAM_System_01_F",
 	"B_SAM_System_02_F",
 	"B_AAA_System_01_F",
-	"CUP_B_SearchLight_static_BAF_DDPM",
-	"CUP_B_L111A1_BAF_DDPM",
-	"CUP_B_L111A1_MiniTripod_BAF_DDPM",
-	"CUP_B_L134A1_TriPod_BAF_DDPM",
-	"CUP_B_L16A2_BAF_DDPM",
-	"CUP_B_TOW_TriPod_US",
-	"CUP_B_CUP_Stinger_AA_pod_US",
-	"CUP_B_M134_A_GB",
-	"CUP_B_M119_HIL",
 	"B_SAM_System_03_F",
 	"B_Radar_System_01_F"
 ];

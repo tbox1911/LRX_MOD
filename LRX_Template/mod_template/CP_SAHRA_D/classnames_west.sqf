@@ -23,6 +23,7 @@ fuel_truck_typename = "CUP_I_MTVR_Refuel_RACS";
 repair_truck_typename = "CUP_I_MTVR_Repair_RACS";
 pilot_classname = "CUP_I_RACS_Pilot";
 crewman_classname = "CUP_I_RACS_Soldier";
+uavs_terminal_typename = "I_UavTerminal";
 basic_weapon_typename = "CUP_BOX_RACS_Wps_F";
 Box_Weapon_typename = "CUP_BOX_RACS_Wps_F";
 Box_Ammo_typename = "CUP_BOX_RACS_Ammo_F";

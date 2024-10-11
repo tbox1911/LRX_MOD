@@ -147,13 +147,6 @@ static_vehicles = [
 
 // *** Static Weapon with AI ***
 static_vehicles_AI = [
-"CUP_B_SearchLight_static_AFU",
-"CUP_B_DSHkM_MiniTriPod_AFU",
-"CUP_B_DSHKM_AFU",
-"CUP_B_AGS_AFU",
-"CUP_B_Igla_AA_pod_AFU",
-"CUP_B_SPG9_AFU",
-"CUP_B_ZU23_AFU"
 ];
 
 support_vehicles_west = [

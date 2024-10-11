@@ -19,6 +19,7 @@ ammo_sling_typename = "Land_Pod_Heli_Transport_04_ammo_F";
 medic_sling_typename = "Land_Pod_Heli_Transport_04_medevac_F";
 pilot_classname = "O_Helipilot_F";
 crewman_classname = "O_crew_F";
+uavs_terminal_typename = "O_UavTerminal";
 chimera_vehicle_overide = [
   ["B_Heli_Transport_01_F", "O_Heli_Light_02_dynamicLoadout_F"]
 ];
@@ -182,23 +183,19 @@ blufor_air = [
 static_vehicles = [
 	["O_UGV_02_Demining_F",0,5,0,GRLIB_perm_inf],
 	["O_Static_Designator_01_F",0,5,0,GRLIB_perm_inf],
-
 	["O_HMG_01_F",0,10,0,GRLIB_perm_log],
 	["O_GMG_01_F",0,20,0,GRLIB_perm_log],
 	["CUP_O_KORD_high_RU",0,10,0,GRLIB_perm_log],
-
 	["O_HMG_01_high_F",0,10,0,GRLIB_perm_tank],
 	["O_GMG_01_high_F",0,20,0,GRLIB_perm_tank],
 	["B_SAM_System_01_F",10,1500,0,GRLIB_perm_tank],
 	["CUP_O_D30_AT_RU",0,500,0,GRLIB_perm_tank],
 	["CUP_O_Igla_AA_pod_RU",0,150,0,GRLIB_perm_tank],
 	["CUP_O_Kornet_RU",0,150,0,GRLIB_perm_tank],
-
 	["O_static_AA_F",0,50,0,GRLIB_perm_air],
 	["O_static_AT_F",0,50,0,GRLIB_perm_air],
 	["B_AAA_System_01_F",10,1500,0,GRLIB_perm_air],
 	["CUP_O_Metis_RU_M_MSV",0,150,0,GRLIB_perm_air],
-
 	["O_Mortar_01_F",0,500,0,GRLIB_perm_max],
 	["O_Radar_System_02_F",10,1500,0,GRLIB_perm_max],
 	["O_SAM_System_04_F",10,1500,0,GRLIB_perm_max],
@@ -211,19 +208,7 @@ static_vehicles_AI = [
 	"B_SAM_System_01_F",
 	"B_AAA_System_01_F",
 	"O_SAM_System_04_F",
-	"O_HMG_01_F",
-	"O_HMG_01_high_F",
-	"O_GMG_01_F",
-	"O_GMG_01_high_F",
-	"O_static_AA_F",
-	"O_static_AT_F",
-	"O_Radar_System_02_F",
-	"CUP_O_D30_AT_RU",
-	"CUP_O_KORD_high_RU",
-	"CUP_O_Igla_AA_pod_RU",
-	"CUP_O_Metis_RU_M_MSV",
-	"CUP_O_Kornet_RU",
-	"CUP_O_ZU23_RU_M_MSV"
+	"O_Radar_System_02_F"
 ];
 
 support_vehicles_west = [

@@ -19,6 +19,7 @@ ammo_sling_typename = "B_Slingload_01_Ammo_F";
 medic_sling_typename = "B_Slingload_01_Medevac_F";
 pilot_classname = "CFP_O_NKARMY_Pilot_01";
 crewman_classname = "CFP_O_NKARMY_Crewman_01";
+uavs_terminal_typename = "O_UavTerminal";
 
 // [CLASSNAME, MANPOWER, AMMO, FUEL, RANK]
 infantry_units_west = [
@@ -95,10 +96,6 @@ static_vehicles = [
 
 // *** Static Weapon with AI ***
 static_vehicles_AI = [
-	"CFP_O_NKARMY_ZU_23_01",
-	"CFP_O_NKARMY_DShKM_01",
-	"CFP_O_NKARMY_DShKM_Minitripod_01",
-	"CFP_O_NKARMY_D30_AT_01"
 ];
 
 support_vehicles_west = [

@@ -24,6 +24,7 @@ ammo_sling_typename = "B_Slingload_01_Ammo_F";
 medic_sling_typename = "B_Slingload_01_Medevac_F";
 pilot_classname = "SPE_US_Pilot";
 crewman_classname = "SPE_US_HBT44_HalfTrack_Driver";
+uavs_terminal_typename = "";
 Arsenal_typename = "SPE_BasicAmmunitionBox_US";
 PAR_Medikit = "SPE_US_Medkit";
 PAR_AidKit = "SPE_US_FirstAidKit";
@@ -158,10 +159,6 @@ static_vehicles = [
 
 // *** Static Weapon with AI ***
 static_vehicles_AI = [
-	"SPE_M1919_M2",
-	"SPE_M1919_M2_Trench_Deployed",
-	"SPE_M1919A6_Bipod",
-	"SPE_M45_Quadmount"
 ];
 
 support_vehicles_west = [

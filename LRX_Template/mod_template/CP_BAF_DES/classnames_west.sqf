@@ -111,13 +111,13 @@ boats_west = [
 
 static_vehicles = [
 	["CUP_B_SearchLight_static_BAF_DDPM",0,10,0,GRLIB_perm_log],
-	["CUP_B_L111A1_BAF_DDPM",0,50,0,GRLIB_perm_log],
-	["CUP_B_L111A1_MiniTripod_BAF_DDPM",0,70,0,GRLIB_perm_tank],
-	["CUP_B_L16A2_BAF_DDPM",0,100,0,GRLIB_perm_max],
-	["CUP_B_M119_HIL",0,150,0,GRLIB_perm_air],
-	["CUP_WV_B_CRAM",0,200,0,GRLIB_perm_air],
-	["CUP_WV_B_RAM_Launcher",0,250,0,GRLIB_perm_max],
-	["CUP_WV_B_SS_Launcher",0,250,0,GRLIB_perm_max]
+	["CUP_B_L111A1_BAF_DDPM",0,150,0,GRLIB_perm_log],
+	["CUP_B_L111A1_MiniTripod_BAF_DDPM",0,170,0,GRLIB_perm_tank],
+	["CUP_B_L16A2_BAF_DDPM",0,1200,0,GRLIB_perm_max],
+	["CUP_B_M119_HIL",0,1500,0,GRLIB_perm_air],
+	["CUP_WV_B_CRAM",0,2000,0,GRLIB_perm_air],
+	["CUP_WV_B_RAM_Launcher",0,2500,0,GRLIB_perm_max],
+	["CUP_WV_B_SS_Launcher",0,2500,0,GRLIB_perm_max]
 ];
 
 // *** Static Weapon with AI ***

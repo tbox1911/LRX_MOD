@@ -185,16 +185,6 @@ static_vehicles = [
 // *** Static Weapon with AI ***
 
 static_vehicles_AI = [
-"UK3CB_ADA_I_Searchlight",
-"UK3CB_ADA_I_DSHKM",
-"UK3CB_ADA_I_DSHkM_Mini_TriPod",
-"UK3CB_ADA_I_PKM_High",
-"UK3CB_ADA_I_PKM_Low",
-"UK3CB_ADA_I_PKM_nest_des",
-"UK3CB_ADA_I_AGS",
-"UK3CB_ADA_I_SPG9",
-"UK3CB_ADA_I_ZU23",
-"UK3CB_ADA_I_Igla_AA_pod"
 ];
 
 support_vehicles_west = [

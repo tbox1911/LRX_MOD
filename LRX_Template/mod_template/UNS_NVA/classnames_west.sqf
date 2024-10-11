@@ -20,6 +20,7 @@ fuel_truck_typename = "uns_nvatruck_refuel";
 repair_truck_typename = "uns_nvatruck_repair";
 pilot_classname = "uns_nvaf_pilot2";
 crewman_classname = "uns_nvaf_pilot5";
+uavs_terminal_typename = "O_UavTerminal";
 repair_offroad = "uns_zil157_repair";
 SHOP_Man = "uns_civilian4";	
 SELL_Man = "uns_civilian3_b1";
@@ -77,14 +78,14 @@ units_loadout_overide = [];
 
 // *** RESISTANCE
 resistance_squad = [
-"uns_men_VC_local_AS5",
-"uns_men_VC_local_MED",
-"uns_men_VC_local_MGS",
-"uns_men_VC_local_RF5",
-"uns_men_VC_local_RF7",
-"uns_men_VC_local_off",
-"uns_men_VC_local_AS7",
-"uns_men_VC_local_AS4"
+	"uns_men_VC_local_AS5",
+	"uns_men_VC_local_MED",
+	"uns_men_VC_local_MGS",
+	"uns_men_VC_local_RF5",
+	"uns_men_VC_local_RF7",
+	"uns_men_VC_local_off",
+	"uns_men_VC_local_AS7",
+	"uns_men_VC_local_AS4"
 ];
 
 resistance_squad_static = "uns_ZPU2_VC";
@@ -170,15 +171,6 @@ static_vehicles = [
 
 // *** Static Weapon with AI ***
 static_vehicles_AI = [
-"uns_M40_106mm_NVA",
-"uns_KS19_NVA",
-"uns_ZPU4_NVA",
-"uns_pk_high_NVA",
-"uns_dshk_armoured_NVA",
-"uns_dshk_twin_NVA",
-"uns_Type36_57mm_NVA",
-"uns_Type74_NVA",
-"uns_ZU23_NVA"
 ];
 
 support_vehicles_west = [

@@ -10,20 +10,14 @@ GRLIB_west_modder = "Z@Warrior";
 huron_typename = "cwr3_b_ch47";
 FOB_typename = "Land_Cargo_HQ_V1_F";
 Respawn_truck_typename = "cwr3_b_hmmwv_mev";
-
 ammo_truck_typename = "cwr3_b_m939_reammo";
 fuel_truck_typename = "cwr3_b_m939_refuel";
 repair_truck_typename = "cwr3_b_m939_repair";
-
 pilot_classname = "cwr3_b_soldier_pilot";
 crewman_classname = "cwr3_b_soldier82_driver";
-
 GRLIB_sar_wreck = "cwr3_ah1f_wreck";
-
 resistance_squad_static = "cwr3_b_fia_mk19";
-
 basic_weapon_typename = "cwr3_crate_basicweapons_us";
-
 Box_Weapon_typename = "cwr3_crate_basicweapons_us";
 Box_Ammo_typename = "cwr3_crate_basicammo_us";
 Box_Support_typename = "cwr3_crate_support_us";
@@ -154,11 +148,6 @@ static_vehicles = [
 // *** Static Weapon with AI ***
 
 static_vehicles_AI = [
-	"cwr3_b_searchlight",
-	"cwr3_b_m2hb_low",
-	"cwr3_b_m2hb_high",
-	"cwr3_b_mk19",
-	"cwr3_b_tow"
 ];
 
 

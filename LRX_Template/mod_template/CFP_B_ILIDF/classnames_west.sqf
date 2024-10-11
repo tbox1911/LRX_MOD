@@ -100,9 +100,6 @@ static_vehicles = [
 
 // *** Static Weapon with AI ***
 static_vehicles_AI = [
-	"CFP_B_ILIDF_M2_Machine_Gun_01",
-	"CFP_B_ILIDF_M2_Minitripod_01",
-	"CFP_B_ILIDF_TOW_Tripod_01"
 ];
 
 support_vehicles_west = [

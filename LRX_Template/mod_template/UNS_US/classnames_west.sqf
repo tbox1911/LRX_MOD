@@ -84,15 +84,15 @@ units_loadout_overide = [
 
 // *** RESISTANCE
 resistance_squad = [
-"uns_men_US_1AC_COM",
-"uns_men_US_1AC_MGSG",
-"uns_men_US_1AC_HMG",
-"uns_men_US_1AC_MRK2",
-"uns_men_US_1AC_MED",
-"uns_men_US_1AC_PL",
-"uns_men_US_1AC_SAP",
-"uns_men_US_1AC_TPR1",
-"uns_men_US_1AC_ENG"
+	"uns_men_US_1AC_COM",
+	"uns_men_US_1AC_MGSG",
+	"uns_men_US_1AC_HMG",
+	"uns_men_US_1AC_MRK2",
+	"uns_men_US_1AC_MED",
+	"uns_men_US_1AC_PL",
+	"uns_men_US_1AC_SAP",
+	"uns_men_US_1AC_TPR1",
+	"uns_men_US_1AC_ENG"
 ];
 
 resistance_squad_static = "uns_m2_high";
@@ -174,10 +174,10 @@ blufor_air = [
 ];
 
 boats_west = [
-"UNS_Zodiac_W",
-"uns_PBR_M10",
-"uns_pbr",
-"uns_pbr_mk18"
+	"UNS_Zodiac_W",
+	"uns_PBR_M10",
+	"uns_pbr",
+	"uns_pbr_mk18"
 ];
 
 static_vehicles = [
@@ -195,14 +195,6 @@ static_vehicles = [
 
 // *** Static Weapon with AI ***
 static_vehicles_AI = [
-"uns_US_MK18_low",
-"uns_m60_high",
-"uns_m60_bunker_large",
-"uns_m2_high",
-"uns_M40_106mm_US",
-"uns_M1_81mm_mortar",
-"Uns_M55_Quad",
-"Uns_M114_artillery"
 ];
 
 support_vehicles_west = [

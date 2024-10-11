@@ -106,12 +106,6 @@ static_vehicles = [
 
 // *** Static Weapon with AI ***
 static_vehicles_AI = [
-	"TIOW_IG_Lascannon_1490_Blu",
-	"TIOW_IG_HeavyBolter_1490_Blu",
-	"TIOW_IG_Autocannon_1490_Blu",
-	"TIOW_IG_MissileLauncher_AT_1490_Blu",
-	"TIOW_IG_MissileLauncher_AA_1490_Blu",
-	"TIOW_IG_Mortar_1490_Blu"
 ];
 
 support_vehicles_west = [

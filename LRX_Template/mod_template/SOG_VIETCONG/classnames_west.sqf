@@ -21,6 +21,7 @@ ammo_sling_typename = "B_Slingload_01_Ammo_F";
 medic_sling_typename = "B_Slingload_01_Medevac_F";
 pilot_classname = "vn_o_men_aircrew_01";
 crewman_classname = "vn_o_men_nva_41";
+uavs_terminal_typename = "";
 Arsenal_typename = "Land_vn_pavn_weapons_stack1";
 PAR_Medikit = "vn_b_item_medikit_01";
 PAR_AidKit = "vn_o_item_firstaidkit";

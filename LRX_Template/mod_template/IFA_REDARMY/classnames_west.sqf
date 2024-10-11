@@ -21,6 +21,7 @@ Radio_tower = "Land_Vysilac_FM2";
 GRLIB_sar_wreck = "Land_Wreck_C130J_EP1_ruins";
 pilot_classname = "LIB_SOV_pilot";
 crewman_classname = "LIB_SOV_LC_rifleman";
+uavs_terminal_typename = "O_UavTerminal";
 basic_weapon_typename = "LIB_BasicWeaponsBox_SU";
 WRHS_Man = "LIB_CIV_SchoolTeacher";			// Man in Warehouse
 commander_classname = "LIB_CIV_Assistant";		// Sell-Man in FOB
@@ -132,18 +133,14 @@ if (isClass(configFile >> "CfgPatches" >> "sab_flyinglegends")) then {
 
 static_vehicles = [
 	["LIB_SU_SearchLight",1,50,0,GRLIB_perm_log],
-	["LIB_Maxim_M30_base",1,75,0,GRLIB_perm_log],
-	["LIB_BM37",0,100,0,GRLIB_perm_log],
-	["LIB_61k",1,125,0,GRLIB_perm_log],
-	["LIB_Zis3",1,200,0,GRLIB_perm_tank]
+	["LIB_Maxim_M30_base",1,175,0,GRLIB_perm_log],
+	["LIB_BM37",0,500,0,GRLIB_perm_log],
+	["LIB_61k",1,1125,0,GRLIB_perm_log],
+	["LIB_Zis3",1,1200,0,GRLIB_perm_tank]
 ];
 
 // *** Static Weapon with AI ***
 static_vehicles_AI = [
-	"LIB_61k",
-	"LIB_SU_SearchLight",
-	"LIB_Maxim_M30_base",
-	"LIB_Zis3"
 ];
 
 support_vehicles_west = [

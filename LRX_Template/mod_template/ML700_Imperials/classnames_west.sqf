@@ -119,22 +119,6 @@ static_vehicles = [
 
 // *** Static Weapon with AI ***
 static_vehicles_AI = [
-	"ML700_Static_Autocannon_Tripod",
-	"ML700_Static_Autocannon_Tripod_High",
-	"ML700_EarthShaker_Platform_NoShield_AT",
-	"ML700_EarthShaker_Platform_NoShield",
-	"ML700_EarthShaker_Platform",
-	"ML700_Static_HeavyBolter_Tripod",
-	"ML700_Static_HeavyBolter_Tripod_High",
-	"ML700_Hydra_Platform",
-	"ML700_Hydra_Platform_NonFlak",
-	"ML700_Static_Mortar",
-	"ML700_Static_Lascannon_Tripod",
-	"ML700_Static_Lascannon_Tripod_High",
-	"ML700_Static_LockeLauncher_Tripod",
-	"ML700_Static_MultiLaser_Tripod",
-	"ML700_Static_MultiLaser_Tripod_High",
-	"ML700_Wyvern_Platform"
 ];
 
 support_vehicles_west = [

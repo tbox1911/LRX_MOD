@@ -19,6 +19,7 @@ ammo_sling_typename = "B_Slingload_01_Ammo_F";
 medic_sling_typename = "B_Slingload_01_Medevac_F";
 pilot_classname = "I_CA2035_D_HeliPilot_F";
 crewman_classname = "I_CA2035_D_Crew_F";
+uavs_terminal_typename = "I_UavTerminal";
 
 // [CLASSNAME, MANPOWER, AMMO, FUEL, RANK]
 infantry_units_west = [

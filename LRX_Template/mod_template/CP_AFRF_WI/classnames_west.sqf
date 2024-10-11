@@ -20,6 +20,7 @@ ammo_sling_typename = "Land_Pod_Heli_Transport_04_ammo_F";
 medic_sling_typename = "Land_Pod_Heli_Transport_04_medevac_F";
 pilot_classname = "CUP_O_RU_Pilot";
 crewman_classname = "CUP_O_RU_Soldier_Lite_Ratnik_Winter";
+uavs_terminal_typename = "O_UavTerminal";
 basic_weapon_typename = "CUP_BOX_RU_Wps_F";
 chimera_vehicle_overide = [
   ["B_Heli_Light_01_F", "CUP_O_UH1H_SLA"],

@@ -19,6 +19,7 @@ ammo_sling_typename = "Land_Pod_Heli_Transport_04_ammo_F";
 medic_sling_typename = "Land_Pod_Heli_Transport_04_medevac_F";
 pilot_classname = "CUP_O_RU_Pilot";
 crewman_classname = "CUP_O_RU_Soldier_Crew_M_EMR_V2";
+uavs_terminal_typename = "O_UavTerminal";
 basic_weapon_typename = "CUP_BOX_RU_Wps_F";
 
 SHOP_Man = "CUP_C_C_Functionary_02";

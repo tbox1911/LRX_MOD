@@ -184,20 +184,6 @@ static_vehicles = [
 
 // *** Static Weapon with AI ***
 static_vehicles_AI = [
-	"VME_Type85_Static_AA_PLAFOR",
-	"VME_Type85_Static_PLAFOR",
-	"VME_PLAFOR_QLZ04",
-	"VME_PLAFOR_QLU11",	
-	"VME_PLAFOR_QJZ89",
-	"VME_PLAFOR_QJZ89A",
-	"VME_QJY88_Static_AA_PLAFOR",
-	"VME_QJY88_Static_PLAFOR",
-	"VME_PLA_Type86",
-	"VME_PLA_Type87Mortar_PLAFOR",
-	"VME_PLAFOR_PF98_Tripod",
-	"VME_PLAFOR_HJ9A",
-	"VME_PLAFOR_HJ8",
-	"VME_PLAFOR_HJ11",
 	"VME_PLAFOR_HJ73_static",
 	"vme_PLA_DK9"
 ];

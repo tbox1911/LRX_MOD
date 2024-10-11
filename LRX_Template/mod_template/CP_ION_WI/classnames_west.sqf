@@ -7,25 +7,20 @@ GRLIB_side_friendly = WEST;
 // ION PMC Winter; Requ. CUP Vehicles, CUP Units, CUP Weapons
 
 huron_typename = "CUP_I_Merlin_HC3_PMC_Transport_black";  // comment to use value from lobby/server.cfg
-
 FOB_typename = "Land_Cargo_HQ_V2_F";
 FOB_box_typename = "B_Slingload_01_Cargo_F";
 FOB_truck_typename = "B_Truck_01_box_F";
-
 Respawn_truck_typename = "CUP_I_nM1035_amb_ION_WIN";
 ammo_truck_typename = "CUP_I_nM1038_Ammo_ION_WIN";
 fuel_truck_typename = "CUP_I_T810_Refuel_LDF";
 repair_truck_typename = "CUP_I_nM1038_Repair_ION_WIN";
-
 repair_sling_typename = "B_Slingload_01_Repair_F";
 fuel_sling_typename = "B_Slingload_01_Fuel_F";
 ammo_sling_typename = "B_Slingload_01_Ammo_F";
 medic_sling_typename = "B_Slingload_01_Medevac_F";
-
 pilot_classname = "CUP_I_PMC_Pilot";
 crewman_classname = "CUP_I_PMC_Winter_Crew";
-
-
+uavs_terminal_typename = "I_UavTerminal";
 basic_weapon_typename = "CUP_BOX_PMC_WpsSpecial_F";
 
 chimera_vehicle_overide = [

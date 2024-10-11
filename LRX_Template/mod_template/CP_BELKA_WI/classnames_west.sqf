@@ -19,6 +19,7 @@ ammo_sling_typename = "Land_Pod_Heli_Transport_04_ammo_F";
 medic_sling_typename = "Land_Pod_Heli_Transport_04_medevac_F";
 pilot_classname = "AC_BLK_O_Heli_Pilot";
 crewman_classname = "AC_BLK_O_Rifleman_Winter";
+uavs_terminal_typename = "O_UavTerminal";
 A3W_BoxWps = "AC_Box_BLK_Wps_F";
 
 SHOP_Man = "CUP_C_C_Functionary_02";
@@ -156,11 +157,6 @@ static_vehicles = [
 
 // *** Static Weapon with AI ***
 static_vehicles_AI = [
-	"AC_BLK_O_SearchLight_F",
-	"AC_BLK_O_HMG_02_high_F",
-	"AC_BLK_O_M134_A_F",
-	"AC_BLK_O_GMG_A_F",
-	"AC_BLK_O_ZU23_F",
 	"AC_BLK_O_CIWS_F",
 	"AC_BLK_O_MK49_F",
 	"AC_BLK_O_Radar_System_F",

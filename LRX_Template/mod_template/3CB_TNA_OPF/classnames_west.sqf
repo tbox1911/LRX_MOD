@@ -36,6 +36,7 @@ ammo_sling_typename = "B_Slingload_01_Ammo_F";
 medic_sling_typename = "B_Slingload_01_Medevac_F";
 pilot_classname = "UK3CB_TKA_O_HELI_PILOT";
 crewman_classname = "UK3CB_TKA_O_CREW";
+uavs_terminal_typename = "O_UavTerminal";
 basic_weapon_typename = "UK3CB_FNFAL_Equipbox_Opfor";
 
 SHOP_Man = "UK3CB_TKC_C_SPOT";	
@@ -191,17 +192,6 @@ static_vehicles = [
 // *** Static Weapon with AI ***
 
 static_vehicles_AI = [
-"UK3CB_TKA_O_Searchlight",
-"UK3CB_TKA_O_DSHkM_Mini_TriPod",
-"UK3CB_TKA_O_DSHKM",
-"UK3CB_TKA_O_PKM_Low",
-"UK3CB_TKA_O_PKM_High",
-"UK3CB_TKA_O_PKM_nest",
-"UK3CB_TKA_O_AGS",
-"UK3CB_TKA_O_SPG9",
-"UK3CB_TKA_O_ZU23",
-"UK3CB_TKA_O_Kornet",
-"UK3CB_TKA_O_Igla_AA_pod"
 ];
 
 support_vehicles_west = [

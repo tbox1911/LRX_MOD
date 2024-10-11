@@ -36,6 +36,7 @@ ammo_sling_typename = "B_Slingload_01_Ammo_F";
 medic_sling_typename = "B_Slingload_01_Medevac_F";
 pilot_classname = "UK3CB_LDF_O_HELI_PILOT";
 crewman_classname = "UK3CB_LDF_O_CREW";
+uavs_terminal_typename = "O_UavTerminal";
 basic_weapon_typename = "UK3CB_FNFAL_Equipbox_Opfor";
 
 chimera_vehicle_overide = [
@@ -182,18 +183,6 @@ static_vehicles = [
 // *** Static Weapon with AI ***
 
 static_vehicles_AI = [
-"UK3CB_LDF_O_Searchlight",
-"UK3CB_LDF_O_DSHKM",
-"UK3CB_LDF_O_DSHkM_Mini_TriPod",
-"UK3CB_LDF_O_M2_TriPod",
-"UK3CB_LDF_O_M2_MiniTripod",
-"UK3CB_LDF_O_PKM_nest_des",
-"UK3CB_LDF_O_AGS",
-"UK3CB_LDF_O_SPG9",
-"UK3CB_LDF_O_Kornet",
-"UK3CB_LDF_O_RBS70",
-"UK3CB_LDF_O_Igla_AA_pod",
-"UK3CB_LDF_O_ZU23"
 ];
 
 support_vehicles_west = [

@@ -24,11 +24,7 @@ ammo_sling_typename = "B_Slingload_01_Ammo_F";
 medic_sling_typename = "B_Slingload_01_Medevac_F";
 pilot_classname = "b_afougf_pilot_F";
 crewman_classname = "b_afougf_tankist_F";
-
-
-
 GRLIB_sar_wreck = "Land_rhs_mi28_wreck2";
-
 Box_Weapon_typename = "rhs_weapon_crate";
 Box_Ammo_typename = "rhs_mags_crate";
 Box_Support_typename = "rhs_gear_crate";
@@ -186,15 +182,7 @@ static_vehicles = [
 
 // *** Static Weapon with AI ***
 static_vehicles_AI = [
-"b_afougf_M2_TriPod_high",
-"b_afougf_DSHKM",
-"b_afougf_nsv_tripod",
-"b_afougf_MK19_TriPod",
-"b_afougf_SPG9M",
-"b_afougf_ZU23",
-"b_afougf_D30_AT",
-"b_afougf_Stinger_AA_pod",
-"b_afougf_SAM_System_04_green_F"
+	"b_afougf_SAM_System_04_green_F"
 ];
 
 support_vehicles_west = [];

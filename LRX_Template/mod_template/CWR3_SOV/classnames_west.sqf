@@ -21,22 +21,16 @@ Cold War Rearmed III, http://steamcommunity.com/sharedfiles/filedetails/?id=2316
 
 huron_typename = "cwr3_o_mi8_amt";
 FOB_typename = "Land_Cargo_HQ_V1_F";
-
 Respawn_truck_typename = "cwr3_o_uaz452_mev";
-
-
 ammo_truck_typename = "cwr3_o_ural_reammo";
 fuel_truck_typename = "cwr3_o_ural_refuel";
 repair_truck_typename = "cwr3_o_ural_repair";
-
 pilot_classname = "cwr3_o_soldier_pilot";
 crewman_classname = "cwr3_o_soldier82_driver";
-
-
+uavs_terminal_typename = "O_UavTerminal";
 GRLIB_sar_wreck = "cwr3_ah1f_wreck";
 resistance_squad_static = "cwr3_b_fia_mk19";
 basic_weapon_typename = "cwr3_crate_basicweapons_ru";
-
 Box_Weapon_typename = "cwr3_crate_basicweapons_ru";
 Box_Ammo_typename = "cwr3_crate_basicammo_ru";
 Box_Grenades_typename = "cwr3_crate_grenades_ru";
@@ -190,13 +184,6 @@ static_vehicles = [
 // *** Static Weapon with AI ***
 
 static_vehicles_AI = [
-	"cwr3_o_searchlight",
-	"cwr3_o_nsv_high",
-	"cwr3_o_nsv_low",
-	"cwr3_o_ags30",
-	"cwr3_o_konkurs_tripod",
-	"cwr3_o_spg9",
-	"cwr3_o_zu23"
 ];
 
 

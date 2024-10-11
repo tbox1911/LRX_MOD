@@ -24,6 +24,7 @@ ammo_sling_typename = "B_Slingload_01_Ammo_F";
 medic_sling_typename = "B_Slingload_01_Medevac_F";
 pilot_classname = "SPE_GER_pilot";
 crewman_classname = "SPE_GER_rifleman_lite";
+uavs_terminal_typename = "";
 Arsenal_typename = "SPE_BasicAmmunitionBox_GER";
 PAR_Medikit = "SPE_GER_Medkit";
 PAR_AidKit = "SPE_GER_FirstAidKit";
@@ -160,15 +161,6 @@ static_vehicles = [
 
 // *** Static Weapon with AI ***
 static_vehicles_AI = [
-	"SPE_GER_SearchLight",
-	"SPE_MG34_Lafette_Deployed",
-	"SPE_MG34_Lafette_low_Deployed",
-	"SPE_MG42_Lafette_Deployed",
-	"SPE_MG42_Lafette_low_Deployed",
-	"SPE_FlaK_30",
-	"SPE_FlaK_38",
-	"SPE_FlaK_36",
-	"SPE_FlaK_36_AA"
 ];
 
 support_vehicles_west = [

@@ -141,10 +141,6 @@ static_vehicles = [
 
 // *** Static Weapon with AI ***
 static_vehicles_AI = [
-	"LIB_Flakvierling_38",
-	"LIB_leFH18_AT",
-	"LIB_MG34_Lafette_Deployed",
-	"LIB_GER_SearchLight"
 ];
 
 support_vehicles_west = [

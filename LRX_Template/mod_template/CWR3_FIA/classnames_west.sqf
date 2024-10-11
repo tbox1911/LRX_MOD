@@ -23,16 +23,13 @@ FOB_typename = "Land_Cargo_HQ_V1_F";
 Respawn_truck_typename = "cwr3_i_uaz452_mev";
 //FOB_box_typename = "B_Slingload_01_Cargo_F";
 //FOB_truck_typename = "cwr3_b_m939_empty";  	// "B_Truck_01_box_F";
-
 ammo_truck_typename = "cwr3_i_v3s_reammo";
 fuel_truck_typename = "cwr3_i_v3s_refuel";
 repair_truck_typename = "cwr3_i_v3s_repair";
-
 pilot_classname = "cwr3_i_soldier_pilot";
 crewman_classname = "cwr3_i_soldier_crew";
-
+uavs_terminal_typename = "I_UavTerminal";
 basic_weapon_typename = "cwr3_crate_basicweapons_fia";
-
 Box_Weapon_typename = "cwr3_crate_basicweapons_fia";
 Box_Ammo_typename = "cwr3_crate_basicammo_fia";
 Box_Support_typename = "cwr3_crate_support_fia";
@@ -41,7 +38,6 @@ Box_Special_typename = "cwr3_crate_specialweapons_fia";
 Box_Grenades_typename = "cwr3_crate_grenades_fia";
 Box_Explosives_typename = "cwr3_crate_explosives_fia";
 Box_Equipment_typename = "cwr3_crate_uniforms_fia";
-
 
 SHOP_Man = "cwr3_c_functionary3";
 SELL_Man = "cwr3_c_villager1";
@@ -172,11 +168,6 @@ static_vehicles = [
 // *** Static Weapon with AI ***
 
 static_vehicles_AI = [
-	"cwr3_i_searchlight",
-	"cwr3_i_dshkm_high",
-	"cwr3_i_dshkm_low",
-	"cwr3_i_spg9",
-	"cwr3_i_zu23"
 ];
 
 support_vehicles_west = [
