@@ -196,7 +196,6 @@ squads = [
 
 // All the UAVs must be declared here
 uavs_west = [
-	"B_UAV_01_F",
 	"dvk_Greyhawk_S"
 ];
 

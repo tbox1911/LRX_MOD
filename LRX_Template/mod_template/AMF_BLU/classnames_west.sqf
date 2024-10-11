@@ -183,7 +183,6 @@ squads = [
 
 // All the UAVs must be declared here
 uavs_west = [
-	"B_UAV_01_F",
 	"B_AMF_REAPER_dynamicLoadout_F"
 ];
 

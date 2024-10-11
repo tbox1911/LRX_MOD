@@ -185,19 +185,6 @@ squads = [
 	[blufor_squad_mix,25,600,0,GRLIB_perm_max]
 ];
 
-// All the UAVs must be declared here
-uavs_west = [
-	"B_UAV_01_F",
-	"B_UAV_02_dynamicLoadout_F",
-	"B_T_UAV_03_dynamicLoadout_F",
-	"B_UAV_05_F",
-	"B_UAV_06_F",
-	"C_UAV_06_F",
-	"B_UGV_01_F",
-	"B_UGV_01_rcws_F",
-	"B_UGV_02_Demining_F"
-];
-
 // Everything the AI troups should be able to resupply from
 ai_resupply_sources_west = [
   "B_APC_Tracked_01_CRV_F"

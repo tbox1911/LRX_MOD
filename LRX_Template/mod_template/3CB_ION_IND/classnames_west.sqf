@@ -234,9 +234,6 @@ squads = [
 	[blufor_squad_mix,20,800,0,GRLIB_perm_max]
 ];
 
-// All the UAVs must be declared here
-uavs_west = [];
-
 // Everything the AI troups should be able to resupply from
 ai_resupply_sources_west = [
 	"UK3CB_ION_I_Urban_T810_Reammo","UK3CB_ION_I_Urban_T810_Repair",Arsenal_typename

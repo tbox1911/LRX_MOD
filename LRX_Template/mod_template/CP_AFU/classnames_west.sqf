@@ -247,10 +247,6 @@ squads = [
 	[blufor_squad_mix,30,800,0,GRLIB_perm_max]
 ];
 
-// All the UAVs must be declared here
-uavs_west = [
-];
-
 // Everything the AI troups should be able to resupply from
 ai_resupply_sources_west = [
   	ammo_truck_typename,repair_truck_typename,Arsenal_typename,FOB_typename
