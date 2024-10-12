@@ -40,7 +40,6 @@ whitelisted_from_arsenal = [
 	"MiniGrenade",
 	"I_IR_Grenade",
 	"Laserbatteries",
-	"I_UavTerminal",
 	"APERSMine_Range_Mag",
 	"APERSTripMine_Wire_Mag",
 	"APERSBoundingMine_Range_Mag",

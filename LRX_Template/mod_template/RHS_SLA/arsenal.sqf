@@ -72,7 +72,6 @@ whitelisted_from_arsenal = [
 	"Rangefinder",
 	"ItemCompass",
 	"ItemGPS",
-	"O_UavTerminal",
 	"ItemMap",
 	"ItemRadio",
 	"ItemWatch",
