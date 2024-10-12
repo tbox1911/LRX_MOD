@@ -53,7 +53,6 @@ whitelisted_from_arsenal = [
 	"HandGrenade",
 	"MiniGrenade",
 	"Laserbatteries",
-	"B_UavTerminal",
 	"U_B_Wetsuit",
     "V_RebreatherB",
     "G_B_Diving",	
