@@ -174,9 +174,7 @@ blacklisted_weapon = [
 	"_used",
 	"_Leaflets",
 	"_esd_",
-	"R3F_LGI_DEM",
-	"R3F_securite_mag",
-	"R3F_securite_fn_mag"
+	"R3F_LGI_DEM"
 ];
 
 whitelisted_from_arsenal = [
@@ -195,6 +193,11 @@ whitelisted_from_arsenal = [
 	"HandGrenade",
 	"MiniGrenade",
 	"Laserbatteries",
+	"optic_LRPS",
+	"optic_AMS",
+	"optic_AMS_snd",
+	"optic_Arco",
+	"optic_Arco_blk_F",	
 	"APERSMine_Range_Mag",
 	"APERSTripMine_Wire_Mag",
 	"APERSBoundingMine_Range_Mag",
