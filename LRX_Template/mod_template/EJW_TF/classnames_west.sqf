@@ -56,7 +56,7 @@ units_loadout_overide = [
 	"B_sniper_F",
 	"B_soldier_PG_F",
 	crewman_classname,
-	pilot_classname	
+	pilot_classname
 ];
 
 LOADOUT_expensive_items = [
