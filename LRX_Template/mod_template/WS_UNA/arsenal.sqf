@@ -6,6 +6,7 @@ blacklisted_weapon = [
 	"Pylon",
 	"Vorona",
 	"_missiles",
+	"_used",
 	"_Leaflets",
 	"_esd_"
 ];

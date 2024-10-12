@@ -24,6 +24,7 @@ blacklisted_weapon = [
 	"Pylon",
 	"Vorona",
 	"_missiles",
+	"_used",
 	"_Leaflets",
 	"_esd_",
 	"R3F_LGI_DEM",

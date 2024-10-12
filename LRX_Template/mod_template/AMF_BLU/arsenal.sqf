@@ -19,6 +19,7 @@ blacklisted_weapon = [
 	"optic_tws",
 	"optic_tws_mg",
 	"_missiles",
+	"_used",
 	"_Leaflets",
 	"_esd_"
 ];

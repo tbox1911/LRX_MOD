@@ -160,6 +160,7 @@ blacklisted_weapon = [
 	"H_CrewHelmetHeli_O",
 	"Pylon",
 	"_missiles",
+	"_used",
 	"_Leaflets",
 	"_esd_"
 ];

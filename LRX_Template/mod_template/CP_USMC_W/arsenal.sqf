@@ -4,6 +4,7 @@ GRLIB_arsenal_side = WEST;
 //Blacklist Items
 blacklisted_bag = [
 	"_missiles",
+	"_used",
 	"_Leaflets",
 	"_esd_",	
 	"_Pod_",

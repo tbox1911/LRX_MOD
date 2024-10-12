@@ -170,6 +170,8 @@ blacklisted_weapon = [
 	"O_V_Soldier_Viper_F",
 	"O_V_Soldier_Viper_hex_F",
 	"_missiles",
+	"_used",
+	"_used",
 	"_Leaflets",
 	"_esd_",
 	"R3F_LGI_DEM",

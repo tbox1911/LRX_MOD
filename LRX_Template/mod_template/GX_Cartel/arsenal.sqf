@@ -151,6 +151,7 @@ blacklisted_weapon = [
 	"O_V_Soldier_Viper_hex_F",
 	"Pylon",
 	"_missiles",
+	"_used",
 	"_Leaflets",
 	"_esd_"
 ];

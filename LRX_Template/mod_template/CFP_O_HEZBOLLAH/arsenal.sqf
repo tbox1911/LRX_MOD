@@ -4,6 +4,7 @@ blacklisted_bag = [
 
 blacklisted_weapon = [
 	"_missiles",
+	"_used",
 	"_Leaflets",
 	"_esd_",
 	"_Pod_",
