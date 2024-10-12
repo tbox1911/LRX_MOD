@@ -172,8 +172,6 @@ blacklisted_weapon = [
 	"_missiles",
 	"_Leaflets",
 	"_esd_",
-	"ej_launch_TitanDAT",
-	"ej_launch_TitanAAD",
 	"R3F_LGI_DEM",
 	"R3F_securite_mag",
 	"R3F_securite_fn_mag"
