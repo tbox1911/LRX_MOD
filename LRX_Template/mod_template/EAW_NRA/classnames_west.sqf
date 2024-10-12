@@ -47,7 +47,6 @@ infantry_units_west = [
 ];
 
 units_loadout_overide = [
-	"B_medic_F"
 ];
 
 light_vehicles = [
