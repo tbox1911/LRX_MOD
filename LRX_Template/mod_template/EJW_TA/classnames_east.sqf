@@ -59,15 +59,6 @@ militia_squad = [
 	"TBan_Recruit5",
 	"TBan_Recruit6",
 	"TBan_Recruit6NH",
-	"PIF_Militia_Medic",
-	"PIF_Militia1",
-	"PIF_Militia2",
-	"PIF_Militia3",
-	"PIF_Militia4",
-	"PIF_Militia5",
-	"PIF_Militia6",
-	"PIF_Militia7",
-	"PIF_Militia8",
 	"O_Soldier_AA_F",
 	"O_Soldier_AT_F"
 ];
