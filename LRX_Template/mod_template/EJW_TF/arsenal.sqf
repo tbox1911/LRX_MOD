@@ -174,7 +174,11 @@ blacklisted_weapon = [
 	"_used",
 	"_Leaflets",
 	"_esd_",
-	"R3F_LGI_DEM"
+	"R3F_LGI_DEM",
+	"R3F_securite_mag",
+	"R3F_securite_fn_mag",
+	"ej_launch_TitanDAT",
+	"ej_launch_TitanAAD"	
 ];
 
 whitelisted_from_arsenal = [
@@ -198,6 +202,7 @@ whitelisted_from_arsenal = [
 	"optic_AMS_snd",
 	"optic_Arco",
 	"optic_Arco_blk_F",
+	"optic_DMS_weathered_F",
 	"APERSMine_Range_Mag",
 	"APERSTripMine_Wire_Mag",
 	"APERSBoundingMine_Range_Mag",
@@ -212,5 +217,7 @@ whitelisted_from_arsenal = [
 	"launch_O_Titan_F",
 	"launch_B_Titan_short_F",
 	"launch_I_Titan_short_F",
-	"launch_O_Titan_short_F"
+	"launch_O_Titan_short_F",
+	"arifle_RPK12_F",
+	"srifle_DMR_01_F"
 ];
