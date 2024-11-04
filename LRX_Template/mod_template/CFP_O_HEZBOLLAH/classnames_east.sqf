@@ -4,6 +4,7 @@ GRLIB_east_modder = "DarkDemon";
 
 // All class MUST be defined !
 
+opfor_crew = "O_Crew_F";
 opfor_sentry = "CFP_O_HEZBOLLAH_Militia_Rifleman_01";
 opfor_rifleman = "CFP_O_HEZBOLLAH_Paramilitary_Rifleman_01";
 opfor_grenadier = "CFP_O_HEZBOLLAH_Paramilitary_Grenadier_01";

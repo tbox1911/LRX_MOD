@@ -4,8 +4,7 @@ GRLIB_east_modder = "Z@Warrior";
 
 // All class MUST be defined !
 
-// Project OPFOR Ukrainian Armed Forces
-
+opfor_crew = "O_Crew_F";
 opfor_sentry = "LOP_UKR_Infantry_Light";
 opfor_rifleman = "LOP_UKR_Infantry_Rifleman";
 opfor_grenadier = "LOP_UKR_Infantry_Grenadier";

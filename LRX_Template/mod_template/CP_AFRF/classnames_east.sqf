@@ -4,8 +4,7 @@ GRLIB_east_modder = "Z@Warrior";
 
 // All class MUST be defined !
 
-// CUP AFRF Modern MSV
-
+opfor_crew = "O_Crew_F";
 opfor_sentry = "CUP_O_RU_Soldier_AR_M_EMR_V2";
 opfor_rifleman = "CUP_O_RU_Soldier_M_EMR_V2";
 opfor_grenadier = "CUP_O_RU_Soldier_GL_M_EMR_V2";

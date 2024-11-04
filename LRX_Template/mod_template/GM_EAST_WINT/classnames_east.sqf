@@ -4,6 +4,7 @@ GRLIB_east_modder = "pSiKO";
 
 // All class MUST be defined !
 
+opfor_crew = "O_Crew_F";
 opfor_sentry = "gm_pl_army_radioman_akm_80_win";
 opfor_rifleman = "gm_pl_army_rifleman_akm_80_win";
 opfor_grenadier = "gm_pl_army_grenadier_akm_pallad_80_win";

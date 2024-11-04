@@ -4,8 +4,7 @@ GRLIB_east_modder = "Z@Warrior";
 
 // All class MUST be defined !
 
-// Belka Desert (requ. CUP)
-
+opfor_crew = "O_Crew_F";
 opfor_sentry = "AC_BLK_O_Rifleman_Light_Des";
 opfor_rifleman = "AC_BLK_O_Rifleman_Desert";
 opfor_grenadier = "AC_BLK_O_Grenadier_Des";
@@ -26,7 +25,6 @@ opfor_engineer = "AC_BLK_O_Engineer_Des";
 opfor_pilot = "AC_BLK_O_Heli_Pilot";
 opfor_crew = "AC_BLK_O_Rifleman";
 opfor_paratrooper = "AC_BLK_O_SF_Rifleman";
-
 opfor_mrap = "AC_BLK_O_MRAP_FENNEK_F";
 opfor_mrap_hmg = "AC_BLK_O_MRAP_FENNEK_HMG_F";
 opfor_mrap_gmg = "AC_BLK_O_MRAP_FENNEK_GMG_F";

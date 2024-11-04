@@ -4,6 +4,7 @@ GRLIB_east_modder = "pSiKO";
 
 // All class MUST be defined !
 
+opfor_crew = "O_Crew_F";
 opfor_sentry = "TIOW_Breacher_VL_O";
 opfor_rifleman = "TIOW_Breacher_VL_Exp_O";
 opfor_grenadier = "TIOW_Valhallan_Launcher_1_OP";

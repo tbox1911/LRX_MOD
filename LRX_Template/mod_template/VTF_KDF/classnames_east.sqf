@@ -4,6 +4,7 @@ GRLIB_east_modder = "DarkDemon";
 
 // All class MUST be defined !
 
+opfor_crew = "B_Crew_F";
 opfor_sentry = "vtf_kf_B_FL_Rifleman_F";
 opfor_rifleman = "vtf_kf_B_Rifleman_F";
 opfor_grenadier = "vtf_kf_B_FL_Grenadier_F";

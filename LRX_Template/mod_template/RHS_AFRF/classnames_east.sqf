@@ -4,6 +4,7 @@ GRLIB_east_modder = "pSiKO";
 
 // All class MUST be defined !
 
+opfor_crew = "O_Crew_F";
 opfor_sentry = "rhs_msv_emr_sergeant";
 opfor_rifleman = "rhs_msv_emr_rifleman";
 opfor_grenadier = "rhs_msv_emr_grenadier";
