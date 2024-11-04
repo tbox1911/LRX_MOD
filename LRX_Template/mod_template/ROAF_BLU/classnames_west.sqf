@@ -153,7 +153,9 @@ buildings_west = [
 	["Land_Cargo_Tower_V1_F",0,0,0,GRLIB_perm_tank],
 	["Land_Cargo_House_V1_F",0,0,0,GRLIB_perm_inf],
 	["Land_Cargo_Patrol_V1_F",0,0,0,GRLIB_perm_log],
-	["Flag_NATO_F",0,0,0,0]
+	["Flag_NATO_F",0,0,0,0],
+	["flag_roaf",0,0,0,0],
+	["banner_roaf",0,0,0,0]
 ];
 
 // Boats
