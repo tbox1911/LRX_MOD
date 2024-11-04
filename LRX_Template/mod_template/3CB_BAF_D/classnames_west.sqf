@@ -156,10 +156,6 @@ static_vehicles = [
 // *** Static Weapon with AI ***
 
 static_vehicles_AI = [
-	"UK3CB_BAF_Static_L7A2_Deployed_High_DDPM",
-	"UK3CB_BAF_Static_L7A2_Deployed_Low_DDPM",
-	"UK3CB_BAF_Static_L7A2_Deployed_Mid_DDPM",
-	"UK3CB_BAF_Static_M6_Deployed_DDPM"
 ];
 
 support_vehicles_west = [

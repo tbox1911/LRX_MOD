@@ -20,7 +20,6 @@ medic_sling_typename = "B_Slingload_01_Medevac_F";
 pilot_classname = "B_Helipilot_F";
 crewman_classname = "B_crew_F";
 
-
 // [CLASSNAME, MANPOWER, AMMO, FUEL, RANK]
 infantry_units_west = [
 	["Alsatian_Random_F",0,0,0,GRLIB_perm_max],
@@ -211,10 +210,6 @@ squads = [
 	[blufor_squad_at,25,600,0,GRLIB_perm_max],
 	[blufor_squad_aa,25,600,0,GRLIB_perm_max],
 	[blufor_squad_mix,25,600,0,GRLIB_perm_max]
-];
-
-// All the UAVs must be declared here
-uavs_west = [
 ];
 
 // Everything the AI troups should be able to resupply from

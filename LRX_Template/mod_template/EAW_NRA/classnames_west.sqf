@@ -47,7 +47,6 @@ infantry_units_west = [
 ];
 
 units_loadout_overide = [
-	"B_medic_F"
 ];
 
 light_vehicles = [
@@ -155,10 +154,6 @@ squads = [
 	[blufor_squad_at,25,600,0,GRLIB_perm_max],
 	[blufor_squad_aa,25,600,0,GRLIB_perm_max],
 	[blufor_squad_mix,25,600,0,GRLIB_perm_max]
-];
-
-// All the UAVs must be declared here
-uavs_west = [
 ];
 
 // Everything the AI troups should be able to resupply from

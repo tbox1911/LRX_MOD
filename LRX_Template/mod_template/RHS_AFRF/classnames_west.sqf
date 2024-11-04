@@ -19,6 +19,7 @@ ammo_sling_typename = "Land_Pod_Heli_Transport_04_ammo_F";
 medic_sling_typename = "Land_Pod_Heli_Transport_04_medevac_F";
 pilot_classname = "rhs_pilot_combat_heli";
 crewman_classname = "rhs_msv_emr_combatcrew";
+uavs_terminal_typename = "";
 basic_weapon_typename = "Box_Syndicate_Ammo_F";
 
 chimera_vehicle_overide = [
@@ -216,18 +217,6 @@ squads = [
 	[blufor_squad_mix,25,2500,0,GRLIB_perm_max]
 ];
 
-// All the UAVs must be declared here
-uavs_west = [
-	"O_UAV_01_F",
-	"O_UAV_02_dynamicLoadout_F",
-	"O_T_UAV_03_F",
-	"O_UAV_05_F",
-	"O_UAV_06_F",
-	"O_UGV_01_F",
-	"O_UGV_01_rcws_F",
-	"O_UGV_02_Demining_F"
-];
-
 // Everything the AI troups should be able to resupply from
 ai_resupply_sources_west = [
 ];
@@ -248,15 +237,6 @@ GRLIB_vehicle_whitelist_west = [
 ];
 
 GRLIB_vehicle_blacklist_west = [
-	"rhs_KORD_MSV",
-	"RHS_AGS30_TriPod_MSV",
-	"rhs_KORD_high_MSV",
-	"rhs_SPG9M_MSV",
-	"rhs_Igla_AA_pod_msv",
-	"rhs_Metis_9k115_2_msv",
-	"rhs_Kornet_9M133_2_msv",
-	"RHS_ZU23_MSV",
-	"RHS_M119_WD"
 ];
 
 GRLIB_AirDrop_1 = [			// Unarmed Offroader 50

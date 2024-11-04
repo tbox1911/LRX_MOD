@@ -45,6 +45,14 @@ R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
 
 R3F_LOG_CFG_can_tow = R3F_LOG_CFG_can_tow +
 [
+	"CUP_O_BRDM2_RUS",
+	"CUP_O_BTR90_HQ_RU",
+	"CUP_O_UAZ_MG_RU",
+	"CUP_O_UAZ_AGS30_RU",
+	"CUP_O_UAZ_SPG9_RU",
+	"CUP_O_Tigr_M_233114_KORD_RU",
+	"CUP_O_Tigr_233014_PK_RU",
+	"CUP_O_T90M_CAMO_RU",
 	"CUP_V3S_Open_Base",
 	"CUP_T90_Base",
 	"CUP_T72_Base",
@@ -69,6 +77,14 @@ R3F_LOG_CFG_can_tow = R3F_LOG_CFG_can_tow +
 
 R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed +
 [
+	"CUP_O_BRDM2_RUS",
+	"CUP_O_BTR90_HQ_RU",
+	"CUP_O_UAZ_MG_RU",
+	"CUP_O_UAZ_AGS30_RU",
+	"CUP_O_UAZ_SPG9_RU",
+	"CUP_O_Tigr_M_233114_KORD_RU",
+	"CUP_O_Tigr_233014_PK_RU",
+	"CUP_O_T90M_CAMO_RU",
 	"CUP_V3S_Open_Base",
 	"CUP_T90_Base",
 	"CUP_T72_Base",
@@ -97,6 +113,14 @@ R3F_LOG_CFG_can_lift = R3F_LOG_CFG_can_lift +
 
 R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
 [
+	"CUP_O_BRDM2_RUS",
+	"CUP_O_BTR90_HQ_RU",
+	"CUP_O_UAZ_MG_RU",
+	"CUP_O_UAZ_AGS30_RU",
+	"CUP_O_UAZ_SPG9_RU",
+	"CUP_O_Tigr_M_233114_KORD_RU",
+	"CUP_O_Tigr_233014_PK_RU",
+	"CUP_O_T90M_CAMO_RU",
 	"CUP_V3S_Open_Base",
 	"CUP_T90_Base",
 	"CUP_T72_Base",
@@ -120,6 +144,14 @@ R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
 
 R3F_LOG_CFG_can_transport_cargo = R3F_LOG_CFG_can_transport_cargo +
 [
+	["CUP_O_BRDM2_RUS", 75],	
+	["CUP_O_BTR90_HQ_RU", 75],	
+	["CUP_O_UAZ_MG_RU", 50],	
+	["CUP_O_UAZ_AGS30_RU", 50],	
+	["CUP_O_UAZ_SPG9_RU", 50],	
+	["CUP_O_Tigr_M_233114_KORD_RU", 75],	
+	["CUP_O_Tigr_233014_PK_RU", 75],	
+	["CUP_O_T90M_CAMO_RU", 150],
 	["CUP_V3S_Open_Base", 100],
 	["CUP_T90_Base", 100],
 	["CUP_T72_Base", 100],

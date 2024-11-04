@@ -4,6 +4,7 @@ GRLIB_east_modder = "DarkDemon";
 
 // All class MUST be defined !
 
+opfor_crew = "O_Crew_F";
 opfor_sentry = "ShootaBoy1_OP";
 opfor_rifleman = "Naked1_OP";
 opfor_grenadier = "StormBoy1_OP";
@@ -93,9 +94,6 @@ opfor_boats = [
 ];
 
 opfor_vehicles = [
-	"TIOW_Stompa_01_ds_OP",
-	"TIOW_Stompa_01_bm_OP",
-	"TIOW_Stompa_01_es_OP",
 	"Trukk1_OP"
 ];
 
@@ -120,9 +118,6 @@ opfor_battlegroup_vehicles = [
 ];
 
 opfor_battlegroup_vehicles_low_intensity = [
-	"TIOW_Stompa_01_ds_OP",
-	"TIOW_Stompa_01_bm_OP",
-	"TIOW_Stompa_01_es_OP",
 	"Trukk1_OP",
 	"Deffkopta_02_0",
 	"Deffkopta_01_0",

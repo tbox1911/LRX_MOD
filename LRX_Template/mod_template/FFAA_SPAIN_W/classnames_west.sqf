@@ -207,9 +207,7 @@ squads = [
 uavs_west = [
 	"ffaa_raven",
 	"ffaa_et_searcherIII",
-	"ffaa_ea_reaper",
-	"B_UGV_01_F",
-	"B_UGV_01_rcws_F"
+	"ffaa_ea_reaper"
 ];
 
 // Everything the AI troups should be able to resupply from

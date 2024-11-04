@@ -24,6 +24,7 @@ ammo_sling_typename = "B_Slingload_01_Ammo_F";
 medic_sling_typename = "B_Slingload_01_Medevac_F";
 pilot_classname = "PRACS_Heli_pilot";
 crewman_classname = "PRACS_Paratrooper";
+uavs_terminal_typename = "";
 basic_weapon_typename = "PRACS_weapon_crate";
 
 chimera_vehicle_overide = [
@@ -156,14 +157,10 @@ static_vehicles = [
 
 // *** Static Weapon with AI ***
 static_vehicles_AI = [
-"PRACS_Paratrooper_m2_static",
-"PRACS_Paratrooper_m2_static_minitripod",
-"PRACS_Paratrooper_M220",
-"PRACS_Mountaineer_Stinger_Pod",
-"PRACS_MPQ64_Sentinel",
-"PRACS_MiM23_HAWK",
-"PRACS_CIWS_Phalanx",
-"PRACS_ESSM_Sea_Sparrow"
+	"PRACS_MPQ64_Sentinel",
+	"PRACS_MiM23_HAWK",
+	"PRACS_CIWS_Phalanx",
+	"PRACS_ESSM_Sea_Sparrow"
 ];
 
 support_vehicles_west = [

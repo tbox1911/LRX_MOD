@@ -120,7 +120,7 @@ static_vehicles = [
 ];
 
 // *** Static Weapon with AI ***
-static_vehicles_AI = ["LIB_Flakvierling_38_w","LIB_Pak40_w","LIB_MG34_Lafette_Deployed","LIB_MG42_Lafette_Deployed"
+static_vehicles_AI = [
 ];
 
 support_vehicles_west = [
@@ -192,10 +192,6 @@ squads = [
 	[blufor_squad_at,25,600,0,GRLIB_perm_max],
 	[blufor_squad_aa,25,600,0,GRLIB_perm_max],
 	[blufor_squad_mix,25,800,0,GRLIB_perm_max]
-];
-
-// All the UAVs must be declared here
-uavs_west = [
 ];
 
 // Everything the AI troups should be able to resupply from

@@ -4,8 +4,7 @@ GRLIB_east_modder = "Z@Warrior";
 
 // All class MUST be defined !
 
-// SLA (Sahrani Liberation Army) - Sahrani Revolutionary Guards
-
+opfor_crew = "O_Crew_F";
 opfor_sentry = "PRACS_SLA_Guards_Infantry_RTO";
 opfor_rifleman = "PRACS_SLA_Guards_Infantry";
 opfor_grenadier = "PRACS_SLA_Guards_Infantry_GRE";

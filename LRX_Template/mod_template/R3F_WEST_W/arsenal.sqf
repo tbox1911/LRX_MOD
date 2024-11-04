@@ -24,11 +24,10 @@ blacklisted_weapon = [
 	"Pylon",
 	"Vorona",
 	"_missiles",
+	"_used",
 	"_Leaflets",
 	"_esd_",
-	"R3F_LGI_DEM",
-	"R3F_securite_mag",
-	"R3F_securite_fn_mag"
+	"R3F_LGI_DEM"
 ];
 
 whitelisted_from_arsenal = [
@@ -53,7 +52,6 @@ whitelisted_from_arsenal = [
 	"HandGrenade",
 	"MiniGrenade",
 	"Laserbatteries",
-	"B_UavTerminal",
 	"U_B_Wetsuit",
     "V_RebreatherB",
     "G_B_Diving",	

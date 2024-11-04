@@ -181,20 +181,6 @@ static_vehicles = [
 // *** Static Weapon with AI ***
 
 static_vehicles_AI = [
-"UK3CB_ANA_B_Searchlight",
-"UK3CB_ANA_B_DSHKM",
-"UK3CB_ANA_B_DSHkM_Mini_TriPod",
-"UK3CB_ANA_B_PKM_High",
-"UK3CB_ANA_B_PKM_Low",
-"UK3CB_ANA_B_KORD_high",
-"UK3CB_ANA_B_KORD",
-"UK3CB_ANA_B_M240_nest_des",
-"UK3CB_ANA_B_AGS",
-"UK3CB_ANA_B_Metis",
-"UK3CB_ANA_B_SPG9",
-"UK3CB_ANA_B_Igla_AA_pod",
-"UK3CB_ANA_B_ZU23",
-"UK3CB_ANA_B_D30"
 ];
 
 support_vehicles_west = [
@@ -261,9 +247,6 @@ squads = [
 	[blufor_squad_aa,25,700,0,GRLIB_perm_max],
 	[blufor_squad_mix,20,850,0,GRLIB_perm_max]
 ];
-
-// All the UAVs must be declared here
-uavs_west = [];
 
 // Everything the AI troups should be able to resupply from
 ai_resupply_sources_west = [

@@ -84,19 +84,19 @@ heavy_vehicles = [
 ];
 
 air_vehicles = [
-	["RHS_MELB_MH6M",10,20,15,GRLIB_perm_tank],
+	["RHS_MELB_MH6M",10,20,15,GRLIB_perm_log],
 	["RHS_MELB_AH6M",10,50,15,GRLIB_perm_air],
 	["RHS_UH1Y_UNARMED",10,100,5,GRLIB_perm_tank],
 	["RHS_UH1Y",10,150,5,GRLIB_perm_air],
 	["rhsusf_CH53e_USMC_cargo",5,350,200,GRLIB_perm_air],
 	["rhsusf_CH53E_USMC_GAU21",5,300,200,GRLIB_perm_air],
-	["rhsusf_CH53E_USMC",15,500,15,GRLIB_perm_max],
-	["RHS_UH60M",5,350,600,GRLIB_perm_air],
-	["RHS_UH60M2",5,350,600,GRLIB_perm_air],
-	["RHS_AH64D_wd",10,800,5,GRLIB_perm_air],
-	["RHS_AH1Z_wd",10,1000,5,GRLIB_perm_air],
-	["rhsusf_f22",15,1500,15,GRLIB_perm_max],
-	["RHS_A10",15,1500,15,GRLIB_perm_max]
+	["rhsusf_CH53E_USMC",15,500,45,GRLIB_perm_max],
+	["RHS_UH60M",5,350,60,GRLIB_perm_air],
+	["RHS_UH60M2",5,350,60,GRLIB_perm_air],
+	["RHS_AH64D_wd",10,800,35,GRLIB_perm_air],
+	["RHS_AH1Z_wd",10,1000,35,GRLIB_perm_air],
+	["rhsusf_f22",15,1500,45,GRLIB_perm_max],
+	["RHS_A10",15,1500,45,GRLIB_perm_max]
 ];
 
 // Additional Airplanes
@@ -199,10 +199,6 @@ squads = [
 	[blufor_squad_mix,25,800,0,GRLIB_perm_max]
 ];
 
-// All the UAVs must be declared here
-uavs_west = [
-];
-
 // Everything the AI troups should be able to resupply from
 ai_resupply_sources_west = [
 ];
@@ -221,13 +217,6 @@ GRLIB_vehicle_whitelist_west = [
 ];
 
 GRLIB_vehicle_blacklist_west = [
-	"RHS_M2StaticMG_MiniTripod_WD",
-	"RHS_M2StaticMG_WD",
-	"RHS_MK19_TriPod_WD",
-	"RHS_TOW_TriPod_WD",
-	"RHS_Stinger_AA_pod_WD",
-	"RHS_M119_WD",
-	"RHS_M252_WD"
 ];
 
 GRLIB_AirDrop_1 = [			// Unarmed Offroader 50

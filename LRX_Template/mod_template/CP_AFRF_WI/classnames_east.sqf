@@ -3,7 +3,7 @@ GRLIB_side_enemy = EAST;
 
 // All class MUST be defined !
 
-// CUP AFRF Modern MSV
+opfor_crew = "O_Crew_F";
 opfor_sentry = "CUP_O_RU_Soldier_Lite_Ratnik_Winter";
 opfor_rifleman = "CUP_O_RU_Soldier_Ratnik_Winter";
 opfor_grenadier = "CUP_O_RU_Soldier_GL_Ratnik_Winter";

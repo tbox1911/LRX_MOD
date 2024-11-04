@@ -4,6 +4,7 @@ GRLIB_east_modder = "pSiKO";
 
 // All class MUST be defined !
 
+opfor_crew = "O_Crew_F";
 opfor_sentry = "gm_pl_army_radioman_akm_80_win";
 opfor_rifleman = "gm_pl_army_rifleman_akm_80_win";
 opfor_grenadier = "gm_pl_army_grenadier_akm_pallad_80_win";
@@ -72,6 +73,7 @@ guard_squad = [
 ];
 
 a3w_vip_vehicle = "gm_ge_army_w123_cargo";
+a3w_br_planes = [];
 
 opfor_boats = [
 	"O_Boat_Armed_01_hmg_F"
@@ -109,7 +111,6 @@ opfor_battlegroup_vehicles = [
 	"gm_gc_army_btr60pb",
 	"gm_pl_army_ot64a",
 	"gm_gc_army_t55ak",
-	"gm_pl_airforce_mi2p",
 	"gm_gc_army_btr60pb"
 ];
 
@@ -153,7 +154,6 @@ opfor_statics = [
 	"O_Mortar_01_F"
 ];
 
-
 opfor_recyclable = [
 	// statics
 	["gm_gc_army_fagot_launcher_tripod",0,round (40 / GRLIB_recycling_percentage),0],
@@ -180,6 +180,11 @@ opfor_recyclable = [
 	// air
 	["gm_pl_airforce_mi2t",10,round (325 / GRLIB_recycling_percentage),10],
 	["gm_pl_airforce_mi2urs",30,round (300 / GRLIB_recycling_percentage),15],
+	["gm_gc_bgs_mi2us",30,round (300 / GRLIB_recycling_percentage),15],
+	["gm_gc_airforce_mi2us",30,round (300 / GRLIB_recycling_percentage),15],
+	["gm_pl_airforce_mi2urp",30,round (300 / GRLIB_recycling_percentage),15],
 	["gm_pl_airforce_mi2us",10,round (250 / GRLIB_recycling_percentage),15],
+	["gm_pl_airforce_mi2urpg",10,round (250 / GRLIB_recycling_percentage),15],
+	["gm_pl_airforce_mi2urn",5,round (250 / GRLIB_recycling_percentage),10],		
 	["gm_pl_airforce_mi2p",5,round (150 / GRLIB_recycling_percentage),10]
 ];

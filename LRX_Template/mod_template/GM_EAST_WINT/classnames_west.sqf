@@ -19,6 +19,7 @@ ammo_sling_typename = "gm_ge_army_shelteraceII_reammo";
 medic_sling_typename = "gm_ge_army_shelteraceII_medic";
 pilot_classname = "gm_pl_airforce_pilot_pm_80_gry";
 crewman_classname = "gm_pl_army_crew_pm63_80_moro";
+uavs_terminal_typename = "";
 commander_classname = "gm_pl_army_officer_pm_80_win";
 PAR_Medikit = "gm_gc_army_medbox";
 PAR_AidKit = "gm_gc_army_medkit";
@@ -207,10 +208,6 @@ squads = [
 	[blufor_squad_at,25,600,0,GRLIB_perm_max],
 	[blufor_squad_aa,25,600,0,GRLIB_perm_max],
 	[blufor_squad_mix,25,600,0,GRLIB_perm_max]
-];
-
-// All the UAVs must be declared here
-uavs_west = [
 ];
 
 // Everything the AI troups should be able to resupply from

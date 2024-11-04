@@ -19,10 +19,14 @@ LRX_mod_list_west = [
 	"CP_BAF_DES",
 	"CP_BW_W",	// Z@Warrior CUP NATO (US,BAF,BW)
 	"CP_ION_WI",	// Z@Warrior CUP ION PMC Winter
+	"CP_AFU",	// Z@Warrior Armed Forces of Ukraine
 	"CP_MAF",		// DarkDemon
 	"CP_SAHRA_D",	// Z@Warrior
 	"CP_USMC_D",	// C0br4
 	"CP_USMC_W",	// C0br4
+	"CP_BELKA_D",	// Z@Warrior CUP Belka Desert
+	"CP_BELKA_W",	// Z@Warrior CUP Belka Woodland
+	"CP_BELKA_WI",	// Z@Warrior CUP Belka Winter
 	"CWR3_BAF",		// Z@Warrior Cold War Rearmed III - BAF
 	"CWR3_FIA",
 	"CWR3_SOV",		// Z@Warrior Cold War Rearmed III - SOVIET
@@ -43,6 +47,8 @@ LRX_mod_list_west = [
 	"IFA_USARMY",		// Z@Warrior US Army
 	"IFA_WEHRM_W",		// Z@Warrior IFA Wehrmacht Winter
 	"IFA_WEHRM",		// Z@Warrior IFA Wehrmacht
+	"JELY_BLU",			// Levibugs
+	"JELY_RED",			// Levibugs	
 	"ML700_IMPERIALS",
 	"NF_FINNISH",
 	"OPTRE_UNSC",
@@ -93,13 +99,17 @@ LRX_mod_list_east = [
 	"CFP_O_NKARMY", 	// DarkDemon
 	"CFP_O_SYARMY", 	// DarkDemon
 	"CFP_SUDAN",
-	"CP_AFRF",			// Z@warrior
+	"CP_AFRF",		// Z@warrior
 	"CP_ION_WI",		// Z@Warrior
-	"CP_MAF",			// DarkDemon
+	"CP_AFU",		// Z@Warrior Armed Forces of Ukraine
+	"CP_MAF",		// DarkDemon
 	"CP_SAHRA_D",		// Z@Warrior
 	"CP_TA",
 	"CP_USMC_D",		// C0br4
 	"CP_USMC_W",		// C0br4
+	"CP_BELKA_D",	// Z@Warrior CUP Belka Desert
+	"CP_BELKA_W",	// Z@Warrior CUP Belka Woodland
+	"CP_BELKA_WI",	// Z@Warrior CUP Belka Winter
 	"CWR3_BAF",			// Z@Warrior Cold War Rearmed III - BAF
 	"CWR3_FIA",
 	"CWR3_SOV",			// Z@Warrior Cold War Rearmed III - SOVIET
@@ -122,6 +132,8 @@ LRX_mod_list_east = [
 	"IFA_WEHRM_W",		// Z@Warrior IFA Wehrmacht Winter
 	"IFA_WEHRM",		// Z@Warrior IFA Wehrmacht
 	"IRI_IRAN",
+	"JELY_BLU",			// Levibugs
+	"JELY_RED",			// Levibugs		
 	"ML700_IMPERIALS",
 	"NF_FINNISH",
 	"OPTRE_COV",
@@ -185,11 +197,15 @@ LRX_mod_list_name = [
 	["CP_BAF_DES", "CUP BAF Desert"],
 	["CP_BW_W", "CUP NATO (US,BAF,BW"],
 	["CP_ION_WI", "CUP ION PMC Winter"],
+	["CP_AFU", "CUP Armed Forces of Ukraine"],
 	["CP_MAF", "CUP Mexican Armed Forces"],
 	["CP_SAHRA_D", "CUP Royal Army Corps"],
 	["CP_TA", "CUP Takistan"],
 	["CP_USMC_D", "CUP USMC Desert"],
 	["CP_USMC_W", "CUP USMC Woodland"],
+	["CP_BELKA_D", "CUP Belka Desert"],
+	["CP_BELKA_W", "CUP Belka Woodland"],
+	["CP_BELKA_WI", "CUP Belka Winter"],
 	["CWR3_BAF", "Cold War Rearmed - BAF"],
 	["CWR3_FIA", "Cold War Rearmed - FIA"],
 	["CWR3_SOV", "Cold War Rearmed - SOVIET"],
@@ -213,6 +229,8 @@ LRX_mod_list_name = [
 	["IFA_WEHRM_W", "IFA Wehrmacht Winter"],
 	["IFA_WEHRM", "IFA Wehrmacht"],
 	["IRI_IRAN", "Iran"],
+	["JELY_BLU", "JELY BLU"],
+	["JELY_RED", "JELY RED"],	
 	["ML700_Imperials", "Imperials"],
 	["NF_FINNISH", "Finnish"],
 	["OPTRE", "Operation Trebuchet"],

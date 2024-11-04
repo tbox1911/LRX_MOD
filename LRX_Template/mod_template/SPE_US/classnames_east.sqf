@@ -4,6 +4,7 @@ GRLIB_east_modder = "Z@Warrior";
 
 // All class MUST be defined !
 
+opfor_crew = "I_Crew_F";
 opfor_sentry = "SPE_US_Rifleman";
 opfor_rifleman = "SPE_US_Assist_SquadLead";
 opfor_grenadier = "SPE_US_Grenadier";
@@ -67,11 +68,13 @@ divers_squad = [
 
 militia_vehicles = [
 	"SPE_US_M3_Halftrack_Unarmed_Open",
+	"SPE_US_G503_MB_M2_Armoured",
 	"SPE_US_M3_Halftrack",
 	"SPE_US_M3_Halftrack",
 	"SPE_US_M3_Halftrack",
 	"SPE_US_M16_Halftrack",
-	"SPE_M4A0_75_Early"
+	"SPE_M4A0_75_Early",
+	"SPE_M20_AUC"
 ];
 
 opfor_boats = [
@@ -90,7 +93,11 @@ opfor_vehicles = [
 	"SPE_M4A1_76_DLV",
 	"SPE_M4A1_75_DLV",
 	"SPE_M4A1_T34_Calliope_Direct_DLV",
-	"SPE_M4A1_T34_Calliope_DLV"
+	"SPE_M4A1_T34_Calliope_DLV",
+	"SPE_US_G503_MB_M2_Armoured",
+	"SPE_M20_AUC",
+	"SPE_M8_LAC",
+	"SPE_M4A3_75"
 ];
 
 opfor_vehicles_low_intensity = [
@@ -98,32 +105,36 @@ opfor_vehicles_low_intensity = [
 	"SPE_US_M3_Halftrack",
 	"SPE_US_M3_Halftrack_Unarmed_Open",
 	"SPE_M4A0_75_Early_DLV",
-	"SPE_M10_DLV"
+	"SPE_M10_DLV",
+	"SPE_M20_AUC",
+	"SPE_M8_LAC"
 ];
 
 opfor_battlegroup_vehicles = [
 	"SPE_US_M16_Halftrack",
 	"SPE_US_M3_Halftrack",
-	"SPE_US_M3_Halftrack_Unarmed_Open",
 	"SPE_M4A0_75_Early_DLV",
+	"SPE_US_G503_MB_M2_Armoured",
 	"SPE_M10_DLV",
 	"SPE_M4A1_T34_Calliope_Direct_DLV",
 	"SPE_M4A1_T34_Calliope_DLV",
 	"SPE_M4A1_75_DLV",
 	"SPE_M4A0_75_Early_DLV",
 	"SPE_M18_Hellcat_DLV",
-	"SPE_US_M3_Halftrack_Repair",
-	"SPE_US_M3_Halftrack_Ammo"
+	"SPE_M8_LAC",
+	"SPE_M4A3_75"
 ];
 
 opfor_battlegroup_vehicles_low_intensity = [
 	"SPE_US_M16_Halftrack",
 	"SPE_US_M3_Halftrack",
-	"SPE_US_M3_Halftrack_Unarmed_Open",
 	"SPE_M4A0_75_Early_DLV",
+	"SPE_US_G503_MB_M2_Armoured",
 	"SPE_M10_DLV",
 	"SPE_M4A1_75_DLV",
-	"SPE_M18_Hellcat_DLV"
+	"SPE_M18_Hellcat_DLV",
+	"SPE_M20_AUC",
+	"SPE_M8_LAC"
 ];
 
 opfor_troup_transports_truck = [
@@ -196,6 +207,12 @@ opfor_recyclable = [
 	["SPE_M4A1_75",5,round (125 / GRLIB_recycling_percentage),15],
 	["SPE_M4A1_T34_Calliope_Direct",7,round (250 / GRLIB_recycling_percentage),20],
 	["SPE_M4A1_T34_Calliope",7,round (250 / GRLIB_recycling_percentage),20],
+	["SPE_US_G503_MB",1,round (25 / GRLIB_recycling_percentage),1],
+	["SPE_US_G503_MB_Armoured",1,round (25 / GRLIB_recycling_percentage),1],
+	["SPE_US_G503_MB_M2_Armoured",1,round (40 / GRLIB_recycling_percentage),1],
+	["SPE_M20_AUC",3,round (175 / GRLIB_recycling_percentage),6],
+	["SPE_M8_LAC",5,round (250 / GRLIB_recycling_percentage),8],
+	["SPE_M4A3_75",10,round (350 / GRLIB_recycling_percentage),20],
 	//
 	["SPE_P47",6,round (250 / GRLIB_recycling_percentage),14]
 ];

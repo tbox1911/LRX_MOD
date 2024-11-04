@@ -4,8 +4,7 @@ GRLIB_east_modder = "Z@Warrior";
 
 // All class MUST be defined !
 
-// 3CB BAF Woodland
-
+opfor_crew = "B_Crew_F";
 opfor_sentry = "UK3CB_BAF_Pointman_DPMW";
 opfor_rifleman = "UK3CB_BAF_Rifleman_DPMW";
 opfor_grenadier = "UK3CB_BAF_Grenadier_DPMW";

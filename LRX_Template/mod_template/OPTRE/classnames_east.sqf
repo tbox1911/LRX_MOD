@@ -4,6 +4,7 @@ GRLIB_east_modder = "pSiKO";
 
 // All class MUST be defined !
 
+opfor_crew = "O_Crew_F";
 opfor_sentry = "OPTRE_Ins_BJ_Soldier_Corpsman";
 opfor_rifleman = "OPTRE_Ins_BJ_Soldier_Rifleman_AR";
 opfor_grenadier = "OPTRE_Ins_URF_Breacher";
@@ -37,20 +38,14 @@ opfor_hq = "Land_OPTRE_mod_building_green";
 
 militia_squad = [
 	"OPTRE_Ins_URF_SquadLead",
-	"OPTRE_Ins_BJ_Soldier_URB_TeamLeader",
-	"OPTRE_Ins_BJ_Soldier_URB_Automatic_Rifleman",
-	"OPTRE_Ins_URF_Medic",
-	"OPTRE_Ins_BJ_Soldier_URB_Engineer",
-	"OPTRE_Ins_BJ_Soldier_URB_Scout",
-	"OPTRE_Ins_BJ_Soldier_URB_Corpsman",
-	"OPTRE_Ins_BJ_Soldier_URB_Corpsman",
-	"OPTRE_Ins_BJ_Soldier_URB_Rifleman_AT",
-	"OPTRE_Ins_BJ_Soldier_URB_Rifleman_AR",
-	"OPTRE_Ins_BJ_Soldier_URB_Rifleman_BR",
+	"OPTRE_Ins_URF_Autorifleman",
 	"OPTRE_Ins_URF_Breacher",
-	"OPTRE_Ins_BJ_Soldier_URB_Corpsman",
-	"OPTRE_Ins_BJ_Soldier_URB_Marksman",
-	"OPTRE_Ins_BJ_Soldier_URB_Scout_Sniper",
+	"OPTRE_Ins_URF_Marksman",
+	"OPTRE_Ins_URF_Grenadier",
+	"OPTRE_Ins_URF_Rifleman_BR",
+	"OPTRE_Ins_URF_Rifleman_Light",
+	"OPTRE_Ins_URF_Medic",
+	"OPTRE_Ins_URF_Breacher",
 	"OPTRE_Ins_URF_AA_Specialist",
 	"OPTRE_Ins_URF_AT_Specialist"
 ];

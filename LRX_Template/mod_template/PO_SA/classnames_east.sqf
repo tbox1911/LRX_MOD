@@ -4,8 +4,7 @@ GRLIB_east_modder = "Z@Warrior";
 
 // All class MUST be defined !
 
-// Project Opfor: Sahrani Liberation Army
-
+opfor_crew = "O_Crew_F";
 opfor_sentry = "LOP_SLA_Infantry_Rifleman";
 opfor_rifleman = "LOP_SLA_Infantry_Rifleman_2";
 opfor_grenadier = "LOP_SLA_Infantry_GL";

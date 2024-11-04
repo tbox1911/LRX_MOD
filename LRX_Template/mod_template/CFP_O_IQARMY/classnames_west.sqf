@@ -19,6 +19,7 @@ ammo_sling_typename = "B_Slingload_01_Ammo_F";
 medic_sling_typename = "B_Slingload_01_Medevac_F";
 pilot_classname = "CFP_O_IQARMY_Pilot_01";
 crewman_classname = "CFP_O_IQARMY_Crewman_01";
+uavs_terminal_typename = "O_UavTerminal";
 
 // [CLASSNAME, MANPOWER, AMMO, FUEL, RANK]
 infantry_units_west = [
@@ -90,9 +91,6 @@ static_vehicles = [
 
 // *** Static Weapon with AI ***
 static_vehicles_AI = [
-	"CFP_O_IQARMY_DShKM_01",
-	"CFP_O_IQARMY_AGS_30_01",
-	"CFP_O_IQARMY_D30_01"
 ];
 
 support_vehicles_west = [
@@ -157,19 +155,6 @@ squads = [
 	[blufor_squad_at,25,600,0,GRLIB_perm_max],
 	[blufor_squad_aa,25,600,0,GRLIB_perm_max],
 	[blufor_squad_mix,25,600,0,GRLIB_perm_max]
-];
-
-// All the UAVs must be declared here
-uavs_west = [
-	"B_UAV_01_F",
-	"B_UAV_02_dynamicLoadout_F",
-	"B_T_UAV_03_dynamicLoadout_F",
-	"B_UAV_05_F",
-	"B_UAV_06_F",
-	"C_UAV_06_F",
-	"B_UGV_01_F",
-	"B_UGV_01_rcws_F",
-	"B_UGV_02_Demining_F"
 ];
 
 // Everything the AI troups should be able to resupply from

@@ -24,6 +24,7 @@ ammo_sling_typename = "B_Slingload_01_Ammo_F";
 medic_sling_typename = "B_Slingload_01_Medevac_F";
 pilot_classname = "SPE_GER_pilot";
 crewman_classname = "SPE_GER_rifleman_lite";
+uavs_terminal_typename = "";
 Arsenal_typename = "SPE_BasicAmmunitionBox_GER";
 PAR_Medikit = "SPE_GER_Medkit";
 PAR_AidKit = "SPE_GER_FirstAidKit";
@@ -36,7 +37,7 @@ Box_Special_typename = "SPE_Ammocrate_Grenades_Frag_GER";
 SHOP_Man = "SPE_CIV_pak2_zwart_tie_alt";
 SELL_Man = "SPE_CIV_Worker_Coverall_1";
 WRHS_Man = "SPE_CIV_Worker_3";						// Man in Warehouse
-commander_classname = "SPE_US_Pilot_Unequipped";			// Sell-Man in FOB
+commander_classname = "SPE_GER_oberst";					// Sell-Man in FOB
 repair_offroad = "SPE_FFI_OpelBlitz_Repair";
 //waterbarrel_typename = "Land_WaterBottle_01_stack_F";
 fuelbarrel_typename = "Land_SPE_Jerrycan";
@@ -92,6 +93,8 @@ units_loadout_overide = [
 light_vehicles = [
 	// Boat
 	// Land
+	["SPE_GER_R200_Unarmed",1,25,1,0],
+	["SPE_GER_R200_MG34",1,50,1,GRLIB_perm_inf],
 	["SPE_OpelBlitz",1,50,1,0],
 	["SPE_OpelBlitz_Flak38",1,100,2,GRLIB_perm_inf],
 	["SPE_SdKfz250_1",1,150,2,GRLIB_perm_inf]
@@ -102,7 +105,9 @@ heavy_vehicles = [
 	["SPE_PzKpfwIII_L",10,500,10,GRLIB_perm_tank],
 	["SPE_PzKpfwIII_N",10,600,10,GRLIB_perm_tank],
 	["SPE_PzKpfwVI_H1",10,700,10,GRLIB_perm_max],
-	["SPE_Nashorn",10,750,10,GRLIB_perm_max]
+	["SPE_Nashorn",10,750,10,GRLIB_perm_max],
+	["SPE_StuG_III_G_Early",10,850,10,GRLIB_perm_tank],
+	["SPE_Jagdpanther_G1",10,950,10,GRLIB_perm_max]
 ];
 
 air_vehicles = [
@@ -156,15 +161,6 @@ static_vehicles = [
 
 // *** Static Weapon with AI ***
 static_vehicles_AI = [
-	"SPE_GER_SearchLight",
-	"SPE_MG34_Lafette_Deployed",
-	"SPE_MG34_Lafette_low_Deployed",
-	"SPE_MG42_Lafette_Deployed",
-	"SPE_MG42_Lafette_low_Deployed",
-	"SPE_FlaK_30",
-	"SPE_FlaK_38",
-	"SPE_FlaK_36",
-	"SPE_FlaK_36_AA"
 ];
 
 support_vehicles_west = [
@@ -242,10 +238,6 @@ squads = [
 	[blufor_squad_at,25,600,0,GRLIB_perm_max],
 	[blufor_squad_aa,25,600,0,GRLIB_perm_max],
 	[blufor_squad_mix,25,600,0,GRLIB_perm_max]
-];
-
-// All the UAVs must be declared here
-uavs_west = [
 ];
 
 // Everything the AI troups should be able to resupply from

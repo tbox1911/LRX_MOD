@@ -157,10 +157,6 @@ static_vehicles = [
 // *** Static Weapon with AI ***
 
 static_vehicles_AI = [
-	"UK3CB_BAF_Static_L7A2_Deployed_High_DPMW",
-	"UK3CB_BAF_Static_L7A2_Deployed_Low_DPMW",
-	"UK3CB_BAF_Static_L7A2_Deployed_Mid_DPMW",
-	"UK3CB_BAF_Static_M6_Deployed_DPMW"
 ];
 
 

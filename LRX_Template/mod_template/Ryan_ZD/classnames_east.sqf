@@ -4,6 +4,7 @@ GRLIB_east_modder = "DarkDemon";
 
 // All class MUST be defined !
 
+opfor_crew = "I_Crew_F";
 opfor_sentry = "HL2_Zombie_Classic";
 opfor_rifleman = "HL2_Zombie_Rebel_Blue";
 opfor_grenadier = "HL2_Zombie_Rebel_Medic";

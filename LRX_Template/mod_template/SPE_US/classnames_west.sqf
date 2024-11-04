@@ -1,5 +1,5 @@
 // *** FRIENDLIES ***
-GRLIB_side_friendly = WEST;
+GRLIB_side_friendly = INDEPENDENT;
 GRLIB_west_modder = "Z@Warrior";
 
 // Default classname: scripts\shared\default_classnames.sqf
@@ -24,6 +24,7 @@ ammo_sling_typename = "B_Slingload_01_Ammo_F";
 medic_sling_typename = "B_Slingload_01_Medevac_F";
 pilot_classname = "SPE_US_Pilot";
 crewman_classname = "SPE_US_HBT44_HalfTrack_Driver";
+uavs_terminal_typename = "";
 Arsenal_typename = "SPE_BasicAmmunitionBox_US";
 PAR_Medikit = "SPE_US_Medkit";
 PAR_AidKit = "SPE_US_FirstAidKit";
@@ -94,17 +95,22 @@ units_loadout_overide = [
 light_vehicles = [
 	// Boat
 	// Land
-	["SPE_US_M3_Halftrack_Unarmed",1,50,1,0],
-	["SPE_US_M3_Halftrack",1,75,2,GRLIB_perm_inf],
-	["SPE_US_M16_Halftrack",1,100,2,GRLIB_perm_inf]
+	["SPE_US_G503_MB",1,50,1,0],
+	["SPE_US_G503_MB_Armoured",1,75,1,0],
+	["SPE_US_G503_MB_M2_Armoured",1,125,1,0],
+	["SPE_US_M3_Halftrack_Unarmed",1,250,1,GRLIB_perm_inf],
+	["SPE_US_M3_Halftrack",1,275,2,GRLIB_perm_inf],
+	["SPE_US_M16_Halftrack",1,300,2,GRLIB_perm_inf],
+	["SPE_M20_AUC",1,350,2,GRLIB_perm_log]
 ];
 
 heavy_vehicles = [
 	["SPE_M4A0_75_Early",5,400,5,GRLIB_perm_tank],
 	["SPE_M18_Hellcat",10,500,10,GRLIB_perm_tank],
+	["SPE_M8_LAC",10,550,10,GRLIB_perm_tank],
 	["SPE_M10",10,600,10,GRLIB_perm_tank],
 	["SPE_M4A1_T34_Calliope_Direct",10,700,10,GRLIB_perm_max],
-	["SPE_M4A1_T34_Calliope",10,750,10,GRLIB_perm_max]
+	["SPE_M4A3_75",10,800,10,GRLIB_perm_max]
 ];
 
 air_vehicles = [
@@ -153,10 +159,6 @@ static_vehicles = [
 
 // *** Static Weapon with AI ***
 static_vehicles_AI = [
-	"SPE_M1919_M2",
-	"SPE_M1919_M2_Trench_Deployed",
-	"SPE_M1919A6_Bipod",
-	"SPE_M45_Quadmount"
 ];
 
 support_vehicles_west = [
@@ -234,10 +236,6 @@ squads = [
 	[blufor_squad_at,25,600,0,GRLIB_perm_max],
 	[blufor_squad_aa,25,600,0,GRLIB_perm_max],
 	[blufor_squad_mix,25,600,0,GRLIB_perm_max]
-];
-
-// All the UAVs must be declared here
-uavs_west = [
 ];
 
 // Everything the AI troups should be able to resupply from

@@ -4,6 +4,7 @@ GRLIB_east_modder = "pSiKO";
 
 // All class MUST be defined !
 
+opfor_crew = "O_Crew_F";
 opfor_sentry = "PIF_O_Adviser";
 opfor_rifleman = "PIF_Soldier";
 opfor_grenadier = "PIF_Grenadier";
@@ -59,15 +60,6 @@ militia_squad = [
 	"TBan_Recruit5",
 	"TBan_Recruit6",
 	"TBan_Recruit6NH",
-	"PIF_Militia_Medic",
-	"PIF_Militia1",
-	"PIF_Militia2",
-	"PIF_Militia3",
-	"PIF_Militia4",
-	"PIF_Militia5",
-	"PIF_Militia6",
-	"PIF_Militia7",
-	"PIF_Militia8",
 	"O_Soldier_AA_F",
 	"O_Soldier_AT_F"
 ];
@@ -80,10 +72,10 @@ militia_loadout_overide = [
 militia_vehicles = [
 	"Tban_O_Offroad_01_F",
 	"Tban_O_Offroad_01_F",
+	"Tban_O_Offroad_01_F",
 	"O_G_Offroad_01_AT_F",
 	"I_C_Offroad_02_LMG_F",
-	"O_LSV_02_armed_F",
-	"O_LSV_02_AT_F"
+	"I_C_Offroad_02_AT_F"
 ];
 
 opfor_boats = [
@@ -91,6 +83,7 @@ opfor_boats = [
 ];
 
 opfor_vehicles = [
+	"Tban_Heli_Light_01_armed_F",
 	"O_MRAP_02_hmg_F",
 	"O_MRAP_02_hmg_F",
 	"O_MRAP_02_gmg_F",
@@ -103,17 +96,20 @@ opfor_vehicles = [
 	"O_APC_Tracked_02_AA_F",
 	"PIF_G_Offroad_01_F",
 	"O_MBT_04_cannon_F",
-	"O_MBT_04_command_F"
+	"O_MBT_04_command_F",
+	"O_LSV_02_armed_F",
+	"O_LSV_02_AT_F"
 ];
 
 opfor_vehicles_low_intensity = [
+	"Tban_Heli_Light_01_armed_F",
 	"PIF_G_Offroad_01_F",
 	"O_APC_Wheeled_02_rcws_v2_F",
 	"PIF_G_Offroad_01_F",
 	"O_MRAP_02_hmg_F",
 	"O_MRAP_02_gmg_F",
-	"O_LSV_02_armed_F",
-	"O_LSV_02_AT_F"
+	"Tban_O_Offroad_01_F",
+	"O_G_Offroad_01_AT_F"
 ];
 
 opfor_battlegroup_vehicles = [
@@ -129,10 +125,12 @@ opfor_battlegroup_vehicles = [
 	"O_APC_Tracked_02_AA_F",
 	"O_APC_Tracked_02_cannon_F",
 	"O_APC_Wheeled_02_rcws_v2_F",
+	"Tban_Heli_Light_01_armed_F",
 	"O_Heli_Attack_02_dynamicLoadout_F",
 	"O_MBT_04_cannon_F",
 	"O_MBT_04_command_F",
-	"O_T_VTOL_02_infantry_F"
+	"O_LSV_02_armed_F",
+	"O_LSV_02_AT_F"
 ];
 
 opfor_battlegroup_vehicles_low_intensity = [
@@ -144,6 +142,7 @@ opfor_battlegroup_vehicles_low_intensity = [
 	"O_MRAP_02_hmg_F",
 	"O_MRAP_02_gmg_F",
 	"O_Truck_02_transport_F",
+	"Tban_Heli_Light_01_armed_F",
 	"O_Heli_Light_02_dynamicLoadout_F",
 	"O_Heli_Transport_04_covered_F",
 	"O_LSV_02_armed_F",
@@ -162,6 +161,7 @@ opfor_troup_transports_heli = [
 ];
 
 opfor_air = [
+	"Tban_Heli_Light_01_armed_F",
 	"O_Heli_Light_02_dynamicLoadout_F",
 	"O_Heli_Attack_02_dynamicLoadout_black_F",
 	"O_Heli_Attack_02_dynamicLoadout_F",
@@ -189,7 +189,10 @@ opfor_recyclable = [
 	["O_LSV_02_armed_F",1,round (35 / GRLIB_recycling_percentage),2],
 	["O_LSV_02_AT_F",1,round (45 / GRLIB_recycling_percentage),2],
 	["O_G_Offroad_01_armed_F",1,round (30 / GRLIB_recycling_percentage),2],
+	["PIF_G_Offroad_01_F",1,round (30 / GRLIB_recycling_percentage),2],
+	["Tban_O_Offroad_01_F",1,round (30 / GRLIB_recycling_percentage),2],
 	["O_G_Offroad_01_AT_F",1,round (40 / GRLIB_recycling_percentage),2],
+	["I_C_Offroad_02_AT_F",1,round (40 / GRLIB_recycling_percentage),2],
 	["I_C_Offroad_02_LMG_F",1,round (30 / GRLIB_recycling_percentage),2],
 	["O_Truck_02_covered_F",5,round (20 / GRLIB_recycling_percentage),5],
 	["O_Truck_02_transport_F",5,round (20 / GRLIB_recycling_percentage),5],
@@ -204,6 +207,7 @@ opfor_recyclable = [
 	["O_MBT_02_cannon_F",15,round (1400 / GRLIB_recycling_percentage),15],
 	["O_MBT_04_cannon_F",15,round (2000 / GRLIB_recycling_percentage),15],
 	["O_MBT_04_command_F",15,round (2300 / GRLIB_recycling_percentage),15],
+	["Tban_Heli_Light_01_armed_F",15,round (230 / GRLIB_recycling_percentage),5],
 	["O_Heli_Attack_02_dynamicLoadout_black_F",10,round (1700 / GRLIB_recycling_percentage),20],
 	["O_Heli_Attack_02_dynamicLoadout_F",10,round (1700 / GRLIB_recycling_percentage),20],
 	["O_Heli_Light_02_dynamicLoadout_F",10,round (1600 / GRLIB_recycling_percentage),20],

@@ -12,6 +12,7 @@ Respawn_truck_typename = "UK3CB_CHD_O_Ural";
 //FOB_truck_typename = "B_Truck_01_box_F";
 pilot_classname = "UK3CB_CHD_O_HELI_PILOT";
 crewman_classname = "UK3CB_CHD_O_CREW";
+uavs_terminal_typename = "O_UavTerminal";
 basic_weapon_typename = "UK3CB_RPK_Equipbox_Opfor";  	 //"rhs_weapon_crate";
 
 
@@ -143,13 +144,7 @@ static_vehicles = [
 // *** Static Weapon with AI ***
 
 static_vehicles_AI = [
-	"UK3CB_CHD_O_DSHKM",
-	"UK3CB_CHD_O_KORD_high",
-	"UK3CB_CHD_O_ZU23",
-	"UK3CB_CHD_O_SPG9",
-	"UK3CB_CHD_O_Igla_AA_pod"
 ];
-
 
 support_vehicles_west = [
 	["UK3CB_CHD_O_Kamaz_Ammo",5,200,10,GRLIB_perm_inf],

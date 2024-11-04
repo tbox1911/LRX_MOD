@@ -4,6 +4,7 @@ GRLIB_east_modder = "pSiKO";
 
 // All class MUST be defined !
 
+opfor_crew = "B_Crew_F";
 opfor_sentry = "gm_ge_army_radioman_g3a3_parka_80_win";
 opfor_rifleman = "gm_ge_army_rifleman_g3a3_parka_80_win";
 opfor_grenadier = "gm_ge_army_grenadier_g3a3_parka_80_win";
@@ -87,6 +88,7 @@ guard_squad = [
 ];
 
 a3w_vip_vehicle = "gm_ge_army_w123_cargo";
+a3w_br_planes = [];
 
 opfor_boats = [
 	"B_Boat_Armed_01_minigun_F"

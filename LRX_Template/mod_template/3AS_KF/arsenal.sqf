@@ -151,6 +151,7 @@ blacklisted_weapon = [
 	"O_V_Soldier_Viper_hex_F",
 	"Pylon",
 	"_missiles",
+	"_used",
 	"_Leaflets",
 	"_esd_"
 ];
@@ -172,7 +173,6 @@ whitelisted_from_arsenal = [
 	"MiniGrenade",
 	"O_IR_Grenade",
 	"Laserbatteries",
-	"B_UavTerminal",
 	"APERSMine_Range_Mag",
 	"APERSTripMine_Wire_Mag",
 	"APERSBoundingMine_Range_Mag",

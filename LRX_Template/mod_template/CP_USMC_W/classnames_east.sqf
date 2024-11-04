@@ -4,6 +4,7 @@ GRLIB_east_modder = "C0br4";
 
 // All class MUST be defined !
 
+opfor_crew = "B_Crew_F";
 opfor_sentry = "CUP_B_USMC_SpecOps_SD";
 opfor_rifleman = "CUP_B_USMC_Soldier";
 opfor_grenadier = "CUP_B_USMC_Soldier_GL";

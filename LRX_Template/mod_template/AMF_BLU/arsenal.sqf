@@ -19,6 +19,7 @@ blacklisted_weapon = [
 	"optic_tws",
 	"optic_tws_mg",
 	"_missiles",
+	"_used",
 	"_Leaflets",
 	"_esd_"
 ];
@@ -32,7 +33,6 @@ whitelisted_from_arsenal = [
 	"Rangefinder",
 	"ItemCompass",
 	"ItemGPS",
-    "B_UavTerminal",
 	"ItemMap",
 	"ItemRadio",
 	"ItemWatch",

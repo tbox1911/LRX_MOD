@@ -260,16 +260,10 @@ if (isClass(configFile >> "CfgPatches" >> "Redd_Vehicles_Main")) then
 
 // *** Static Weapon with AI ***
 static_vehicles_AI = [
-"CUP_B_SearchLight_static_BAF_DDPM",
-"CUP_B_L111A1_BAF_DDPM",
-"CUP_B_L111A1_MiniTripod_BAF_DDPM",
-"CUP_B_L134A1_TriPod_BAF_DDPM",
-"CUP_B_L16A2_BAF_DDPM",
-"CUP_B_TOW_TriPod_US",
-"CUP_B_CUP_Stinger_AA_pod_US",
-"CUP_WV_B_CRAM",
-"CUP_WV_B_RAM_Launcher",
-"CUP_WV_B_SS_Launcher"
+	"CUP_B_CUP_Stinger_AA_pod_US",
+	"CUP_WV_B_CRAM",
+	"CUP_WV_B_RAM_Launcher",
+	"CUP_WV_B_SS_Launcher"
 ];
 
 support_vehicles_west = [
@@ -373,15 +367,6 @@ squads = [
 
 // All the UAVs must be declared here
 uavs_west = [
-	"B_UAV_01_F",
-	"B_UAV_02_dynamicLoadout_F",
-	"B_T_UAV_03_dynamicLoadout_F",
-	"B_UAV_05_F",
-	"B_UAV_06_F",
-	"C_UAV_06_F",
-	"B_UGV_01_F",
-	"B_UGV_01_rcws_F",
-	"B_UGV_02_Demining_F",
 	"CUP_B_USMC_DYN_MQ9"
 ];
 

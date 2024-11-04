@@ -4,6 +4,7 @@ GRLIB_east_modder = "Darkdemon";
 
 // All class MUST be defined !
 
+opfor_crew = "O_Crew_F";
 opfor_sentry = "CFP_O_ABUSAYYAF_Scout_01";
 opfor_rifleman = "CFP_O_HAMAS_Rifleman_01";
 opfor_grenadier = "CFP_O_HAMAS_Grenadier_01";
@@ -142,26 +143,25 @@ opfor_battlegroup_vehicles_low_intensity = [
 	"CFP_O_IRARMY_Mi_8MT_01"
 ];
 
-opfor_troup_transports_truck = [	//
+opfor_troup_transports_truck = [
 	"CFP_O_ABUSAYYAF_Ural_01",
 	"CFP_O_ALQAEDA_Ural_Open_01"
 ];
 
-opfor_troup_transports_heli = [		//
+opfor_troup_transports_heli = [
 	"CFP_O_IRARMY_Mi_8MT_01"
 ];
 
 opfor_air = [
 ];
 
-opfor_statics = [	//
+opfor_statics = [
 	"CFP_O_HAMAS_DShKM_01",
 	"CFP_O_HAMAS_SPG_9_01",
 	"CFP_O_HAMAS_Metis_01",
 	"CFP_O_BH_ZU_23_01",
 	"CFP_O_BH_Podnos_2B14_01"
 ];
-
 
 opfor_recyclable = [
 	["CFP_O_BH_D30_AT_01",0,round (20 / GRLIB_recycling_percentage),0],

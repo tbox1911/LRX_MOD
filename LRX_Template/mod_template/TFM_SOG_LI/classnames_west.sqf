@@ -23,6 +23,7 @@ ammo_sling_typename = "B_Slingload_01_Ammo_F";
 medic_sling_typename = "B_Slingload_01_Medevac_F";
 pilot_classname = "vn_b_men_aircrew_45";
 crewman_classname = "vn_b_men_aircrew_48";
+uavs_terminal_typename = "";
 Arsenal_typename = "Land_vn_us_weapons_stack2";
 PAR_Medikit = "vn_b_item_medikit_01";
 PAR_AidKit = "vn_b_item_firstaidkit";
@@ -271,10 +272,6 @@ squads = [
 	[blufor_squad_at,25,600,0,GRLIB_perm_log],
 	[blufor_squad_aa,25,600,0,GRLIB_perm_log],
 	[blufor_squad_mix,25,600,0,GRLIB_perm_log]
-];
-
-// All the UAVs must be declared here
-uavs_west = [
 ];
 
 // Everything the AI troups should be able to resupply from

@@ -23,6 +23,7 @@ WRHS_Man = "LIB_CIV_SchoolTeacher";			// Man in Warehouse
 commander_classname = "LIB_CIV_Assistant";		// Sell-Man in FOB
 pilot_classname = "LIB_SOV_pilot";
 crewman_classname = "LIB_SOV_Smgunner_w";
+uavs_terminal_typename = "O_UavTerminal";
 basic_weapon_typename = "LIB_BasicWeaponsBox_SU";
 
 chimera_vehicle_overide = [
@@ -108,19 +109,15 @@ if (isClass(configFile >> "CfgPatches" >> "sab_flyinglegends")) then {
 };
 
 static_vehicles = [
-	["LIB_BM37",0,150,0,GRLIB_perm_log],
-	["LIB_Zis3_w",1,300,0,GRLIB_perm_tank],
-	["LIB_Maxim_M30_base",1,150,0,GRLIB_perm_log],
-	["LIB_61k",1,250,0,GRLIB_perm_log],
-	["LIB_SU_SearchLight",1,50,0,GRLIB_perm_log]
+	["LIB_SU_SearchLight",1,50,0,GRLIB_perm_log],
+	["LIB_Maxim_M30_base",1,175,0,GRLIB_perm_log],
+	["LIB_BM37",0,500,0,GRLIB_perm_log],
+	["LIB_61k",1,1125,0,GRLIB_perm_log],
+	["LIB_Zis3",1,1200,0,GRLIB_perm_tank]
 ];
 
 // *** Static Weapon with AI ***
 static_vehicles_AI = [
-	"LIB_Maxim_M30_base",
-	"LIB_61k",
-	"LIB_SU_SearchLight",
-	"LIB_Zis3_w"
 ];
 
 support_vehicles_west = [
@@ -195,10 +192,6 @@ squads = [
 	[blufor_squad_at,25,600,0,GRLIB_perm_max],
 	[blufor_squad_aa,25,600,0,GRLIB_perm_max],
 	[blufor_squad_mix,25,800,0,GRLIB_perm_max]
-];
-
-// All the UAVs must be declared here
-uavs_west = [
 ];
 
 // Everything the AI troups should be able to resupply from

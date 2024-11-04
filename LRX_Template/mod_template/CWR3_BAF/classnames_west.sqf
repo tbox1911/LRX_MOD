@@ -29,12 +29,9 @@ Respawn_truck_typename = "cwr3_b_uk_fv432_mev";
 ammo_truck_typename = "cwr3_b_uk_fv620_reammo";
 fuel_truck_typename = "cwr3_b_uk_fv620_refuel";
 repair_truck_typename = "cwr3_b_uk_fv620_repair";
-
 pilot_classname = "cwr3_b_uk_soldier_pilot";
 crewman_classname = "cwr3_b_uk_soldier_crewman";
-
 basic_weapon_typename = "cwr3_crate_basicweapons_us";
-
 Box_Weapon_typename = "cwr3_crate_basicweapons_us";
 Box_Ammo_typename = "cwr3_crate_basicammo_us";
 Box_Support_typename = "cwr3_crate_explosives_us";
@@ -43,7 +40,6 @@ Box_Special_typename = "cwr3_crate_specialweapons_us";
 Box_Grenades_typename = "cwr3_crate_grenades_us";
 Box_Explosives_typename = "cwr3_crate_explosives_us";
 Box_Equipment_typename = "";
-
 
 SHOP_Man = "cwr3_c_functionary3";
 SELL_Man = "cwr3_c_villager1";
@@ -157,10 +153,6 @@ static_vehicles = [
 // *** Static Weapon with AI ***
 
 static_vehicles_AI = [
-	"cwr3_b_uk_searchlight",
-	"cwr3_b_uk_l111a1_high",
-	"cwr3_b_uk_l111a1_low",
-	"cwr3_b_uk_l7a2_low"
 ];
 
 support_vehicles_west = [
@@ -241,10 +233,6 @@ squads = [
 	[blufor_squad_at,25,500,0,GRLIB_perm_max],
 	[blufor_squad_aa,25,600,0,GRLIB_perm_max],
 	[blufor_squad_mix,20,800,0,GRLIB_perm_max]
-];
-
-// All the UAVs must be declared here
-uavs_west = [
 ];
 
 // Everything the AI troups should be able to resupply from

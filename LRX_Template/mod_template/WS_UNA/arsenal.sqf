@@ -6,6 +6,7 @@ blacklisted_weapon = [
 	"Pylon",
 	"Vorona",
 	"_missiles",
+	"_used",
 	"_Leaflets",
 	"_esd_"
 ];
@@ -26,7 +27,6 @@ whitelisted_from_arsenal = [
 	"HandGrenade",
 	"MiniGrenade",
 	"Laserbatteries",
-	"B_UavTerminal",
 	"APERSMine_Range_Mag",
 	"APERSBoundingMine_Range_Mag",
 	"ATMine_Range_Mag",

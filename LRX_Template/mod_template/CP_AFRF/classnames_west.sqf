@@ -19,7 +19,14 @@ ammo_sling_typename = "Land_Pod_Heli_Transport_04_ammo_F";
 medic_sling_typename = "Land_Pod_Heli_Transport_04_medevac_F";
 pilot_classname = "CUP_O_RU_Pilot";
 crewman_classname = "CUP_O_RU_Soldier_Crew_M_EMR_V2";
+uavs_terminal_typename = "O_UavTerminal";
 basic_weapon_typename = "CUP_BOX_RU_Wps_F";
+
+SHOP_Man = "CUP_C_C_Functionary_02";
+SELL_Man = "CUP_C_C_Mechanic_02";
+WRHS_Man = "CUP_O_RU_Soldier_Light_EMR";	// Man in Warehouse
+commander_classname = "CUP_O_RU_Officer_EMR";	// Sell-Man in FOB
+
 chimera_vehicle_overide = [
   ["B_Heli_Light_01_F", "CUP_O_UH1H_SLA"],
   ["B_Heli_Transport_01_F", "CUP_O_Mi8_VIV_RU"]
@@ -69,7 +76,6 @@ light_vehicles = [
 	["CUP_O_GAZ_Vodnik_AGS_RU",1,80,7,GRLIB_perm_log],
 	["CUP_O_GAZ_Vodnik_BPPU_RU",1,80,7,GRLIB_perm_log],
 	["CUP_O_GAZ_Vodnik_KPVT_RU",1,80,7,GRLIB_perm_log],
-	["CUP_O_BM21_RU",5,100,2,GRLIB_perm_inf],
 	["CUP_O_Kamaz_Open_RU",5,10,10,GRLIB_perm_inf],
 	["CUP_O_Kamaz_RU",5,50,10,GRLIB_perm_log],
 	["O_Truck_02_covered_F",5,10,5,GRLIB_perm_inf],
@@ -89,7 +95,8 @@ heavy_vehicles = [
 	["CUP_O_Ural_ZU23_RU",15,2500,15,GRLIB_perm_tank],
 	["CUP_O_T72_RU",15,2500,15,GRLIB_perm_air],
 	["CUP_O_T90_RU",15,3500,15,GRLIB_perm_max],
-	["CUP_O_2S6_RU",15,4000,15,GRLIB_perm_max]
+	["CUP_O_2S6_RU",15,4000,15,GRLIB_perm_max],
+	["CUP_O_BM21_RU",10,3700,20,GRLIB_perm_max]
 ];
 
 air_vehicles = [
@@ -145,6 +152,12 @@ buildings_west = [
 	["Land_Cargo_House_V3_F",0,0,0,GRLIB_perm_inf],
 	["Land_Cargo_Patrol_V3_F",0,0,0,GRLIB_perm_log],
 	["CUP_Flag_Black",0,0,0,0]
+];
+
+// Boats
+boats_west = [
+	"O_Boat_Transport_01_F",
+	"O_Boat_Armed_01_hmg_F"
 ];
 
 blufor_squad_inf_light = [
@@ -211,18 +224,6 @@ squads = [
 	[blufor_squad_at,25,600,0,GRLIB_perm_max],
 	[blufor_squad_aa,25,600,0,GRLIB_perm_max],
 	[blufor_squad_mix,25,600,0,GRLIB_perm_max]
-];
-
-// All the UAVs must be declared here
-uavs_west = [
-	"O_UAV_01_F",
-	"O_UAV_02_dynamicLoadout_F",
-	"O_T_UAV_03_F",
-	"O_UAV_05_F",
-	"O_UAV_06_F",
-	"O_UGV_01_F",
-	"O_UGV_01_rcws_F",
-	"O_UGV_02_Demining_F"
 ];
 
 // Everything the AI troups should be able to resupply from

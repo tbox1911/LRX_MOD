@@ -4,8 +4,7 @@ GRLIB_east_modder = "Z@Warrior";
 
 // All class MUST be defined !
 
-// Project Opfor: Takistani Armed Forces
-
+opfor_crew = "O_Crew_F";
 opfor_sentry = "LOP_TKA_Infantry_MG";
 opfor_rifleman = "LOP_TKA_Infantry_Rifleman";
 opfor_grenadier = "LOP_TKA_Infantry_GL";

@@ -119,22 +119,6 @@ static_vehicles = [
 
 // *** Static Weapon with AI ***
 static_vehicles_AI = [
-	"ML700_Static_Autocannon_Tripod",
-	"ML700_Static_Autocannon_Tripod_High",
-	"ML700_EarthShaker_Platform_NoShield_AT",
-	"ML700_EarthShaker_Platform_NoShield",
-	"ML700_EarthShaker_Platform",
-	"ML700_Static_HeavyBolter_Tripod",
-	"ML700_Static_HeavyBolter_Tripod_High",
-	"ML700_Hydra_Platform",
-	"ML700_Hydra_Platform_NonFlak",
-	"ML700_Static_Mortar",
-	"ML700_Static_Lascannon_Tripod",
-	"ML700_Static_Lascannon_Tripod_High",
-	"ML700_Static_LockeLauncher_Tripod",
-	"ML700_Static_MultiLaser_Tripod",
-	"ML700_Static_MultiLaser_Tripod_High",
-	"ML700_Wyvern_Platform"
 ];
 
 support_vehicles_west = [
@@ -200,10 +184,6 @@ squads = [
 	[blufor_squad_at,25,600,0,GRLIB_perm_max],
 	[blufor_squad_aa,25,600,0,GRLIB_perm_max],
 	[blufor_squad_mix,25,600,0,GRLIB_perm_max]
-];
-
-// All the UAVs must be declared here
-uavs_west = [
 ];
 
 // Everything the AI troups should be able to resupply from

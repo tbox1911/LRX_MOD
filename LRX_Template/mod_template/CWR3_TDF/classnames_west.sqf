@@ -25,16 +25,12 @@ FOB_typename = "Land_Cargo_HQ_V1_F";
 Respawn_truck_typename = "cwr3_tdf_ural_mev";
 //FOB_box_typename = "B_Slingload_01_Cargo_F";
 //FOB_truck_typename = "cwr3_b_m939_empty";  	// "B_Truck_01_box_F";
-
 ammo_truck_typename = "cwr3_tdf_ural_reammo";
 fuel_truck_typename = "cwr3_tdf_ural_refuel";
 repair_truck_typename = "cwr3_tdf_ural_repair";
-
 pilot_classname = "cwr3_tdf_soldier_pilot";
 crewman_classname = "cwr3_tdf_soldier_crew";
-
 GRLIB_sar_wreck = "cwr3_ah1f_wreck";
-
 basic_weapon_typename = "cwr3_crate_basicweapons_ru";
 Box_Weapon_typename = "cwr3_crate_basicweapons_ru";
 Box_Ammo_typename = "cwr3_crate_basicammo_ru";
@@ -175,12 +171,6 @@ static_vehicles = [
 // *** Static Weapon with AI ***
 
 static_vehicles_AI = [
-	"cwr3_tdf_searchlight",
-	"cwr3_tdf_dshkm_high",
-	"cwr3_tdf_dshkm_low",
-	"cwr3_tdf_spg9",
-	"cwr3_tdf_konkurs_tripod",
-	"cwr3_tdf_zu23"
 ];
 
 support_vehicles_west = [
@@ -261,10 +251,6 @@ squads = [
 	[blufor_squad_at,25,500,0,GRLIB_perm_max],
 	[blufor_squad_aa,25,600,0,GRLIB_perm_max],
 	[blufor_squad_mix,20,800,0,GRLIB_perm_max]
-];
-
-// All the UAVs must be declared here
-uavs_west = [
 ];
 
 // Everything the AI troups should be able to resupply from

@@ -19,7 +19,7 @@ ammo_sling_typename = "Land_Pod_Heli_Transport_04_ammo_F";
 medic_sling_typename = "Land_Pod_Heli_Transport_04_medevac_F";
 pilot_classname = "3AS_LPB1_GEO_PIL_V3_F";
 crewman_classname = "JLTS_Droid_B1_Crew";
-
+uavs_terminal_typename = "O_UavTerminal";
 
 // [CLASSNAME, MANPOWER, AMMO, FUEL, RANK]
 infantry_units_west = [
@@ -99,14 +99,6 @@ static_vehicles = [
 
 // *** Static Weapon with AI ***
 static_vehicles_AI = [
-	"DBA_Kilo400_AA_SAM",
-	"DBA_OOMChiNoKu_SAM",
-	"O_DBA_CIS_OOMParticle_Cannon_F",
-	"DBA_Droideka_OOM_F",
-	"DBA_DSD_OOM_F",
-	"DBA_EWEB",
-	"DBA_CrabDroid_OOM_F",
-	"DBA_OOMMiner",
 	"DBA_Scorponek_OOM_F",
 	"O_DBA_CIS_OOMProton_Cannon_F",
 	"DBA_OOMOctoStatic"
