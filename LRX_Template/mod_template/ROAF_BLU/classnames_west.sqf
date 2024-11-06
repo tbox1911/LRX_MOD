@@ -8,7 +8,7 @@ GRLIB_west_modder = "Miledino";
 //huron_typename = "B_Heli_Transport_03_unarmed_F";  // // to use value from lobby/server.cfg
 FOB_typename = "Land_Cargo_HQ_V1_F";
 FOB_box_typename = "B_Slingload_01_Cargo_F";
-FOB_truck_typename = "B_Truck_01_box_F" ;
+FOB_truck_typename = "car_hemtt_box_woodland" ;
 Respawn_truck_typename = "B_Truck_01_medical_F";
 ammo_truck_typename = "B_Truck_01_ammo_F";
 fuel_truck_typename = "B_Truck_01_fuel_F";
@@ -153,7 +153,9 @@ buildings_west = [
 	["Land_Cargo_Tower_V1_F",0,0,0,GRLIB_perm_tank],
 	["Land_Cargo_House_V1_F",0,0,0,GRLIB_perm_inf],
 	["Land_Cargo_Patrol_V1_F",0,0,0,GRLIB_perm_log],
-	["Flag_NATO_F",0,0,0,0]
+	["Flag_NATO_F",0,0,0,0],
+	["flag_roaf",0,0,0,0],
+	["banner_roaf",0,0,0,0]
 ];
 
 // Boats
