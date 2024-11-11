@@ -70,9 +70,9 @@ militia_loadout_overide = [
 ];
 
 militia_vehicles = [
-	"Tban_O_Offroad_01_F",
-	"Tban_O_Offroad_01_F",
-	"Tban_O_Offroad_01_F",
+	"PIF_G_Offroad_01_F",
+	"PIF_G_Offroad_01_F",
+	"PIF_G_Offroad_01_F",
 	"O_G_Offroad_01_AT_F",
 	"I_C_Offroad_02_LMG_F",
 	"I_C_Offroad_02_AT_F"
@@ -108,7 +108,7 @@ opfor_vehicles_low_intensity = [
 	"PIF_G_Offroad_01_F",
 	"O_MRAP_02_hmg_F",
 	"O_MRAP_02_gmg_F",
-	"Tban_O_Offroad_01_F",
+	"PIF_G_Offroad_01_F",
 	"O_G_Offroad_01_AT_F"
 ];
 
@@ -188,7 +188,6 @@ opfor_recyclable = [
 	["O_LSV_02_AT_F",1,round (45 / GRLIB_recycling_percentage),2],
 	["O_G_Offroad_01_armed_F",1,round (30 / GRLIB_recycling_percentage),2],
 	["PIF_G_Offroad_01_F",1,round (30 / GRLIB_recycling_percentage),2],
-	["Tban_O_Offroad_01_F",1,round (30 / GRLIB_recycling_percentage),2],
 	["O_G_Offroad_01_AT_F",1,round (40 / GRLIB_recycling_percentage),2],
 	["I_C_Offroad_02_AT_F",1,round (40 / GRLIB_recycling_percentage),2],
 	["I_C_Offroad_02_LMG_F",1,round (30 / GRLIB_recycling_percentage),2],
