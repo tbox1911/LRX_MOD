@@ -136,11 +136,13 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"CFP_O_SYARMY_Hilux_Unarmed_01",
 	"cfp_o_syarmy_Ural"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo
 ];
 
 opfor_air = [

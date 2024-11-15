@@ -174,6 +174,7 @@ opfor_battlegroup_vehicles_low_intensity = [
 
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 "UK3CB_LDF_O_T810_Closed",
 "UK3CB_LDF_O_T810_Open",
 "UK3CB_LDF_O_MTLB_PKT"
@@ -181,6 +182,7 @@ opfor_troup_transports_truck = [
 
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 "UK3CB_LDF_O_Mi8",
 "UK3CB_LDF_O_Mi8AMT",
 "UK3CB_LDF_O_C130J"		// Airplane ???

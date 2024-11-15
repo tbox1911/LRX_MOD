@@ -137,11 +137,13 @@ opfor_battlegroup_vehicles_low_intensity = [
 
 // used by opfor_battlegroup as transport
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"3AS_RTT",
 	"3AS_RTT_Wheeled"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"3AS_Republic_Transport_01",
 	"3AS_Nuclass",
 	"lsd_heli_laati_transport"

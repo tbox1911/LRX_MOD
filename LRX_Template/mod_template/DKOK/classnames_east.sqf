@@ -196,10 +196,12 @@ opfor_battlegroup_vehicles_low_intensity = [
 
 // used by opfor_battlegroup as transport
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"_1489thChimAuto"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"TIOW_Valkyrie_Fuel_B"
 ];
 

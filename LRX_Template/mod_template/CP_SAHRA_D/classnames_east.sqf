@@ -159,10 +159,12 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"CUP_I_MTVR_RACS"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"CUP_I_CH47F_RACS",
 	"CUP_I_UH1H_RACS",
 	"CUP_I_UH60L_RACS",

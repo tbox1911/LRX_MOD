@@ -178,10 +178,12 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"TIOW_ValhallanTrojan_Brown_OP"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"MDK_0"
 ];
 

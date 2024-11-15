@@ -170,6 +170,7 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 "UK3CB_TKA_O_Ural",
 "UK3CB_TKA_O_Ural_Open",
 "UK3CB_TKA_O_BTR60",
@@ -177,6 +178,7 @@ opfor_troup_transports_truck = [
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 "UK3CB_TKA_O_Mi8",
 "UK3CB_TKA_O_UH1H_M240",
 "UK3CB_TKA_O_Bell412_Armed_dynamicLoadout",

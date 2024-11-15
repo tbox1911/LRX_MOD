@@ -138,6 +138,7 @@ opfor_battlegroup_vehicles_low_intensity = [
 
 // used by opfor_battlegroup as transport
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"Devas_Unimog1300L_Covered_D",
 	"Devas_Unimog1300L_Covered_W",
 	"Devas_Unimog1300L_Open_D",
@@ -145,6 +146,7 @@ opfor_troup_transports_truck = [
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"DEVAS_UH60",
 	"DEVAS_CH47_Cargo",
 	"DEVAS_CH47",

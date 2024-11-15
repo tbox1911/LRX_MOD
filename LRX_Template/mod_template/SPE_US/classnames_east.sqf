@@ -138,11 +138,13 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"SPE_US_M3_Halftrack_Unarmed_Open",
 	"SPE_US_M3_Halftrack_Unarmed"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"SPE_P47"
 ];
 

@@ -190,6 +190,7 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"uns_nvatruck",
 	"uns_nvatruck_camo",
 	"uns_nvatruck_mg",
@@ -197,6 +198,7 @@ opfor_troup_transports_truck = [
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"uns_Mi8T_VPAF",
 	"uns_Mi8TV_VPAF_MG"
 ];

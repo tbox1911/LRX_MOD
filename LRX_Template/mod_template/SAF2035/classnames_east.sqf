@@ -155,11 +155,13 @@ opfor_battlegroup_vehicles_low_intensity = [
 
 // used by opfor_battlegroup as transport
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"SAF2035_D_Typhoon_Transport",
 	"SAF2035_A_Typhoon_Covered"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"SAF2035_A_Oryx",
 	"SAF2035_D_Oryx",
 	"SAF2035_A_Oryx_Armed"

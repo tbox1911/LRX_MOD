@@ -145,12 +145,14 @@ opfor_battlegroup_vehicles_low_intensity = [
 
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 "UK3CB_ION_I_Urban_T810_Closed",
 "UK3CB_ION_I_Urban_T810_Open"
 ];
 
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 "UK3CB_ION_I_Urban_Merlin",
 "UK3CB_ION_I_Urban_Orca_Armed_MULTI",
 "UK3CB_ION_I_Urban_Bell412_Luxury"

@@ -154,11 +154,13 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"LOP_CDF_Ural1",
 	"LOP_CDF_Ural_open1"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"iri_ch47",
 	"iri_ch472"
 ];

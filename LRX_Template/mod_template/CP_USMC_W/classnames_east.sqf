@@ -146,6 +146,7 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"CUP_B_MTVR_USMC",
 	"CUP_B_M113A3_USA",
 	"CUP_B_M1126_ICV_M2_Woodland",
@@ -153,6 +154,7 @@ opfor_troup_transports_truck = [
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"CUP_B_C130J_USMC",
 	"CUP_B_MH47E_USA",
 	"CUP_B_MH6M_USA",

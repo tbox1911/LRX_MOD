@@ -209,11 +209,13 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"VME_PLA_SX2190flatbed",
 	"VME_PLA_SX2190"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"PLA_Z18",
 	"VME_PLA_Mi17",
 	"VME_PLA_Mi17_MED"

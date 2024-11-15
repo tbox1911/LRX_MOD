@@ -99,10 +99,12 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"O_CUPAFRMReb_Ural_Open_01"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"O_Heli_Transport_04_covered_F"
 ];
 

@@ -184,12 +184,14 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"ML700_Taurox_Autocannon_BP",
 	"ML700_Taurox_Stubber_BP",
 	"ML700_Taurox_Unarmed_BP"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"Thunderhawk_1_DG_TIOW",
 	"ML700_Valk_Multilas_BLOOD"
 ];

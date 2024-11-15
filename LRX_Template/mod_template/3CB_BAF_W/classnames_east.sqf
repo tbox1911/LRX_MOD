@@ -160,11 +160,13 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"UK3CB_BAF_MAN_HX58_Transport_Green_DPMW",
 	"UK3CB_BAF_MAN_HX60_Transport_Green_DPMW"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"UK3CB_BAF_Merlin_HC3_24_DPMW",
 	"UK3CB_BAF_Wildcat_AH1_TRN_8A_DPMW",
 	"UK3CB_BAF_Wildcat_HMA2_TRN_8A_DPMW"

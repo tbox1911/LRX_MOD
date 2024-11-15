@@ -153,12 +153,14 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"CUP_O_GAZ_Vodnik_Unarmed_RU",
 	"CUP_O_UAZ_Unarmed_RU",
 	"CUP_O_Kamaz_RU"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"CUP_O_Ka60_Grey_RU",
 	"CUP_O_Mi8AMT_RU",
 	"CUP_O_MI6T_RU"

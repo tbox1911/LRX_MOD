@@ -155,10 +155,12 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"OPTRE_FC_Spectre_Transport_Needler"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"OPTRE_FC_Spirit",
 	"OPTRE_FC_Spirit_Concussion"
 ];

@@ -159,11 +159,13 @@ opfor_battlegroup_vehicles_low_intensity = [
 
 // used by opfor_battlegroup as transport
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"B_MexicoArmy_M35_01",
 	"B_MexicoArmy_Light_Transport_Vehicle_01"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"B_BMexicoMarines_Mi_17_01",
 	"B_BMexicoMarines_UH_60M_01",
 	"B_MexicoPolice_UH_60M_01"

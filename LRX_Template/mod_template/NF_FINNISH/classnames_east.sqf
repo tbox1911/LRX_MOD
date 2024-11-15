@@ -150,11 +150,13 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"NORTH_FIN_FordV8",
 	"NORTH_FIN_FordV8_Open"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo
 ];
 
 opfor_air = [

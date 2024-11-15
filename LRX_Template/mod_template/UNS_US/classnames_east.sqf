@@ -178,11 +178,13 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"uns_M35A2_Open",
 	"uns_M35A2"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"uns_ch34_army",
 	"uns_ch47_m60_army",
 	"uns_h21c"

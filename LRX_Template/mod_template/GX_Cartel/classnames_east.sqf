@@ -149,11 +149,13 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"GX_B_C_Offroad_Covered",
 	"GX_B_C_Van"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"GX_B_C_Helicopter_02",
 	"GX_B_C_Helicopter"
 ];

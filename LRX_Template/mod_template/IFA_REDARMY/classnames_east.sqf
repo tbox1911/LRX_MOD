@@ -156,6 +156,7 @@ if (isClass(configFile >> "CfgPatches" >> "FA_WW2_Tanks")) then {
 
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"LIB_US6_Tent",
 	"LIB_US6_Open",
 	"LIB_SOV_M3_Halftrack",

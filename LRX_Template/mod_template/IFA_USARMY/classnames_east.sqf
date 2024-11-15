@@ -115,6 +115,7 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"LIB_US_GMC_Tent",
 	"LIB_US_GMC_Open",
 	"LIB_US_M3_Halftrack"

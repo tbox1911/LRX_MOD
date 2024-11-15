@@ -74,11 +74,9 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
-
 ];
 
 opfor_troup_transports_heli = [
-
 ];
 
 opfor_air = [

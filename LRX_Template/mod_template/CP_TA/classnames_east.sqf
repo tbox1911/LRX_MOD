@@ -149,11 +149,13 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"CUP_O_BTR40_MG_TKA",
 	"CUP_O_V3S_Open_TKM"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"CUP_O_AN2_TK",
 	"CUP_O_Mi17_TK",
 	"CUP_O_MI6T_TKA",

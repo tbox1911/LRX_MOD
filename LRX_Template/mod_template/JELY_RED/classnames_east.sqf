@@ -190,6 +190,7 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"O_Truck_03_covered_F",
 	"O_Truck_02_covered_F",
 	"CUP_O_GAZ_Vodnik_Unarmed_RU",
@@ -198,6 +199,7 @@ opfor_troup_transports_truck = [
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"O_Heli_Light_02_dynamicLoadout_F",
 	"O_Heli_Attack_02_dynamicLoadout_F",
 	"O_Heli_Transport_04_covered_F",

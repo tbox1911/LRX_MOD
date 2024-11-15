@@ -144,11 +144,13 @@ opfor_battlegroup_vehicles_low_intensity = [
 
 // used by opfor_battlegroup as transport
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"CFP_O_IQARMY_Ural_01",
 	"CFP_O_IQARMY_Ural_Open_01"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"CFP_O_IQARMY_Mi_8MT_01"
 ];
 

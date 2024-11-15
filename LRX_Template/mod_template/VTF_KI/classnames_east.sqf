@@ -129,12 +129,14 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"vtf_kf_O_Offroad_01_covered_F",
 	"vtf_kf_B_Van_01_transport_F",
 	"vtf_kf_O_Van_02_transport_F"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"vtf_kf_O_Heli_Light_02_unarmed_F"
 ];
 

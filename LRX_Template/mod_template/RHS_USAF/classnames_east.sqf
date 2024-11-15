@@ -163,11 +163,13 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"rhsusf_M1078A1P2_B_M2_WD_fmtv_usarmy",
 	"rhsusf_M1083A1P2_B_M2_WD_fmtv_usarmy"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"RHS_UH60M",
 	"RHS_UH1Y",
 	"RHS_CH_47F"

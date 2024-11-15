@@ -143,10 +143,12 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"3as_MTT"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"3AS_HMP_Gunship",
 	"3AS_HMP_Transport",
 	"3AS_Tri_Fighter_DynamicLoadout",

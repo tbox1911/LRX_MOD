@@ -128,6 +128,7 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"LIB_OpelBlitz_Open_Y_Camo",
 	"LIB_OpelBlitz_Tent_Y_Camo",
 	"LIB_Kfz1_camo",

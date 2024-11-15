@@ -137,6 +137,7 @@ opfor_battlegroup_vehicles_low_intensity = [
 
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 "b_afougf_gaz66_flat",
 "b_afougf_gaz66_open",
 "b_afougf_kraz255b1_flatbed",
@@ -149,6 +150,7 @@ opfor_troup_transports_truck = [
 
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 "b_afougf_Mi8MTV3_Cargo",
 "b_afougf_Mi8MTV3_Evac",
 "b_afougf_Mi8MTV3_FAB",

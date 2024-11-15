@@ -144,12 +144,14 @@ opfor_battlegroup_vehicles_low_intensity = [
 
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 "CUP_B_Ural_Open_AFU",
 "CUP_B_Ural_AFU"
 ];
 
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 "CUP_B_Mi17_AFU",
 "CUP_B_Mi17_VIV_AFU",
 "CUP_B_Mi24_D_MEV_Dynamic_AFU"

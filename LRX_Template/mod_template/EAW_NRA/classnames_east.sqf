@@ -114,11 +114,13 @@ opfor_battlegroup_vehicles_low_intensity = [
 
 // used by opfor_battlegroup as transport
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"EAW_Dodge1936_Pickup_Military_ROC",
 	"EAW_Dodge1936_Pickup"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"EAW_HawkIII"
 ];
 

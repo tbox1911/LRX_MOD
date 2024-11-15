@@ -141,11 +141,13 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"vn_o_wheeled_z157_01_nva65",
 	"vn_o_wheeled_z157_02_nva65"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"vn_o_air_mi2_01_03"
 ];
 

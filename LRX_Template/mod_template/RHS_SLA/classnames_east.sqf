@@ -160,6 +160,7 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 "PRACS_SLA_URAL",
 "PRACS_SLA_BTR60",
 "PRACS_SLA_MTLB",
@@ -167,6 +168,7 @@ opfor_troup_transports_truck = [
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 "PRACS_SLA_Mi8amt",
 "PRACS_SLA_Mi17Sh"
 ];

@@ -144,11 +144,13 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"gm_ge_army_kat1_451_cargo",
 	"gm_ge_army_marder1a1plus"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"gm_ge_army_ch53g"
 ];
 

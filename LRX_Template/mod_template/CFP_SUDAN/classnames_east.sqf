@@ -167,6 +167,7 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"CFP_O_SDARMY_M113A3_01",
 	"CFP_O_SDARMY_Walid_01",
 	"CFP_O_SDARMY_Ural_01",
@@ -174,6 +175,7 @@ opfor_troup_transports_truck = [
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"CFP_O_SDARMY_Mi_8MT_01",
 	"CFP_O_SDARMY_C130_01"
 ];

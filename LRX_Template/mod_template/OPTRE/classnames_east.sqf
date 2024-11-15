@@ -110,11 +110,13 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"OPTRE_m1015_mule_ins",
 	"OPTRE_m1015_mule_cover_ins"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"OPTRE_ins_falcon",
 	"OPTRE_Pelican_armed_ins"
 ];

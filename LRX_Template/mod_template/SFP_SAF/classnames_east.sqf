@@ -145,11 +145,13 @@ opfor_battlegroup_vehicles_low_intensity = [
 
 // used by opfor_battlegroup as transport
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"sfp_tgb16",
 	"sfp_tgb1111_sog_ksp58"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"sfp_hkp4_2015",
 	"sfp_hkp4_2015",
 	"sfp_hkp16_ffv"

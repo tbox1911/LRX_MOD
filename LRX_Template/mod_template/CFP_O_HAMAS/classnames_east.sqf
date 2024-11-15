@@ -144,11 +144,13 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"CFP_O_ABUSAYYAF_Ural_01",
 	"CFP_O_ALQAEDA_Ural_Open_01"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"CFP_O_IRARMY_Mi_8MT_01"
 ];
 

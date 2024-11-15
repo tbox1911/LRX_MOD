@@ -139,11 +139,13 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"R3F_KAMAZ_DA_trans",
 	"R3F_KAMAZ_DA_VPC"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"R3F_AH6_DA_ARMED",
 	"R3F_LYNX_DA_ARMED"
 ];

@@ -39,17 +39,17 @@ opfor_hq = "Land_Cargo_HQ_V3_F";
 
 // Chern. Movement of the Red Star
 militia_squad = [
-"CUP_O_RU_Soldier_VDV",
-"CUP_O_RU_Soldier_TL_VDV",
-"CUP_O_RU_Engineer_VDV",
-"CUP_O_RU_Soldier_GL_VDV",
-"CUP_O_RU_Soldier_AR_VDV",
-"CUP_O_RU_Soldier_AT_VDV",
-"CUP_O_RU_Soldier_Saiga_VDV",
-"CUP_O_RU_Medic_VDV",
-"CUP_O_RU_Soldier_LAT_VDV",
-"CUP_O_RU_Soldier_MG_VDV",
-"CUP_O_RU_Soldier_Marksman_VDV"
+	"CUP_O_RU_Soldier_VDV",
+	"CUP_O_RU_Soldier_TL_VDV",
+	"CUP_O_RU_Engineer_VDV",
+	"CUP_O_RU_Soldier_GL_VDV",
+	"CUP_O_RU_Soldier_AR_VDV",
+	"CUP_O_RU_Soldier_AT_VDV",
+	"CUP_O_RU_Soldier_Saiga_VDV",
+	"CUP_O_RU_Medic_VDV",
+	"CUP_O_RU_Soldier_LAT_VDV",
+	"CUP_O_RU_Soldier_MG_VDV",
+	"CUP_O_RU_Soldier_Marksman_VDV"
 ];
 
 militia_loadout_overide = [
@@ -71,17 +71,17 @@ divers_squad = [
 ];
 
 militia_vehicles = [
-"CUP_O_BRDM2_RUS",
-"CUP_O_BTR90_HQ_RU",
-"CUP_O_UAZ_MG_RU",
-"CUP_O_UAZ_AGS30_RU",
-"CUP_O_UAZ_SPG9_RU",
-"CUP_O_Tigr_M_233114_KORD_RU",
-"CUP_O_Tigr_233014_PK_RU"
+	"CUP_O_BRDM2_RUS",
+	"CUP_O_BTR90_HQ_RU",
+	"CUP_O_UAZ_MG_RU",
+	"CUP_O_UAZ_AGS30_RU",
+	"CUP_O_UAZ_SPG9_RU",
+	"CUP_O_Tigr_M_233114_KORD_RU",
+	"CUP_O_Tigr_233014_PK_RU"
 ];
 
 opfor_boats = [
-	"I_Boat_Armed_01_minigun_F"
+	"O_Boat_Armed_01_hmg_F"
 ];
 
 opfor_vehicles = [
@@ -149,12 +149,14 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"CUP_O_GAZ_Vodnik_Unarmed_RU",
 	"CUP_O_UAZ_Unarmed_RU",
 	"CUP_O_Kamaz_RU"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"CUP_O_Ka60_Grey_RU",
 	"CUP_O_Mi8AMT_RU",
 	"CUP_O_MI6T_RU"
@@ -179,6 +181,8 @@ opfor_statics = [
 ];
 
 opfor_recyclable = [
+	["O_Boat_Armed_01_hmg_F",2,round (40 / GRLIB_recycling_percentage),2],
+
 	// Static
 	["CUP_O_ZU23_RU_M_MSV",0,round (75 / GRLIB_recycling_percentage),0],
 	["CUP_O_Metis_RU_M_MSV",0,round (75 / GRLIB_recycling_percentage),0],

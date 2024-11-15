@@ -145,11 +145,13 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 "AC_BLK_O_Zamak_Open_F",
 "AC_BLK_O_Zamak_Covered_F"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 "AC_BLK_O_TH47_F",
 "AC_BLK_O_TH66_F",
 "AC_BLK_O_MH79_Dap_2x_F",

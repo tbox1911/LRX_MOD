@@ -121,12 +121,14 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"rhs_bmd1",
 	"rhs_bmd2",
 	"rhs_kamaz5350_msv"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"RHS_Mi24V_UPK23_vdv",
 	"RHS_Mi8AMT_vdv",
 	"RHS_Mi8AMTSh_vvsc",

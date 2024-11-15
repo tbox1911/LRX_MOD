@@ -199,6 +199,7 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"UK3CB_CHD_O_Kamaz_Covered",
 	"UK3CB_CHD_O_Gaz66_Open",
 	"UK3CB_CHD_O_Ural_Open",
@@ -206,6 +207,7 @@ opfor_troup_transports_truck = [
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"UK3CB_CHD_O_Mi8",
 	"UK3CB_CHD_O_Mi8AMT"
 ];

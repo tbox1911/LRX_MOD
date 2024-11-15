@@ -141,10 +141,12 @@ opfor_battlegroup_vehicles_low_intensity = [
 
 // used by opfor_battlegroup as transport
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"ASZ_ACTL4x4_EI"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"ASZ_NH90_EI_reos",
 	"ASZ_NH90_EI_support",
 	"ASZ_NH90_MM_support",

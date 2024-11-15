@@ -153,6 +153,7 @@ opfor_battlegroup_vehicles_low_intensity = [
 
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 "UK3CB_ADA_I_V3S_Closed",
 "UK3CB_ADA_I_Ural_Open",
 "UK3CB_ADA_I_Hilux_Closed",
@@ -162,6 +163,7 @@ opfor_troup_transports_truck = [
 
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 "UK3CB_ADA_I_Mi8",
 "UK3CB_ADA_I_UH1H",
 "UK3CB_ADA_I_Mi8AMT",

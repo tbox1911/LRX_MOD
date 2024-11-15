@@ -133,12 +133,14 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 "cwr3_i_ural_open",
 "cwr3_i_ural",
 "cwr3_i_v3s"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 "cwr3_b_uk_puma_hc1"
 ];
 

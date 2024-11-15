@@ -129,11 +129,13 @@ opfor_battlegroup_vehicles_low_intensity = [
 ];
 
 opfor_troup_transports_truck = [
+	opfor_transport_truck,
 	"gm_gc_army_ural375d_cargo",
 	"gm_pl_army_ot64a"
 ];
 
 opfor_troup_transports_heli = [
+	opfor_transport_helo,
 	"gm_pl_airforce_mi2p",
 	"gm_pl_airforce_mi2t"
 ];
