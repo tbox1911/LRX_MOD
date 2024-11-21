@@ -7,17 +7,17 @@ GRLIB_west_modder = "Z@Warrior";
 
 // [SPE] Wehrmacht
 huron_typename = "Land_HelipadEmpty_F";
-FOB_typename = "Land_SPE_House_Thatch_03";
-FOB_outpost = "Land_SPE_Barn_Thatch_02";
+FOB_typename = "Land_SPE_H679";
+FOB_outpost = "Land_SPE_H612";
 mobile_respawn = "Land_TentDome_F";
 mobile_respawn_bag = "B_Kitbag_Base";
 Respawn_truck_typename = "SPE_OpelBlitz_Ambulance";
 ammo_truck_typename = "SPE_OpelBlitz_Ammo";
 fuel_truck_typename = "SPE_OpelBlitz_Fuel";
 repair_truck_typename = "SPE_OpelBlitz_Repair";
-repair_sling_typename = "B_Slingload_01_Repair_F";
-fuel_sling_typename = "B_Slingload_01_Fuel_F";
-ammo_sling_typename = "B_Slingload_01_Ammo_F";
+repair_sling_typename = "SPEX_T3_Trailer_Repair";
+fuel_sling_typename = "SPEX_T3_Trailer_Fuel";
+ammo_sling_typename = "SPEX_T3_Trailer_Ammo";
 medic_sling_typename = "B_Slingload_01_Medevac_F";
 pilot_classname = "SPE_GER_pilot";
 crewman_classname = "SPE_GER_rifleman_lite";

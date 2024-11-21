@@ -13,9 +13,9 @@ Respawn_truck_typename = "SPE_US_M3_Halftrack_Ambulance";
 ammo_truck_typename = "SPE_US_M3_Halftrack_Ammo";
 fuel_truck_typename = "SPE_US_M3_Halftrack_Fuel";
 repair_truck_typename = "SPE_US_M3_Halftrack_Repair";
-repair_sling_typename = "B_Slingload_01_Repair_F";
-fuel_sling_typename = "B_Slingload_01_Fuel_F";
-ammo_sling_typename = "B_Slingload_01_Ammo_F";
+repair_sling_typename = "SPEX_T3_Trailer_Repair";
+fuel_sling_typename = "SPEX_T3_Trailer_Fuel";
+ammo_sling_typename = "SPEX_T3_Trailer_Ammo";
 medic_sling_typename = "B_Slingload_01_Medevac_F";
 pilot_classname = "SPE_US_Pilot";
 crewman_classname = "SPE_US_HBT44_HalfTrack_Driver";
@@ -173,20 +173,27 @@ support_vehicles_west = [
 
 buildings_west_overide = true;
 buildings_west = [
+	["Land_CncBarrierMedium4_F",0,0,0,0],	
 	["Land_SPE_Guardbox",0,0,0,0],
-	["Land_SPE_Tent_03",0,0,0,0],
+	["Land_SPE_Tent_03",0,0,0,GRLIB_perm_inf],
 	["Land_SPE_StreetLamp",0,0,0,0],
 	["Land_SPE_Netting_01",0,0,0,GRLIB_perm_inf],
-	["Land_SPE_Sandbag_Short",0,0,0,GRLIB_perm_inf],
-	["Land_SPE_Sandbag_Short_Low",0,0,0,GRLIB_perm_inf],
-	["Land_SPE_Sandbag_Long",0,0,0,GRLIB_perm_inf],
-	["Land_SPE_Sandbag_Long_Thick",0,0,0,GRLIB_perm_inf],
+	["Land_SPE_Sandbag_Nest",0,0,0,0],
+	["Land_SPE_Sandbag_Short",0,0,0,0],
+	["Land_SPE_Sandbag_Long",0,0,0,0],
+	["Land_SPE_Sandbag_Long_Thick",0,0,0,0],
 	["Land_SPE_Sandbag_Gun_Hole",0,0,0,GRLIB_perm_inf],
 	["Land_SPE_Sandbag_Long_Line",0,0,0,GRLIB_perm_inf],
-	["Land_SPE_Sandbag_Nest",0,0,0,GRLIB_perm_inf],
 	["Land_SPE_BarbedWire_01",0,0,0,GRLIB_perm_inf],
 	["Land_SPE_BarbedWire_03",0,0,0,GRLIB_perm_inf],
 	["Land_SPE_BarbedWire_04",0,0,0,GRLIB_perm_inf],
+	["LAND_Utah_Beach_Trench_Long",0,0,0,GRLIB_perm_inf],
+	["LAND_Utah_Beach_Trench_Corner_60",0,0,0,GRLIB_perm_inf],
+	["LAND_Utah_Beach_Trench_Corner_60_Dirt",0,0,0,GRLIB_perm_inf],
+	["LAND_Utah_Beach_Trench_End",0,0,0,GRLIB_perm_inf],
+	["LAND_Utah_Beach_Trench_Entrance",0,0,0,GRLIB_perm_inf],
+	["LAND_Utah_Beach_Trench_Short",0,0,0,GRLIB_perm_inf],
+	["LAND_Utah_Beach_Trench_T",0,0,0,GRLIB_perm_inf],
 	["SPE_FlagCarrier_USA",0,0,0,0]
 ];
 
