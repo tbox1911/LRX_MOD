@@ -20,7 +20,7 @@ medic_sling_typename = "B_Slingload_01_Medevac_F";
 pilot_classname = "SPE_US_Pilot";
 crewman_classname = "SPE_US_HBT44_HalfTrack_Driver";
 uavs_terminal_typename = "";
-Arsenal_typename = "Land_SPE_Ammocrate_US_08_Stack";
+Arsenal_typename = "Land_SPE_Ammocrate_US_07_Stack";
 PAR_Medikit = "SPE_US_Medkit";
 PAR_AidKit = "SPE_US_FirstAidKit";
 GRLIB_sar_wreck = "SPE_FW190F8_MRWreck";
@@ -39,7 +39,7 @@ canister_fuel_typename = "Land_SPE_Jerrycan";
 fuelbarrel_typename = "Land_SPE_Fuel_Barrel_US";
 foodbarrel_typename = "Land_FoodSacks_01_large_brown_F";
 basic_weapon_typename = "SPE_BasicWeaponsBox_GER";
-resistance_squad_static = "SPE_US_Guncrew";
+resistance_squad_static = "SPE_M45_Quadmount";
 
 chimera_vehicle_overide = [
 	["B_Heli_Light_01_F",  "SPE_US_M3_Halftrack_Unarmed_Open"],
@@ -154,11 +154,13 @@ boats_west = [
 
 static_vehicles = [
 	["SPE_M1919_M2",1,50,0,GRLIB_perm_inf],
-	["SPE_M1919_M2_Trench_Deployed",1,60,0,GRLIB_perm_inf],
+	["SPE_M2_M3",1,80,0,GRLIB_perm_inf],
 	["SPE_M1919A6_Bipod",1,70,0,GRLIB_perm_inf],
-	["SPE_M45_Quadmount",3,150,0,GRLIB_perm_log],
-	["SPE_M1_81",0,250,0,GRLIB_perm_max],
-	["SPE_57mm_M1",0,125,0,GRLIB_perm_log]
+	["SPE_M45_Quadmount",3,350,0,GRLIB_perm_log],
+	["SPEX_M2_60",0,525,0,GRLIB_perm_tank],	
+	["SPE_M1_81",0,650,0,GRLIB_perm_max],
+	["SPE_57mm_M1",0,625,0,GRLIB_perm_air],
+	["SPE_105mm_M3",0,725,0,GRLIB_perm_max]
 ];
 
 // *** Static Weapon with AI ***

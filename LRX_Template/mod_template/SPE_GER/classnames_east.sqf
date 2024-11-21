@@ -9,7 +9,7 @@ opfor_sentry = "SPE_GER_ober_rifleman";
 opfor_rifleman = "SPE_GER_rifleman_2";
 opfor_grenadier = "SPE_GER_ober_grenadier";
 opfor_squad_leader = "SPE_GER_SquadLead";
-opfor_team_leader = "SPE_GER_ober_lieutenant";
+opfor_team_leader = "SPE_GER_lieutenant";
 opfor_marksman = "SPE_GER_Flamethrower_Operator";
 opfor_machinegunner = "SPE_GER_hmgunner2";
 opfor_heavygunner = "SPE_GER_stggunner";
@@ -17,9 +17,9 @@ opfor_medic = "SPE_GER_medic";
 opfor_rpg = "SPE_GER_LAT_30m_Rifleman";
 opfor_at = "SPE_GER_LAT_Rifleman";
 opfor_aa = "SPE_GER_hmgunner";
-opfor_officer = "SPE_GER_hauptmann";
-opfor_sharpshooter = "SPE_GER_Mortar_Gunner";
-opfor_sniper = "SPE_US_Sniper";
+opfor_officer = "SPE_GER_ober_lieutenant";
+opfor_sharpshooter = "SPE_GER_mgunner2";
+opfor_sniper = "SPE_GER_scout_sniper";
 opfor_spotter = "SPE_GER_rifleman";
 opfor_engineer = "SPE_GER_sapper";
 opfor_paratrooper = "SPE_sturmtrooper_ober_grenadier";
@@ -208,7 +208,8 @@ opfor_recyclable = [
 	["SPE_StuG_III_G_Early",5,round (350 / GRLIB_recycling_percentage),15],
 	["SPE_Jagdpanther_G1",5,round (450 / GRLIB_recycling_percentage),15],
 	//
-	["SPE_FW190F8",6,round (250 / GRLIB_recycling_percentage),15]
+	["SPE_FW190F8",3,round (250 / GRLIB_recycling_percentage),10],
+	["SPEX_C47_Skytrain",6,round (550 / GRLIB_recycling_percentage),15]
 ];
 
 // Additional Airplanes from Mod Flying Legends

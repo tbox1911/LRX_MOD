@@ -41,7 +41,7 @@ fuelbarrel_typename = "Land_SPE_Fuel_Barrel_German";
 canister_fuel_typename = "Land_SPE_Jerrycan";
 foodbarrel_typename = "Land_SPE_Fuel_Barrel_US";
 basic_weapon_typename = "SPE_BasicWeaponsBox_US";
-resistance_squad_static = "SPE_ST_MG34_Lafette_Deployed";
+resistance_squad_static = "SPE_M45_Quadmount";
 
 chimera_vehicle_overide = [
 	["B_Heli_Light_01_F",  "SPE_OpelBlitz_Open"],
