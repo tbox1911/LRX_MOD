@@ -3,6 +3,8 @@ blacklisted_bag = [
 ];
 
 blacklisted_weapon = [
+	"SPE_US_Medkit",
+	"SPE_US_FirstAidKit"
 ];
 
 whitelisted_from_arsenal = [

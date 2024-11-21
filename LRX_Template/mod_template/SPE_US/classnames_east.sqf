@@ -4,7 +4,7 @@ GRLIB_east_modder = "Z@Warrior";
 
 // All class MUST be defined !
 
-opfor_crew = "I_Crew_F";
+opfor_crew = "SPE_US_Driver_Lite";
 opfor_sentry = "SPE_US_Rifleman";
 opfor_rifleman = "SPE_US_Assist_SquadLead";
 opfor_grenadier = "SPE_US_Grenadier";
@@ -42,18 +42,20 @@ if (isClass(configFile >> "CfgPatches" >> "sab_sw_a26")) then {
 };
 
 militia_squad = [
-	"SPE_US_Rangers_rifleman",
-	"SPE_US_Rangers_captain",
-	"SPE_US_Rangers_grenadier",
-	"SPE_US_Rangers_SquadLead",
-	"SPE_US_Rangers_second_lieutenant",
-	"SPE_US_Rangers_medic",
-	"SPE_US_Rangers_radioman",
-	"SPE_US_Rangers_HMGunner",
-	"SPE_US_Rangers_AT_soldier",
-	"SPE_US_Rangers_Rifleman_AmmoBearer",
-	"SPE_US_Rangers_Assist_SquadLead",
-	"SPE_US_Rangers_first_lieutenant"
+	"SPE_FFI_Autorifleman_303_LMG",
+	"SPE_FFI_Autorifleman",
+	"SPE_FFI_MGunner",
+	"SPE_FFI_TeamLeader",
+	"SPE_FFI_TeamLeader_Sten",
+	"SPE_FFI_Grenadier",
+	"SPE_FFI_Militia_Shotgun",
+	"SPE_FFI_Militia",
+	"SPE_FFI_Militia_No3",
+	"SPE_FFI_Fighter_Carbine",
+	"SPE_FFI_Fighter_G43",
+	"SPE_FFI_Fighter_MP40",
+	"SPE_FFI_Sniper",
+	"SPE_FFI_Sapper_Mle208"
 ];
 
 militia_loadout_overide = [
@@ -78,7 +80,6 @@ militia_vehicles = [
 ];
 
 opfor_boats = [
-	"I_G_Boat_Transport_01_F"
 ];
 
 opfor_vehicles = [

@@ -6,14 +6,9 @@ GRLIB_west_modder = "Z@Warrior";
 // Advanced definition: scripts\shared\classnames.sqf
 
 // [SPE] US Army
-huron_typename = "Land_HelipadEmpty_F";
+
 FOB_typename = "Land_SPE_House_Thatch_03";
-//FOB_box_typename = "Land_Pod_Heli_Transport_04_box_black_F";
-//FOB_truck_typename = "";
 FOB_outpost = "Land_SPE_Barn_Thatch_02";
-//FOB_box_outpost = "";
-mobile_respawn = "Land_TentDome_F";
-mobile_respawn_bag = "B_Kitbag_Base";
 Respawn_truck_typename = "SPE_US_M3_Halftrack_Ambulance";
 ammo_truck_typename = "SPE_US_M3_Halftrack_Ammo";
 fuel_truck_typename = "SPE_US_M3_Halftrack_Fuel";
@@ -25,7 +20,7 @@ medic_sling_typename = "B_Slingload_01_Medevac_F";
 pilot_classname = "SPE_US_Pilot";
 crewman_classname = "SPE_US_HBT44_HalfTrack_Driver";
 uavs_terminal_typename = "";
-Arsenal_typename = "SPE_BasicAmmunitionBox_US";
+Arsenal_typename = "Land_SPE_Ammocrate_US_08_Stack";
 PAR_Medikit = "SPE_US_Medkit";
 PAR_AidKit = "SPE_US_FirstAidKit";
 GRLIB_sar_wreck = "SPE_FW190F8_MRWreck";
@@ -40,9 +35,9 @@ WRHS_Man = "SPE_CIV_Worker_3";						// Man in Warehouse
 commander_classname = "SPE_US_Pilot_Unequipped";			// Sell-Man in FOB
 repair_offroad = "SPE_FFI_OpelBlitz_Repair";
 //waterbarrel_typename = "Land_WaterBottle_01_stack_F";
-fuelbarrel_typename = "Land_SPE_Jerrycan";
 canister_fuel_typename = "Land_SPE_Jerrycan";
-foodbarrel_typename = "Land_SPE_Fuel_Barrel_US";
+fuelbarrel_typename = "Land_SPE_Fuel_Barrel_US";
+foodbarrel_typename = "Land_FoodSacks_01_large_brown_F";
 basic_weapon_typename = "SPE_BasicWeaponsBox_GER";
 resistance_squad_static = "SPE_US_Guncrew";
 
@@ -68,24 +63,25 @@ infantry_units_west = [
 	[pilot_classname,1,0,0,GRLIB_perm_log]
 ];
 
-
-// *** RESISTANCE - US Army 5th Ranger ***
-resistance_squad = [
-	"SPE_US_Rangers_SquadLead",
-	"SPE_US_Rangers_rifleman",
-	"SPE_US_Rangers_medic",
-	"SPE_US_Rangers_engineer",
-	"SPE_US_Rangers_engineer_bangalore",
-	"SPE_US_Rangers_grenadier",
-	"SPE_US_Rangers_Flamethrower_Operator",
-	"SPE_US_Rangers_Autorifleman",
-	"SPE_US_Rangers_AT_soldier",
-	"SPE_US_Rangers_sniper",
-	"SPE_US_Rangers_Assist_SquadLead"
+units_loadout_overide = [
 ];
 
-units_loadout_overide = [
-	"SPE_US_Engineer.sqf"
+// *** RESISTANCE - French FFI ***
+resistance_squad = [
+	"SPE_FFI_Autorifleman_303_LMG",
+	"SPE_FFI_Autorifleman",
+	"SPE_FFI_MGunner",
+	"SPE_FFI_TeamLeader",
+	"SPE_FFI_TeamLeader_Sten",
+	"SPE_FFI_Grenadier",
+	"SPE_FFI_Militia_Shotgun",
+	"SPE_FFI_Militia",
+	"SPE_FFI_Militia_No3",
+	"SPE_FFI_Fighter_Carbine",
+	"SPE_FFI_Fighter_G43",
+	"SPE_FFI_Fighter_MP40",
+	"SPE_FFI_Sniper",
+	"SPE_FFI_Sapper_Mle208"
 ];
 
 //LOADOUT_fixed_price = [];
@@ -95,26 +91,35 @@ units_loadout_overide = [
 light_vehicles = [
 	// Boat
 	// Land
-	["SPE_US_G503_MB",1,50,1,0],
-	["SPE_US_G503_MB_Armoured",1,75,1,0],
-	["SPE_US_G503_MB_M2_Armoured",1,125,1,0],
-	["SPE_US_M3_Halftrack_Unarmed",1,250,1,GRLIB_perm_inf],
-	["SPE_US_M3_Halftrack",1,275,2,GRLIB_perm_inf],
-	["SPE_US_M16_Halftrack",1,300,2,GRLIB_perm_inf],
-	["SPE_M20_AUC",1,350,2,GRLIB_perm_log]
+	["SPE_US_G503_MB",1,50,2,0],
+	["SPE_US_G503_MB_Armoured",1,75,5,0],
+	["SPE_US_G503_MB_M2_Armoured",1,125,5,0],
+	["SPE_US_M3_Halftrack_Unarmed_Open",1,100,8,0],
+	["SPE_US_M3_Halftrack_Unarmed",1,100,8,GRLIB_perm_inf],
+	["SPE_US_M3_Halftrack",1,275,8,GRLIB_perm_log],
+	["SPE_CCKW_353",1,150,8,GRLIB_perm_inf],
+	["SPE_CCKW_353_Open",1,150,8,GRLIB_perm_inf],
+	["SPE_US_M16_Halftrack",1,400,10,GRLIB_perm_log],
+	["SPE_M20_AUC",1,350,10,GRLIB_perm_log],
+	["SPE_M8_LAC",1,350,12,GRLIB_perm_tank],
+	["SPE_M8_LAC_ringMount",1,450,12,GRLIB_perm_tank]
 ];
 
 heavy_vehicles = [
-	["SPE_M4A0_75_Early",5,400,5,GRLIB_perm_tank],
+	["SPE_M10",10,500,10,GRLIB_perm_tank],
 	["SPE_M18_Hellcat",10,500,10,GRLIB_perm_tank],
-	["SPE_M8_LAC",10,550,10,GRLIB_perm_tank],
-	["SPE_M10",10,600,10,GRLIB_perm_tank],
-	["SPE_M4A1_T34_Calliope_Direct",10,700,10,GRLIB_perm_max],
-	["SPE_M4A3_75",10,800,10,GRLIB_perm_max]
+	["SPE_M4A0_75",5,400,15,GRLIB_perm_tank],
+	["SPE_M4A1_76",5,500,15,GRLIB_perm_tank],
+	["SPE_M4A3_105",5,550,15,GRLIB_perm_tank],
+	["SPE_M4A3_75",10,700,20,GRLIB_perm_air],
+	["SPE_M4A3_76",10,800,20,GRLIB_perm_air],
+	["SPE_M4A3_T34_Calliope",10,1500,20,GRLIB_perm_max]
 ];
 
 air_vehicles = [
-	["SPE_P47",15,900,15,GRLIB_perm_max]
+	["SPE_P47",15,900,15,GRLIB_perm_air],
+	["SPEX_CG4_WACO",1,500,0,GRLIB_perm_air],
+	["SPEX_C47_Skytrain",10,1200,25,GRLIB_perm_max]
 ];
 
 // Additional Airplanes from Mod Flying Legends
@@ -154,7 +159,6 @@ static_vehicles = [
 	["SPE_M45_Quadmount",3,150,0,GRLIB_perm_log],
 	["SPE_M1_81",0,250,0,GRLIB_perm_max],
 	["SPE_57mm_M1",0,125,0,GRLIB_perm_log]
-
 ];
 
 // *** Static Weapon with AI ***
@@ -185,49 +189,57 @@ buildings_west = [
 ];
 
 blufor_squad_inf_light = [
-	"SPE_US_SquadLead",
-	"SPE_US_Rifleman",
-	"SPE_US_Assist_SquadLead",
-	"SPE_US_Grenadier",
-	"SPE_US_Medic"
+	"SPE_US_Rangers_SquadLead",
+	"SPE_US_Rangers_rifleman",
+	"SPE_US_Rangers_rifleman",
+	"SPE_US_Rangers_HMGunner",
+	"SPE_US_Rangers_medic",
+	"SPE_US_Rangers_engineer",
+	"SPE_US_Rangers_grenadier"
 ];
 
 blufor_squad_inf = [
-	"SPE_US_SquadLead",
-	"SPE_US_Rifleman",
-	"SPE_US_Assist_SquadLead",
-	"SPE_US_Grenadier",
-	"SPE_US_Medic",
-	"SPE_US_HMGunner",
-	"SPE_US_Flamethrower_Operator"
+	"SPE_US_Rangers_SquadLead",
+	"SPE_US_Rangers_rifleman",
+	"SPE_US_Rangers_HMGunner",
+	"SPE_US_Rangers_sniper",
+	"SPE_US_Rangers_medic",
+	"SPE_US_Rangers_engineer",
+	"SPE_US_Rangers_grenadier",
+	"SPE_US_Rangers_Autorifleman"
 ];
 
 blufor_squad_at = [
-	"SPE_US_SquadLead",
-	"SPE_US_Rifleman",
-	"SPE_US_Grenadier",
-	"SPE_US_Medic",
-	"SPE_US_AT_Soldier",
-	"SPE_US_AT_Soldier"
+	"SPE_US_Rangers_SquadLead",
+	"SPE_US_Rangers_rifleman",
+	"SPE_US_Rangers_rifleman",
+	"SPE_US_Rangers_medic",
+	"SPE_US_Rangers_engineer",
+	"SPE_US_Rangers_grenadier",
+	"SPE_US_Rangers_AT_soldier",
+	"SPE_US_Rangers_AT_soldier"
 ];
 
 blufor_squad_aa = [
-	"SPE_US_SquadLead",
-	"SPE_US_Rifleman",
-	"SPE_US_Grenadier",
-	"SPE_US_Medic",
-	"SPE_US_HMGunner",
-	"SPE_US_HMGunner"
+	"SPE_US_Rangers_SquadLead",
+	"SPE_US_Rangers_rifleman",
+	"SPE_US_Rangers_rifleman",
+	"SPE_US_Rangers_medic",
+	"SPE_US_Rangers_engineer",
+	"SPE_US_Rangers_grenadier",
+	"SPE_US_Rangers_Flamethrower_Operator",
+	"SPE_US_Rangers_Flamethrower_Operator"
 ];
 
 blufor_squad_mix = [
-	"SPE_US_SquadLead",
-	"SPE_US_Rifleman",
-	"SPE_US_Grenadier",
-	"SPE_US_Medic",
-	"SPE_US_HMGunner",
-	"SPE_US_AT_Soldier",
-	"SPE_US_Flamethrower_Operator"
+	"SPE_US_Rangers_SquadLead",
+	"SPE_US_Rangers_rifleman",
+	"SPE_US_Rangers_HMGunner",
+	"SPE_US_Rangers_medic",
+	"SPE_US_Rangers_engineer",
+	"SPE_US_Rangers_grenadier",
+	"SPE_US_Rangers_AT_soldier",
+	"SPE_US_Rangers_Flamethrower_Operator"
 ];
 
 squads = [
@@ -261,6 +273,7 @@ GRLIB_vehicle_whitelist_west = [
 GRLIB_vehicle_blacklist_west = [
 ];
 
+// todo
 GRLIB_AirDrop_1 = [
 	"SPE_US_M3_Halftrack_Unarmed_Open"
 ];

@@ -1,6 +1,8 @@
 // *** CIVILIAN ***
 
 civilians = [
+	"SPE_CIV_Citizen_1_trop",
+	"SPE_CIV_Citizen_3_tie",
 	"SPE_CIV_pak2_bruin",
 	"SPE_CIV_pak2_bruin_tie",
 	"SPE_CIV_pak2_grijs",
@@ -30,9 +32,19 @@ civilians = [
 
 civilian_vehicles = [
 	"C_Tractor_01_F",
-	"C_Truck_02_fuel_F",
-	"C_Truck_02_transport_F",
-	"C_Truck_02_box_F"
+	"SPE_US_G503_MB",
+	"SPE_FFI_R200_Unarmed",
+	"SPE_FFI_R200_Hood",
+	"SPE_FFI_OpelBlitz_Ambulance",
+	"SPE_FFI_OpelBlitz_Fuel",
+	"SPE_FFI_OpelBlitz_Open",
+	"SPE_FFI_OpelBlitz",
+	"SPE_Milice_R200_Unarmed",
+	"SPE_Milice_R200_Hood",
+	"SPE_OpelBlitz_Ambulance",
+	"SPE_OpelBlitz_Fuel",
+	"SPE_OpelBlitz_Open",
+	"SPE_OpelBlitz"
 ];
 
 civilian_boats = [

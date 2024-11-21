@@ -8,10 +8,7 @@ GRLIB_west_modder = "Z@Warrior";
 // [SPE] Wehrmacht
 huron_typename = "Land_HelipadEmpty_F";
 FOB_typename = "Land_SPE_House_Thatch_03";
-//FOB_box_typename = "Land_Pod_Heli_Transport_04_box_black_F";
-//FOB_truck_typename = "";
 FOB_outpost = "Land_SPE_Barn_Thatch_02";
-//FOB_box_outpost = "";
 mobile_respawn = "Land_TentDome_F";
 mobile_respawn_bag = "B_Kitbag_Base";
 Respawn_truck_typename = "SPE_OpelBlitz_Ambulance";
@@ -25,7 +22,7 @@ medic_sling_typename = "B_Slingload_01_Medevac_F";
 pilot_classname = "SPE_GER_pilot";
 crewman_classname = "SPE_GER_rifleman_lite";
 uavs_terminal_typename = "";
-Arsenal_typename = "SPE_BasicAmmunitionBox_GER";
+Arsenal_typename = "Land_SPE_Ammobox_German_01_stack";
 PAR_Medikit = "SPE_GER_Medkit";
 PAR_AidKit = "SPE_GER_FirstAidKit";
 GRLIB_sar_wreck = "SPE_FW190F8_MRWreck";
@@ -40,7 +37,7 @@ WRHS_Man = "SPE_CIV_Worker_3";						// Man in Warehouse
 commander_classname = "SPE_GER_oberst";					// Sell-Man in FOB
 repair_offroad = "SPE_FFI_OpelBlitz_Repair";
 //waterbarrel_typename = "Land_WaterBottle_01_stack_F";
-fuelbarrel_typename = "Land_SPE_Jerrycan";
+fuelbarrel_typename = "Land_SPE_Fuel_Barrel_German";
 canister_fuel_typename = "Land_SPE_Jerrycan";
 foodbarrel_typename = "Land_SPE_Fuel_Barrel_US";
 basic_weapon_typename = "SPE_BasicWeaponsBox_US";
@@ -70,20 +67,21 @@ infantry_units_west = [
 
 // *** RESISTANCE - Sturmtruppen ***
 resistance_squad = [
-	"SPE_sturmtrooper_SquadLead",
-	"SPE_sturmtrooper_stggunner",
-	"SPE_sturmtrooper_sniper",
-	"SPE_sturmtrooper_sapper",
-	"SPE_sturmtrooper_medic",
-	"SPE_sturmtrooper_ober_grenadier",
-	"SPE_sturmtrooper_Flamethrower_Operator",
-	"SPE_sturmtrooper_hmgunner2",
-	"SPE_sturmtrooper_LAT_30m_Rifleman",
-	"SPE_sturmtrooper_rifleman_lite"
+	"SPE_Milice_FG_SquadLead",
+	"SPE_Milice_FG_TeamLeader",
+	"SPE_Milice_FG_Lieutenant",
+	"SPE_Milice_FG_Rifleman",
+	"SPE_Milice_FG_Autorifleman",
+	"SPE_Milice_FG_Assist_Autorifleman",
+	"SPE_Milice_FG_Medic",
+	"SPE_Milice_FG_Radioman",
+	"SPE_Milice_FG_Sentry",
+	"SPE_Milice_FG_Sentry_Sten",
+	"SPE_Milice_FG_AT_grenadier",
+	"SPE_Milice_FG_LAT_rifleman"
 ];
 
 units_loadout_overide = [
-	"SPE_GER_sapper"
 ];
 
 //LOADOUT_fixed_price = [];
@@ -123,7 +121,7 @@ if (isClass(configFile >> "CfgPatches" >> "sab_flyinglegends")) then {
 };
 
 // Additional Airplanes from Mod Secret Weapons (requ. Mod Flying Legends):
-if (isClass(configFile >> "CfgPatches" >> "sab_sw_a26")) then 
+if (isClass(configFile >> "CfgPatches" >> "sab_sw_a26")) then
 {
 	air_vehicles pushBack ["sab_sw_do335",15,900,15,GRLIB_perm_air];
 	air_vehicles pushBack ["sab_sw_bf110",15,1000,15,GRLIB_perm_air];
@@ -186,50 +184,57 @@ buildings_west = [
 ];
 
 blufor_squad_inf_light = [
-	"SPE_GER_SquadLead",
-	"SPE_GER_rifleman_2",
-	"SPE_GER_Assist_SquadLead",
-	"SPE_GER_ober_grenadier",
-	"SPE_GER_medic"
+	"SPE_sturmtrooper_SquadLead",
+	"SPE_sturmtrooper_stggunner",
+	"SPE_sturmtrooper_ober_grenadier",
+	"SPE_sturmtrooper_medic",
+	"SPE_sturmtrooper_rifleman",
+	"SPE_sturmtrooper_rifleman_lite",
+	"SPE_sturmtrooper_rifleman_lite"
 ];
 
 blufor_squad_inf = [
-	"SPE_GER_SquadLead",
-	"SPE_GER_rifleman_2",
-	"SPE_GER_Assist_SquadLead",
-	"SPE_GER_ober_grenadier",
-	"SPE_GER_medic",
-	"SPE_GER_mgunner2",
-	"SPE_GER_Flamethrower_Operator"
+	"SPE_sturmtrooper_SquadLead",
+	"SPE_sturmtrooper_stggunner",
+	"SPE_sturmtrooper_ober_grenadier",
+	"SPE_sturmtrooper_medic",
+	"SPE_sturmtrooper_rifleman",
+	"SPE_sturmtrooper_rifleman",
+	"SPE_sturmtrooper_sniper",
+	"SPE_sturmtrooper_hmgunner2"
 ];
 
 blufor_squad_at = [
-	"SPE_GER_SquadLead",
-	"SPE_GER_rifleman_2",
-	"SPE_GER_ober_grenadier",
-	"SPE_GER_medic",
-	"SPE_GER_LAT_30m_Rifleman",
-	"SPE_GER_LAT_Rifleman"
+	"SPE_sturmtrooper_SquadLead",
+	"SPE_sturmtrooper_stggunner",
+	"SPE_sturmtrooper_ober_grenadier",
+	"SPE_sturmtrooper_medic",
+	"SPE_sturmtrooper_rifleman",
+	"SPE_sturmtrooper_rifleman",
+	"SPE_sturmtrooper_LAT_30m_Rifleman",
+	"SPE_sturmtrooper_LAT_rifleman"
 ];
 
 blufor_squad_aa = [
-	"SPE_GER_SquadLead",
-	"SPE_GER_rifleman_2",
-	"SPE_GER_ober_grenadier",
-	"SPE_GER_medic",
-	"SPE_GER_mgunner",
-	"SPE_GER_mgunner"
+	"SPE_sturmtrooper_SquadLead",
+	"SPE_sturmtrooper_stggunner",
+	"SPE_sturmtrooper_ober_grenadier",
+	"SPE_sturmtrooper_medic",
+	"SPE_sturmtrooper_rifleman",
+	"SPE_sturmtrooper_rifleman",
+	"SPE_sturmtrooper_Flamethrower_Operator",
+	"SPE_sturmtrooper_Flamethrower_Operator"
 ];
 
 blufor_squad_mix = [
-	"SPE_GER_SquadLead",
-	"SPE_GER_rifleman_2",
-	"SPE_GER_ober_grenadier",
-	"SPE_GER_medic",
-	"SPE_GER_mgunner",
-	"SPE_GER_LAT_Rifleman",
-	"SPE_GER_sapper",
-	"SPE_GER_Flamethrower_Operator"
+	"SPE_sturmtrooper_SquadLead",
+	"SPE_sturmtrooper_stggunner",
+	"SPE_sturmtrooper_ober_grenadier",
+	"SPE_sturmtrooper_medic",
+	"SPE_sturmtrooper_rifleman",
+	"SPE_sturmtrooper_rifleman",
+	"SPE_sturmtrooper_LAT_rifleman",
+	"SPE_sturmtrooper_Flamethrower_Operator"
 ];
 
 squads = [
@@ -262,6 +267,8 @@ GRLIB_vehicle_whitelist_west = [
 
 GRLIB_vehicle_blacklist_west = [
 ];
+
+// todo
 
 GRLIB_AirDrop_1 = [
 	"SPE_OpelBlitz_Open"
