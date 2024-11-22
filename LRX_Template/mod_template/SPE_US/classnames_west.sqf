@@ -16,10 +16,9 @@ repair_truck_typename = "SPE_US_M3_Halftrack_Repair";
 repair_sling_typename = "SPEX_T3_Trailer_Repair";
 fuel_sling_typename = "SPEX_T3_Trailer_Fuel";
 ammo_sling_typename = "SPEX_T3_Trailer_Ammo";
-medic_sling_typename = "B_Slingload_01_Medevac_F";
+medic_sling_typename = "Land_MedicalTent_01_MTP_closed_F";
 pilot_classname = "SPE_US_Pilot";
 crewman_classname = "SPE_US_HBT44_HalfTrack_Driver";
-uavs_terminal_typename = "";
 Arsenal_typename = "Land_SPE_Ammocrate_US_07_Stack";
 PAR_Medikit = "SPE_US_Medkit";
 PAR_AidKit = "SPE_US_FirstAidKit";
@@ -117,9 +116,9 @@ heavy_vehicles = [
 ];
 
 air_vehicles = [
-	["SPE_P47",15,900,15,GRLIB_perm_air],
+	["SPE_P47",5,900,10,GRLIB_perm_air],
 	["SPEX_CG4_WACO",1,500,0,GRLIB_perm_air],
-	["SPEX_C47_Skytrain",10,1200,25,GRLIB_perm_max]
+	["SPEX_C47_Skytrain",5,600,25,GRLIB_perm_air]
 ];
 
 // Additional Airplanes from Mod Flying Legends
@@ -261,16 +260,13 @@ squads = [
 
 // Everything the AI troups should be able to resupply from
 ai_resupply_sources_west = [
-	"SPE_US_M3_Halftrack_Ammo"
 ];
 
 // Everything the AI troups should be able to healing from
 ai_healing_sources_west = [
-	"SPE_US_M3_Halftrack_Ambulance"
 ];
 
 vehicle_rearm_sources_west = [
-	"SPE_US_M3_Halftrack_Ammo"
 ];
 
 vehicle_big_units_west = [

@@ -18,10 +18,9 @@ repair_truck_typename = "SPE_OpelBlitz_Repair";
 repair_sling_typename = "SPEX_T3_Trailer_Repair";
 fuel_sling_typename = "SPEX_T3_Trailer_Fuel";
 ammo_sling_typename = "SPEX_T3_Trailer_Ammo";
-medic_sling_typename = "B_Slingload_01_Medevac_F";
+medic_sling_typename = "Land_MedicalTent_01_MTP_closed_F";
 pilot_classname = "SPE_GER_pilot";
-crewman_classname = "SPE_GER_rifleman_lite";
-uavs_terminal_typename = "";
+crewman_classname = "SPE_GER_Driver";
 Arsenal_typename = "Land_SPE_Ammobox_German_01_stack";
 PAR_Medikit = "SPE_GER_Medkit";
 PAR_AidKit = "SPE_GER_FirstAidKit";
@@ -39,7 +38,7 @@ repair_offroad = "SPE_FFI_OpelBlitz_Repair";
 //waterbarrel_typename = "Land_WaterBottle_01_stack_F";
 fuelbarrel_typename = "Land_SPE_Fuel_Barrel_German";
 canister_fuel_typename = "Land_SPE_Jerrycan";
-foodbarrel_typename = "Land_SPE_Fuel_Barrel_US";
+foodbarrel_typename = "Land_FoodSacks_01_large_brown_F";
 basic_weapon_typename = "SPE_BasicWeaponsBox_US";
 resistance_squad_static = "SPE_M45_Quadmount";
 
@@ -91,9 +90,11 @@ units_loadout_overide = [
 light_vehicles = [
 	// Boat
 	// Land
-	["SPE_GER_R200_Unarmed",1,25,1,0],
-	["SPE_GER_R200_MG34",1,50,1,GRLIB_perm_inf],
-	["SPE_OpelBlitz",1,50,1,0],
+	["SPE_GER_R200_Hood",1,15,1,0],
+	["SPE_GER_R200_Unarmed",1,15,1,0],	
+	["SPE_GER_R200_MG34",1,35,1,GRLIB_perm_inf],
+	["SPE_OpelBlitz",1,25,1,0],
+	["SPE_OpelBlitz_Open",1,25,1,0],
 	["SPE_OpelBlitz_Flak38",1,100,2,GRLIB_perm_inf],
 	["SPE_SdKfz250_1",1,150,2,GRLIB_perm_inf]
 ];
@@ -109,7 +110,8 @@ heavy_vehicles = [
 ];
 
 air_vehicles = [
-	["SPE_FW190F8",15,900,15,GRLIB_perm_max]
+	["SPE_FW190F8",5,900,10,GRLIB_perm_air],
+	["SPEX_C47_Skytrain",5,600,25,GRLIB_perm_air]
 ];
 
 // Additional Airplanes from Mod Flying Legends
@@ -144,17 +146,15 @@ boats_west = [
 static_vehicles = [
 	["SPE_GER_SearchLight",1,50,0,GRLIB_perm_inf],
 	["SPE_MG34_Lafette_Deployed",1,80,0,GRLIB_perm_inf],
-	["SPE_MG34_Lafette_low_Deployed",1,80,0,GRLIB_perm_inf],
 	["SPE_MG42_Lafette_Deployed",1,120,0,GRLIB_perm_log],
-	["SPE_MG42_Lafette_low_Deployed",1,120,0,GRLIB_perm_log],
 	["SPE_FlaK_30",2,180,0,GRLIB_perm_log],
 	["SPE_FlaK_38",2,200,0,GRLIB_perm_tank],
-	["SPE_FlaK_36",2,2500,0,GRLIB_perm_tank],
-	["SPE_FlaK_36_AA",2,2750,0,GRLIB_perm_max],
-	["SPE_GrW278_1",0,175,0,GRLIB_perm_log],
+	["SPE_FlaK_36",2,450,0,GRLIB_perm_tank],
+	["SPE_FlaK_36_AA",2,570,0,GRLIB_perm_max],
+	["SPE_GrW278_1",0,675,0,GRLIB_perm_log],
 	["SPE_Pak40",0,225,0,GRLIB_perm_log],
-	["SPE_leFH18_AT",0,250,0,GRLIB_perm_max],
-	["SPE_leFH18",0,275,0,GRLIB_perm_max]
+	["SPE_leFH18_AT",0,350,0,GRLIB_perm_max],
+	["SPE_leFH18",0,775,0,GRLIB_perm_max]
 ];
 
 // *** Static Weapon with AI ***
@@ -247,16 +247,13 @@ squads = [
 
 // Everything the AI troups should be able to resupply from
 ai_resupply_sources_west = [
-	"SPE_OpelBlitz_Ammo"
 ];
 
 // Everything the AI troups should be able to healing from
 ai_healing_sources_west = [
-	"SPE_OpelBlitz_Ambulance"
 ];
 
 vehicle_rearm_sources_west = [
-	"SPE_OpelBlitz_Ammo"
 ];
 
 vehicle_big_units_west = [
