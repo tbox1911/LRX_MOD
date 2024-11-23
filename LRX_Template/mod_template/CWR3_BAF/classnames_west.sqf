@@ -48,7 +48,7 @@ commander_classname = "cwr3_b_uk_soldier_light";			// Sell-Man in FOB
 
 repair_offroad = "CUP_O_V3S_Repair_TKA";
 
-resistance_squad_static = "cwr3_b_uk_l111a1_high";
+a3w_resistance_static = "cwr3_b_uk_l111a1_high";
 
 
 
@@ -79,7 +79,7 @@ infantry_units_west = [						// Men '82
 units_loadout_overide = [];
 
 // *** SAS'85 ***
-resistance_squad = [
+a3w_resistance_squad = [
 "cwr3_b_uk_soldier_sas",
 "cwr3_b_uk_soldier_sas_laser",
 "cwr3_b_uk_soldier_sas_night",

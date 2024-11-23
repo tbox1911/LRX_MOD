@@ -67,7 +67,7 @@ infantry_units_west = [
 
 
 // *** RESISTANCE - ARVN ***
-resistance_squad = [
+a3w_resistance_squad = [
 	"vn_i_men_sf_04",
 	"vn_i_men_sf_08",
 	"vn_i_men_sf_02",

@@ -77,7 +77,7 @@ infantry_units_west = [
 units_loadout_overide = [];
 
 // *** RESISTANCE
-resistance_squad = [
+a3w_resistance_squad = [
 	"uns_men_VC_local_AS5",
 	"uns_men_VC_local_MED",
 	"uns_men_VC_local_MGS",
@@ -88,7 +88,7 @@ resistance_squad = [
 	"uns_men_VC_local_AS4"
 ];
 
-resistance_squad_static = "uns_ZPU2_VC";
+a3w_resistance_static = "uns_ZPU2_VC";
 
 
 

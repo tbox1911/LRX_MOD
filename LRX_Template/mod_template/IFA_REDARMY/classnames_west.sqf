@@ -51,7 +51,7 @@ infantry_units_west = [
 units_loadout_overide = [];
 
 // *** RESISTANCE
-resistance_squad = [
+a3w_resistance_squad = [
 	"LIB_SOV_scout_p_officer",
 	"LIB_SOV_scout_smgunner",
 	"LIB_SOV_grenadier",
@@ -61,7 +61,7 @@ resistance_squad = [
 	"LIB_SOV_AT_M1A1_soldier"
 ];
 
-resistance_squad_static = "LIB_61k";
+a3w_resistance_static = "LIB_61k";
 
 // [CLASSNAME, MANPOWER, AMMO, FUEL, RANK]
 

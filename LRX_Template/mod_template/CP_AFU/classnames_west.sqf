@@ -37,7 +37,7 @@ chimera_vehicle_overide = [
 
 
 // *** Men (TDF)
-resistance_squad = [
+a3w_resistance_squad = [
 "CUP_B_TDF_Solider_TeamLeader",
 "CUP_B_TDF_Soldier_Medic",
 "CUP_B_TDF_Soldier_Engineer",
@@ -53,7 +53,7 @@ resistance_squad = [
 "CUP_B_TDF_Soldier_MissileSoldier_AA"
 ];
 
-resistance_squad_static = "CUP_B_DSHkM_MiniTriPod_AFU";
+a3w_resistance_static = "CUP_B_DSHkM_MiniTriPod_AFU";
 
 // *** Men (AFU)
 // [CLASSNAME, MANPOWER, AMMO, FUEL, RANK]

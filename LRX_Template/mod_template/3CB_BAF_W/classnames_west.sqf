@@ -42,7 +42,7 @@ infantry_units_west = [
 units_loadout_overide = ["UK3CB_BAF_Explosive_DPMW_REC"];
 
 // *** RESISTANCE - 3CB Chernarus Nationalist Militia ***
-resistance_squad = [
+a3w_resistance_squad = [
 	"UK3CB_CCM_I_TL",
 	"UK3CB_CCM_I_SPOT",
 	"UK3CB_CCM_I_SNI",

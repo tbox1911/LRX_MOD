@@ -50,7 +50,7 @@ infantry_units_west = [
 units_loadout_overide = [];
 
 // *** RESISTANCE
-resistance_squad = [
+a3w_resistance_squad = [
 	"LIB_SOV_Scout_p_officer_w",
 	"LIB_SOV_Operator_w",
 	"LIB_SOV_LC_rifleman_w",

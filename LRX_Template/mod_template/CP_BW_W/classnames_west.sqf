@@ -36,7 +36,7 @@ chimera_vehicle_overide = [
 
 
 // *** RESISTANCE Army of the Czech Republic
-resistance_squad = [
+a3w_resistance_squad = [
 "CUP_B_CZ_Soldier_AMG_WDL",
 "CUP_B_CZ_Medic_WDL",
 "CUP_B_CZ_Soldier_SL_WDL",
@@ -51,7 +51,7 @@ resistance_squad = [
 "CUP_B_CZ_Soldier_805_GL_WDL"
 ];
 
-resistance_squad_static = "CUP_B_AGS_ACR";
+a3w_resistance_static = "CUP_B_AGS_ACR";
 
 
 // [CLASSNAME, MANPOWER, AMMO, FUEL, RANK]

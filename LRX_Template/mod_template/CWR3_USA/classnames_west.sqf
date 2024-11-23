@@ -16,7 +16,7 @@ repair_truck_typename = "cwr3_b_m939_repair";
 pilot_classname = "cwr3_b_soldier_pilot";
 crewman_classname = "cwr3_b_soldier82_driver";
 GRLIB_sar_wreck = "cwr3_ah1f_wreck";
-resistance_squad_static = "cwr3_b_fia_mk19";
+a3w_resistance_static = "cwr3_b_fia_mk19";
 basic_weapon_typename = "cwr3_crate_basicweapons_us";
 Box_Weapon_typename = "cwr3_crate_basicweapons_us";
 Box_Ammo_typename = "cwr3_crate_basicammo_us";
@@ -65,7 +65,7 @@ infantry_units_west = [						// Men '82
 units_loadout_overide = [];
 
 // *** Men '85 Ranger ***
-resistance_squad = [
+a3w_resistance_squad = [
 "cwr3_b_ranger_gl",
 "cwr3_b_ranger_marksman",
 "cwr3_b_ranger",

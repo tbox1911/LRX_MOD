@@ -62,7 +62,7 @@ infantry_units_west = [
 units_loadout_overide = [];
 
 // *** RESISTANCE - Light Infantery
-resistance_squad = [
+a3w_resistance_squad = [
 "PRACS_SLA_Infantry_ENG",
 "PRACS_SLA_Infantry_GRE",
 "PRACS_SLA_Infantry_AA",
@@ -78,7 +78,7 @@ resistance_squad = [
 "PRACS_SLA_Infantry_TL"
 ];
 
-resistance_squad_static = "PRACS_SLA_AGS30_tripod";
+a3w_resistance_static = "PRACS_SLA_AGS30_tripod";
 
 light_vehicles = [
 ["PRACS_SLA_Zodiac",1,50,1,0],

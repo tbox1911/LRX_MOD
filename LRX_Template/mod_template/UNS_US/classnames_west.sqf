@@ -83,7 +83,7 @@ units_loadout_overide = [
 
 
 // *** RESISTANCE
-resistance_squad = [
+a3w_resistance_squad = [
 	"uns_men_US_1AC_COM",
 	"uns_men_US_1AC_MGSG",
 	"uns_men_US_1AC_HMG",
@@ -95,7 +95,7 @@ resistance_squad = [
 	"uns_men_US_1AC_ENG"
 ];
 
-resistance_squad_static = "uns_m2_high";
+a3w_resistance_static = "uns_m2_high";
 
 
 // [CLASSNAME, MANPOWER, AMMO, FUEL, RANK]

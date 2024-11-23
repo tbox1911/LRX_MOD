@@ -38,7 +38,7 @@ canister_fuel_typename = "Land_SPE_Jerrycan";
 fuelbarrel_typename = "Land_SPE_Fuel_Barrel_US";
 foodbarrel_typename = "Land_FoodSacks_01_large_brown_F";
 basic_weapon_typename = "SPE_BasicWeaponsBox_GER";
-resistance_squad_static = "SPE_M45_Quadmount";
+a3w_resistance_static = "SPE_M45_Quadmount";
 
 chimera_vehicle_overide = [
 	["B_Heli_Light_01_F",  "SPE_US_M3_Halftrack_Unarmed_Open"],
@@ -66,7 +66,7 @@ units_loadout_overide = [
 ];
 
 // *** RESISTANCE - French FFI ***
-resistance_squad = [
+a3w_resistance_squad = [
 	"SPE_FFI_Autorifleman_303_LMG",
 	"SPE_FFI_Autorifleman",
 	"SPE_FFI_MGunner",

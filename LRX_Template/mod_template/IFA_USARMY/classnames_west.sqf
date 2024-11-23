@@ -49,7 +49,7 @@ infantry_units_west = [
 units_loadout_overide = [];
 
 // *** RESISTANCE - FFI Indeps
-resistance_squad = [
+a3w_resistance_squad = [
 	"LIB_FFI_Soldier_5",
 	"LIB_FFI_Soldier_6",
 	"LIB_FFI_Soldier_1",

@@ -35,6 +35,7 @@ opfor_flag = "vn_flag_pavn";
 opfor_house = "Land_vn_o_bunker_03";
 opfor_patrol = "Land_vn_o_tower_02";
 opfor_hq = "Land_vn_b_trench_bunker_04_01";
+a3w_enemy_static = ["vn_o_nva_65_static_dshkm_high_02",	"vn_o_nva_65_static_zpu4"];
 
 militia_squad = [
 	"vn_o_men_vc_03",
@@ -63,7 +64,7 @@ militia_vehicles = [
 	"vn_o_wheeled_btr40_mg_02_nva65"
 ];
 
-guard_squad = [
+a3w_guard_squad = [
 	"vn_o_men_vc_01",
 	"vn_o_men_vc_12",
 	"vn_o_men_vc_12",

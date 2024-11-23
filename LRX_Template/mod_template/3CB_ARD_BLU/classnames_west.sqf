@@ -74,7 +74,7 @@ infantry_units_west = [
 units_loadout_overide = [];
 
 // *** RESISTANCE
-resistance_squad = [
+a3w_resistance_squad = [
 "UK3CB_ARD_B_SF_TL",
 "UK3CB_ARD_B_SF_RIF_1",
 "UK3CB_ARD_B_SF_RIF_2",
@@ -89,7 +89,7 @@ resistance_squad = [
 "UK3CB_ARD_B_SF_LAT"
 ];
 
-resistance_squad_static = "UK3CB_ARD_B_SPG9";
+a3w_resistance_static = "UK3CB_ARD_B_SPG9";
 
 light_vehicles = [
 	["UK3CB_ARD_B_YAVA",1,10,1,0],

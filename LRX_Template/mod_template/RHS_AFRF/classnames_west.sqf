@@ -52,7 +52,7 @@ units_loadout_overide = [];
 
 
 // *** RHS NAPA ***
-resistance_squad = [
+a3w_resistance_squad = [
 	"rhs_vdv_mflora_efreitor",
 	"rhs_vdv_mflora_aa",
 	"rhs_vdv_mflora_grenadier_rpg",
@@ -66,7 +66,7 @@ resistance_squad = [
 	"rhs_vdv_mflora_grenadier"
 ];
 
-resistance_squad_static = "rhs_Igla_AA_pod_msv";
+a3w_resistance_static = "rhs_Igla_AA_pod_msv";
 
 light_vehicles = [
 	["O_Boat_Transport_01_F",1,25,1,GRLIB_perm_inf],

@@ -56,7 +56,7 @@ infantry_units_west = [
 
 
 // *** RESISTANCE - Viet Cong - Local VC  ***
-resistance_squad = [
+a3w_resistance_squad = [
 	"vn_o_men_vc_local_21",
 	"vn_o_men_vc_local_11",
 	"vn_o_men_vc_local_01",

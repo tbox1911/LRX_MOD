@@ -43,7 +43,7 @@ units_loadout_overide = [];
 
 
 // Chernarus Communist Militia
-resistance_squad = [
+a3w_resistance_squad = [
 	"UK3CB_CCM_O_AT",
 	"UK3CB_CCM_O_AT_ASST",
 	"UK3CB_CCM_O_COM",

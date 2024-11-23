@@ -69,7 +69,7 @@ militia_squad = [
 
 militia_loadout_overide = [];
 
-divers_squad = [
+a3w_divers_squad = [
 	"EAW_SNLF_SMG_1937",
 	"EAW_SNLF_Seaman2C_1937",
 	"EAW_SNLF_Seaman1C_1937",

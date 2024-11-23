@@ -34,7 +34,7 @@ vip_vehicle -> a3w_vip_vehicle
 */
 
 // Reservists
-resistance_squad = [
+a3w_resistance_squad = [
 "AC_BLK_O_Reservist",
 "AC_BLK_O_Reservist_Medic",
 "AC_BLK_O_Reservist_Engineer",
@@ -47,7 +47,7 @@ resistance_squad = [
 "AC_BLK_O_Reservist_Light",
 "AC_BLK_O_Reservist_ATGM"
 ];
-resistance_squad_static = "AC_BLK_O_HMG_02_high_F";
+a3w_resistance_static = "AC_BLK_O_HMG_02_high_F";
 
 
 chimera_vehicle_overide = [

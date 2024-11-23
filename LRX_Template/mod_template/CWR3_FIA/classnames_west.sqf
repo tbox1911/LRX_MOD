@@ -46,7 +46,7 @@ commander_classname = "cwr3_i_soldier_light";				// Sell-Man in FOB
 
 repair_offroad = "CUP_O_V3S_Repair_TKA";
 
-resistance_squad_static = "cwr3_i_dshkm_high";
+a3w_resistance_static = "cwr3_i_dshkm_high";
 
 
 
@@ -77,7 +77,7 @@ infantry_units_west = [						// Men '82
 units_loadout_overide = [];
 
 // *** FIA (CWR III) ***
-resistance_squad = [
+a3w_resistance_squad = [
 "cwr3_i_soldier_tl",
 "cwr3_i_soldier",
 "cwr3_i_soldier_fal",

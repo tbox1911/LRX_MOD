@@ -55,7 +55,7 @@ militia_squad = [
 militia_loadout_overide = [
 ];
 
-divers_squad = [
+a3w_divers_squad = [
 	"B_mas_itl_diver_exp_F",
 	"B_mas_itl_diver_Med_F",
 	"B_mas_itl_diver_F",

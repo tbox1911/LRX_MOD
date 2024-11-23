@@ -37,7 +37,7 @@ SHOP_Man = "c_civil_formalsuit_vyshiv_02";
 SELL_Man = "c_civil_volunteer_12";
 WRHS_Man = "c_civil_cloth_01";						// Man in Warehouse
 commander_classname = "b_afougf_tankist_survivor";			// Sell-Man in FOB
-resistance_squad_static = "b_ngu_MK19_TriPod";				// Ukraine (National Guard)
+a3w_resistance_static = "b_ngu_MK19_TriPod";				// Ukraine (National Guard)
 
 //repair_offroad = "";
 //waterbarrel_typename = "";
@@ -83,7 +83,7 @@ infantry_units_west = [
 units_loadout_overide = [];
 
 // *** Ukraine (National Guard)
-resistance_squad = [
+a3w_resistance_squad = [
 "b_ngu_teamleader_gp25",
 "b_ngu_sergeant_gp25",
 "b_ngu_rifleman_gp25",
@@ -100,7 +100,7 @@ resistance_squad = [
 "b_ngu_rifleman_rpg26"
 ];
 
-resistance_squad_static = "PRACS_Paratrooper_mk19_static";
+a3w_resistance_static = "PRACS_Paratrooper_mk19_static";
 
 
 light_vehicles = [

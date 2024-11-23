@@ -59,7 +59,7 @@ militia_loadout_overide = [
 	"R3F_CQB_4"
 ];
 
-divers_squad = [
+a3w_divers_squad = [
 	"R3F_URR_PLONGEUR_BLUFOR"
 ];
 

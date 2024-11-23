@@ -63,7 +63,7 @@ infantry_units_west = [
 units_loadout_overide = [];
 
 // *** RESISTANCE - Royal Commandos
-resistance_squad = [
+a3w_resistance_squad = [
 "PRACS_Commando",
 "PRACS_Commando_ENG",
 "PRACS_Commando_MG",
@@ -76,7 +76,7 @@ resistance_squad = [
 "PRACS_Commando_SL"
 ];
 
-resistance_squad_static = "PRACS_Paratrooper_mk19_static";
+a3w_resistance_static = "PRACS_Paratrooper_mk19_static";
 
 light_vehicles = [
 ["PRACS_Zodiac",1,50,1,0],

@@ -41,7 +41,7 @@ infantry_units_west = [
 units_loadout_overide = [];
 
 // *** RESISTANCE - Private Military Company ***
-resistance_squad = [
+a3w_resistance_squad = [
 	"LOP_PMC_Infantry_AA",
 	"LOP_PMC_Infantry_AT_Asst",
 	"LOP_PMC_Infantry_AT",

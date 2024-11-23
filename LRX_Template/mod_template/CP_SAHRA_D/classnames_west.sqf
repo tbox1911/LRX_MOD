@@ -40,7 +40,7 @@ commander_classname = "CUP_I_RACS_Soldier_Unarmed";			// Sell-Man in FOB
 
 //repair_offroad = "C_Truck_02_box_F";
 
-resistance_squad_static = "CUP_I_M2StaticMG_RACS";
+a3w_resistance_static = "CUP_I_M2StaticMG_RACS";
 
 chimera_vehicle_overide = [
   ["B_Heli_Light_01_F", "CUP_I_MH6J_RACS"],

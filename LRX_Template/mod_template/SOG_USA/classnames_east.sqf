@@ -35,6 +35,7 @@ opfor_flag = "vn_flag_usa";
 opfor_house = "Land_vn_bunker_small_01";
 opfor_patrol = "Land_vn_b_tower_01";
 opfor_hq = "Land_vn_bunker_big_02";
+a3w_enemy_static = ["vn_b_army_static_m2_high", "vn_b_army_static_m45"];
 
 militia_squad = [
 	"vn_b_men_seal_01",
@@ -54,7 +55,7 @@ militia_squad = [
 militia_loadout_overide = [
 ];
 
-divers_squad = [
+a3w_divers_squad = [
 	"vn_b_men_seal_28",
 	"vn_b_men_seal_36",
 	"vn_b_men_seal_35",
@@ -71,7 +72,7 @@ militia_vehicles = [
 	"vn_b_wheeled_m151_02_mp"
 ];
 
-guard_squad = [
+a3w_guard_squad = [
 	"vn_b_men_aus_army_70_22",
 	"vn_b_men_aus_army_70_08",
 	"vn_b_men_aus_army_70_08",

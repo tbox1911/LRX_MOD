@@ -63,7 +63,7 @@ militia_loadout_overide = [
 	"CFP_O_IQARMY_Rifleman_AT_01"
 ];
 
-divers_squad = [
+a3w_divers_squad = [
 	"CFP_O_IQARMY_Rifleman_01",
 	"CFP_O_IQARMY_Rifleman_01",
 	"CFP_O_IQARMY_Rifleman_01",

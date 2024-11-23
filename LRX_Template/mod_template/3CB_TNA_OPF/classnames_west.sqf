@@ -79,7 +79,7 @@ infantry_units_west = [
 units_loadout_overide = [];
 
 // *** RESISTANCE - 3CB Takistan Insurgents
-resistance_squad = [
+a3w_resistance_squad = [
 "UK3CB_TKM_O_WAR",
 "UK3CB_TKM_O_MD",
 "UK3CB_TKM_O_MG",
@@ -94,7 +94,7 @@ resistance_squad = [
 "UK3CB_TKM_O_LAT"
 ];
 
-resistance_squad_static = "UK3CB_TKM_O_AGS";
+a3w_resistance_static = "UK3CB_TKM_O_AGS";
 
 light_vehicles = [
 	["UK3CB_TKA_O_YAVA",1,10,1,0],

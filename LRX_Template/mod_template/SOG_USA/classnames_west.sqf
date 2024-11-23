@@ -34,6 +34,8 @@ fuelbarrel_typename = "Land_MetalBarrel_F";
 foodbarrel_typename = "Land_FoodSacks_01_large_brown_idap_F";
 basic_weapon_typename = "Land_vn_pavn_weapons_stack1";
 commander_classname = "vn_b_men_army_28";
+a3w_resistance_static = "vn_b_army_static_m2_high";
+
 chimera_vehicle_overide = [
   ["B_Heli_Light_01_F",  "vn_b_air_oh6a_01"],
   ["B_Heli_Transport_01_F", "vn_b_air_uh1d_02_04"]
@@ -59,7 +61,7 @@ infantry_units_west = [
 
 
 // *** RESISTANCE - ARVN ***
-resistance_squad = [
+a3w_resistance_squad = [
 	"vn_i_men_sf_04",
 	"vn_i_men_sf_08",
 	"vn_i_men_sf_02",

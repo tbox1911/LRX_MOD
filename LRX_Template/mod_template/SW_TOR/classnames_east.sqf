@@ -62,7 +62,7 @@ militia_loadout_overide = [
 	"B_Soldier_AT_F"
 ];
 
-divers_squad = [
+a3w_divers_squad = [
 	"3as_clone_Engineer",
 	"3as_p1_EOD",
 	"SWTOR_Units_Republic_base",

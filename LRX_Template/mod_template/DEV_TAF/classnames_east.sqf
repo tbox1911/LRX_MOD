@@ -53,7 +53,7 @@ militia_loadout_overide = [
 
 ];
 
-divers_squad = [
+a3w_divers_squad = [
 	"DEVAS_U_Diver_SAT",
 	"DEVAS_U_Diver_SAT",
 	"DEVAS_U_Diver_SAT",

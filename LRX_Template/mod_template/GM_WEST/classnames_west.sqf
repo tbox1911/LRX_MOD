@@ -53,7 +53,7 @@ units_loadout_overide = [
 	"gm_ge_army_antiair_g3a3_fim43_80_ols"
 ];
 
-resistance_squad = [
+a3w_resistance_squad = [
 	"gm_ge_army_sf_squadleader_mp5sd3_p2a1_80_wdl",
 	"gm_ge_army_sf_grenadier_hk69a1_80_wdl",
 	"gm_ge_army_sf_rifleman_g3a4_80_wdl",
@@ -67,7 +67,7 @@ resistance_squad = [
 	"gm_ge_army_sf_rifleman_mp5a3_80_wdl",
 	"gm_ge_army_sf_rifleman_mp5a3_80_wdl"
 ];
-resistance_squad_static = "gm_ge_army_mg3_aatripod";
+a3w_resistance_static = "gm_ge_army_mg3_aatripod";
 
 light_vehicles = [
 	// boat

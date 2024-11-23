@@ -47,7 +47,7 @@ WRHS_Man = "cwr3_b_uk_soldier_captive";					// Man in Warehouse
 commander_classname = "cwr3_b_uk_soldier_light";			// Sell-Man in FOB
 
 repair_offroad = "CUP_O_V3S_Repair_TKA";
-resistance_squad_static = "cwr3_b_uk_l111a1_high";
+a3w_resistance_static = "cwr3_b_uk_l111a1_high";
 
 //waterbarrel_typename = "";
 //fuelbarrel_typename = "";
@@ -81,7 +81,7 @@ infantry_units_west = [
 units_loadout_overide = ["cwr3_tdf_soldier_sapper"]; // Eng cannot repair
 
 // *** Tonali Defence Forces ***
-resistance_squad = [
+a3w_resistance_squad = [
 "cwr3_tdf_soldier_tl",
 "cwr3_tdf_soldier",
 "cwr3_tdf_soldier_g3",

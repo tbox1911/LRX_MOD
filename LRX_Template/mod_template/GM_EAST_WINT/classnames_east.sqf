@@ -64,7 +64,7 @@ militia_vehicles = [
 	"gm_gc_army_uaz469_spg9"
 ];
 
-guard_squad = [
+a3w_guard_squad = [
 	"gm_gc_bgs_rifleman_mpikm72_80_str",
 	"gm_gc_bgs_sf_marksman_svd_80_str",
 	"gm_gc_bgs_sf_rifleman_hk33_80_str",

@@ -40,7 +40,7 @@ fuelbarrel_typename = "Land_SPE_Fuel_Barrel_German";
 canister_fuel_typename = "Land_SPE_Jerrycan";
 foodbarrel_typename = "Land_FoodSacks_01_large_brown_F";
 basic_weapon_typename = "SPE_BasicWeaponsBox_US";
-resistance_squad_static = "SPE_M45_Quadmount";
+a3w_resistance_static = "SPE_M45_Quadmount";
 
 chimera_vehicle_overide = [
 	["B_Heli_Light_01_F",  "SPE_OpelBlitz_Open"],
@@ -65,7 +65,7 @@ infantry_units_west = [
 ];
 
 // *** RESISTANCE - Sturmtruppen ***
-resistance_squad = [
+a3w_resistance_squad = [
 	"SPE_Milice_FG_SquadLead",
 	"SPE_Milice_FG_TeamLeader",
 	"SPE_Milice_FG_Lieutenant",

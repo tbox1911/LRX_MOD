@@ -29,7 +29,7 @@ pilot_classname = "cwr3_o_soldier_pilot";
 crewman_classname = "cwr3_o_soldier82_driver";
 uavs_terminal_typename = "O_UavTerminal";
 GRLIB_sar_wreck = "cwr3_ah1f_wreck";
-resistance_squad_static = "cwr3_b_fia_mk19";
+a3w_resistance_static = "cwr3_b_fia_mk19";
 basic_weapon_typename = "cwr3_crate_basicweapons_ru";
 Box_Weapon_typename = "cwr3_crate_basicweapons_ru";
 Box_Ammo_typename = "cwr3_crate_basicammo_ru";
@@ -79,7 +79,7 @@ infantry_units_west = [						// Men '82
 units_loadout_overide = [];
 
 // *** Men '82  ***
-resistance_squad = [
+a3w_resistance_squad = [
 "cwr3_o_soldier82_tl",
 "cwr3_o_soldier82",
 "cwr3_o_soldier82_at_rpg18",

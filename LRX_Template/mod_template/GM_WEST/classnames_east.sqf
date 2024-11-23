@@ -59,7 +59,7 @@ militia_squad = [
 militia_loadout_overide = [
 ];
 
-divers_squad = [
+a3w_divers_squad = [
 	"B_diver_TL_F",
 	"B_diver_TL_F",
 	"B_diver_exp_F",
@@ -79,7 +79,7 @@ militia_vehicles = [
 	"gm_ge_army_iltis_milan"
 ];
 
-guard_squad = [
+a3w_guard_squad = [
 	"gm_ge_bgs_squadleader_mp5a2_p2a1_80_smp",
 	"gm_ge_bgs_machinegunner_mg3_80_smp",
 	"gm_ge_bgs_machinegunner_g8a1_80_smp",

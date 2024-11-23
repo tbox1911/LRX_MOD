@@ -53,7 +53,7 @@ units_loadout_overide = [
 	"rhsusf_army_ocp_aa"		// add backpack
 ];
 
-resistance_squad_static = "RHS_Stinger_AA_pod_WD";
+a3w_resistance_static = "RHS_Stinger_AA_pod_WD";
 
 light_vehicles = [
 	["Peral_AS32A",1,100,5,0],
