@@ -280,25 +280,29 @@ GRLIB_vehicle_blacklist_west = [
 
 // todo
 GRLIB_AirDrop_1 = [
-	"SPE_US_M3_Halftrack_Unarmed_Open"
+	"SPE_US_G503_MB",
+	"SPE_US_G503_MB_Armoured"
 ];
 
 GRLIB_AirDrop_2 = [
-	"SPE_US_M3_Halftrack_Unarmed_Open"
+	"SPE_US_G503_MB_M2_Armoured",
+	"SPE_US_M3_Halftrack"
 ];
 
 GRLIB_AirDrop_3 = [
-	"SPE_US_M3_Halftrack_Unarmed_Open"
+	"SPE_M20_AUC",
+	"SPE_M10"
 ];
 
 GRLIB_AirDrop_4 = [
-	"SPE_US_M3_Halftrack_Unarmed_Open"
+	"SPE_CCKW_353",
+	"SPE_CCKW_353_Open"
 ];
 
 GRLIB_AirDrop_5 = [
-	"SPE_US_M3_Halftrack_Unarmed_Open"
+	"SPE_M4A0_75",
+	"SPE_M4A1_76"
 ];
 
 GRLIB_AirDrop_6 = [
-	"SPE_US_M3_Halftrack_Unarmed_Open"
 ];

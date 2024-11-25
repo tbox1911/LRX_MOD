@@ -192,8 +192,6 @@ opfor_recyclable = [
 	["SPE_M1919A6_Bipod",0,round (45 / GRLIB_recycling_percentage),0],
 	["SPE_M45_Quadmount",0,round (50 / GRLIB_recycling_percentage),0],
 	//
-	["I_C_Boat_Transport_01_F",1,round (12 / GRLIB_recycling_percentage),3],
-	//
 	["SPE_US_M16_Halftrack",2,round (40 / GRLIB_recycling_percentage),4],
 	["SPE_US_M3_Halftrack_Ambulance",2,round (50 / GRLIB_recycling_percentage),4],
 	["SPE_US_M3_Halftrack_Ammo",2,round (60 / GRLIB_recycling_percentage),4],

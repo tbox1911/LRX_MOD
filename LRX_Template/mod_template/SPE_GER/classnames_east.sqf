@@ -72,7 +72,7 @@ militia_vehicles = [
 	"SPE_OpelBlitz_Open",
 	"SPE_OpelBlitz_Flak38",
 	"SPE_SdKfz250_1"
-	];
+];
 
 opfor_boats = [
 ];
@@ -188,28 +188,26 @@ opfor_recyclable = [
 	["SPE_MG42_Bipod",0,round (30 / GRLIB_recycling_percentage),0],
 
 	//
-	["B_G_Boat_Transport_01_F",1,round (12 / GRLIB_recycling_percentage),3],
-	//
-	["SPE_OpelBlitz",2,round (10 / GRLIB_recycling_percentage),4],
-	["SPE_OpelBlitz_Open",2,round (10 / GRLIB_recycling_percentage),4],
-	["SPE_OpelBlitz_Ambulance",2,round (20 / GRLIB_recycling_percentage),4],
+	["SPE_OpelBlitz",2,round (30 / GRLIB_recycling_percentage),4],
+	["SPE_OpelBlitz_Open",2,round (30 / GRLIB_recycling_percentage),4],
+	["SPE_OpelBlitz_Ambulance",2,round (50 / GRLIB_recycling_percentage),4],
 	["SPE_OpelBlitz_Ammo",4,round (50 / GRLIB_recycling_percentage),4],
 	["SPE_OpelBlitz_Repair",2,round (50 / GRLIB_recycling_percentage),4],
 	["SPE_OpelBlitz_Fuel",2,round (50 / GRLIB_recycling_percentage),20],
-	["SPE_OpelBlitz_Flak38",3,round (60 / GRLIB_recycling_percentage),4],
+	["SPE_OpelBlitz_Flak38",3,round (700 / GRLIB_recycling_percentage),4],
 	//
 	["SPE_SdKfz250_1",3,round (100 / GRLIB_recycling_percentage),6],
-	["SPE_PzKpfwIII_J",5,round (75 / GRLIB_recycling_percentage),10],
-	["SPE_PzKpfwIII_L",5,round (75 / GRLIB_recycling_percentage),10],
-	["SPE_PzKpfwIII_M",5,round (75 / GRLIB_recycling_percentage),10],
-	["SPE_PzKpfwIII_N",5,round (125 / GRLIB_recycling_percentage),15],
-	["SPE_PzKpfwIV_G",5,round (125 / GRLIB_recycling_percentage),15],
-	["SPE_PzKpfwVI_H1",5,round (250 / GRLIB_recycling_percentage),15],
-	["SPE_Nashorn",5,round (250 / GRLIB_recycling_percentage),15],
-	["SPE_StuG_III_G_Early",5,round (350 / GRLIB_recycling_percentage),15],
-	["SPE_Jagdpanther_G1",5,round (450 / GRLIB_recycling_percentage),15],
+	["SPE_PzKpfwIII_J",5,round (352 / GRLIB_recycling_percentage),10],
+	["SPE_PzKpfwIII_L",5,round (370 / GRLIB_recycling_percentage),10],
+	["SPE_PzKpfwIII_M",5,round (380 / GRLIB_recycling_percentage),10],
+	["SPE_PzKpfwIII_N",5,round (425 / GRLIB_recycling_percentage),15],
+	["SPE_PzKpfwIV_G",5,round (425 / GRLIB_recycling_percentage),15],
+	["SPE_PzKpfwVI_H1",5,round (550 / GRLIB_recycling_percentage),15],
+	["SPE_Nashorn",5,round (650 / GRLIB_recycling_percentage),15],
+	["SPE_StuG_III_G_Early",5,round (650 / GRLIB_recycling_percentage),15],
+	["SPE_Jagdpanther_G1",5,round (650 / GRLIB_recycling_percentage),15],
 	//
-	["SPE_FW190F8",3,round (250 / GRLIB_recycling_percentage),10],
+	["SPE_FW190F8",3,round (650 / GRLIB_recycling_percentage),10],
 	["SPEX_C47_Skytrain",6,round (550 / GRLIB_recycling_percentage),15]
 ];
 
