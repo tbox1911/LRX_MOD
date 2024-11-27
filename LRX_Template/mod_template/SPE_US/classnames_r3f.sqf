@@ -155,6 +155,8 @@ R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
 
 R3F_LOG_CFG_can_transport_cargo = R3F_LOG_CFG_can_transport_cargo +
 [
+    ["SPE_CCKW_353", 100],
+    ["SPE_CCKW_353_Open", 100],
 	["SPE_US_M16_Halftrack", 50],
 	["SPE_US_M3_Halftrack_Ambulance", 50],
 	["SPE_US_M3_Halftrack_Ammo", 50],

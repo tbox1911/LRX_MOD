@@ -117,9 +117,9 @@ heavy_vehicles = [
 ];
 
 air_vehicles = [
-	["SPE_P47",5,900,10,GRLIB_perm_air],
-	["SPEX_CG4_WACO",1,500,0,GRLIB_perm_air],
-	["SPEX_C47_Skytrain",5,600,25,GRLIB_perm_air]
+	["SPE_P47",5,400,15,GRLIB_perm_air],
+	["SPEX_CG4_WACO",1,240,0,GRLIB_perm_air],
+	["SPEX_C47_Skytrain",5,610,25,GRLIB_perm_air]
 ];
 
 // Additional Airplanes from Mod Flying Legends

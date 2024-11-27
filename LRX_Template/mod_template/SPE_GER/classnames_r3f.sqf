@@ -151,11 +151,11 @@ R3F_LOG_CFG_can_transport_cargo = R3F_LOG_CFG_can_transport_cargo +
 [
   ["SPE_GER_R200_Unarmed", 25],
   ["SPE_GER_R200_MG34", 25],
-  ["SPE_OpelBlitz", 50],
+  ["SPE_OpelBlitz", 100],
   ["SPE_OpelBlitz_Flak38", 50],
   ["SPE_OpelBlitz_Ambulance", 50],
   ["SPE_OpelBlitz_Ammo", 50],
-  ["SPE_OpelBlitz_Open", 50],
+  ["SPE_OpelBlitz_Open", 100],
   ["SPE_OpelBlitz_Repair", 50],
   ["SPE_OpelBlitz_Fuel", 50],
   ["SPE_US_M3_Halftrack", 50],

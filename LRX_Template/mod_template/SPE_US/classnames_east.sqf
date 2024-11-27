@@ -146,8 +146,7 @@ opfor_troup_transports_truck = [
 ];
 
 opfor_troup_transports_heli = [
-	opfor_transport_helo,
-	"SPE_P47"
+	"SPEX_C47_Skytrain"
 ];
 
 // Additional Airplanes from Secret Weapons
@@ -216,7 +215,7 @@ opfor_recyclable = [
 	["SPE_M8_LAC",5,round (250 / GRLIB_recycling_percentage),8],
 	["SPE_M4A3_75",10,round (350 / GRLIB_recycling_percentage),20],
 	//
-	["SPE_P47",6,round (250 / GRLIB_recycling_percentage),14]
+	["SPE_P47",6,round (450 / GRLIB_recycling_percentage),15]
 ];
 
 // Additional Airplanes from Mod Flying Legends
