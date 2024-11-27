@@ -35,6 +35,7 @@ foodbarrel_typename = "Land_FoodSacks_01_large_brown_idap_F";
 basic_weapon_typename = "Land_vn_pavn_weapons_stack1";
 commander_classname = "vn_b_men_army_28";
 a3w_resistance_static = "vn_b_army_static_m2_high";
+blufor_flag = "vn_flag_usarmy";
 
 chimera_vehicle_overide = [
   ["B_Heli_Light_01_F",  "vn_b_air_oh6a_01"],
@@ -250,8 +251,7 @@ buildings_west = [
 	["Land_vn_lampshabby_f_4xdir_far",0,0,0,0],
 	["Land_vn_b_trench_stair_02",0,0,0,0],
 	["Land_vn_b_helipad_01",0,0,0,GRLIB_perm_inf],
-	["Land_vn_usaf_revetment_helipad_01",0,0,0,GRLIB_perm_tank],
-	["vn_flag_usarmy",0,0,0,0]
+	["Land_vn_usaf_revetment_helipad_01",0,0,0,GRLIB_perm_tank]
 ];
 
 blufor_squad_inf_light = [

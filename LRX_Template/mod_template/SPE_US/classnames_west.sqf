@@ -39,6 +39,7 @@ fuelbarrel_typename = "Land_SPE_Fuel_Barrel_US";
 foodbarrel_typename = "Land_FoodSacks_01_large_brown_F";
 basic_weapon_typename = "SPE_BasicWeaponsBox_GER";
 a3w_resistance_static = "SPE_M45_Quadmount";
+blufor_flag = "SPE_FlagCarrier_USA";
 
 chimera_vehicle_overide = [
 	["B_Heli_Light_01_F",  "SPE_US_M3_Halftrack_Unarmed_Open"],
@@ -156,7 +157,7 @@ static_vehicles = [
 	["SPE_M2_M3",1,80,0,GRLIB_perm_inf],
 	["SPE_M1919A6_Bipod",1,70,0,GRLIB_perm_inf],
 	["SPE_M45_Quadmount",3,350,0,GRLIB_perm_log],
-	["SPEX_M2_60",0,525,0,GRLIB_perm_tank],	
+	["SPEX_M2_60",0,525,0,GRLIB_perm_tank],
 	["SPE_M1_81",0,650,0,GRLIB_perm_max],
 	["SPE_57mm_M1",0,625,0,GRLIB_perm_air],
 	["SPE_105mm_M3",0,725,0,GRLIB_perm_max]
@@ -172,7 +173,7 @@ support_vehicles_west = [
 
 buildings_west_overide = true;
 buildings_west = [
-	["Land_CncBarrierMedium4_F",0,0,0,0],	
+	["Land_CncBarrierMedium4_F",0,0,0,0],
 	["Land_SPE_Guardbox",0,0,0,0],
 	["Land_SPE_Tent_03",0,0,0,GRLIB_perm_inf],
 	["Land_SPE_StreetLamp",0,0,0,0],
@@ -192,8 +193,7 @@ buildings_west = [
 	["LAND_Utah_Beach_Trench_End",0,0,0,GRLIB_perm_inf],
 	["LAND_Utah_Beach_Trench_Entrance",0,0,0,GRLIB_perm_inf],
 	["LAND_Utah_Beach_Trench_Short",0,0,0,GRLIB_perm_inf],
-	["LAND_Utah_Beach_Trench_T",0,0,0,GRLIB_perm_inf],
-	["SPE_FlagCarrier_USA",0,0,0,0]
+	["LAND_Utah_Beach_Trench_T",0,0,0,GRLIB_perm_inf]
 ];
 
 blufor_squad_inf_light = [

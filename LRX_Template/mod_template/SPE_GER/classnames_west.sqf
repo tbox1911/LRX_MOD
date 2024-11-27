@@ -41,6 +41,7 @@ canister_fuel_typename = "Land_SPE_Jerrycan";
 foodbarrel_typename = "Land_FoodSacks_01_large_brown_F";
 basic_weapon_typename = "SPE_BasicWeaponsBox_US";
 a3w_resistance_static = "SPE_M45_Quadmount";
+blufor_flag = "SPE_FlagCarrier_GER";
 
 chimera_vehicle_overide = [
 	["B_Heli_Light_01_F",  "SPE_OpelBlitz_Open"],
@@ -91,7 +92,7 @@ light_vehicles = [
 	// Boat
 	// Land
 	["SPE_GER_R200_Hood",1,15,1,0],
-	["SPE_GER_R200_Unarmed",1,15,1,0],	
+	["SPE_GER_R200_Unarmed",1,15,1,0],
 	["SPE_GER_R200_MG34",1,35,1,GRLIB_perm_inf],
 	["SPE_OpelBlitz",1,25,1,0],
 	["SPE_OpelBlitz_Open",1,25,1,0],
@@ -166,21 +167,27 @@ support_vehicles_west = [
 
 buildings_west_overide = true;
 buildings_west = [
+	["Land_CncBarrierMedium4_F",0,0,0,0],
 	["Land_SPE_Guardbox",0,0,0,0],
-	["Land_SPE_Tent_03",0,0,0,0],
+	["Land_SPE_Tent_03",0,0,0,GRLIB_perm_inf],
 	["Land_SPE_StreetLamp",0,0,0,0],
 	["Land_SPE_Netting_01",0,0,0,GRLIB_perm_inf],
-	["Land_SPE_Sandbag_Short",0,0,0,GRLIB_perm_inf],
-	["Land_SPE_Sandbag_Short_Low",0,0,0,GRLIB_perm_inf],
-	["Land_SPE_Sandbag_Long",0,0,0,GRLIB_perm_inf],
-	["Land_SPE_Sandbag_Long_Thick",0,0,0,GRLIB_perm_inf],
+	["Land_SPE_Sandbag_Nest",0,0,0,0],
+	["Land_SPE_Sandbag_Short",0,0,0,0],
+	["Land_SPE_Sandbag_Long",0,0,0,0],
+	["Land_SPE_Sandbag_Long_Thick",0,0,0,0],
 	["Land_SPE_Sandbag_Gun_Hole",0,0,0,GRLIB_perm_inf],
 	["Land_SPE_Sandbag_Long_Line",0,0,0,GRLIB_perm_inf],
-	["Land_SPE_Sandbag_Nest",0,0,0,GRLIB_perm_inf],
 	["Land_SPE_BarbedWire_01",0,0,0,GRLIB_perm_inf],
 	["Land_SPE_BarbedWire_03",0,0,0,GRLIB_perm_inf],
 	["Land_SPE_BarbedWire_04",0,0,0,GRLIB_perm_inf],
-	["SPE_FlagCarrier_GER",0,0,0,0]
+	["LAND_Utah_Beach_Trench_Long",0,0,0,GRLIB_perm_inf],
+	["LAND_Utah_Beach_Trench_Corner_60",0,0,0,GRLIB_perm_inf],
+	["LAND_Utah_Beach_Trench_Corner_60_Dirt",0,0,0,GRLIB_perm_inf],
+	["LAND_Utah_Beach_Trench_End",0,0,0,GRLIB_perm_inf],
+	["LAND_Utah_Beach_Trench_Entrance",0,0,0,GRLIB_perm_inf],
+	["LAND_Utah_Beach_Trench_Short",0,0,0,GRLIB_perm_inf],
+	["LAND_Utah_Beach_Trench_T",0,0,0,GRLIB_perm_inf]
 ];
 
 blufor_squad_inf_light = [

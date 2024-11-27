@@ -31,6 +31,8 @@ waterbarrel_typename = "Land_WaterBottle_01_stack_F";
 fuelbarrel_typename = "Land_MetalBarrel_F";
 foodbarrel_typename = "Land_FoodSacks_01_large_brown_idap_F";
 basic_weapon_typename = "Land_vn_us_weapons_stack2";
+blufor_flag = "vn_flag_pavn";
+
 chimera_vehicle_overide = [
   ["B_Heli_Light_01_F",  "vn_b_air_oh6a_01"],
   ["B_Heli_Transport_01_F", "vn_b_air_uh1d_02_04"]
@@ -204,7 +206,6 @@ buildings_west = [
 	["Land_vn_o_trench_firing_01",0,0,0,0],
 	["Land_vn_wf_field_hospital_east",0,0,0,GRLIB_perm_inf],
 	["vn_banner_pavn",0,0,0,0],
-	["vn_flag_pavn",0,0,0,0],
 	["Land_vn_o_bunker_02",0,0,0,0],
 	["Land_vn_o_shelter_05",0,0,0,0]
 ];

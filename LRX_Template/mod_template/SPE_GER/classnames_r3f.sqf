@@ -8,7 +8,6 @@ R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed +
   "SPE_FW190F8"
 ];
 
-
 // Additional Airplanes from Mod Flying Legends
 if (isClass(configFile >> "CfgPatches" >> "sab_flyinglegends")) then {
   R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed + ["sab_fl_bf109e"];
