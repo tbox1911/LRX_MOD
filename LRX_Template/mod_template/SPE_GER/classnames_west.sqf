@@ -145,7 +145,6 @@ boats_west = [
 ];
 
 static_vehicles = [
-	["SPE_GER_SearchLight",1,50,0,GRLIB_perm_inf],
 	["SPE_MG34_Lafette_Deployed",1,80,0,GRLIB_perm_inf],
 	["SPE_MG42_Lafette_Deployed",1,120,0,GRLIB_perm_log],
 	["SPE_FlaK_30",2,180,0,GRLIB_perm_log],
