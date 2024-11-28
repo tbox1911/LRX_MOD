@@ -232,29 +232,40 @@ R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
 
 R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +
 [
-	["SPE_M1_81", 5]
+	["SPE_M1919_M2",5],
+	["SPE_M2_M3",5],
+	["SPE_M1919A6_Bipod",5],
+	["SPEX_M2_60",5],
+	["SPE_M45_Quadmount",10],
+	["SPE_M1_81", 15],
+	["SPE_57mm_M1",15],
+	["SPE_105mm_M3",15]
 ];
 
 R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed +
 [
+	"SPE_M45_Quadmount",
 	"SPE_57mm_M1",
-	"SPE_M45_Quadmount"
+	"SPE_105mm_M3"
 ];
 
 R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
 [
-	"SPE_57mm_M1",
-	"SPE_M1_81",
 	"SPE_M1919_M2",
-	"SPE_M1919_M2_Trench_Deployed",
+	"SPE_M2_M3",
 	"SPE_M1919A6_Bipod",
-	"SPE_M45_Quadmount"
+	"SPE_M45_Quadmount",
+	"SPEX_M2_60",
+	"SPE_M1_81",
+	"SPE_57mm_M1",
+	"SPE_105mm_M3"
 ];
 
 R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
 [
+	"SPE_M45_Quadmount",
 	"SPE_57mm_M1",
-	"SPE_M45_Quadmount"
+	"SPE_105mm_M3"
 ];
 
 //--------------- Camping ---------------
@@ -264,7 +275,7 @@ R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
 	"SPE_FlagCarrier_USA",
 	"Land_SPE_Guardbox",
 	"Land_SPE_Tent_03",
-	"Land_SPE_StreetLamp",  
+	"Land_SPE_StreetLamp",
 	"Land_SPE_Netting_01",
 	"Land_SPE_Sandbag_Nest",
 	"Land_SPE_Sandbag_Short",
