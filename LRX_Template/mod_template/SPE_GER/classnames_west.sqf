@@ -148,11 +148,11 @@ static_vehicles = [
 	["SPE_MG34_Lafette_Deployed",1,80,0,GRLIB_perm_inf],
 	["SPE_MG42_Lafette_Deployed",1,120,0,GRLIB_perm_log],
 	["SPE_FlaK_30",2,180,0,GRLIB_perm_log],
-	["SPE_FlaK_38",2,200,0,GRLIB_perm_tank],
-	["SPE_FlaK_36",2,450,0,GRLIB_perm_tank],
-	["SPE_FlaK_36_AA",2,570,0,GRLIB_perm_max],
-	["SPE_GrW278_1",0,675,0,GRLIB_perm_log],
-	["SPE_Pak40",0,225,0,GRLIB_perm_log],
+	["SPE_FlaK_36",2,250,0,GRLIB_perm_tank],
+	["SPE_FlaK_36_AA",2,270,0,GRLIB_perm_max],
+	["SPE_FlaK_38",2,320,0,GRLIB_perm_tank],
+	["SPE_GrW278_1",0,575,0,GRLIB_perm_log],
+	["SPE_Pak40",0,325,0,GRLIB_perm_log],
 	["SPE_leFH18_AT",0,350,0,GRLIB_perm_max],
 	["SPE_leFH18",0,775,0,GRLIB_perm_max]
 ];
