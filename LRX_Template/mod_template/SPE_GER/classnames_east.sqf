@@ -207,7 +207,7 @@ opfor_recyclable = [
 	["SPE_StuG_III_G_Early",5,round (650 / GRLIB_recycling_percentage),15],
 	["SPE_Jagdpanther_G1",5,round (650 / GRLIB_recycling_percentage),15],
 	//
-	["SPE_FW190F8",3,round (650 / GRLIB_recycling_percentage),10],
+	["SPE_FW190F8",3,round (450 / GRLIB_recycling_percentage),10],
 	["SPEX_C47_Skytrain",6,round (550 / GRLIB_recycling_percentage),15]
 ];
 

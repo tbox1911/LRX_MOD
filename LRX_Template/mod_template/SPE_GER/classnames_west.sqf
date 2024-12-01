@@ -104,10 +104,10 @@ heavy_vehicles = [
 	["SPE_PzKpfwIII_J",5,400,5,GRLIB_perm_tank],
 	["SPE_PzKpfwIII_L",10,500,10,GRLIB_perm_tank],
 	["SPE_PzKpfwIII_N",10,600,10,GRLIB_perm_tank],
-	["SPE_PzKpfwVI_H1",10,700,10,GRLIB_perm_max],
 	["SPE_Nashorn",10,750,10,GRLIB_perm_max],
 	["SPE_StuG_III_G_Early",10,850,10,GRLIB_perm_tank],
-	["SPE_Jagdpanther_G1",10,950,10,GRLIB_perm_max]
+	["SPE_Jagdpanther_G1",10,1950,10,GRLIB_perm_max],
+	["SPE_PzKpfwVI_H1",10,2700,10,GRLIB_perm_max]	
 ];
 
 air_vehicles = [

@@ -215,7 +215,8 @@ opfor_recyclable = [
 	["SPE_M20_AUC",3,round (350 / GRLIB_recycling_percentage),6],
 	["SPE_M8_LAC",5,round (350 / GRLIB_recycling_percentage),8],
 	//
-	["SPE_P47",6,round (450 / GRLIB_recycling_percentage),15]
+	["SPE_P47",6,round (450 / GRLIB_recycling_percentage),15],
+	["SPEX_C47_Skytrain",6,round (550 / GRLIB_recycling_percentage),15]	
 ];
 
 // Additional Airplanes from Mod Flying Legends
