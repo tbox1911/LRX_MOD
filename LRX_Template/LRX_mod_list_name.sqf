@@ -77,6 +77,8 @@ LRX_mod_list_name = [
 	["SOG_VIETCONG", "SoG Prairie Fire VIETCONG"],
 	["SPE_GER", "SPE - GER"],
 	["SPE_US", "SPE - USA"],
+	["SPE_FR", "SPE - FR"],
+	["SPE_FFI", "SPE - FFI"],		
 	["SW_TOR", "Star Wars The Old Republic"],
 	["TFM_MMSLI_W", "Milsim Light Infantry - Woodland"],
 	["TFM_MSCA_D", "Milsim Combined Arms - Desert"],
