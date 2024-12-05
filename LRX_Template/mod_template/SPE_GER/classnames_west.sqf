@@ -90,6 +90,7 @@ units_loadout_overide = [
 
 light_vehicles = [
 	// Boat
+	["SPEX_LCVP",1,50,2,0],
 	// Land
 	["SPE_GER_R200_Hood",1,15,1,0],
 	["SPE_GER_R200_Unarmed",1,15,1,0],
@@ -142,6 +143,7 @@ if (isClass(configFile >> "CfgPatches" >> "sab_flyinglegends")) then {
 };
 
 boats_west = [
+	"SPEX_LCVP"
 ];
 
 static_vehicles = [

@@ -90,6 +90,7 @@ a3w_resistance_squad = [
 
 light_vehicles = [
 	// Boat
+	["SPEX_LCVP",1,50,2,0],
 	// Land
 	["SPE_US_G503_MB",1,50,2,0],
 	["SPE_US_G503_MB_Armoured",1,75,5,0],
@@ -150,6 +151,7 @@ if (isClass(configFile >> "CfgPatches" >> "sab_flyinglegends")) then {
 };
 
 boats_west = [
+	"SPEX_LCVP"
 ];
 
 static_vehicles = [
