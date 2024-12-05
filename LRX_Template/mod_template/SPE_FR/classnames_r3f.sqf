@@ -8,23 +8,6 @@ R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed +
 	"SPE_P47"
 ];
 
-// Additional Airplanes from Mod Flying Legends
-if (isClass(configFile >> "CfgPatches" >> "sab_flyinglegends")) then {
-	R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed + ["sab_fl_f4f"];
-	R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed + ["sab_fl_f4u"];
-	R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed + ["sab_fl_p51d"];
-	R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed + ["sab_fl_sbd"];
-};
-
-if (isClass(configFile >> "CfgPatches" >> "sab_sw_a26")) then {
-	R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed + ["sab_sw_p38"];
-	R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed + ["sab_sw_p40"];
-	R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed + ["sab_sw_a26"];
-	R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed + ["sab_sw_tbf"];
-	R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed + ["sab_sw_b17"];
-
-};
-
 R3F_LOG_CFG_can_lift = R3F_LOG_CFG_can_lift +
 [
 ];
@@ -38,22 +21,6 @@ R3F_LOG_CFG_can_transport_cargo = R3F_LOG_CFG_can_transport_cargo +
 	["SPE_P47", 50]
 
 ];
-
-// Additional Airplanes from Mod Flying Legends
-if (isClass(configFile >> "CfgPatches" >> "sab_flyinglegends")) then {
-	R3F_LOG_CFG_can_transport_cargo pushBack ["sab_fl_f4f",150];
-	R3F_LOG_CFG_can_transport_cargo pushBack ["sab_fl_f4u",150];
-	R3F_LOG_CFG_can_transport_cargo pushBack ["sab_fl_p51d",150];
-	R3F_LOG_CFG_can_transport_cargo pushBack ["sab_fl_sbd",150];
-};
-
-if (isClass(configFile >> "CfgPatches" >> "sab_sw_a26")) then {
-	R3F_LOG_CFG_can_transport_cargo pushBack ["sab_sw_p38",150];
-	R3F_LOG_CFG_can_transport_cargo pushBack ["sab_sw_p40",150];
-	R3F_LOG_CFG_can_transport_cargo pushBack ["sab_sw_a26",150];
-	R3F_LOG_CFG_can_transport_cargo pushBack ["sab_sw_tbf",150];
-	R3F_LOG_CFG_can_transport_cargo pushBack ["sab_sw_b17",150];
-};
 
 R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +
 [
@@ -84,9 +51,9 @@ R3F_LOG_CFG_can_tow = R3F_LOG_CFG_can_tow +
 	"SPE_M4A1_76",
 	"SPE_M4A1_75",
 	"SPE_M4A1_T34_Calliope",
-	"SPE_FR_G503_MB",
-	"SPE_FR_G503_MB_Armoured",
-	"SPE_FR_G503_MB_M2_Armoured",
+	"SPE_US_G503_MB",
+	"SPE_US_G503_MB_Armoured",
+	"SPE_US_G503_MB_M2_Armoured",
 	"SPE_M20_AUC",
 	"SPE_M8_LAC",
 	"SPE_M4A3_75"
@@ -111,9 +78,9 @@ R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed +
 	"SPE_M4A1_76",
 	"SPE_M4A1_75",
 	"SPE_M4A1_T34_Calliope",
-	"SPE_FR_G503_MB",
-	"SPE_FR_G503_MB_Armoured",
-	"SPE_FR_G503_MB_M2_Armoured",
+	"SPE_US_G503_MB",
+	"SPE_US_G503_MB_Armoured",
+	"SPE_US_G503_MB_M2_Armoured",
 	"SPE_M20_AUC",
 	"SPE_M8_LAC",
 	"SPE_M4A3_75"
@@ -142,9 +109,9 @@ R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
 	"SPE_M4A1_76",
 	"SPE_M4A1_75",
 	"SPE_M4A1_T34_Calliope",
-	"SPE_FR_G503_MB",
-	"SPE_FR_G503_MB_Armoured",
-	"SPE_FR_G503_MB_M2_Armoured",
+	"SPE_US_G503_MB",
+	"SPE_US_G503_MB_Armoured",
+	"SPE_US_G503_MB_M2_Armoured",
 	"SPE_M20_AUC",
 	"SPE_M8_LAC",
 	"SPE_M4A3_75"
@@ -169,9 +136,9 @@ R3F_LOG_CFG_can_transport_cargo = R3F_LOG_CFG_can_transport_cargo +
 	["SPE_M4A1_76", 50],
 	["SPE_M4A1_75", 50],
 	["SPE_M4A1_T34_Calliope", 50],
-	["SPE_FR_G503_MB", 25],
-	["SPE_FR_G503_MB_Armoured", 25],
-	["SPE_FR_G503_MB_M2_Armoured", 25],
+	["SPE_US_G503_MB", 25],
+	["SPE_US_G503_MB_Armoured", 25],
+	["SPE_US_G503_MB_M2_Armoured", 25],
 	["SPE_M20_AUC", 50],
 	["SPE_M8_LAC", 50],
 	["SPE_M4A3_75", 50]

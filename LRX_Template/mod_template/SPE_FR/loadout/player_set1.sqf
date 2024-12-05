@@ -16,9 +16,9 @@ _unit addWeapon "SPE_M1911";
 _unit addHandgunItem "SPE_7Rnd_45ACP_1911";
 
 //comment "Add containers";
-_unit forceAddUniform "U_SPE_US_Private";
-_unit addVest "V_SPE_US_Vest_Garand";
-_unit addBackpack "B_SPE_US_Backpack_Bandoleer_Rifleman";
+_unit forceAddUniform "U_SPE_FR_HBT_Uniform";
+_unit addVest "V_SPE_US_Vest_Carbine_nco";
+_unit addBackpack "B_SPE_US_Suspender";
 
 //comment "Add items to containers";
 _unit addItemToUniform "SPE_ACC_M1_Bayo";
@@ -26,10 +26,9 @@ _unit addItemToUniform "SPE_US_FirstAidKit";
 for "_i" from 1 to 3 do {_unit addItemToUniform "SPE_7Rnd_45ACP_1911";};
 for "_i" from 1 to 2 do {_unit addItemToVest "SPE_US_FirstAidKit";};
 for "_i" from 1 to 2 do {_unit addItemToVest "SPE_US_Mk_2";};
-_unit addHeadgear "H_SPE_US_Helmet_ns";
+_unit addHeadgear "H_SPE_FR_Adrian";
 
 //comment "Add items";
 _unit linkItem "ItemMap";
 _unit linkItem "SPE_US_ItemCompass";
 _unit linkItem "SPE_US_ItemWatch";
-

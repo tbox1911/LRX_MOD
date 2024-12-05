@@ -22,7 +22,7 @@ opfor_sharpshooter = "SPE_FR_Sniper";
 opfor_sniper = "SPE_FR_Sniper";
 opfor_spotter = "SPE_FR_Sniper";
 opfor_engineer = "SPE_FR_Engineer";
-opfor_paratrooper = "SPE_FR_Rangers_grenadier";
+opfor_paratrooper = "SPE_FR_Grenadier";
 opfor_mrap_hmg = "SPE_FR_M3_Halftrack";
 opfor_mrap_gmg = "SPE_FR_M3_Halftrack";
 opfor_transport_helo = "SPE_P47";		// no Helo
@@ -31,16 +31,11 @@ opfor_fuel_truck = "SPE_FR_M3_Halftrack_Fuel";
 opfor_ammo_truck = "SPE_FR_M3_Halftrack_Ammo";
 opfor_fuel_container = "B_Slingload_01_Fuel_F";
 opfor_ammo_container = "B_Slingload_01_Ammo_F";
-opfor_flag = "SPE_FlagCarrier_USA";
+opfor_flag = "SPE_FlagCarrier_FFF";
 opfor_house = "Land_SPE_Barn_Thatch_02";
 opfor_patrol = "Land_SPE_Barn_Thatch_02";
 opfor_hq = "Land_SPE_House_Thatch_03";
 a3w_enemy_static = ["SPE_MG34_Lafette_Deployed", "SPE_MG42_Lafette_Deployed", "SPE_M45_Quadmount"];
-
-// Additional Airplanes from Secret Weapons
-if (isClass(configFile >> "CfgPatches" >> "sab_sw_a26")) then {
-  opfor_transport_helo = ["sab_sw_b17"];
-};
 
 militia_squad = [
 	"SPE_FFI_Autorifleman_303_LMG",
@@ -71,7 +66,7 @@ a3w_divers_squad = [
 
 militia_vehicles = [
 	"SPE_FR_M3_Halftrack_Unarmed_Open",
-	"SPE_FR_G503_MB_M2_Armoured",
+	"SPE_US_G503_MB_M2_Armoured",
 	"SPE_FR_M3_Halftrack",
 	"SPE_FR_M3_Halftrack",
 	"SPE_FR_M3_Halftrack",
@@ -89,13 +84,12 @@ opfor_vehicles = [
 	"SPE_FR_M3_Halftrack",
 	"SPE_FR_M3_Halftrack_Unarmed",
 	"SPE_FR_M10",
-	"SPE_FR_M18_Hellcat",
+	"SPE_M18_Hellcat",
 	"SPE_FR_M4A0_75_Early",
-	"SPE_FR_M4A0_75",
 	"SPE_FR_M4A1_76",
 	"SPE_FR_M4A1_75",
 	"SPE_M4A1_T34_Calliope",
-	"SPE_FR_G503_MB_M2_Armoured",
+	"SPE_US_G503_MB_M2_Armoured",
 	"SPE_FR_M20_AUC",
 	"SPE_FR_M8_LAC",
 	"SPE_FR_M4A3_75"
@@ -115,12 +109,12 @@ opfor_battlegroup_vehicles = [
 	"SPE_FR_M16_Halftrack",
 	"SPE_FR_M3_Halftrack",
 	"SPE_FR_M4A0_75_Early",
-	"SPE_FR_G503_MB_M2_Armoured",
+	"SPE_US_G503_MB_M2_Armoured",
 	"SPE_FR_M10",
 	"SPE_M4A1_T34_Calliope",
 	"SPE_FR_M4A1_75",
 	"SPE_FR_M4A0_75_Early",
-	"SPE_FR_M18_Hellcat",
+	"SPE_M18_Hellcat",
 	"SPE_FR_M8_LAC",
 	"SPE_FR_M4A3_75"
 ];
@@ -129,10 +123,10 @@ opfor_battlegroup_vehicles_low_intensity = [
 	"SPE_FR_M16_Halftrack",
 	"SPE_FR_M3_Halftrack",
 	"SPE_FR_M4A0_75_Early",
-	"SPE_FR_G503_MB_M2_Armoured",
+	"SPE_US_G503_MB_M2_Armoured",
 	"SPE_FR_M10",
 	"SPE_FR_M4A1_75",
-	"SPE_FR_M18_Hellcat",
+	"SPE_M18_Hellcat",
 	"SPE_FR_M20_AUC",
 	"SPE_FR_M8_LAC"
 ];
@@ -147,30 +141,9 @@ opfor_troup_transports_heli = [
 	"SPEX_C47_Skytrain"
 ];
 
-// Additional Airplanes from Secret Weapons
-if (isClass(configFile >> "CfgPatches" >> "sab_sw_a26")) then {
-  opfor_troup_transports_heli = ["sab_sw_b17"];
-};
-
 opfor_air = [
 	"SPE_P47"
 ];
-
-// Additional Airplanes from Mod Flying Legends
-if (isClass(configFile >> "CfgPatches" >> "sab_flyinglegends")) then {
-	opfor_air pushBack "sab_fl_f4u";
-	opfor_air pushBack "sab_fl_p51d";
-	opfor_air pushBack "sab_fl_sbd";
-};
-
-// Additional Airplanes from Secret Weapons (requ. Flying Legends)
-if (isClass(configFile >> "CfgPatches" >> "sab_sw_a26")) then {
-	opfor_air pushBack "sab_sw_p38";
-	opfor_air pushBack "sab_sw_p40";
-	opfor_air pushBack "sab_sw_a26";
-	opfor_air pushBack "sab_sw_tbf";
-	opfor_air pushBack "sab_sw_b17";
-};
 
 opfor_statics = [
 	"SPE_57mm_M1",
@@ -179,7 +152,6 @@ opfor_statics = [
 	"SPE_M45_Quadmount",
 	"SPE_M1919_M2_Trench_Deployed"
 ];
-
 
 opfor_recyclable = [
 	["SPE_57mm_M1",0,round (20 / GRLIB_recycling_percentage),0],
@@ -199,35 +171,18 @@ opfor_recyclable = [
 	["SPE_FR_M3_Halftrack",2,round (50 / GRLIB_recycling_percentage),4],
 	//
 	["SPE_FR_M10",3,round (500 / GRLIB_recycling_percentage),6],
-	["SPE_FR_M18_Hellcat",3,round (500 / GRLIB_recycling_percentage),6],
+	["SPE_M18_Hellcat",3,round (500 / GRLIB_recycling_percentage),6],
 	["SPE_FR_M4A0_75_Early",3,round (500 / GRLIB_recycling_percentage),6],
-	["SPE_FR_M4A0_75",3,round (500 / GRLIB_recycling_percentage),6],
 	["SPE_FR_M4A1_76",5,round (500 / GRLIB_recycling_percentage),15],
 	["SPE_FR_M4A1_75",5,round (500 / GRLIB_recycling_percentage),15],
 	["SPE_FR_M4A3_75",10,round (700 / GRLIB_recycling_percentage),20],
 	["SPE_M4A1_T34_Calliope",7,round (600 / GRLIB_recycling_percentage),20],
-	["SPE_FR_G503_MB",1,round (25 / GRLIB_recycling_percentage),1],
-	["SPE_FR_G503_MB_Armoured",1,round (50 / GRLIB_recycling_percentage),1],
-	["SPE_FR_G503_MB_M2_Armoured",1,round (50 / GRLIB_recycling_percentage),1],
+	["SPE_US_G503_MB",1,round (25 / GRLIB_recycling_percentage),1],
+	["SPE_US_G503_MB_Armoured",1,round (50 / GRLIB_recycling_percentage),1],
+	["SPE_US_G503_MB_M2_Armoured",1,round (50 / GRLIB_recycling_percentage),1],
 	["SPE_FR_M20_AUC",3,round (350 / GRLIB_recycling_percentage),6],
 	["SPE_FR_M8_LAC",5,round (350 / GRLIB_recycling_percentage),8],
 	//
 	["SPE_P47",6,round (450 / GRLIB_recycling_percentage),15],
-	["SPEX_C47_Skytrain",6,round (550 / GRLIB_recycling_percentage),15]	
+	["SPEX_C47_Skytrain",6,round (550 / GRLIB_recycling_percentage),15]
 ];
-
-// Additional Airplanes from Mod Flying Legends
-if (isClass(configFile >> "CfgPatches" >> "sab_flyinglegends")) then {
-    opfor_recyclable pushBack ["sab_fl_f4u",10,round (200 / GRLIB_recycling_percentage),15];
-    opfor_recyclable pushBack ["sab_fl_p51d",10,round (200 / GRLIB_recycling_percentage),15];
-    opfor_recyclable pushBack ["sab_fl_sbd",10,round (200 / GRLIB_recycling_percentage),15];
-};
-
-// Additional Airplanes from Mod Secret Weapons
-if (isClass(configFile >> "CfgPatches" >> "sab_sw_a26")) then {
-    opfor_recyclable pushBack ["sab_sw_p38",10,round (200 / GRLIB_recycling_percentage),15];
-    opfor_recyclable pushBack ["sab_sw_p40",10,round (200 / GRLIB_recycling_percentage),15];
-    opfor_recyclable pushBack ["sab_sw_a26",10,round (200 / GRLIB_recycling_percentage),15];
-    opfor_recyclable pushBack ["sab_sw_tbf",10,round (200 / GRLIB_recycling_percentage),15];
-    opfor_recyclable pushBack ["sab_sw_b17",10,round (200 / GRLIB_recycling_percentage),15];
-};
