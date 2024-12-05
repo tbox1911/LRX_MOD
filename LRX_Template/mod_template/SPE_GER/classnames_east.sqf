@@ -1,6 +1,6 @@
 // *** BADDIES ***
 GRLIB_side_enemy = WEST;
-GRLIB_east_modder = "Z@Warrior";
+GRLIB_east_modder = "Z@Warrior + pSiKO";
 
 // All class MUST be defined !
 
@@ -35,7 +35,7 @@ opfor_flag = "SPE_FlagCarrier_GER";
 opfor_house = "Land_SPE_Barn_Thatch_02";
 opfor_patrol = "Land_SPE_Barn_Thatch_02";
 opfor_hq = "Land_SPE_House_Thatch_03";
-a3w_enemy_static = ["SPE_M2_M3", "SPE_M45_Quadmount"];
+a3w_enemy_static = ["SPE_MG34_Lafette_Deployed", "SPE_MG42_Lafette_Deployed", "SPE_M45_Quadmount"];
 
 // Additional Airplanes from Secret Weapons
 if (isClass(configFile >> "CfgPatches" >> "sab_sw_a26")) then {

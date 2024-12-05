@@ -1,6 +1,6 @@
 // *** BADDIES ***
 GRLIB_side_enemy = INDEPENDENT;
-GRLIB_east_modder = "Z@Warrior";
+GRLIB_east_modder = "Z@Warrior + pSiKO";
 
 // All class MUST be defined !
 
@@ -35,7 +35,7 @@ opfor_flag = "SPE_FlagCarrier_USA";
 opfor_house = "Land_SPE_Barn_Thatch_02";
 opfor_patrol = "Land_SPE_Barn_Thatch_02";
 opfor_hq = "Land_SPE_House_Thatch_03";
-a3w_enemy_static = ["SPE_M2_M3", "SPE_M45_Quadmount"];
+a3w_enemy_static = ["SPE_MG34_Lafette_Deployed", "SPE_MG42_Lafette_Deployed", "SPE_M45_Quadmount"];
 
 // Additional Airplanes from Secret Weapons
 if (isClass(configFile >> "CfgPatches" >> "sab_sw_a26")) then {
@@ -94,7 +94,6 @@ opfor_vehicles = [
 	"SPE_M4A0_75",
 	"SPE_M4A1_76",
 	"SPE_M4A1_75",
-	"SPE_M4A1_T34_Calliope_Direct",
 	"SPE_M4A1_T34_Calliope",
 	"SPE_US_G503_MB_M2_Armoured",
 	"SPE_M20_AUC",
@@ -118,7 +117,6 @@ opfor_battlegroup_vehicles = [
 	"SPE_M4A0_75_Early",
 	"SPE_US_G503_MB_M2_Armoured",
 	"SPE_M10",
-	"SPE_M4A1_T34_Calliope_Direct",
 	"SPE_M4A1_T34_Calliope",
 	"SPE_M4A1_75",
 	"SPE_M4A0_75_Early",
@@ -207,7 +205,6 @@ opfor_recyclable = [
 	["SPE_M4A1_76",5,round (500 / GRLIB_recycling_percentage),15],
 	["SPE_M4A1_75",5,round (500 / GRLIB_recycling_percentage),15],
 	["SPE_M4A3_75",10,round (700 / GRLIB_recycling_percentage),20],
-	["SPE_M4A1_T34_Calliope_Direct",7,round (600 / GRLIB_recycling_percentage),20],
 	["SPE_M4A1_T34_Calliope",7,round (600 / GRLIB_recycling_percentage),20],
 	["SPE_US_G503_MB",1,round (25 / GRLIB_recycling_percentage),1],
 	["SPE_US_G503_MB_Armoured",1,round (50 / GRLIB_recycling_percentage),1],
