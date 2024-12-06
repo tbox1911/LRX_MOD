@@ -101,7 +101,7 @@ light_vehicles = [
 	["SPE_US_M3_Halftrack",1,275,8,GRLIB_perm_log],
 	["SPE_CCKW_353",1,150,8,GRLIB_perm_inf],
 	["SPE_CCKW_353_Open",1,150,8,GRLIB_perm_inf],
-	["SPE_FFI_M16_Halftrack",1,400,10,GRLIB_perm_log],
+	["SPE_FR_M16_Halftrack",1,400,10,GRLIB_perm_log],
 	["SPE_FR_M20_AUC",1,350,10,GRLIB_perm_log],
 	["SPE_FR_M8_LAC",1,350,12,GRLIB_perm_tank],
 	["SPE_FR_M8_LAC_ringMount",1,450,12,GRLIB_perm_tank]
