@@ -31,7 +31,7 @@ Box_Special_typename = "SPE_FFI_Open_Ammocrate_Grenades_Frag";
 SHOP_Man = "SPE_CIV_pak2_zwart_tie_alt";
 SELL_Man = "SPE_CIV_Worker_Coverall_1";
 WRHS_Man = "SPE_CIV_Worker_3";						// Man in Warehouse
-commander_classname = "SPE_FFI_Pilot_Unequipped";			// Sell-Man in FOB
+commander_classname = "SPE_FFI_TeamLeader";			// Sell-Man in FOB
 repair_offroad = "SPE_FFI_OpelBlitz_Repair";
 //waterbarrel_typename = "Land_WaterBottle_01_stack_F";
 canister_fuel_typename = "Land_SPE_Jerrycan";
@@ -42,7 +42,7 @@ a3w_resistance_static = "SPE_M45_Quadmount";
 blufor_flag = "SPE_FlagCarrier_FFF";
 
 chimera_vehicle_overide = [
-	["B_Heli_Light_01_F",  "SPE_FFI_M3_Halftrack_Unarmed_Open"],
+	["B_Heli_Light_01_F",  "SPE_US_M3_Halftrack_Unarmed_Open"],
 	["B_Heli_Transport_01_F", "Land_HelipadEmpty_F"]
 ];
 
@@ -93,18 +93,18 @@ light_vehicles = [
 	// Boat
 	["SPEX_LCVP",1,50,2,0],
 	// Land
-	["SPE_FFI_G503_MB",1,50,2,0],
-	["SPE_FFI_G503_MB_Armoured",1,75,5,0],
-	["SPE_FFI_G503_MB_M2_Armoured",1,125,5,0],
-	["SPE_FFI_M3_Halftrack_Unarmed_Open",1,100,8,0],
-	["SPE_FFI_M3_Halftrack_Unarmed",1,100,8,GRLIB_perm_inf],
-	["SPE_FFI_M3_Halftrack",1,275,8,GRLIB_perm_log],
+	["SPE_US_G503_MB",1,50,2,0],
+	["SPE_US_G503_MB_Armoured",1,75,5,0],
+	["SPE_US_G503_MB_M2_Armoured",1,125,5,0],
+	["SPE_US_M3_Halftrack_Unarmed_Open",1,100,8,0],
+	["SPE_US_M3_Halftrack_Unarmed",1,100,8,GRLIB_perm_inf],
+	["SPE_US_M3_Halftrack",1,275,8,GRLIB_perm_log],
 	["SPE_CCKW_353",1,150,8,GRLIB_perm_inf],
 	["SPE_CCKW_353_Open",1,150,8,GRLIB_perm_inf],
 	["SPE_FFI_M16_Halftrack",1,400,10,GRLIB_perm_log],
-	["SPE_FFI_M20_AUC",1,350,10,GRLIB_perm_log],
-	["SPE_FFI_M8_LAC",1,350,12,GRLIB_perm_tank],
-	["SPE_FFI_M8_LAC_ringMount",1,450,12,GRLIB_perm_tank]
+	["SPE_FR_M20_AUC",1,350,10,GRLIB_perm_log],
+	["SPE_FR_M8_LAC",1,350,12,GRLIB_perm_tank],
+	["SPE_FR_M8_LAC_ringMount",1,450,12,GRLIB_perm_tank]
 ];
 
 heavy_vehicles = [
@@ -248,13 +248,13 @@ GRLIB_vehicle_blacklist_west = [
 
 // todo
 GRLIB_AirDrop_1 = [
-	"SPE_FFI_G503_MB",
-	"SPE_FFI_G503_MB_Armoured"
+	"SPE_US_G503_MB",
+	"SPE_US_G503_MB_Armoured"
 ];
 
 GRLIB_AirDrop_2 = [
-	"SPE_FFI_G503_MB_M2_Armoured",
-	"SPE_FFI_M3_Halftrack"
+	"SPE_US_G503_MB_M2_Armoured",
+	"SPE_US_M3_Halftrack"
 ];
 
 GRLIB_AirDrop_3 = [

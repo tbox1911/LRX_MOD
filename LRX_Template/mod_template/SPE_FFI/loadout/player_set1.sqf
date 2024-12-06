@@ -15,9 +15,9 @@ removeGoggles _unit;
 _unit addWeapon "SPE_M1911";
 _unit addHandgunItem "SPE_7Rnd_45ACP_1911";
 
-this addWeapon "SPE_Sten_Mk2";
-this addPrimaryWeaponItem "SPE_32Rnd_9x19_Sten";
-this addPrimaryWeaponItem "SPE_32rnd_MUZZLE_FAKEMAG";
+_unit addWeapon "SPE_Sten_Mk2";
+_unit addPrimaryWeaponItem "SPE_32Rnd_9x19_Sten";
+_unit addPrimaryWeaponItem "SPE_32rnd_MUZZLE_FAKEMAG";
 
 //comment "Add containers";
 _unit forceAddUniform "U_SPE_FFI_Jacket_bruin";
