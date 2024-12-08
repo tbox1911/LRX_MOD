@@ -5,10 +5,11 @@ GRLIB_west_modder = "pSiKO";
 // Default classname: scripts\shared\default_classnames.sqf
 // Advanced definition: scripts\shared\classnames.sqf
 
-// [SPE] US Army
+// [SPE] FFI Army
 
-FOB_typename = "Land_SPE_House_Thatch_03";
-FOB_outpost = "Land_SPE_Barn_Thatch_02";
+FOB_typename = "Land_GuardHouse_02_F";
+FOB_outpost = "Land_GuardHouse_03_F";
+FOB_truck_typename = "SPE_FR_M3_Halftrack_Ammo+";
 Respawn_truck_typename = "SPE_FFI_OpelBlitz_Ambulance";
 ammo_truck_typename = "SPE_FFI_OpelBlitz_Ammo";
 fuel_truck_typename = "SPE_FFI_OpelBlitz_Fuel";

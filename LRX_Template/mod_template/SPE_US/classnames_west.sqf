@@ -7,8 +7,9 @@ GRLIB_west_modder = "Z@Warrior + pSiKO";
 
 // [SPE] US Army
 
-FOB_typename = "Land_SPE_House_Thatch_03";
-FOB_outpost = "Land_SPE_Barn_Thatch_02";
+FOB_typename = "Land_Bunker_01_HQ_F";
+FOB_outpost = "Land_Bunker_01_small_F";
+FOB_truck_typename = "SPE_CCKW_353_Ammo";
 Respawn_truck_typename = "SPE_US_M3_Halftrack_Ambulance";
 ammo_truck_typename = "SPE_US_M3_Halftrack_Ammo";
 fuel_truck_typename = "SPE_US_M3_Halftrack_Fuel";

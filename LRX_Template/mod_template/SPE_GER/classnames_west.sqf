@@ -6,9 +6,10 @@ GRLIB_west_modder = "Z@Warrior + pSiKO";
 // Advanced definition: scripts\shared\classnames.sqf
 
 // [SPE] Wehrmacht
-huron_typename = "Land_HelipadEmpty_F";
+
 FOB_typename = "Land_SPE_H679";
 FOB_outpost = "Land_SPE_H612";
+FOB_truck_typename = "SPE_ST_OpelBlitz_Repair";
 mobile_respawn = "Land_TentDome_F";
 mobile_respawn_bag = "B_Kitbag_Base";
 Respawn_truck_typename = "SPE_OpelBlitz_Ambulance";

@@ -32,9 +32,9 @@ opfor_ammo_truck = "SPE_OpelBlitz_Ammo";
 opfor_fuel_container = "B_Slingload_01_Fuel_F";
 opfor_ammo_container = "B_Slingload_01_Ammo_F";
 opfor_flag = "SPE_FlagCarrier_GER";
-opfor_house = "Land_SPE_Barn_Thatch_02";
-opfor_patrol = "Land_SPE_Barn_Thatch_02";
-opfor_hq = "Land_SPE_House_Thatch_03";
+opfor_house = "Land_SPE_H612";
+opfor_patrol = "Land_Cargo_Patrol_V2_F";
+opfor_hq = "Land_SPE_H679";
 a3w_enemy_static = ["SPE_MG34_Lafette_Deployed", "SPE_MG42_Lafette_Deployed", "SPE_M45_Quadmount"];
 
 // Additional Airplanes from Secret Weapons
