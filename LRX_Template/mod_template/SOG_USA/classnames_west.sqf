@@ -7,9 +7,12 @@ GRLIB_west_modder = "pSiKO";
 
 huron_typename = "vn_b_air_ch47_02_01";  // // to use value from lobby/server.cfg
 FOB_typename = "Land_vn_bunker_big_02";
+FOB_typename_sign = [[-3, -5, -0.4], 180];   // "Land_vn_bunker_big_02"
+FOB_typename_map = [[0, 1.5, 2], 180];       // "Land_vn_bunker_big_02"
+FOB_outpost = "Land_vn_b_trench_bunker_01_02";
+FOB_outpost_sign = [[-1.5, -6, -0.4], 90];   // "Land_vn_b_trench_bunker_01_02"
 FOB_box_typename = "Land_Pod_Heli_Transport_04_box_black_F";
 FOB_truck_typename = "vn_b_wheeled_m54_03";
-FOB_outpost = "Land_vn_b_trench_bunker_01_02";
 FOB_box_outpost = "vn_us_komex_small_02";
 mobile_respawn = "Land_TentDome_F";
 mobile_respawn_bag = "B_Kitbag_Base";

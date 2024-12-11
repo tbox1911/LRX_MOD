@@ -8,7 +8,10 @@ GRLIB_west_modder = "Z@Warrior + pSiKO";
 // [SPE] Wehrmacht
 
 FOB_typename = "Land_SPE_H679";
+FOB_typename_sign = [[4, -6, -0.4], 0];      // "Land_SPE_H679"
+FOB_typename_map = [[0,2,0], 0];             // "Land_SPE_H679"
 FOB_outpost = "Land_SPE_H612";
+FOB_outpost_sign = [[3.5, -2, -0.4], 180];   // "Land_SPE_H612"
 FOB_truck_typename = "SPE_ST_OpelBlitz_Repair";
 mobile_respawn = "Land_TentDome_F";
 mobile_respawn_bag = "B_Kitbag_Base";

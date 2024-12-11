@@ -6,10 +6,13 @@ GRLIB_west_modder = "pSiKO";
 // Advanced definition: scripts\shared\classnames.sqf
 
 huron_typename = "vn_o_air_mi2_01_01";  // // to use value from lobby/server.cfg
-FOB_typename = "Land_vn_b_trench_bunker_04_01";
+FOB_typename = "Land_vn_bunker_big_02";
+FOB_typename_sign = [[-3, -5, -0.4], 180];   // "Land_vn_bunker_big_02"
+FOB_typename_map = [[0, 1.5, 2], 180];       // "Land_vn_bunker_big_02"
+FOB_outpost = "Land_vn_b_trench_bunker_01_02";
+FOB_outpost_sign = [[-1.5, -6, -0.4], 90];   // "Land_vn_b_trench_bunker_01_02"
 FOB_box_typename = "Land_Pod_Heli_Transport_04_box_black_F";
 FOB_truck_typename = "vn_o_wheeled_z157_repair";
-FOB_outpost = "Land_vn_b_trench_bunker_01_02";
 FOB_box_outpost = "vn_us_komex_small_03";
 Respawn_truck_typename = "vn_o_wheeled_btr40_02_nva65";
 ammo_truck_typename = "vn_o_wheeled_z157_ammo_nvam";
