@@ -8,6 +8,7 @@ LRX_mod_list_west = [
 	"3CB_LDF_OPF",		// Z@Warrior 3CB Livonia Defence Force
 	"3CB_MDF_OPF",		// Z@Warrior 3CB Malden Defence Force
 	"3CB_TNA_OPF",		// Z@Warrior 3CB Takistan National Army
+	"ACR_A3",			// pSiKO Army of the Czech Republic
 	"ASZ_ITALY",
 	"BW_MOD",		// Z@Warrior Bundenswehr Tropentarn
 	"CFP_B_ILIDF", 		// DarkDemon

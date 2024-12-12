@@ -8,6 +8,7 @@ LRX_mod_list_name = [
 	["3CB_LDF_OPF","3CB Livonia Defence Force"],
 	["3CB_MDF_OPF","3CB Malden Defence Force"],
 	["3CB_TNA_OPF","3CB Takistan National Army"],
+	["ACR_A3", "Army of the Czech Republic"],
 	["ASZ_ITALY", "ASZ Italian Army"],
 	["BW_MOD", "Bundenswehr Tropentarn"],
 	["CFP_B_ILIDF","CFP Israeli Defence Force"],
