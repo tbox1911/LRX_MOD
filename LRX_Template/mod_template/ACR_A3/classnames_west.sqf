@@ -21,6 +21,11 @@ pilot_classname = "B_ACR_A3_Pilot";
 crewman_classname = "B_ACR_A3_crew";
 uavs_terminal_typename = "B_UavTerminal";
 blufor_flag = "Flag_Syndikat_F";
+WRHS_Man = "B_ACR_A3_Soldier_lite";						// Man in Warehouse
+commander_classname = "B_ACR_A3_Officer";			// Sell-Man in FOB
+chimera_vehicle_overide = [
+	["B_Heli_Transport_01_F", "I_Heli_light_03_unarmed_F"]
+];
 
 // [CLASSNAME, MANPOWER, AMMO, FUEL, RANK]
 infantry_units_west = [
