@@ -9,7 +9,7 @@ GRLIB_west_modder = "pSiKO";
 
 FOB_typename = "Land_GuardHouse_02_F";
 FOB_outpost = "Land_GuardHouse_03_F";
-FOB_truck_typename = "SPE_FR_M3_Halftrack_Ammo+";
+FOB_truck_typename = "SPE_FR_M3_Halftrack_Ammo";
 Respawn_truck_typename = "SPE_FFI_OpelBlitz_Ambulance";
 ammo_truck_typename = "SPE_FFI_OpelBlitz_Ammo";
 fuel_truck_typename = "SPE_FFI_OpelBlitz_Fuel";
