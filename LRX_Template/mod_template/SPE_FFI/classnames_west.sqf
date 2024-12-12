@@ -94,6 +94,9 @@ light_vehicles = [
 	// Boat
 	["SPEX_LCVP",1,50,2,0],
 	// Land
+	["SPE_FFI_R200_Unarmed",1,20,2,0],
+	["SPE_FFI_R200_Hood",1,22,2,0],
+	["SPE_FFI_R200_MG34",1,35,2,0],
 	["SPE_US_G503_MB",1,50,2,0],
 	["SPE_FFI_SdKfz250_1",1,25,5,0],
 	["SPE_US_G503_MB_Armoured",1,75,5,0],
