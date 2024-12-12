@@ -67,5 +67,7 @@ civilian_vehicles = [
 	"C_Truck_02_covered_F",
 	"C_Truck_02_transport_F",
 	"C_Tractor_01_F",
-	"C_Tractor_01_F"
+	"C_Tractor_01_F",
+	"acr_a3_t815_vvn_6x6_civ",
+	"acr_a3_t815_vvn_6x6_civ"
 ];
