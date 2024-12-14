@@ -36,6 +36,7 @@ opfor_house = "Land_SPE_H612";
 opfor_patrol = "Land_Cargo_Patrol_V2_F";
 opfor_hq = "Land_SPE_H679";
 a3w_enemy_static = ["SPE_MG34_Lafette_Deployed", "SPE_MG42_Lafette_Deployed", "SPE_M45_Quadmount"];
+a3w_br_planes = ["SPE_FW190F8"];
 
 // Additional Airplanes from Secret Weapons
 if (isClass(configFile >> "CfgPatches" >> "sab_sw_a26")) then {

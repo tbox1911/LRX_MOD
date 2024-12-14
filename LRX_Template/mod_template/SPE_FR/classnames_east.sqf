@@ -36,6 +36,7 @@ opfor_house = "Land_SPE_Barn_Thatch_02";
 opfor_patrol = "Land_GuardTower_01_F";
 opfor_hq = "Land_GuardHouse_02_F";
 a3w_enemy_static = ["SPE_MG34_Lafette_Deployed", "SPE_MG42_Lafette_Deployed", "SPE_M45_Quadmount"];
+a3w_br_planes = ["SPE_P47"];
 
 militia_squad = [
 	"SPE_FFI_Autorifleman_303_LMG",
