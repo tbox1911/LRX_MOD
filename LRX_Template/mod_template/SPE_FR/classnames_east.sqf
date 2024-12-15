@@ -34,7 +34,7 @@ opfor_ammo_container = "B_Slingload_01_Ammo_F";
 opfor_flag = "SPE_FlagCarrier_FFF";
 opfor_house = "Land_SPE_Barn_Thatch_02";
 opfor_patrol = "Land_GuardTower_01_F";
-opfor_hq = "Land_GuardHouse_02_F";
+opfor_hq = "land_guardhouse_02_f";
 a3w_enemy_static = ["SPE_MG34_Lafette_Deployed", "SPE_MG42_Lafette_Deployed", "SPE_M45_Quadmount"];
 a3w_br_planes = ["SPE_P47"];
 

@@ -7,8 +7,8 @@ GRLIB_west_modder = "pSiKO";
 
 // [SPE] FFI Army
 
-FOB_typename = "Land_GuardHouse_02_F";
-FOB_outpost = "Land_GuardHouse_03_F";
+FOB_typename = "land_guardhouse_02_f";
+FOB_outpost = "land_guardhouse_03_f";
 FOB_truck_typename = "SPE_FR_M3_Halftrack_Ammo";
 Respawn_truck_typename = "SPE_FFI_OpelBlitz_Ambulance";
 ammo_truck_typename = "SPE_FFI_OpelBlitz_Ammo";
