@@ -42,19 +42,18 @@ opfor_hq = "Land_Cargo_HQ_V3_F";
 
 // British Armed Forces '82 - Cold War Rearmed III
 militia_squad = [
-"cwr3_b_uk_soldier_tl",
-"cwr3_b_uk_soldier",
-"cwr3_b_uk_soldier_at_law",
-"cwr3_b_uk_soldier_marksman",
-"cwr3_b_uk_soldier_mg",
-"cwr3_b_uk_soldier_at_carlgustaf",
-"cwr3_b_uk_soldier_medic",
-"cwr3_b_uk_soldier_engineer",
-"cwr3_b_uk_soldier_ar"
+	"cwr3_b_uk_soldier_tl",
+	"cwr3_b_uk_soldier",
+	"cwr3_b_uk_soldier_at_law",
+	"cwr3_b_uk_soldier_marksman",
+	"cwr3_b_uk_soldier_mg",
+	"cwr3_b_uk_soldier_at_carlgustaf",
+	"cwr3_b_uk_soldier_medic",
+	"cwr3_b_uk_soldier_engineer",
+	"cwr3_b_uk_soldier_ar"
 ];
 
 militia_loadout_overide = [
-
 ];
 
 a3w_divers_squad = [
@@ -67,15 +66,14 @@ a3w_divers_squad = [
 	"CUP_B_HIL_Diver_MP5_SF"
 ];
 
-
 militia_vehicles = [
-"CUP_B_LR_Special_M2_GB_W",
-"CUP_B_LR_Special_GMG_GB_W",
-"CUP_B_LR_MG_GB_W",
-"cwr3_b_uk_landrover",
-"cwr3_b_uk_fv432_gpmg",
-"cwr3_b_uk_fv432_hq",
-"cwr3_b_uk_fv432_peak"
+	"CUP_B_LR_Special_M2_GB_W",
+	"CUP_B_LR_Special_GMG_GB_W",
+	"CUP_B_LR_MG_GB_W",
+	"cwr3_b_uk_landrover",
+	"cwr3_b_uk_fv432_gpmg",
+	"cwr3_b_uk_fv432_hq",
+	"cwr3_b_uk_fv432_peak"
 ];
 
 opfor_boats = [
@@ -84,128 +82,125 @@ opfor_boats = [
 ];
 
 opfor_vehicles = [
-"CUP_B_LR_Special_M2_GB_W",
-"CUP_B_LR_Special_GMG_GB_W",
-"CUP_B_LR_MG_GB_W",
-"cwr3_b_uk_landrover",
-"cwr3_b_uk_fv432_gpmg",
-"cwr3_b_uk_fv432_hq",
-"cwr3_b_uk_fv432_peak",
-"cwr3_b_uk_fv510",
-"cwr3_b_uk_fv101",
-"cwr3_b_uk_fv107",
-"cwr3_b_uk_fv4030",
-"cwr3_b_uk_fv4201"
+	"CUP_B_LR_Special_M2_GB_W",
+	"CUP_B_LR_Special_GMG_GB_W",
+	"CUP_B_LR_MG_GB_W",
+	"cwr3_b_uk_landrover",
+	"cwr3_b_uk_fv432_gpmg",
+	"cwr3_b_uk_fv432_hq",
+	"cwr3_b_uk_fv432_peak",
+	"cwr3_b_uk_fv510",
+	"cwr3_b_uk_fv101",
+	"cwr3_b_uk_fv107",
+	"cwr3_b_uk_fv4030",
+	"cwr3_b_uk_fv4201"
 ];
 
 opfor_vehicles_low_intensity = [
-"CUP_B_LR_Special_M2_GB_W",
-"CUP_B_LR_Special_GMG_GB_W",
-"CUP_B_LR_MG_GB_W",
-"cwr3_b_uk_fv432_gpmg",
-"cwr3_b_uk_fv432_peak",
-"cwr3_b_uk_fv510"
+	"CUP_B_LR_Special_M2_GB_W",
+	"CUP_B_LR_Special_GMG_GB_W",
+	"CUP_B_LR_MG_GB_W",
+	"cwr3_b_uk_fv432_gpmg",
+	"cwr3_b_uk_fv432_peak",
+	"cwr3_b_uk_fv510"
 ];
 
 opfor_battlegroup_vehicles = [
-
-"CUP_B_LR_Special_M2_GB_W",
-"CUP_B_LR_MG_GB_W",
-"cwr3_b_uk_fv432_gpmg",
-"cwr3_b_uk_fv432_peak",
-"cwr3_b_uk_fv510",
-"cwr3_b_uk_fv101",
-"cwr3_b_uk_fv107",
-"cwr3_b_uk_fv4030",
-"cwr3_b_uk_fv4201"
+	"CUP_B_LR_Special_M2_GB_W",
+	"CUP_B_LR_MG_GB_W",
+	"cwr3_b_uk_fv432_gpmg",
+	"cwr3_b_uk_fv432_peak",
+	"cwr3_b_uk_fv510",
+	"cwr3_b_uk_fv101",
+	"cwr3_b_uk_fv107",
+	"cwr3_b_uk_fv4030",
+	"cwr3_b_uk_fv4201"
 ];
 
 opfor_battlegroup_vehicles_low_intensity = [
-"CUP_B_LR_Special_M2_GB_W",
-"CUP_B_LR_Special_GMG_GB_W",
-"CUP_B_LR_MG_GB_W",
-"cwr3_b_uk_fv432_gpmg",
-"cwr3_b_uk_fv432_hq",
-"cwr3_b_uk_fv432_peak",
-"cwr3_b_uk_fv510",
-"cwr3_b_uk_fv101",
-"cwr3_b_uk_fv4201"
+	"CUP_B_LR_Special_M2_GB_W",
+	"CUP_B_LR_Special_GMG_GB_W",
+	"CUP_B_LR_MG_GB_W",
+	"cwr3_b_uk_fv432_gpmg",
+	"cwr3_b_uk_fv432_hq",
+	"cwr3_b_uk_fv432_peak",
+	"cwr3_b_uk_fv510",
+	"cwr3_b_uk_fv101",
+	"cwr3_b_uk_fv4201"
 ];
 
 opfor_troup_transports_truck = [
 	opfor_transport_truck,
-"cwr3_i_ural_open",
-"cwr3_i_ural",
-"cwr3_i_v3s"
+	"cwr3_i_ural_open",
+	"cwr3_i_ural",
+	"cwr3_i_v3s"
 ];
 
 opfor_troup_transports_heli = [
 	opfor_transport_helo,
-"cwr3_b_uk_puma_hc1"
+	"cwr3_b_uk_puma_hc1"
 ];
 
 opfor_air = [
-"cwr3_b_uk_lynx_ah7_cas",
-"cwr3_b_uk_lynx_ah7_tow",
-"cwr3_b_frs1"
+	"cwr3_b_uk_lynx_ah7_cas",
+	"cwr3_b_uk_lynx_ah7_tow",
+	"cwr3_b_frs1"
 ];
 
 opfor_statics = [
-"cwr3_b_uk_javelin_lml",
-"cwr3_b_uk_l111a1_high",
-"cwr3_b_uk_l111a1_low",
-"cwr3_b_uk_l7a2_low",
-"cwr3_b_uk_l16a2"
+	"cwr3_b_uk_javelin_lml",
+	"cwr3_b_uk_l111a1_high",
+	"cwr3_b_uk_l111a1_low",
+	"cwr3_b_uk_l7a2_low",
+	"cwr3_b_uk_l16a2"
 ];
 
 // Overide Textures
 opfor_texture_overide = [
 ];
 
-_shop_multi = 1;
-
 opfor_recyclable = [
-//Boats:
-["cwr3_b_uk_mk10",3,round (275 * _shop_multi / GRLIB_recycling_percentage),2],
-["cwr3_b_uk_zodiac",1,round (75 * _shop_multi / GRLIB_recycling_percentage),1],
-//Cars:
-["cwr3_c_jawa",0,round (50 * _shop_multi / GRLIB_recycling_percentage),1],
-["cwr3_b_uk_fv620_transport",0,round (75 * _shop_multi / GRLIB_recycling_percentage),1],
-["cwr3_b_uk_landrover",0,round (100 * _shop_multi / GRLIB_recycling_percentage),1],
-["CUP_B_LR_MG_GB_W",0,round (150 * _shop_multi / GRLIB_recycling_percentage),1],
-["CUP_B_LR_Special_M2_GB_W",0,round (200 * _shop_multi / GRLIB_recycling_percentage),1],
-["CUP_B_LR_Special_GMG_GB_W",0,round (250 * _shop_multi / GRLIB_recycling_percentage),1],
-["cwr3_b_uk_fv620_reammo",0,round (250 * _shop_multi / GRLIB_recycling_percentage),1],
-["cwr3_b_uk_fv620_refuel",0,round (250 * _shop_multi / GRLIB_recycling_percentage),1],
-["cwr3_b_uk_fv620_repair",0,round (250 * _shop_multi / GRLIB_recycling_percentage),1],
-["cwr3_b_uk_landrover_mev",0,round (150 * _shop_multi / GRLIB_recycling_percentage),1],
-["CUP_B_MTVR_BAF_WOOD",0,round (200 * _shop_multi / GRLIB_recycling_percentage),1],
-//SPZ
-["cwr3_b_uk_fv432_gpmg",2,round (350 * _shop_multi / GRLIB_recycling_percentage),5],
-["cwr3_b_uk_fv432_hq",2,round (250 * _shop_multi / GRLIB_recycling_percentage),5],
-["cwr3_b_uk_fv432_mev",2,round (250 * _shop_multi / GRLIB_recycling_percentage),5],
-["cwr3_b_uk_fv432_peak",2,round (250 * _shop_multi / GRLIB_recycling_percentage),5],
-["cwr3_b_uk_fv510",2,round (350 * _shop_multi / GRLIB_recycling_percentage),5],
-//Tanks:
-["cwr3_b_uk_fv101",10,round (500 * _shop_multi / GRLIB_recycling_percentage),10],
-["cwr3_b_uk_fv107",10,round (600 * _shop_multi / GRLIB_recycling_percentage),10],
-["cwr3_b_uk_fv4030",10,round (700 * _shop_multi / GRLIB_recycling_percentage),10],
-["cwr3_b_uk_fv4201",10,round (800 * _shop_multi / GRLIB_recycling_percentage),10],
-//Heli:
-["cwr3_b_uk_hc1",15,round (650 * _shop_multi / GRLIB_recycling_percentage),15],
-["cwr3_b_uk_lynx_ah7_cas",15,round (850 * _shop_multi / GRLIB_recycling_percentage),15],
-["cwr3_b_uk_lynx_ah7_tow",15,round (950 * _shop_multi / GRLIB_recycling_percentage),15],
-["cwr3_b_uk_lynx_ah7_transport",15,round (650 * _shop_multi / GRLIB_recycling_percentage),15],
-["cwr3_b_uk_puma_hc1",15,round (550 * _shop_multi / GRLIB_recycling_percentage),15],
-//Planes:
-["cwr3_b_uk_f4m",20,round (800 * _shop_multi / GRLIB_recycling_percentage),20],
-["cwr3_b_frs1",20,round (1000 * _shop_multi / GRLIB_recycling_percentage),20],
-//Static:
-["cwr3_b_uk_l118",1,round (75 * _shop_multi / GRLIB_recycling_percentage),2],
-["cwr3_b_uk_l16a2",1,round (75 * _shop_multi / GRLIB_recycling_percentage),2],
-["cwr3_b_uk_javelin_lml",2,round (275 * _shop_multi / GRLIB_recycling_percentage),2],
-["cwr3_b_uk_l111a1_high",1,round (75 * _shop_multi / GRLIB_recycling_percentage),2],
-["cwr3_b_uk_l111a1_low",1,round (75 * _shop_multi / GRLIB_recycling_percentage),2],
-["cwr3_b_uk_l7a2_low",1,round (125 * _shop_multi / GRLIB_recycling_percentage),2],
-["cwr3_b_uk_searchlight",0,round (25 * _shop_multi / GRLIB_recycling_percentage),1]
+	//Boats:
+	["cwr3_b_uk_mk10",3,round (275 / GRLIB_recycling_percentage),2],
+	["cwr3_b_uk_zodiac",1,round (75 / GRLIB_recycling_percentage),1],
+	//Cars:
+	["cwr3_c_jawa",0,round (50 / GRLIB_recycling_percentage),1],
+	["cwr3_b_uk_fv620_transport",0,round (75 / GRLIB_recycling_percentage),1],
+	["cwr3_b_uk_landrover",0,round (100 / GRLIB_recycling_percentage),1],
+	["CUP_B_LR_MG_GB_W",0,round (150 / GRLIB_recycling_percentage),1],
+	["CUP_B_LR_Special_M2_GB_W",0,round (200 / GRLIB_recycling_percentage),1],
+	["CUP_B_LR_Special_GMG_GB_W",0,round (250 / GRLIB_recycling_percentage),1],
+	["cwr3_b_uk_fv620_reammo",0,round (250 / GRLIB_recycling_percentage),1],
+	["cwr3_b_uk_fv620_refuel",0,round (250 / GRLIB_recycling_percentage),1],
+	["cwr3_b_uk_fv620_repair",0,round (250 / GRLIB_recycling_percentage),1],
+	["cwr3_b_uk_landrover_mev",0,round (150 / GRLIB_recycling_percentage),1],
+	["CUP_B_MTVR_BAF_WOOD",0,round (200 / GRLIB_recycling_percentage),1],
+	//SPZ
+	["cwr3_b_uk_fv432_gpmg",2,round (350 / GRLIB_recycling_percentage),5],
+	["cwr3_b_uk_fv432_hq",2,round (250 / GRLIB_recycling_percentage),5],
+	["cwr3_b_uk_fv432_mev",2,round (250 / GRLIB_recycling_percentage),5],
+	["cwr3_b_uk_fv432_peak",2,round (250 / GRLIB_recycling_percentage),5],
+	["cwr3_b_uk_fv510",2,round (350 / GRLIB_recycling_percentage),5],
+	//Tanks:
+	["cwr3_b_uk_fv101",10,round (500 / GRLIB_recycling_percentage),10],
+	["cwr3_b_uk_fv107",10,round (600 / GRLIB_recycling_percentage),10],
+	["cwr3_b_uk_fv4030",10,round (700 / GRLIB_recycling_percentage),10],
+	["cwr3_b_uk_fv4201",10,round (800 / GRLIB_recycling_percentage),10],
+	//Heli:
+	["cwr3_b_uk_hc1",15,round (650 / GRLIB_recycling_percentage),15],
+	["cwr3_b_uk_lynx_ah7_cas",15,round (850 / GRLIB_recycling_percentage),15],
+	["cwr3_b_uk_lynx_ah7_tow",15,round (950 / GRLIB_recycling_percentage),15],
+	["cwr3_b_uk_lynx_ah7_transport",15,round (650 / GRLIB_recycling_percentage),15],
+	["cwr3_b_uk_puma_hc1",15,round (550 / GRLIB_recycling_percentage),15],
+	//Planes:
+	["cwr3_b_uk_f4m",20,round (800 / GRLIB_recycling_percentage),20],
+	["cwr3_b_frs1",20,round (1000 / GRLIB_recycling_percentage),20],
+	//Static:
+	["cwr3_b_uk_l118",1,round (75 / GRLIB_recycling_percentage),2],
+	["cwr3_b_uk_l16a2",1,round (75 / GRLIB_recycling_percentage),2],
+	["cwr3_b_uk_javelin_lml",2,round (275 / GRLIB_recycling_percentage),2],
+	["cwr3_b_uk_l111a1_high",1,round (75 / GRLIB_recycling_percentage),2],
+	["cwr3_b_uk_l111a1_low",1,round (75 / GRLIB_recycling_percentage),2],
+	["cwr3_b_uk_l7a2_low",1,round (125 / GRLIB_recycling_percentage),2],
+	["cwr3_b_uk_searchlight",0,round (25 / GRLIB_recycling_percentage),1]
 ];

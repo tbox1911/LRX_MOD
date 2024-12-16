@@ -43,9 +43,7 @@ chimera_vehicle_overide = [
   ["B_Heli_Transport_01_F", "cwr3_b_uh60_unarmed"]
 ];
 
-
 // [CLASSNAME, MANPOWER, AMMO, FUEL, RANK]
-
 infantry_units_west = [						// Men '82
 	["Alsatian_Random_F",0,0,0,GRLIB_perm_max],
 	["Fin_random_F",0,0,0,0],
@@ -66,17 +64,16 @@ units_loadout_overide = [];
 
 // *** Men '85 Ranger ***
 a3w_resistance_squad = [
-"cwr3_b_ranger_gl",
-"cwr3_b_ranger_marksman",
-"cwr3_b_ranger",
-"cwr3_b_ranger_m14",
-"cwr3_b_ranger_at_law",
-"cwr3_b_ranger_tl",
-"cwr3_b_ranger_engineer",
-"cwr3_b_ranger_at_m47",
-"cwr3_b_ranger_aa_stinger"
+	"cwr3_b_ranger_gl",
+	"cwr3_b_ranger_marksman",
+	"cwr3_b_ranger",
+	"cwr3_b_ranger_m14",
+	"cwr3_b_ranger_at_law",
+	"cwr3_b_ranger_tl",
+	"cwr3_b_ranger_engineer",
+	"cwr3_b_ranger_at_m47",
+	"cwr3_b_ranger_aa_stinger"
 ];
-
 
 light_vehicles = [
 	["cwr3_b_zodiac",1,50,5,0],
@@ -135,7 +132,6 @@ boats_west = [
 ];
 
 static_vehicles = [
-
 	["cwr3_b_searchlight",1,150,0,0],
 	["cwr3_b_m2hb_low",1,150,0,GRLIB_perm_log],
 	["cwr3_b_m2hb_high",1,150,0,GRLIB_perm_log],
@@ -146,12 +142,11 @@ static_vehicles = [
 ];
 
 // *** Static Weapon with AI ***
-
 static_vehicles_AI = [
 ];
 
-
-support_vehicles_west = [];
+support_vehicles_west = [
+];
 
 //buildings_west_overide = true;
 
@@ -241,28 +236,22 @@ squads = [
 
 // Everything the AI troups should be able to resupply from
 ai_resupply_sources_west = [
-  	Arsenal_typename, FOB_typename,ammo_truck_typename,fuel_truck_typename,repair_truck_typename
 ];
 
 // Everything the AI troups should be able to healing from
 ai_healing_sources_west = [
-	Arsenal_typename,FOB_typename,Respawn_truck_typename,"Land_MedicalTent_01_MTP_closed_F"
 ];
 
 vehicle_rearm_sources_west = [
-	Arsenal_typename, FOB_typename,ammo_truck_typename,fuel_truck_typename
 ];
 
 vehicle_big_units_west = [
-
 ];
 
 GRLIB_vehicle_whitelist_west = [
-
 ];
 
 GRLIB_vehicle_blacklist_west = [
-
 ];
 
 GRLIB_AirDrop_1 = [		// cost = 50 Unarmed Offroad
@@ -285,10 +274,6 @@ GRLIB_AirDrop_5 = [		// cost 750 APC (Armoured personnel carrier)
 	"cwr3_b_m113a1"
 ];
 
-
 GRLIB_AirDrop_6 = [		// cost 250 Boat
 	"cwr3_b_boat"
 ];
-
-
-

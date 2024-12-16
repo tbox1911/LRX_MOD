@@ -129,7 +129,6 @@ R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed +
 	"cwr3_b_m939_reammo"
 ];
 
-
 R3F_LOG_CFG_can_lift = R3F_LOG_CFG_can_lift +
 [
 ];
@@ -222,7 +221,6 @@ R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed +
 	"cwr3_b_zodiac",
 	"cwr3_b_boat"
 ];
-
 
 //--------------- Building ---------------
 R3F_LOG_CFG_can_transport_cargo = R3F_LOG_CFG_can_transport_cargo +
