@@ -36,6 +36,7 @@ opfor_house = "Land_vn_bunker_small_01";
 opfor_patrol = "Land_vn_b_tower_01";
 opfor_hq = "Land_vn_bunker_big_02";
 a3w_enemy_static = ["vn_b_army_static_m2_high", "vn_b_army_static_m45"];
+a3w_br_planes = ["vn_b_air_f100d_mr", "vn_b_air_f4b_usmc_at"];
 
 militia_squad = [
 	"vn_b_men_seal_01",
