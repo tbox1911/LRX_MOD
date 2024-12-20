@@ -4,15 +4,11 @@
 	Description:
 	Liberation RX - MOD Template
 */
-LRX_Template_version = 1.0;
-
-private _getVersion = {
-    if (GRLIB_build_version == "internal-dev") exitWith {0};
-    (parseNumber ((GRLIB_build_version select [1,5] splitString ".") joinString ""));
-};
+LRX_Template_version = "1.0";
+LRX_Mission_version = "N/A";
+if (!isNil "GRLIB_build_version") then { LRX_Mission_version = GRLIB_build_version };
 
 diag_log "-------- LRX MOD Template Initialized --------";
-diag_log "--      Extend Liberation RX  Factions      --";
-diag_log "--           < code by pSiKO >              --";
-diag_log format ["-- LRX version: %1", [] call _getVersion];
-diag_log format ["-- LRX_Template version: %1", LRX_Template_version];
+diag_log "--- Expands Liberation RX Factions ---";
+diag_log format ["--- LRX Mission version: %1", LRX_Mission_version];
+diag_log format ["--- MOD_Template version: %1", LRX_Template_version];
