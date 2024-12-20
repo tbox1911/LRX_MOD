@@ -4,6 +4,8 @@
 // Following entries: attachTo position for each box, the number of boxes that can be loaded is derived from the number of entries
 
 box_transport_config = box_transport_config + [
+    [ "SPE_FFI_OpelBlitz", -5, [0, -1, 0], [0, -2.7, 0] ],
+    [ "SPE_FFI_OpelBlitz_Open", -5, [0, -1, 0], [0, -2.7, 0] ],	
     [ "SPE_FR_M3_Halftrack", -5, [0, -1.6, 0.1] ],
     [ "SPE_FR_M3_Halftrack_Unarmed", -5, [0, -1.6, 0.1] ],
     [ "SPE_FR_M3_Halftrack_Unarmed_Open", -5, [0, -1.6, 0.1] ],

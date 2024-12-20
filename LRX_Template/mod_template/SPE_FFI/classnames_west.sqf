@@ -104,8 +104,8 @@ light_vehicles = [
 	["SPE_FR_M3_Halftrack_Unarmed_Open",1,100,8,0],
 	["SPE_FR_M3_Halftrack_Unarmed",1,100,8,GRLIB_perm_inf],
 	["SPE_FR_M3_Halftrack",1,275,8,GRLIB_perm_log],
-	["SPE_CCKW_353",1,150,8,GRLIB_perm_inf],
-	["SPE_CCKW_353_Open",1,150,8,GRLIB_perm_inf],
+	["SPE_FFI_OpelBlitz_Open",1,150,8,GRLIB_perm_inf],
+	["SPE_FFI_OpelBlitz",1,150,8,GRLIB_perm_inf],
 	["SPE_FR_M16_Halftrack",1,400,10,GRLIB_perm_log],
 	["SPE_FR_M20_AUC",1,350,10,GRLIB_perm_log],
 	["SPE_FR_M8_LAC",1,350,12,GRLIB_perm_tank],
@@ -142,7 +142,6 @@ static_vehicles_AI = [
 
 support_vehicles_west = [
 ];
-
 
 buildings_west_overide = true;
 buildings_west = [
