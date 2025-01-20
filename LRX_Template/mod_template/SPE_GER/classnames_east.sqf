@@ -203,7 +203,7 @@ opfor_recyclable = [
 	["SPE_PzKpfwIII_M",5,round (380 / GRLIB_recycling_percentage),10],
 	["SPE_PzKpfwIII_N",5,round (425 / GRLIB_recycling_percentage),15],
 	["SPE_PzKpfwIV_G",5,round (425 / GRLIB_recycling_percentage),15],
-	["SPE_PzKpfwVI_H1",5,round (550 / GRLIB_recycling_percentage),15],
+	["SPE_PzKpfwVI_H1",5,round (1250 / GRLIB_recycling_percentage),15],
 	["SPE_Nashorn",5,round (650 / GRLIB_recycling_percentage),15],
 	["SPE_StuG_III_G_Early",5,round (650 / GRLIB_recycling_percentage),15],
 	["SPE_Jagdpanther_G1",5,round (650 / GRLIB_recycling_percentage),15],
