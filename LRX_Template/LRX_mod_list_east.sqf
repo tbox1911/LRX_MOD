@@ -15,17 +15,17 @@ LRX_mod_list_east = [
 	"CFP_O_NKARMY", 	// DarkDemon
 	"CFP_O_SYARMY", 	// DarkDemon
 	"CFP_SUDAN",
-	"CP_AFRF",		// Z@warrior
+	"CP_AFRF",			// Z@warrior
+	"CP_AFU",			// Z@Warrior Armed Forces of Ukraine
+	"CP_BELKA_D",		// Z@Warrior CUP Belka Desert
+	"CP_BELKA_W",		// Z@Warrior CUP Belka Woodland
+	"CP_BELKA_WI",		// Z@Warrior CUP Belka Winter
 	"CP_ION_WI",		// Z@Warrior
-	"CP_AFU",		// Z@Warrior Armed Forces of Ukraine
-	"CP_MAF",		// DarkDemon
+	"CP_MAF",			// DarkDemon
 	"CP_SAHRA_D",		// Z@Warrior
 	"CP_TA",
 	"CP_USMC_D",		// C0br4
 	"CP_USMC_W",		// C0br4
-	"CP_BELKA_D",	// Z@Warrior CUP Belka Desert
-	"CP_BELKA_W",	// Z@Warrior CUP Belka Woodland
-	"CP_BELKA_WI",	// Z@Warrior CUP Belka Winter
 	"CWR3_BAF",			// Z@Warrior Cold War Rearmed III - BAF
 	"CWR3_FIA",
 	"CWR3_SOV",			// Z@Warrior Cold War Rearmed III - SOVIET
@@ -36,7 +36,7 @@ LRX_mod_list_east = [
 	"EAW_IJA",
 	"EAW_NRA",
 	"EJW_TA",
-	"FFAA_SPAIN_W",	// C0br4
+	"FFAA_SPAIN_W",		// C0br4
 	"GM_EAST_WINT",
 	"GM_EAST",
 	"GM_WEST_WINT",
@@ -59,19 +59,21 @@ LRX_mod_list_east = [
 	"PO_UAF",			// Z@Warrior Project Opfor Ukrainian Armed Forces
 	"R3F_WEST_D", 		// C0br4
 	"R3F_WEST_W", 		// C0br4
-	"RHS_USAF",
 	"RHS_AFRF",
 	"RHS_RACS",			// Z@Warrior RACS (Royal Army Corps Sahrani)
 	"RHS_SLA",			// Z@Warrior SLA (Sahrani Liberation Army)
 	"RHS_UFP",			// Z@Warrior Ukrain Faction Project
+	"RHS_USAF",
+	"ROAF_BLU",			//Miledino
+	"RUS_GRU",  		// DarkDemon
 	"Ryan_ZD",			// DarkDemon
 	"SAF2035",
 	"SFP_SAF",
 	"SOG_USA",
 	"SOG_VIETCONG",
+	"SPE_FR",			// pSiKO DLC Spearhead 1944
 	"SPE_GER",			// Z@Warrior DLC Spearhead 1944
 	"SPE_US",			// Z@Warrior DLC Spearhead 1944
-	"SPE_FR",			// pSiKO DLC Spearhead 1944
 	"SW_TOR",	 		// DarkDemon
 	"TFM_MMSLI_W",		// Legend_TS13
 	"TFM_MSCA_D",		// Legend_TS13
@@ -81,12 +83,12 @@ LRX_mod_list_east = [
 	"TFM_SOG_LI",		// Legend_TS13
 	"TIOW_CSP",
 	"TIOW_TAU",
+	"UA_AZOV", 			// DarkDemon
 	"UNS_NVA",			// Z@Warrior Unsung
 	"UNS_US",			// Z@Warrior Unsung
 	"VME_CHINA",  		// DarkDemon
 	"VTF_KDF",
 	"VTF_KI",
 	"WBK_ORKS",
-	"WS_FIA",
-	"ROAF_BLU"			//Miledino
+	"WS_FIA"			// pSiKO
 ];

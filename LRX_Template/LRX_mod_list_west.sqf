@@ -1,5 +1,4 @@
 LRX_mod_list_west = [
-	"AMF_BLU",			// Vladimir French Force
 	"3AS_KF",			// DarkDemon
 	"3CB_BAF_D",		// Z@Warrior British Armed Forces Desert
 	"3CB_BAF_W",		// Z@Warrior British Armed Forces Woodland
@@ -9,34 +8,35 @@ LRX_mod_list_west = [
 	"3CB_MDF_OPF",		// Z@Warrior 3CB Malden Defence Force
 	"3CB_TNA_OPF",		// Z@Warrior 3CB Takistan National Army
 	"ACR_A3",			// pSiKO Army of the Czech Republic
+	"AMF_BLU",			// Vladimir French Force
 	"ASZ_ITALY",
-	"BW_MOD",		// Z@Warrior Bundenswehr Tropentarn
+	"BW_MOD",			// Z@Warrior Bundenswehr Tropentarn
 	"CFP_B_ILIDF", 		// DarkDemon
-	"CFP_O_IQARMY", 		// DarkDemon
-	"CFP_O_NKARMY", 		// DarkDemon
-	"CP_AFRF",	// Z@warrior
+	"CFP_O_IQARMY", 	// DarkDemon
+	"CFP_O_NKARMY", 	// DarkDemon
+	"CP_AFRF",			// Z@warrior
+	"CP_AFU",			// Z@Warrior Armed Forces of Ukraine
 	"CP_BAF_DES",
-	"CP_BW_W",	// Z@Warrior CUP NATO (US,BAF,BW)
-	"CP_ION_WI",	// Z@Warrior CUP ION PMC Winter
-	"CP_AFU",	// Z@Warrior Armed Forces of Ukraine
-	"CP_MAF",		// DarkDemon
-	"CP_SAHRA_D",	// Z@Warrior
-	"CP_USMC_D",	// C0br4
-	"CP_USMC_W",	// C0br4
-	"CP_BELKA_D",	// Z@Warrior CUP Belka Desert
-	"CP_BELKA_W",	// Z@Warrior CUP Belka Woodland
-	"CP_BELKA_WI",	// Z@Warrior CUP Belka Winter
-	"CWR3_BAF",		// Z@Warrior Cold War Rearmed III - BAF
+	"CP_BELKA_D",		// Z@Warrior CUP Belka Desert
+	"CP_BELKA_W",		// Z@Warrior CUP Belka Woodland
+	"CP_BELKA_WI",		// Z@Warrior CUP Belka Winter
+	"CP_BW_W",			// Z@Warrior CUP NATO (US,BAF,BW)
+	"CP_ION_WI",		// Z@Warrior CUP ION PMC Winter
+	"CP_MAF",			// DarkDemon
+	"CP_SAHRA_D",		// Z@Warrior
+	"CP_USMC_D",		// C0br4
+	"CP_USMC_W",		// C0br4
+	"CWR3_BAF",			// Z@Warrior Cold War Rearmed III - BAF
 	"CWR3_FIA",
-	"CWR3_SOV",		// Z@Warrior Cold War Rearmed III - SOVIET
+	"CWR3_SOV",			// Z@Warrior Cold War Rearmed III - SOVIET
 	"CWR3_TDF",
-	"CWR3_USA",		// Z@Warrior Cold War Rearmed III - US
+	"CWR3_USA",			// Z@Warrior Cold War Rearmed III - US
 	"DEV_TAF",  		// DarkDemon
 	"DKOK",
 	"EAW_IJA",
 	"EAW_NRA",
 	"EJW_TF",
-	"FFAA_SPAIN_W",	// C0br4
+	"FFAA_SPAIN_W",		// C0br4
 	"GM_EAST_WINT",
 	"GM_EAST",
 	"GM_WEST_WINT",
@@ -55,19 +55,21 @@ LRX_mod_list_west = [
 	"PO_UAF",			// Z@Warrior Project Opfor Ukrainian Armed Forces
 	"R3F_WEST_D", 		// C0br4
 	"R3F_WEST_W", 		// C0br4
-	"RHS_USAF",
 	"RHS_AFRF",
 	"RHS_RACS",			// Z@Warrior RACS (Royal Army Corps Sahrani)
 	"RHS_SLA",			// Z@Warrior SLA (Sahrani Liberation Army)
 	"RHS_UFP",			// Z@Warrior Ukrain Faction Project
+	"RHS_USAF",
+	"ROAF_BLU",			//Miledino
+	"RUS_GRU",  		// DarkDemon
 	"SAF2035",
 	"SFP_SAF",
 	"SOG_USA",
 	"SOG_VIETCONG",
+	"SPE_FFI",			// pSiKO DLC Spearhead 1944
+	"SPE_FR",			// pSiKO DLC Spearhead 1944
 	"SPE_GER",			// Z@Warrior DLC Spearhead 1944
 	"SPE_US",			// Z@Warrior DLC Spearhead 1944
-	"SPE_FR",			// pSiKO DLC Spearhead 1944
-	"SPE_FFI",			// pSiKO DLC Spearhead 1944
 	"SW_TOR",	 		// DarkDemon
 	"TFM_MMSLI_W",		// Legend_TS13
 	"TFM_MSCA_D",		// Legend_TS13
@@ -75,10 +77,10 @@ LRX_mod_list_west = [
 	"TFM_MSLI_D",		// Legend_TS13
 	"TFM_SOG_CA",		// Legend_TS13
 	"TFM_SOG_LI",		// Legend_TS13
+	"UA_AZOV", 			// DarkDemon
 	"UNS_NVA",			// Z@Warrior Unsung
 	"UNS_US",			// Z@Warrior Unsung
 	"VME_CHINA",  		// DarkDemon
 	"VTF_KDF",
-	"WS_UNA",
-	"ROAF_BLU"			//Miledino
+	"WS_UNA"			// pSiKO
 ];
