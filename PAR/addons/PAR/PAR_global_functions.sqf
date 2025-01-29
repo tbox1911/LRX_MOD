@@ -273,7 +273,7 @@ PAR_Player_Unconscious = {
 	private _handle = ppEffectCreate ["colorCorrections", 1501]; 
 	_handle ppEffectEnable true; 
 	_handle ppEffectAdjust [1, 0.1, 0, [0, 0, 0, 0], [1, 1, 1, 0], [1, 1, 1, 0]]; 
-	_handle ppEffectCommit 0; 
+	_handle ppEffectCommit 3; 
 
 	private ["_bleedOut", "_bleedout_message"];
 	while { !isNull _unit && alive _unit && (_unit getVariable ["PAR_isUnconscious", false])} do {
