@@ -29,9 +29,9 @@ private _check_sortie = {
 	_ret;
 };
 
-while {lifeState _wnded == "INCAPACITATED" || lifeState _medic != "INCAPACITATED" || isNil {_wnded getVariable ["PAR_myMedic", nil]} } do {
+while {([_wnded] call PAR_is_wounded) || !([_medic] call PAR_is_wounded) || isNil {_wnded getVariable ["PAR_myMedic", nil]} } do {
 
-	if (lifeState _medic == "INCAPACITATED" || _fail > 6 || isNil {_wnded getVariable ["PAR_myMedic", nil]}) exitWith {
+	if (([_medic] call PAR_is_wounded) || _fail > 6 || isNil {_wnded getVariable ["PAR_myMedic", nil]}) exitWith {
 		[_medic,_wnded] call PAR_fn_medicRelease;
 	};
 
@@ -94,7 +94,7 @@ while {lifeState _wnded == "INCAPACITATED" || lifeState _medic != "INCAPACITATED
 	private _new_medic = [_wnded] call PAR_fn_nearestMedic;
 	if (!isNil "_new_medic" && _medic distance2D _wnded > 20) then {
 		if ((_new_medic distance2D _wnded) + 6 < (_medic distance2D _wnded)) then {
-			_wnded setVariable ["PAR_myMedic", nil];
+			[_medic, _wnded] call PAR_fn_medicRelease;
 		};
 	};
 

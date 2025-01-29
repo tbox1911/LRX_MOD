@@ -3,13 +3,7 @@ params ["_unit"];
 // Player
 if (_unit == player) then {
 	// Unblock units
-	private _actions = missionNamespace getVariable ["BIS_fnc_addCommMenuItem_menu", []];
-	private _id = (count _actions / 2) + 1;
-	_actions = _actions + [
-		["Do it !", true],
-		["Unblock unit.", [_id + 1], "", -5, [["expression", "[groupSelectedUnits player] spawn PAR_unblock_AI"]], str _id, str _id]
-	];
-	missionNamespace setVariable ["BIS_fnc_addCommMenuItem_menu", _actions];	
+	[player,"LRX_Unstuck",nil,nil,""] call BIS_fnc_addCommMenuItem;
 
 	// Player killed EH
 	player addEventHandler ["Killed", { _this spawn PAR_fn_death }];
@@ -23,7 +17,7 @@ if (_unit == player) then {
 	};
 } else {
 	// AI killed EH
-	_unit addEventHandler ["Killed", { _this spawn PAR_fn_death }];	
+	_unit addEventHandler ["Killed", { _this spawn PAR_fn_death }];
 
 	// AI Handle Damage EH
 	if (PAR_revive != 0) then {
@@ -31,11 +25,9 @@ if (_unit == player) then {
 			params ["_unit","","_dam"];
 			_veh = objectParent _unit;
 
-			private _isNotWounded = !(_unit getVariable ["PAR_wounded", false]);
-			if (_isNotWounded && _dam >= 0.86) then {
-				_unit setVariable ["PAR_wounded", true, true];
-				if (!isNull _veh) then {[_unit, _veh] spawn PAR_fn_eject};
-				_unit setVariable ["PAR_BleedOutTimer", round(time + PAR_bleedout), true];
+			if (!([_unit] call PAR_is_wounded) && _dam >= 0.86) then {
+				_unit setVariable ["PAR_isUnconscious", true, true];
+				if !(isNull _veh) then {[_unit, _veh] spawn PAR_fn_eject};
 				[_unit] spawn PAR_fn_unconscious;
 			};
 			_dam min 0.86;

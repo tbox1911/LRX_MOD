@@ -2,43 +2,40 @@ params ["_unit"];
 
 if (rating _unit < -2000) exitWith {_unit setDamage 1};
 
-if (isPlayer _unit) then {
-	[] call PAR_show_marker;
-} else {
-	[_unit] call PAR_fn_deathSound;
+private _cur_revive = 1;
+if (PAR_ai_revive > 0 && !isPlayer _unit && local _unit) then {
+	_cur_revive = _unit getVariable ["PAR_revive_max", PAR_ai_revive];
 };
+if (_cur_revive <= 0) exitWith {_unit setDamage 1};
 
 _unit setUnconscious true;
 _unit setCaptive true;
 _unit allowDamage false;
+_unit setVariable ["PAR_BleedOutTimer", round(time + PAR_bleedout), true];
+_unit setVariable ["PAR_isDragged", 0, true];
 
-waituntil {sleep 0.5; lifeState _unit == "INCAPACITATED" && (isTouchingGround (vehicle _unit) || (round (getPos _unit select 2) <= 1))};
-
-if (!isNil {_unit getVariable "PAR_busy"} || !isNil {_unit getVariable "PAR_heal"}) then {
-	_unit setVariable ["PAR_busy", nil];
-	_unit setVariable ["PAR_heal", nil];
+if (isPlayer _unit) then {
+	private _mk1 = createMarkerLocal [format ["PAR_marker_%1", PAR_Grp_ID], getPosATL player];
+	_mk1 setMarkerTypeLocal "loc_Hospital";
+	_mk1 setMarkerTextLocal format ["%1 Injured", name player];
+	_mk1 setMarkerColor "ColorRed";
+} else {
+	[_unit] call PAR_fn_deathSound;
+	sleep 3;
 };
 
-_unit setVariable ["PAR_healed", nil];
-[(_unit getVariable ["PAR_myMedic", objNull]), _unit] call PAR_fn_medicRelease;
+waitUntil { sleep 0.5; isNull objectParent _unit };
+_unit switchMove "AinjPpneMstpSnonWrflDnon_rolltoback";
+_unit playMoveNow "AinjPpneMstpSnonWrflDnon_rolltoback";
+sleep 5;
 
-_unit switchMove "AinjPpneMstpSnonWrflDnon";	// lay down
-_unit playMoveNow "AinjPpneMstpSnonWrflDnon";
-sleep 7;
-
-if (PAR_ai_revive > 0 && !isPlayer _unit && local _unit) then {
-	private _cur_revive = _unit getVariable ["PAR_revive_max", PAR_ai_revive];
-	if (_cur_revive == 0) then { _unit setDamage 1; sleep 3 };
-};
 if (!alive _unit) exitWith {};
-
-_unit setVariable ["PAR_isUnconscious", true, true];
-if !(isPlayer _unit) then { sleep 3 };
+waituntil { sleep 1; (round (getPos _unit select 2) <= 0) };
 
 private _bld = [_unit] call PAR_spawn_blood;
 private _cnt = 0;
 private ["_medic", "_msg"];
-while { alive _unit && (_unit getVariable ["PAR_isUnconscious", false]) && time <= (_unit getVariable ["PAR_BleedOutTimer", 0])} do {
+while { alive _unit && ([_unit] call PAR_is_wounded) && time <= (_unit getVariable ["PAR_BleedOutTimer", 0])} do {
 	if (_cnt == 0) then {
 		_unit setOxygenRemaining 1;
 		if ( {alive _x} count PAR_AI_bros > 0 ) then {
@@ -50,7 +47,7 @@ while { alive _unit && (_unit getVariable ["PAR_isUnconscious", false]) && time 
 			};
 		} else {
 			_msg = format [localize "STR_PAR_UC_03", name player];
-			if (lifeState player == "INCAPACITATED") then {
+			if ([player] call PAR_is_wounded) then {
 				_msg = format [localize "STR_PAR_UC_02", name player];
 			};
 			_last_msg = player getVariable ["PAR_last_message", 0];
@@ -67,18 +64,24 @@ while { alive _unit && (_unit getVariable ["PAR_isUnconscious", false]) && time 
 };
 
 if (!isNull _bld) then { _bld spawn {sleep (30 + floor(random 30)); deleteVehicle _this} };
-[(_unit getVariable ["PAR_myMedic", objNull]), _unit] call PAR_fn_medicRelease;
+
 if (isPlayer _unit) then {
-	[] call PAR_del_marker;
+	deletemarker format ["PAR_marker_%1", PAR_Grp_ID];
 };
 
-// Bad end
 if (!alive _unit) exitWith {};
-if (lifeState _unit == "INCAPACITATED" && time > _unit getVariable ["PAR_BleedOutTimer", 0]) exitWith {
+
+// Bad end
+if (time > _unit getVariable ["PAR_BleedOutTimer", 0]) exitWith {
+	[(_unit getVariable ["PAR_myMedic", objNull]), _unit] call PAR_fn_medicRelease;
 	_unit setDamage 1;
 };
 
 // Good end
 if (isPlayer _unit) then {
+	(group _unit) selectLeader _unit;
 	if (primaryWeapon _unit != "") then { _unit selectWeapon primaryWeapon _unit };
+} else {
+	_unit setSpeedMode (speedMode group player);
+	_unit doFollow player;
 };

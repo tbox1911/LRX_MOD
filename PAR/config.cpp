@@ -23,3 +23,5 @@ class cfgFunctions
 		};
 	};
 };
+
+#include "com_config.hpp"
