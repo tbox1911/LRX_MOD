@@ -9,6 +9,8 @@ LRX_mod_list_west = [
 	"3CB_TNA_OPF",		// Z@Warrior 3CB Takistan National Army
 	"ACR_A3",			// pSiKO Army of the Czech Republic
 	"AMF_BLU",			// Vladimir French Force
+	"AMF_R3F_D",		// C0br4 French Forces
+	"AMF_R3F_W",		// C0br4 French Forces
 	"ASZ_ITALY",
 	"BW_MOD",			// Z@Warrior Bundenswehr Tropentarn
 	"CFP_B_ILIDF", 		// DarkDemon

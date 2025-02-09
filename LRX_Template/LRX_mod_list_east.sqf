@@ -8,6 +8,8 @@ LRX_mod_list_east = [
 	"3CB_MDF_OPF",		// Z@Warrior 3CB Malden Defence Force
 	"3CB_TNA_OPF",		// Z@Warrior 3CB Takistan National Army
 	"ASZ_ITALY",
+	"AMF_R3F_D",		// C0br4 French Forces
+	"AMF_R3F_W",		// C0br4 French Forces	
 	"CFP_B_ILIDF", 		// DarkDemon
 	"CFP_O_HAMAS", 		// DarkDemon
 	"CFP_O_HEZBOLLAH", 	// DarkDemon
