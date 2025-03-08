@@ -7,6 +7,7 @@ GRLIB_west_modder = "DarkDemon";
 
 //huron_typename = "CFP_O_IQARMY_Mi_8MT_01";  // comment to use value from lobby/server.cfg
 FOB_typename = "Land_Cargo_HQ_V3_F";
+FOB_Man = "O_officer_F";
 FOB_box_typename = "B_Slingload_01_Cargo_F";
 FOB_truck_typename = "CFP_O_IQARMY_Ural_01";
 Respawn_truck_typename = "CFP_O_IQARMY_Ural_Open_01";
