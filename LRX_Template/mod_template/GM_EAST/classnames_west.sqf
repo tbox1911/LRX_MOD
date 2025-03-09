@@ -7,6 +7,7 @@ GRLIB_west_modder = "pSiKO";
 
 huron_typename = "gm_gc_airforce_mi2p";  // // to use value from lobby/server.cfg
 FOB_typename = "Land_Cargo_HQ_V1_F";
+FOB_Man = "O_officer_F";
 FOB_box_typename = "Land_Pod_Heli_Transport_04_box_black_F";
 FOB_truck_typename = "gm_gc_bgs_ural4320_repair";
 Respawn_truck_typename = "gm_gc_army_ural375d_medic";

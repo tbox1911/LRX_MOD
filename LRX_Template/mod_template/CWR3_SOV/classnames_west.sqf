@@ -21,6 +21,7 @@ Cold War Rearmed III, http://steamcommunity.com/sharedfiles/filedetails/?id=2316
 
 huron_typename = "cwr3_o_mi8_amt";
 FOB_typename = "Land_Cargo_HQ_V1_F";
+FOB_Man = "O_officer_F";
 Respawn_truck_typename = "cwr3_o_uaz452_mev";
 ammo_truck_typename = "cwr3_o_ural_reammo";
 fuel_truck_typename = "cwr3_o_ural_refuel";

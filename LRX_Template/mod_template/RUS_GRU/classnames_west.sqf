@@ -5,7 +5,7 @@ GRLIB_west_modder = "DarkDemon";
 
 huron_typename = "RUS_VKS_east_mi8amtsh";		// Mi-8MTV-2 (Cargo)
 FOB_typename = "Land_Cargo_HQ_V3_F";
-FOB_Man = "O_officer_F";
+FOB_Man = "RUS_MSV_seniorsergeant";
 FOB_box_typename = "B_Slingload_01_Cargo_F";
 FOB_truck_typename = "VTN_KAMAZ5350_UB2_REPAIR_FLR";
 Respawn_truck_typename = "VTN_KAMAZ63501_AT_EMR";
@@ -74,8 +74,6 @@ infantry_units_west = [
 ["RUS_MP_south_riflemanmachinegunnerassistant",1,10,0,0],
 ["RUS_MSV_sapper",1,25,0,GRLIB_perm_inf],
 ["RUS_MSV_saninstructor",1,40,0,GRLIB_perm_log],
-["RUS_MSV_seniorsergeant",1,25,0,GRLIB_perm_inf],
-["RUS_MSV_sr_grenadier",1,10,0,0],
 ["RUS_MSV_sr_grenadier",1,10,0,0],
 ["RUS_MSV_sr_gunner",1,25,0,GRLIB_perm_inf],
 ["RUS_MSV_sr_juniorsergeant",1,25,0,GRLIB_perm_inf],

@@ -12,6 +12,7 @@ GRLIB_west_modder = "Z@Warrior";
 
 huron_typename = "PRACS_SLA_Mi8amt";
 FOB_typename = "Land_Cargo_HQ_V1_F";
+FOB_Man = "O_officer_F";
 FOB_box_typename = "B_Slingload_01_Cargo_F";
 FOB_truck_typename = "B_Truck_01_box_F";
 Respawn_truck_typename = "PRACS_SLA_MTLB_AMB";

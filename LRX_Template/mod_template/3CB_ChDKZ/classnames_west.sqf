@@ -7,6 +7,7 @@ GRLIB_west_modder = "Z@Warrior";
 
 huron_typename = "UK3CB_CHD_O_Mi8";
 FOB_typename = "Land_Cargo_HQ_V1_F";
+FOB_Man = "O_officer_F";
 Respawn_truck_typename = "UK3CB_CHD_O_Ural";
 //FOB_box_typename = "B_Slingload_01_Cargo_F";
 //FOB_truck_typename = "B_Truck_01_box_F";

@@ -10,6 +10,7 @@ GRLIB_west_modder = "Z@Warrior / pSiKO";
 Arsenal_typename = "uns_AmmoBoxVC";
 huron_typename = "uns_Mi8T_VPAF";
 FOB_typename = "Land_barrack02"; 	//"Land_Cargo_HQ_V1_F";
+FOB_Man = "O_officer_F";
 FOB_box_typename = "B_Slingload_01_Cargo_F";
 FOB_truck_typename = "uns_nvatruck";
 FOB_outpost = "LAND_uns_eastbunker1"; //"Land_BagBunker_Tower_F";

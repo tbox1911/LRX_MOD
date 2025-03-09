@@ -7,6 +7,7 @@ GRLIB_west_modder = "DarkDemon";
 
 huron_typename = "3as_MTT";
 FOB_typename = "land_3as_FOBBuilding1Lb";
+FOB_Man = "O_officer_F";
 FOB_box_typename = "3as_Big_Box_1_prop";
 FOB_truck_typename = "3as_SAC_Trade";
 Respawn_truck_typename = "3as_SAC_Trade";

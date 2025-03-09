@@ -7,6 +7,7 @@ GRLIB_west_modder = "pSiKO";
 
 huron_typename = "vn_o_air_mi2_01_01";  // // to use value from lobby/server.cfg
 FOB_typename = "Land_vn_bunker_big_02";
+FOB_Man = "vn_o_men_nva_28";
 FOB_typename_sign = [[-3, -5, -0.4], 180];   // "Land_vn_bunker_big_02"
 FOB_typename_map = [[0, 1.5, 2], 180];       // "Land_vn_bunker_big_02"
 FOB_outpost = "Land_vn_b_trench_bunker_01_02";
