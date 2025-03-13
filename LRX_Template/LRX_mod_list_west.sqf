@@ -62,7 +62,8 @@ LRX_mod_list_west = [
 	"RHS_SLA",			// Z@Warrior SLA (Sahrani Liberation Army)
 	"RHS_UFP",			// Z@Warrior Ukrain Faction Project
 	"RHS_USAF",
-	"ROAF_BLU",			//Miledino
+	"RHS_SVK_BW",		// Slovak Armed Forces
+	"ROAF_BLU",			// Miledino
 	"RUS_GRU",  		// Community
 	"SAF2035",
 	"SFP_SAF",
