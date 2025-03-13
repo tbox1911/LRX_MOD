@@ -1,5 +1,5 @@
 LRX_mod_list_east = [
-	"3AS_KF",			// DarkDemon
+	"3AS_KF",			// Community
 	"3CB_BAF_D",		// Z@Warrior British Armed Forces Desert
 	"3CB_BAF_W",		// Z@Warrior British Armed Forces Woodland
 	"3CB_ChDKZ",		// Z@Warrior Chernarussian Movement of the Red Star
@@ -10,12 +10,12 @@ LRX_mod_list_east = [
 	"ASZ_ITALY",
 	"AMF_R3F_D",		// C0br4 French Forces
 	"AMF_R3F_W",		// C0br4 French Forces	
-	"CFP_B_ILIDF", 		// DarkDemon
-	"CFP_O_HAMAS", 		// DarkDemon
-	"CFP_O_HEZBOLLAH", 	// DarkDemon
-	"CFP_O_IQARMY", 	// DarkDemon
-	"CFP_O_NKARMY", 	// DarkDemon
-	"CFP_O_SYARMY", 	// DarkDemon
+	"CFP_B_ILIDF", 		// Community
+	"CFP_O_HAMAS", 		// Community
+	"CFP_O_HEZBOLLAH", 	// Community
+	"CFP_O_IQARMY", 	// Community
+	"CFP_O_NKARMY", 	// Community
+	"CFP_O_SYARMY", 	// Community
 	"CFP_SUDAN",
 	"CP_AFRF",			// Z@warrior
 	"CP_AFU",			// Z@Warrior Armed Forces of Ukraine
@@ -23,7 +23,7 @@ LRX_mod_list_east = [
 	"CP_BELKA_W",		// Z@Warrior CUP Belka Woodland
 	"CP_BELKA_WI",		// Z@Warrior CUP Belka Winter
 	"CP_ION_WI",		// Z@Warrior
-	"CP_MAF",			// DarkDemon
+	"CP_MAF",			// Community
 	"CP_SAHRA_D",		// Z@Warrior
 	"CP_TA",
 	"CP_USMC_D",		// C0br4
@@ -33,7 +33,7 @@ LRX_mod_list_east = [
 	"CWR3_SOV",			// Z@Warrior Cold War Rearmed III - SOVIET
 	"CWR3_TDF",
 	"CWR3_USA",			// Z@Warrior Cold War Rearmed III - US
-	"DEV_TAF",  		// DarkDemon
+	"DEV_TAF",  		// Community
 	"DKOK",
 	"EAW_IJA",
 	"EAW_NRA",
@@ -43,7 +43,7 @@ LRX_mod_list_east = [
 	"GM_EAST",
 	"GM_WEST_WINT",
 	"GM_WEST",
-	"GX_Cartel",   		// DarkDemon
+	"GX_Cartel",   		// Community
 	"IFA_REDARMY_W",	// Z@Warrior Red Army Winter
 	"IFA_REDARMY",		// Z@Warrior Red Army
 	"IFA_USARMY",		// Z@Warrior US Army
@@ -67,8 +67,8 @@ LRX_mod_list_east = [
 	"RHS_UFP",			// Z@Warrior Ukrain Faction Project
 	"RHS_USAF",
 	"ROAF_BLU",			//Miledino
-	"RUS_GRU",  		// DarkDemon
-	"Ryan_ZD",			// DarkDemon
+	"RUS_GRU",  		// Community
+	"Ryan_ZD",			// Community
 	"SAF2035",
 	"SFP_SAF",
 	"SOG_USA",
@@ -76,7 +76,7 @@ LRX_mod_list_east = [
 	"SPE_FR",			// pSiKO DLC Spearhead 1944
 	"SPE_GER",			// Z@Warrior DLC Spearhead 1944
 	"SPE_US",			// Z@Warrior DLC Spearhead 1944
-	"SW_TOR",	 		// DarkDemon
+	"SW_TOR",	 		// Community
 	"TFM_MMSLI_W",		// Legend_TS13
 	"TFM_MSCA_D",		// Legend_TS13
 	"TFM_MSCA_W",		// Legend_TS13
@@ -85,10 +85,10 @@ LRX_mod_list_east = [
 	"TFM_SOG_LI",		// Legend_TS13
 	"TIOW_CSP",
 	"TIOW_TAU",
-	"UA_AZOV", 			// DarkDemon
+	"UA_AZOV", 			// Community
 	"UNS_NVA",			// Z@Warrior Unsung
 	"UNS_US",			// Z@Warrior Unsung
-	"VME_CHINA",  		// DarkDemon
+	"VME_CHINA",  		// Community
 	"VTF_KDF",
 	"VTF_KI",
 	"WBK_ORKS",

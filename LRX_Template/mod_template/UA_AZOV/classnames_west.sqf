@@ -1,6 +1,6 @@
 // *** FRIENDLIES ***
 GRLIB_side_friendly = WEST;
-GRLIB_west_modder = "DarkDemon";
+GRLIB_west_modder = "Community";
 
 
 huron_typename = "UA_VVS_mi8mtv2";		// Mi-8MTV-2 (Cargo)

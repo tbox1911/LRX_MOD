@@ -1,6 +1,6 @@
 // *** BADDIES ***
 GRLIB_side_enemy = INDEPENDENT;
-GRLIB_east_modder = "DarkDemon";
+GRLIB_east_modder = "Community";
 
 // All class MUST be defined !
 

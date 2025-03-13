@@ -1,6 +1,6 @@
 // *** FRIENDLIES ***
 GRLIB_side_friendly = WEST;
-GRLIB_west_modder = "DarkDemon";
+GRLIB_west_modder = "Community";
 
 // Default classname: scripts\shared\default_classnames.sqf
 // Advanced definition: scripts\shared\classnames.sqf
