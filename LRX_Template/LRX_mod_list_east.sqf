@@ -5,6 +5,7 @@ LRX_mod_list_east = [
 	"3CB_ChDKZ",		// Z@Warrior Chernarussian Movement of the Red Star
 	"3CB_ION_IND",		// Z@Warrior 3CB ION Services - Urban
 	"3CB_LDF_OPF",		// Z@Warrior 3CB Livonia Defence Force
+	"3CB_ISIS_OPF",		// AceIsWin  3CB ISIS
 	"3CB_MDF_OPF",		// Z@Warrior 3CB Malden Defence Force
 	"3CB_TNA_OPF",		// Z@Warrior 3CB Takistan National Army
 	"ASZ_ITALY",
