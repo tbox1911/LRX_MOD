@@ -124,5 +124,3 @@ _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemWatch";
 _unit linkItem "ItemRadio";
-
-diag_log format ["[Crewman] %1: primary=%2 | mag=%3 | uniform=%4 | vest=%5", _unit, _primary, _mag, _uniform, _vest];

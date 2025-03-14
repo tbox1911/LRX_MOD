@@ -61,10 +61,6 @@ militia_squad = [
 ];
 
 militia_loadout_overide = [
-    "uk3cb_mee_o_gl",
-    "uk3cb_mee_o_md",
-    "uk3cb_mee_o_rif_1",
-    "uk3cb_mee_o_tl"
 ];
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders. Can also be empty for only infantry milita.
