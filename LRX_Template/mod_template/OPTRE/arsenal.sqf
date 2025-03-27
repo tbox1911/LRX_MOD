@@ -20,7 +20,6 @@ whitelisted_from_arsenal = [
 	"ItemMap",
 	"ItemRadio",
 	"ItemWatch",
-	"Bandage",
 	"HandGrenade",
 	"MiniGrenade",
 	"Laserbatteries",

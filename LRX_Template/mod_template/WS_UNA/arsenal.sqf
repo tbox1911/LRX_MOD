@@ -3,18 +3,10 @@ blacklisted_bag = [
 ];
 
 blacklisted_weapon = [
-	"Pylon",
-	"Vorona",
-	"_missiles",
-	"_used",
-	"_Leaflets",
-	"_esd_"
+	"Vorona"
 ];
 
 whitelisted_from_arsenal = [
-	"FirstAidKit",
-	"Medikit",
-	"ToolKit",
 	"MineDetector",
 	"Binocular",
 	"Rangefinder",
@@ -23,7 +15,6 @@ whitelisted_from_arsenal = [
 	"ItemMap",
 	"ItemRadio",
 	"ItemWatch",
-	"Bandage",
 	"HandGrenade",
 	"MiniGrenade",
 	"Laserbatteries",

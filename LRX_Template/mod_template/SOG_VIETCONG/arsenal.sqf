@@ -27,7 +27,6 @@ whitelisted_from_arsenal = [
     "vn_b_item_wiretap",
 	"ItemRadio",
 	"ItemWatch",
-	"Bandage",
 	"HandGrenade",
 	"MiniGrenade",
 	"ATMine_Range_Mag",

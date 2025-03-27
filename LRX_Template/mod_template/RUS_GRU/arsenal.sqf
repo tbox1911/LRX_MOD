@@ -35,9 +35,6 @@ blacklisted_weapon = [
 ];
 
 whitelisted_from_arsenal = [
-	"FirstAidKit",
-	"Medikit",
-	"ToolKit",
 	"MineDetector",
 	"Binocular",
 	"Rangefinder",
@@ -46,7 +43,6 @@ whitelisted_from_arsenal = [
 	"ItemMap",
 	"ItemRadio",
 	"ItemWatch",
-	"Bandage",
 	"HandGrenade",
 	"MiniGrenade",
 	"Laserbatteries",

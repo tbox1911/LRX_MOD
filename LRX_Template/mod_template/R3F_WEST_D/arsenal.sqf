@@ -10,30 +10,12 @@ blacklisted_bag = [
 ];
 
 blacklisted_weapon = [
-	"arifle_Katiba_GL_Nstalker_pointer_F",
-	"srifle_DMR_04_NS_LP_F",
-	"optic_Nightstalker",
-	"optic_tws",
-	"optic_tws_mg",
-	"H_HelmetO_ViperSP_hex_F",
-	"H_HelmetO_ViperSP_ghex_F",
-	"U_O_V_Soldier_Viper_hex_F",
-	"U_O_V_Soldier_Viper_F",
-	"O_V_Soldier_Viper_F",
-	"O_V_Soldier_Viper_hex_F",
-	"Pylon",
-	"Vorona",
-	"_missiles",
-	"_used",
-	"_Leaflets",
-	"_esd_",
-	"R3F_LGI_DEM"
+	"R3F_LGI_DEM",
+	"R3F_securite_mag",
+	"R3F_securite_fn_mag"
 ];
 
 whitelisted_from_arsenal = [
-	"FirstAidKit",
-	"Medikit",
-	"ToolKit",
 	"MineDetector",
 	"Binocular",
 	"Rangefinder",
@@ -48,7 +30,6 @@ whitelisted_from_arsenal = [
 	"ItemMap",
 	"ItemRadio",
 	"ItemWatch",
-	"Bandage",
 	"HandGrenade",
 	"MiniGrenade",
 	"Laserbatteries",

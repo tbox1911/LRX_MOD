@@ -25,7 +25,6 @@ whitelisted_from_arsenal = [
 	"ItemMap",
 	"ItemRadio",
 	"gm_watch_kosei_80",
-	"Bandage",
 	"HandGrenade",
 	"MiniGrenade",
 	"APERSMine_Range_Mag",

@@ -3,19 +3,23 @@ blacklisted_bag = [
 ];
 
 blacklisted_weapon = [
+	"CUP_PylonPod_",
 	"CUP_optic_CWS",
 	"CUP_optic_AN_PAS_13c1",
 	"CUP_optic_AN_PAS_13c2",
 	"CUP_optic_GOSHAWK",
 	"CUP_optic_GOSHAWK_RIS",
 	"CUP_Item_optic_AN_PAS_13c2",
-	"CUP_Item_optic_AN_PAS_13c1"
+	"CUP_Item_optic_AN_PAS_13c1",
+	"_Gun_Bag",
+	"_Pod_",	
+	"Bipod_Bag",
+	"Tripod_Bag",
+	"TripodHigh_Bag",
+	"TripodLow_Bag"
 ];
 
 whitelisted_from_arsenal = [
-	"FirstAidKit",
-	"Medikit",
-	"ToolKit",
 	"MineDetector",
 	"Binocular",
 	//"Rangefinder",
@@ -24,7 +28,6 @@ whitelisted_from_arsenal = [
 	"ItemMap",
 	"ItemRadio",
 	"ItemWatch",
-	"Bandage",
 	"HandGrenade",
 	"MiniGrenade",
 	//"Laserbatteries",
