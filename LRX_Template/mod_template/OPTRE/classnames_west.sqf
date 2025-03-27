@@ -87,7 +87,7 @@ heavy_vehicles = [
 ];
 
 air_vehicles = [
-	["B_UAV_01_F",1,10,5,GRLIB_perm_log],
+	["B_UAV_01_F",0,10,0,GRLIB_perm_log],
 	["OPTRE_Wombat_S",5,1500,10,GRLIB_perm_max],
 	["OPTRE_UNSC_hornet",1,150,5,GRLIB_perm_tank],
 	["OPTRE_UNSC_hornet_CAP",1,500,5,GRLIB_perm_air],

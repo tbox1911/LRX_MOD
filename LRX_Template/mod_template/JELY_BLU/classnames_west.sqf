@@ -161,11 +161,11 @@ heavy_vehicles = [
 ];
 
 air_vehicles = [
-	["B_UAV_01_F",1,10,5,GRLIB_perm_log],
+	["B_UAV_01_F",0,10,0,GRLIB_perm_log],
 	["B_Heli_Light_01_F",1,50,15,GRLIB_perm_log],
 	["CUP_B_AW159_Unarmed_GB",1,250,5,GRLIB_perm_log],
 
-	["B_UAV_06_F",1,30,5,GRLIB_perm_tank],
+	["B_UAV_06_F",0,30,0,GRLIB_perm_tank],
 	["B_Heli_Light_01_dynamicLoadout_F",1,150,15,GRLIB_perm_tank],
 	["I_Heli_light_03_unarmed_F",1,50,5,GRLIB_perm_tank],
 	["B_Heli_Transport_01_F",10,2000,35,GRLIB_perm_tank],

@@ -78,7 +78,7 @@ heavy_vehicles = [
 ];
 
 air_vehicles = [
-	["B_UAV_01_F",1,10,5,GRLIB_perm_log],
+	["B_UAV_01_F",0,10,0,GRLIB_perm_log],
     ["AMF_gazelle_afte_f",5,150,5,GRLIB_perm_log],
     ["AMF_gazelle_minigun_f",5,250,10,GRLIB_perm_tank],
     ["AMF_panther_FRA",5,400,10,GRLIB_perm_tank],
