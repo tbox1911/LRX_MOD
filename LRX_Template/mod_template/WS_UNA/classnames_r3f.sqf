@@ -37,12 +37,7 @@ R3F_LOG_CFG_can_transport_cargo = R3F_LOG_CFG_can_transport_cargo +
 	["I_Heli_light_03_dynamicLoadout_F", 30],
 	["B_T_VTOL_01_infantry_F", 100],
 	["B_T_VTOL_01_vehicle_F", 100],
-	["B_T_VTOL_01_armed_F", 40],
-	["B_UAV_01_F", 1],
-	["B_UAV_02_dynamicLoadout_F", 1],
-	["B_UAV_06_F", 5],
-	["C_UAV_06_F", 5],
-	["B_T_UAV_03_F", 15]
+	["B_T_VTOL_01_armed_F", 40]
 ];
 
 R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +
@@ -52,11 +47,6 @@ R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +
 
 R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
 [
-	"B_UAV_01_F",
-	"B_UAV_02_dynamicLoadout_F",
-	"B_UAV_06_F",
-	"C_UAV_06_F",
-	"B_UGV_02_Demining_F"
 ];
 
 //--------------- Ground ---------------
