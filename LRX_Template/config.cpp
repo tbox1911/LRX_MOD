@@ -22,6 +22,7 @@ class cfgFunctions
 			class init { postInit = 1; };
 			class loading {};
 			class readfile {};
+			class playerdiary {};
 		};
 	};
 };
