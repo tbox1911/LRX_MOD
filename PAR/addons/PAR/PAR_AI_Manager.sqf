@@ -72,7 +72,7 @@ while {true} do {
         if (count PAR_AI_bros < PAR_ai_limit) then {
             _unit = _x;
             if  ((_unit getVariable ["PAR_Grp_ID","0"]) != format["Bros_%1", PAR_Grp_ID]) then {          
-                if (_unit == player) then {
+                if (_unit == player && !PAR_only_ai_revive) then {
                     [] call PAR_Player_Init;
                     [player] call PAR_EventHandler;
                 } else {

@@ -57,6 +57,9 @@ if (isNil "PAR_ai_limit") then { PAR_ai_limit = 5 };
 // Max AI revive counter
 if (isNil "PAR_ai_revive") then { PAR_ai_revive = 7 };
 
+// Only AI revive (player is excluded)
+if (isNil "PAR_only_ai_revive") then { PAR_only_ai_revive = false };
+
 // Enable info killer message
 PAR_EnableDeathMessages = true;
 
