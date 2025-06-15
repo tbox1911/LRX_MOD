@@ -97,6 +97,7 @@ PAR_medical_source = "Land_MedicalTent_01_base_F";
 diag_log "LRX PAR Mod Initialized.";
 
 player createDiarySubject["LRX","PAR"];
+player createDiaryRecord ["LRX", ["pSiKO Ai Revive", format ["PAR Only AI revive: <font color='#ff4000'>%1</font>", PAR_only_ai_revive]]];
 player createDiaryRecord ["LRX", ["pSiKO Ai Revive", format ["PAR max revive per unit: <font color='#ff4000'>%1</font>", PAR_ai_revive]]];
 player createDiaryRecord ["LRX", ["pSiKO Ai Revive", format ["PAR max unit protected: <font color='#ff4000'>%1</font>", PAR_ai_limit]]];
 player createDiaryRecord ["LRX", ["pSiKO Ai Revive", format ["PAR Bleedout timer: <font color='#ff4000'>%1</font>", PAR_bleedout]]];
