@@ -43,20 +43,16 @@ if (isClass(configFile >> "CfgPatches" >> "sab_sw_a26")) then {
   opfor_transport_helo = ["sab_sw_he177"];
 };
 
-militia_squad = [
-	"SPE_Milice_FG_SquadLead",
-	"SPE_Milice_FG_TeamLeader",
-	"SPE_Milice_FG_Lieutenant",
-	"SPE_Milice_FG_Rifleman",
-	"SPE_Milice_FG_Rifleman",
-	"SPE_Milice_FG_Autorifleman",
-	"SPE_Milice_FG_Assist_Autorifleman",
-	"SPE_Milice_FG_Medic",
-	"SPE_Milice_FG_Radioman",
-	"SPE_Milice_FG_Sentry",
-	"SPE_Milice_FG_Sentry_Sten",
-	"SPE_Milice_FG_AT_grenadier",
-	"SPE_Milice_FG_LAT_rifleman"
+militia_squad = [			// Kundschafter
+	"SPE_GER_scout_ober_grenadier",
+	"SPE_GER_scout_Halftrack_Driver",
+	"SPE_GER_scout_mgunner2",
+	"SPE_GER_scout_rifleman",
+	"SPE_GER_scout_ober_rifleman",
+	"SPE_GER_scout_sniper",
+	"SPE_GER_scout_Assist_SquadLead",
+	"SPE_GER_scout_SquadLead",
+	"SPE_GER_scout_lieutenant"
 ];
 
 militia_loadout_overide = [
