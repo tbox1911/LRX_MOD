@@ -26,6 +26,7 @@ LRX_mod_list_west = [
 	"CP_ION_WI",		// Z@Warrior CUP ION PMC Winter
 	"CP_MAF",			// Community
 	"CP_SAHRA_D",		// Z@Warrior
+	"CP_PLA",		// Z@Warrior
 	"CP_USMC_D",		// C0br4
 	"CP_USMC_W",		// C0br4
 	"CWR3_BAF",			// Z@Warrior Cold War Rearmed III - BAF
