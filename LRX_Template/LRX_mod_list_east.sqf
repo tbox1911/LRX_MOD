@@ -26,6 +26,7 @@ LRX_mod_list_east = [
 	"CP_ION_WI",		// Z@Warrior
 	"CP_MAF",			// Community
 	"CP_SAHRA_D",		// Z@Warrior
+	"CP_PLA",		// Z@Warrior
 	"CP_TA",
 	"CP_USMC_D",		// C0br4
 	"CP_USMC_W",		// C0br4
