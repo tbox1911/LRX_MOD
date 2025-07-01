@@ -31,6 +31,7 @@ LRX_mod_list_name = [
 	["CP_ION_WI", "CUP ION PMC Winter"],
 	["CP_MAF", "CUP Mexican Armed Forces"],
 	["CP_SAHRA_D", "CUP Royal Army Corps"],
+	["CP_PLA", "CUP People's Liberation Army"],
 	["CP_TA", "CUP Takistan"],
 	["CP_USMC_D", "CUP USMC Desert"],
 	["CP_USMC_W", "CUP USMC Woodland"],
