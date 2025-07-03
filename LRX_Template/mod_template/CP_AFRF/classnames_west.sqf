@@ -136,6 +136,8 @@ static_vehicles = [
 	["O_SAM_System_04_F",10,1500,0,GRLIB_perm_max]
 ];
 
+a3w_resistance_static = "CUP_O_Igla_AA_pod_RU";
+
 // *** Static Weapon with AI ***
 static_vehicles_AI = [
 	"O_SAM_System_04_F"

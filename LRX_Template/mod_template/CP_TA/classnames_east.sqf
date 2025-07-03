@@ -61,18 +61,18 @@ militia_loadout_overide = [
 ];
 
 a3w_divers_squad = [
-	"I_diver_TL_F",
-	"I_diver_TL_F",
-	"I_diver_exp_F",
-	"I_diver_exp_F",
-	"I_diver_exp_F",
-	"I_diver_exp_F",
-	"I_diver_F",
-	"I_diver_F",
-	"I_diver_F",
-	"I_diver_F",
-	"I_diver_F",
-	"I_diver_F"
+	"O_diver_TL_F",
+	"O_diver_TL_F",
+	"O_diver_exp_F",
+	"O_diver_exp_F",
+	"O_diver_exp_F",
+	"O_diver_exp_F",
+	"O_diver_F",
+	"O_diver_F",
+	"O_diver_F",
+	"O_diver_F",
+	"O_diver_F",
+	"O_diver_F"
 ];
 
 militia_vehicles = [
@@ -171,9 +171,9 @@ opfor_air = [
 
 opfor_statics = [
 	"CUP_O_KORD_high_TK",
+	"CUP_O_KORD_TK",
 	"CUP_O_ZU23_TK",
 	"CUP_O_2b14_82mm_TK",
-	"CUP_O_KORD_TK",
 	"CUP_O_Igla_AA_pod_TK",
 	"CUP_O_AGS_TK"
 ];
