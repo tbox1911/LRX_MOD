@@ -26,9 +26,9 @@ _________________________________________________________________________*/
 
 if (!isDedicated && !hasInterface && isMultiplayer) exitWith {};
 if (isMultiplayer) then { waitUntil {sleep 1; getClientStateNumber > 8 } };
+waitUntil { sleep 1; alive player };
 if (!isNil "GRLIB_build_version") exitWith { diag_log "-- PAR loading Error : PAR is incompatible with LRX." };
-
-diag_log "-_- LRX PAR Mod by pSiKO -_-";
+diag_log "-_- LRX PAR Mod v3.50 by pSiKO -_-";
 
 // PAR Remote Call - Server Side
 if (isDedicated) exitWith {

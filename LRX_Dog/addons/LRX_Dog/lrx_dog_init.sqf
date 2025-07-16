@@ -24,9 +24,9 @@ how to use:
 
 if (isMultiplayer) then { waitUntil {sleep 1; getClientStateNumber > 8 } };
 
-diag_log "-_- LRX Dog Mod by pSiKO -_-";
-
+waitUntil { sleep 1; alive player };
 if (!isNil "GRLIB_build_version") exitWith { diag_log "-- LRX Dog loading Error : LRX Dog is incompatible with LRX." };
+diag_log "-_- LRX Dog Mod by pSiKO -_-";
 
 Dogs_list = [
 	"Alsatian_Sand_F",

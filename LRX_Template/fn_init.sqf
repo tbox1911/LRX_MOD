@@ -6,6 +6,7 @@
 */
 LRX_Template_version = "2.0";
 LRX_Mission_version = "N/A";
+if (isMultiplayer) then { waitUntil {sleep 1; getClientStateNumber > 8 } };
 if (!isNil "GRLIB_build_version") then { LRX_Mission_version = GRLIB_build_version };
 
 diag_log "-------- LRX MOD Template Initialized --------";
