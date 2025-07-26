@@ -16,7 +16,7 @@ fuel_truck_typename = "CUP_B_MTVR_Refuel_HIL";
 repair_truck_typename = "CUP_B_M113A3_Repair_GER";
 
 
-if (isClass(configFile >> "CfgPatches" >> "Redd_Vehicles_Main")) then 
+if (isClass(configFile >> "CfgPatches" >> "Redd_Vehicles_Main")) then
 {
   Respawn_truck_typename = "Redd_Tank_Fuchs_1A4_San_Flecktarn";
   ammo_truck_typename = "rnt_lkw_7t_mil_gl_kat_i_mun_fleck";
@@ -37,18 +37,18 @@ chimera_vehicle_overide = [
 
 // *** RESISTANCE Army of the Czech Republic
 a3w_resistance_squad = [
-"CUP_B_CZ_Soldier_AMG_WDL",
-"CUP_B_CZ_Medic_WDL",
-"CUP_B_CZ_Soldier_SL_WDL",
-"CUP_B_CZ_ExplosiveSpecialist_WDL",
-"CUP_B_CZ_Soldier_Light_WDL",
-"CUP_B_CZ_Soldier_AT_WDL",
-"CUP_B_CZ_Soldier_backpack_WDL",
-"CUP_B_CZ_Soldier_MG_WDL",
-"CUP_B_CZ_Soldier_Marksman_WDL",
-"CUP_B_CZ_Soldier_RPG_WDL",
-"CUP_B_CZ_Engineer_WDL",
-"CUP_B_CZ_Soldier_805_GL_WDL"
+	"CUP_B_CZ_Soldier_AMG_WDL",
+	"CUP_B_CZ_Medic_WDL",
+	"CUP_B_CZ_Soldier_SL_WDL",
+	"CUP_B_CZ_ExplosiveSpecialist_WDL",
+	"CUP_B_CZ_Soldier_Light_WDL",
+	"CUP_B_CZ_Soldier_AT_WDL",
+	"CUP_B_CZ_Soldier_backpack_WDL",
+	"CUP_B_CZ_Soldier_MG_WDL",
+	"CUP_B_CZ_Soldier_Marksman_WDL",
+	"CUP_B_CZ_Soldier_RPG_WDL",
+	"CUP_B_CZ_Engineer_WDL",
+	"CUP_B_CZ_Soldier_805_GL_WDL"
 ];
 
 a3w_resistance_static = "CUP_B_AGS_ACR";
@@ -67,40 +67,22 @@ infantry_units_west = [
 	["CUP_B_GER_Fleck_Soldier_AT",1,0,0,GRLIB_perm_log],
 	["CUP_B_GER_Fleck_Soldier_AA",1,0,0,GRLIB_perm_inf],
 	["CUP_B_GER_Fleck_Soldier_Sniper",1,0,0,GRLIB_perm_inf],
-	["CUP_B_BAF_Soldier_Medic_DPM",1,0,0,GRLIB_perm_inf],
-	["CUP_B_BAF_Soldier_Engineer_DPM",1,0,0,GRLIB_perm_inf],
-	["CUP_B_BAF_Soldier_Rifleman_DPM",1,0,0,GRLIB_perm_inf],
-	["CUP_B_BAF_Soldier_Grenadier_DPM",1,0,0,GRLIB_perm_inf],
-	["CUP_B_BAF_Soldier_AutoRifleman_DPM",1,0,0,GRLIB_perm_log],
-	["CUP_B_BAF_Soldier_AT_DPM",1,0,0,GRLIB_perm_log],
-	["CUP_B_BAF_Soldier_AA_DPM",1,0,0,GRLIB_perm_log],
-	["CUP_B_USMC_Engineer",1,0,0,GRLIB_perm_inf],
-	["CUP_B_USMC_Soldier",1,0,0,GRLIB_perm_inf],
-	["CUP_B_USMC_Soldier_GL",1,0,0,GRLIB_perm_inf],
-	["CUP_B_USMC_Soldier_MG",1,0,0,GRLIB_perm_log],
-	["CUP_B_USMC_Sniper_M40A3",1,0,0,GRLIB_perm_log],
-	["CUP_B_USMC_Soldier_HAT",1,0,0,GRLIB_perm_log],
-	["CUP_B_USMC_Soldier_AA",1,0,0,GRLIB_perm_log],
-	["CUP_B_CZ_Medic_WDL",1,0,0,GRLIB_perm_inf],
-	["CUP_B_CZ_Engineer_WDL",1,0,0,GRLIB_perm_inf],
-	["CUP_B_CZ_Soldier_WDL",1,0,0,GRLIB_perm_inf],
-	["CUP_B_CZ_Soldier_805_GL_WDL",1,0,0,GRLIB_perm_inf],
-	["CUP_B_CZ_Soldier_AMG_WDL",1,0,0,GRLIB_perm_log],
-	["CUP_B_CZ_Soldier_Marksman_WDL",1,0,0,GRLIB_perm_log],
-	["CUP_B_CZ_Soldier_AT_WDL",1,0,0,GRLIB_perm_log],
+	["CUP_B_BAF_Soldier_Medic_DDPM",1,0,0,GRLIB_perm_inf],
+	["CUP_B_BAF_Soldier_Engineer_DDPM",1,0,0,GRLIB_perm_inf],
+	["CUP_B_BAF_Soldier_Rifleman_DDPM",1,0,0,GRLIB_perm_inf],
+	["CUP_B_BAF_Soldier_Grenadier_DDPM",1,0,0,GRLIB_perm_inf],
+	["CUP_B_BAF_Soldier_AutoRifleman_DDPM",1,0,0,GRLIB_perm_log],
+	["CUP_B_BAF_Soldier_AT_DDPM",1,0,0,GRLIB_perm_log],
+	["CUP_B_BAF_Soldier_AA_DDPM",1,0,0,GRLIB_perm_log],
 	[crewman_classname,1,0,0,GRLIB_perm_inf],
 	[pilot_classname,1,0,0,GRLIB_perm_log]
 ];
 
 units_loadout_overide = [
-	"CUP_B_BAF_Soldier_RiflemanAT_DDPM",
 	"CUP_B_BAF_Soldier_AA_DDPM",
 	"CUP_B_BAF_Soldier_AT_DDPM",
-	"CUP_B_GER_Fleck_Soldier_Engineer",
-	"CUP_B_USMC_Engineer",
-	"CUP_B_BAF_Soldier_Engineer_DPM",
-	"CUP_B_CZ_Engineer_WDL"
-];	
+	"CUP_B_BAF_Soldier_Rifleman_DDPM"
+];
 
 
 light_vehicles = [
@@ -137,7 +119,7 @@ light_vehicles = [
 ];
 
 
-if (isClass(configFile >> "CfgPatches" >> "Redd_Vehicles_Main")) then 
+if (isClass(configFile >> "CfgPatches" >> "Redd_Vehicles_Main")) then
 {
   //light_vehicles pushBack ["Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_FueFu",1,200,2,GRLIB_perm_inf];
   light_vehicles pushBack ["Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_FJg",1,350,2,GRLIB_perm_inf];
@@ -167,7 +149,7 @@ heavy_vehicles = [
 ];
 
 
-if (isClass(configFile >> "CfgPatches" >> "Redd_Vehicles_Main")) then 
+if (isClass(configFile >> "CfgPatches" >> "Redd_Vehicles_Main")) then
 {
   heavy_vehicles pushBack ["Redd_Tank_Wiesel_1A4_MK20_Flecktarn",10,400,5,GRLIB_perm_tank];
   heavy_vehicles pushBack ["Redd_Tank_Wiesel_1A2_TOW_Flecktarn",10,400,5,GRLIB_perm_tank];
@@ -183,7 +165,7 @@ air_vehicles = [
 	["CUP_B_AC47_Spooky_USA",1,150,5,GRLIB_perm_air],
 	["CUP_B_AW159_Unarmed_GB",1,250,5,GRLIB_perm_log],
 	["CUP_B_AW159_GB",5,300,10,GRLIB_perm_air],
-	["CUP_B_AW159_RN_Blackcat",5,300,10,GRLIB_perm_tank],	
+	["CUP_B_AW159_RN_Blackcat",5,300,10,GRLIB_perm_tank],
 	["CUP_B_SA330_Puma_HC1_BAF",5,350,10,GRLIB_perm_air],
 	["CUP_B_Merlin_HC3_GB",10,400,15,GRLIB_perm_tank],
 	["CUP_B_Merlin_HC3_Armed_GB",10,600,15,GRLIB_perm_air],
@@ -234,12 +216,6 @@ static_vehicles = [
 	["CUP_B_L16A2_BAF_MPT",0,150,0,GRLIB_perm_tank],
 	["CUP_B_M134_A_GB",0,200,0,GRLIB_perm_air],
 	["CUP_B_M119_HIL",0,250,0,GRLIB_perm_air],
-	// with AI
-	["CUP_B_SearchLight_static_BAF_DDPM",1,25,0,GRLIB_perm_log],
-	["CUP_B_L111A1_BAF_DDPM",1,50,0,GRLIB_perm_log],
-	["CUP_B_L111A1_MiniTripod_BAF_DDPM",1,100,0,GRLIB_perm_log],
-	["CUP_B_L134A1_TriPod_BAF_DDPM",1,150,0,GRLIB_perm_tank],
-	["CUP_B_L16A2_BAF_DDPM",1,200,0,GRLIB_perm_tank],
 	["CUP_B_TOW_TriPod_US",1,250,0,GRLIB_perm_tank],
 	["CUP_B_TOW2_TriPod_US",0,250,0,GRLIB_perm_tank],
 	["CUP_B_CUP_Stinger_AA_pod_US",1,250,0,GRLIB_perm_tank],
@@ -251,7 +227,7 @@ static_vehicles = [
 ];
 
 
-if (isClass(configFile >> "CfgPatches" >> "Redd_Vehicles_Main")) then 
+if (isClass(configFile >> "CfgPatches" >> "Redd_Vehicles_Main")) then
 {
   // static_vehicles pushBack ["rnt_mg3_static",0,100,0,GRLIB_perm_log];
   // static_vehicles pushBack ["rnt_gmw_static",0,100,0,GRLIB_perm_log];
@@ -270,7 +246,7 @@ support_vehicles_west = [
 ];
 
 
-if (isClass(configFile >> "CfgPatches" >> "Redd_Vehicles_Main")) then 
+if (isClass(configFile >> "CfgPatches" >> "Redd_Vehicles_Main")) then
 {
 //  support_vehicles_west pushBack ["rnt_lkw_7t_mil_gl_kat_i_mun_fleck",5,150,5,GRLIB_perm_inf];
 //  support_vehicles_west pushBack ["rnt_lkw_5t_mil_gl_kat_i_fuel_fleck",5,150,15,GRLIB_perm_inf];
@@ -299,7 +275,6 @@ buildings_west = [
 	["Land_Garaz_bez_tanku",0,0,0,GRLIB_perm_tank],
 	["Land_LampAirport_F",0,0,0,GRLIB_perm_tank],
 	["Land_fs_feed_F",0,10,10,GRLIB_perm_tank],
-
 	["StorageBladder_01_fuel_forest_F",0,10,10,GRLIB_perm_tank],
 	["Land_House_Small_01_F",0,0,0,GRLIB_perm_tank],
 	["Land_Shed_05_F",0,0,0,GRLIB_perm_tank],
@@ -372,7 +347,6 @@ uavs_west = [
 
 // Everything the AI troups should be able to resupply from
 ai_resupply_sources_west = [
-  "CUP_B_M113A3_Reammo_GER",
 	Arsenal_typename,
 	FOB_typename,
 	"rnt_lkw_7t_mil_gl_kat_i_mun_fleck"  // Redd'n Tank
@@ -381,14 +355,12 @@ ai_resupply_sources_west = [
 // Everything the AI troups should be able to healing from
 ai_healing_sources_west = [
 	"CUP_B_M113A3_Med_GER",
-	Arsenal_typename,
 	FOB_typename,
 	"Redd_Tank_Fuchs_1A4_San_Flecktarn" // Redd'n Tank
 ];
 
 vehicle_rearm_sources_west = [
 	"CUP_B_M113A3_Reammo_GER",
-	Arsenal_typename,
 	FOB_typename,
 	"rnt_lkw_7t_mil_gl_kat_i_mun_fleck" // Redd'n Tank
 ];
