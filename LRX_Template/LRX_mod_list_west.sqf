@@ -44,6 +44,9 @@ LRX_mod_list_west = [
 	"GM_EAST",
 	"GM_WEST_WINT",
 	"GM_WEST",
+	"IC_AFMC",			// Z@Warrior DLC CSLA Iron Curtain - Armed Forces of the Midland Coalition
+	"IC_CSLA",			// Z@Warrior DLC CSLA Iron Curtain - Czechoslovak People's Army
+	"IC_US85",			// Z@Warrior DLC CSLA Iron Curtain - US Army
 	"IFA_REDARMY_W",	// Z@Warrior Red Army Winter
 	"IFA_REDARMY",		// Z@Warrior Red Army
 	"IFA_USARMY",		// Z@Warrior US Army
