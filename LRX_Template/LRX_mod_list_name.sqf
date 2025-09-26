@@ -78,6 +78,7 @@ LRX_mod_list_name = [
 	["RHS_SLA", "RHS SLA (Sahrani Liberation Army)"],
 	["RHS_UFP", "RHS UFP (Ukrainian Factions Project)"],
 	["RHS_USAF", "RHS US Armed Force"],
+	["RHS_SAF", "RHS Serbian Armed Forces"],
 	["RHS_SVK_BW", "RHS Slovak Armed Forces"],	
 	["ROAF_BLU", "Romanian Armed Forces"],
 	["RUS_GRU", "Russian Armed Forces 2035"],
