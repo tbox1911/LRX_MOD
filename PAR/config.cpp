@@ -6,9 +6,16 @@ class CfgPatches
 		name = "pSiKO AI Revive";
 		author = "pSiKO";
 		url = "https://forums.bohemia.net/forums/topic/217186-release-liberation-rx/";
+		requiredAddons[] = {"cba_main"};
 		weapons[] = {};
 		units[] = {};
 	};
+};
+
+class Extended_PreInit_EventHandlers {
+    class PAR {
+        init = "call compile preprocessFileLineNumbers 'PAR\addons\PAR\XEH_preInit.sqf'";
+    };
 };
 
 class cfgFunctions

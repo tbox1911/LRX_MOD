@@ -1,6 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="PAR">
 	<Package name="PAR">
+		<Key ID="STR_PARAMS_REVIVE">
+			<Original>Main mode:</Original>
+			<French>Mode principal:</French>
+		</Key>	
+		<Key ID="STR_PARAMS_REVIVE1">
+			<Original>Enabled - Everyone can revive</Original>
+			<Russian>Включено - Каждый может возрождать</Russian>
+			<French>Activé - Tout le monde peut ressusciter</French>
+			<Chinesesimp>启用——每个人都可以随意复活</Chinesesimp>
+			<Chinese>啟用——每個人都可以隨意復活</Chinese>
+			<Portuguese>Ativado - Todos podem reviver</Portuguese>
+			<Czech>Povoleno – každý může oživit</Czech>
+		</Key>
+		<Key ID="STR_PARAMS_REVIVE2">
+			<Original>Enabled - Everyone can revive using a MedKit or FAK</Original>
+			<Russian>Включено - Каждый может возрождать использую Аптечку или FAK</Russian>
+			<French>Activé - Tout le monde peut ressusciter avec un kit médical ou un kit soins</French>
+			<Chinesesimp>启用——每个人都可以使用医疗包或急救包进行复活</Chinesesimp>
+			<Chinese>啟用——每個人都可以使用醫療包或急救包進行復活</Chinese>
+			<Portuguese>Ativado - Todos podem reviver usando um MedKit ou FAK</Portuguese>
+			<Czech>Povoleno - Každý může oživit pomocí MedKit nebo FAK</Czech>
+		</Key>
+		<Key ID="STR_PARAMS_REVIVE3">
+			<Original>Enabled - Only medics can revive</Original>
+			<French>Activé - Seuls les medics peuvent ressusciter</French>
+			<German>Aktiv - Nur Sanitäter können wiederbeleben</German>
+			<Spanish>Activado - Sólo los médicos pueden revivir</Spanish>
+			<Russian>Включено - Только медики могут возрождать</Russian>
+			<Chinesesimp>启用 - 只有医生才能复活他人</Chinesesimp>
+			<Chinese>啟用 - 只有醫生才能複活他人</Chinese>
+			<Japanese>有効 - 衛生兵のみ蘇生可能</Japanese>
+			<Portuguese>Ativado - Apenas médicos podem reviver</Portuguese>
+			<Czech>Povoleno – Oživit mohou pouze medici</Czech>
+		</Key>
+		<Key ID="STR_PARAMS_PAR_AI_REVIVE">
+			<Original>PAR: Limit AI Revive</Original>
+			<French>PAR: Limite AI Résurection</French>
+			<Chinesesimp>PAR：限制AI复活</Chinesesimp>
+			<Chinese>PAR：限制AI復活</Chinese>
+		</Key>
+		<Key ID="STR_PARAMS_PAR_BLEEDOUT">
+			<Original>PAR: Bleedout Timer (sec)</Original>
+			<French>PAR: Durée Attente Blessé (sec)</French>
+			<Chinesesimp>PAR：失血计时器（秒）</Chinesesimp>
+			<Chinese>PAR：失血計時器（秒）</Chinese>
+		</Key>		
 		<Key ID="STR_PAR_Need_Medic1">
 			<Original>I need a medic!</Original>
 			<French>J'ai besoin d'un médecin!</French>
@@ -186,5 +232,15 @@
 			<Original>Bad news, we lost soldier %1...</Original>
 			<French>Mauvaise nouvelle, on as perdu le soldat %1...</French>
 		</Key>
+		<Key ID="STR_PARAM_SQUAD_SIZE_START">
+			<Original>AI per squad at startup.</Original>
+			<Russian>Количество ИИ в отряде на старте.</Russian>
+			<French>IA par escouade au début.</French>
+			<Chinesesimp>每个小队的初始AI数量</Chinesesimp>
+			<Chinese>每個小隊的初始AI數量</Chinese>
+			<Japanese>ミッション開始時に扱える小隊内のAI数</Japanese>
+			<Portuguese>IA por esquadrão na inicialização.</Portuguese>
+			<Czech>AI Tým při startu.</Czech>
+		</Key>		
 	</Package>
 </Project>
