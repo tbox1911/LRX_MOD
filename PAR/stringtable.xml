@@ -4,7 +4,7 @@
 		<Key ID="STR_PARAMS_REVIVE">
 			<Original>Main mode:</Original>
 			<French>Mode principal:</French>
-		</Key>	
+		</Key>
 		<Key ID="STR_PARAMS_REVIVE1">
 			<Original>Enabled - Everyone can revive</Original>
 			<Russian>Включено - Каждый может возрождать</Russian>
@@ -46,7 +46,7 @@
 			<French>PAR: Durée Attente Blessé (sec)</French>
 			<Chinesesimp>PAR：失血计时器（秒）</Chinesesimp>
 			<Chinese>PAR：失血計時器（秒）</Chinese>
-		</Key>		
+		</Key>
 		<Key ID="STR_PAR_Need_Medic1">
 			<Original>I need a medic!</Original>
 			<French>J'ai besoin d'un médecin!</French>
@@ -241,6 +241,54 @@
 			<Japanese>ミッション開始時に扱える小隊内のAI数</Japanese>
 			<Portuguese>IA por esquadrão na inicialização.</Portuguese>
 			<Czech>AI Tým při startu.</Czech>
-		</Key>		
+		</Key>
+		<Key ID="STR_PAR_REVIVE_RESTORED">
+			<Original>%1 revive restored (%2) !!</Original>
+			<French>Réanimer %1 restauré (%2) !!</French>
+			<German>%1 Wiederbelebung wiederhergestellt (%2) !!</German>
+			<Spanish>¡Reanimación de %1 restaurada (%2)!</Spanish>
+			<Russian>Возрождение %1 восстановлено (%2) !!</Russian>
+			<Chinesesimp>%1 的复活已恢复（%2 次）！！</Chinesesimp>
+			<Chinese>%1 的復活已恢復（%2 次）！！</Chinese>
+			<Japanese>%1 の蘇生が復元されました（%2）！！</Japanese>
+			<Portuguese>Reanimação de %1 restaurada (%2) !!</Portuguese>
+			<Czech>Oživení %1 obnoveno (%2) !!</Czech>
+		</Key>
+		<Key ID="STR_PAR_HEALING_FASTER">
+			<Original>%1 is Healing faster...</Original>
+			<French>%1 se soigne plus rapidement...</French>
+			<German>%1 heilt schneller...</German>
+			<Spanish>%1 se está curando más rápido...</Spanish>
+			<Russian>%1 лечится быстрее...</Russian>
+			<Chinesesimp>%1 正在加速治疗……</Chinesesimp>
+			<Chinese>%1 正在加速治療……</Chinese>
+			<Japanese>%1 はより早く回復中…</Japanese>
+			<Portuguese>%1 está se curando mais rápido...</Portuguese>
+			<Czech>%1 se léčí rychleji...</Czech>
+		</Key>
+		<Key ID="STR_PAR_NEED_MEDICAL_SUPPORT">
+			<Original>WARNING: %1 need Medical Support Now !!</Original>
+			<French>ATTENTION : %1 a besoin d'un soutien médical !!</French>
+			<German>WARNUNG: %1 benötigt sofort medizinische Hilfe !!</German>
+			<Spanish>¡ADVERTENCIA: %1 necesita ayuda médica ahora!</Spanish>
+			<Russian>ВНИМАНИЕ: %1 срочно нуждается в медпомощи !!</Russian>
+			<Chinesesimp>警告：%1 现在需要医疗支援！！</Chinesesimp>
+			<Chinese>警告：%1 現在需要醫療支援！！</Chinese>
+			<Japanese>警告：%1 は今すぐ医療支援が必要です！！</Japanese>
+			<Portuguese>AVISO: %1 precisa de ajuda médica agora !!</Portuguese>
+			<Czech>VAROVÁNÍ: %1 potřebuje lékařskou pomoc !!</Czech>
+		</Key>
+		<Key ID="STR_PAR_CRITICAL_NO_REVIVE">
+			<Original>CRITICAL: %1 will NOT Revive anymore !!</Original>
+			<French>CRITIQUE : %1 ne pourra plus être réanimé !!</French>
+			<German>KRITISCH: %1 kann nicht mehr wiederbelebt werden !!</German>
+			<Spanish>CRÍTICO: ¡%1 ya no podrá reanimarse!</Spanish>
+			<Russian>КРИТИЧНО: %1 больше не сможет быть возрождён !!</Russian>
+			<Chinesesimp>致命：%1 将无法再复活！！</Chinesesimp>
+			<Chinese>致命：%1 將無法再復活！！</Chinese>
+			<Japanese>致命：%1 はもう蘇生できません！！</Japanese>
+			<Portuguese>CRÍTICO: %1 não poderá mais ser reanimado !!</Portuguese>
+			<Czech>KRITICKÉ: %1 už nebude možné oživit !!</Czech>
+		</Key>
 	</Package>
 </Project>

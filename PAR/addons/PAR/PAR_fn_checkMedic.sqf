@@ -1,20 +1,15 @@
-params ["_wnded","_medic"];
+params ["_wnded", "_medic"];
 private _cnt = 3;
 private _fail = 0;
 private _dist = 0;
 private _msg = "";
+private _new_medic = objNull;
 
 private _check_sortie = {
-	params ["_wnded","_medic"];
+	params ["_wnded", "_medic"];
+	if (isNil {_wnded getVariable "PAR_myMedic"}) exitWith { false };
 	private _ret = false;
-	if ( !alive _medic || !alive _wnded ||
-		isNil {_wnded getVariable ["PAR_myMedic", nil]} ||
-		vehicle _medic != _medic || vehicle _wnded != _wnded
-	) then {
-		_fail = 99;
-	};
-
-	if (_wnded distance2D _medic <= 6 && _fail != 99) then {
+	if (_wnded distance2D _medic <= 6) then {
 		if (surfaceIsWater (getPos _wnded)) then {
 			_medic setPosASL (getPosASL _wnded);
 		} else {
@@ -29,20 +24,21 @@ private _check_sortie = {
 	_ret;
 };
 
-while {([_wnded] call PAR_is_wounded) || !([_medic] call PAR_is_wounded) || isNil {_wnded getVariable ["PAR_myMedic", nil]} } do {
-
-	if (([_medic] call PAR_is_wounded) || _fail > 6 || isNil {_wnded getVariable ["PAR_myMedic", nil]}) exitWith {
-		[_medic,_wnded] call PAR_fn_medicRelease;
-	};
-
-	if ([_wnded, _medic] call _check_sortie) exitWith {[_wnded, _medic] call PAR_fn_sortie};
-	if (_fail == 99) exitWith {[_medic, _wnded] call PAR_fn_medicRelease};
-
+private _healed = false;
+while { ([_wnded] call PAR_is_wounded) && _fail <= 6 } do {
 	_msg = "";
 	_dist = round (_wnded distance2D _medic);
 	// systemchat format ["dbg: wnded 2D dist : %1 dist speed %2 fail %3", _wnded distance2D _medic, round (speed vehicle _medic), _fail];
+	if (_dist > 500 || vehicle _medic != _medic || vehicle _wnded != _wnded) exitWith {};
+	_new_medic = [_wnded] call PAR_fn_nearestMedic;
+	if (!isNil "_new_medic" && _dist > 20) then {
+		if ((_new_medic distance2D _wnded) + 6 < (_medic distance2D _wnded)) then { _wnded setVariable ["PAR_myMedic", nil] };
+	};
+	if (isNil {_wnded getVariable "PAR_myMedic"}) exitWith {};
+	if ([_medic] call PAR_is_wounded) exitWith {};
 
-	if (_dist > 500) exitWith {[_medic, _wnded] call PAR_fn_medicRelease};
+	if ([_wnded, _medic] call _check_sortie) exitWith { _healed = true };
+
 	if (round (speed vehicle _medic) == 0) then {
 		_fail = _fail + 1;
 		_medic setDir (_medic getDir _wnded);
@@ -57,13 +53,13 @@ while {([_wnded] call PAR_is_wounded) || !([_medic] call PAR_is_wounded) || isNi
 			};
 		};
 
-		if (_fail in [3, 4]) then {
+		if (_fail in [3, 4, 5]) then {
 			_medic setDir (_medic getDir _wnded);
 			_relpos = _medic getRelPos [_dist/2, 0];
 			_medic doMove _relpos;
 		};
 
-		if (_fail > 4) then {
+		if (_fail > 5) then {
 			_medic allowDamage false;
 			_newpos = _medic getPos [3, _medic getDir _wnded];
 			_newpos = _newpos vectorAdd [0, 0, 3];
@@ -78,8 +74,7 @@ while {([_wnded] call PAR_is_wounded) || !([_medic] call PAR_is_wounded) || isNi
 		_fail = 0;
 	};
 
-	if ([_wnded, _medic] call _check_sortie) exitWith {[_wnded, _medic] call PAR_fn_sortie};
-	if (_fail == 99) exitWith {[_medic,_wnded] call PAR_fn_medicRelease};
+	if ([_wnded, _medic] call _check_sortie) exitWith { _healed = true };
 
 	if (_cnt == 0 && !isNull _wnded) then {
 		if (_fail == 0) then {
@@ -91,14 +86,11 @@ while {([_wnded] call PAR_is_wounded) || !([_medic] call PAR_is_wounded) || isNi
 		_cnt = _cnt - 1;
 	};
 
-	private _new_medic = [_wnded] call PAR_fn_nearestMedic;
-	if (!isNil "_new_medic" && _medic distance2D _wnded > 20) then {
-		if ((_new_medic distance2D _wnded) + 6 < (_medic distance2D _wnded)) then {
-			[_medic, _wnded] call PAR_fn_medicRelease;
-		};
-	};
-
 	sleep 3;
 };
 
-[_medic, _wnded] call PAR_fn_medicRelease;
+if (_healed) then {
+	[_wnded, _medic] call PAR_fn_sortie;
+} else {
+	[_medic, _wnded] call PAR_fn_medicRelease;
+};

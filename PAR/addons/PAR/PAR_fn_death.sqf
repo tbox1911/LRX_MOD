@@ -5,6 +5,8 @@ params ["_unit"];
 removeAllActions _unit;
 if (_unit == player) then {
 	titleText ["" ,"BLACK FADED", 100];
+	1 fadeSound 0;
+	deletemarker format ["PAR_marker_%1", PAR_Grp_ID];
 	_unit connectTerminalToUAV objNull;
 	titleText ["" ,"BLACK FADED", 100];
 } else {

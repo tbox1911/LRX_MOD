@@ -1,18 +1,17 @@
 /*
-  pSiKO AI Revive - v3.05 - SP/MP - AI
+  pSiKO AI Revive - v4.01 - SP/MP - AI
   aka: PAR Revive
 
 Author:
-
 	[AKH] pSiKO
 
 Description:
-
 	give ablitty to ai to revive player or other ai
   unit sharing the same PAR_Grp_ID revive each others
+  
+  CBA3 is used for configuration
 
 Instructions:
-
 	ExecVM from init.sqf in your mission directory.
   [] execVM "PAR\addons\PAR\PAR_AI_Revive.sqf";
 
@@ -28,12 +27,22 @@ if (!isDedicated && !hasInterface && isMultiplayer) exitWith {};
 if (isMultiplayer) then { waitUntil {sleep 1; getClientStateNumber > 8 } };
 waitUntil { sleep 1; alive player };
 if (!isNil "GRLIB_build_version") exitWith { diag_log "-- PAR loading Error : PAR is incompatible with LRX." };
-diag_log "-_- pSiKO Ai Revive Mod v3.50 by pSiKO -_-";
 
 // PAR Remote Call - Server Side
 if (isDedicated) exitWith {
 	PAR_remote_sortie = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\server\PAR_remote_sortie.sqf";
 };
+
+waitUntil {
+  sleep 1;
+  (
+    !isNull player && player == player &&
+    getClientState == "BRIEFING READ" &&
+    !isNull (findDisplay 46)
+  )
+};
+
+diag_log "-_- pSiKO Ai Revive Mod v4.01 by pSiKO -_-";
 
 //--- Configuration ---------------------------------------//
 // PAR Main mode
@@ -55,7 +64,10 @@ PAR_bleedout_extra  = 60;
 PAR_ai_limit = missionNamespace getVariable ["PAR_ai_limit", 5];
 
 // Max AI revive counter
-PAR_ai_revive = missionNamespace getVariable ["PAR_ai_revive", 7];
+PAR_ai_revive_max = missionNamespace getVariable ["PAR_ai_revive", 7];
+
+// AI recover timer
+PAR_AI_recover_revive = (20*60);
 
 // Only AI revive (player is excluded)
 PAR_only_ai_revive = missionNamespace getVariable ["PAR_only_ai_revive", false];

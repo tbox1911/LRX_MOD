@@ -1,8 +1,10 @@
 params ["_wnded","_medic"];
 
-_medic setHitPointDamage ["hitLegs",0];
 _medic allowDamage false;
 _medic setCaptive true;
+_medic setHitPointDamage ["hitLegs",0];
+_medic setVariable ["PAR_AIteam", assignedTeam _medic];
+sleep 1;
 
 private _grpmedic = createGroup [civilian, true];
 [_medic] joinSilent _grpmedic;
@@ -15,7 +17,7 @@ if (!isnull objectParent _medic) then {
 };
 _medic stop true;
 sleep 1;
-{_medic disableAI _x} count ["TARGET","AUTOTARGET","AUTOCOMBAT","SUPPRESSION"];
+{_medic disableAI _x} forEach ["TARGET","AUTOTARGET","AUTOCOMBAT","SUPPRESSION"];
 _medic setUnitPos "UP";
 _medic setSpeedMode "FULL";
 _medic allowFleeing 0;
@@ -26,7 +28,7 @@ private _dist = (_medic distance2D _wnded);
 if ( _dist <= 6 ) then {
 	[_wnded, _medic] spawn PAR_fn_sortie
 } else {
-	if (_dist < 25) then {
+	if (_dist < 35) then {
 		_medic doMove (getPosATL _wnded);
 	} else {
 		_medic doMove (getPos _wnded);

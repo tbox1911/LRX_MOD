@@ -3,54 +3,60 @@ params ["_unit"];
 if (rating _unit < -2000) exitWith {_unit setDamage 1};
 
 private _cur_revive = 1;
-if (PAR_ai_revive > 0 && !isPlayer _unit && local _unit) then {
-	_cur_revive = _unit getVariable ["PAR_revive_max", PAR_ai_revive];
+if (PAR_ai_revive_max > 0 && !isPlayer _unit && local _unit) then {
+	_cur_revive = ([_unit] call PAR_revive_cur);
 };
 if (_cur_revive <= 0) exitWith {_unit setDamage 1};
 
+_unit allowDamage false;
 _unit setUnconscious true;
 _unit setCaptive true;
-_unit allowDamage false;
+_unit setVariable ["PAR_busy", nil];
 _unit setVariable ["PAR_BleedOutTimer", round(time + PAR_bleedout), true];
 _unit setVariable ["PAR_isDragged", 0, true];
+[_unit, _unit] call PAR_fn_medicRelease;
+sleep 1;
 
-if (isPlayer _unit) then {
-	private _mk1 = createMarkerLocal [format ["PAR_marker_%1", PAR_Grp_ID], getPosATL player];
+if (_unit == player) then {
+	private _carry = (attachedObjects _unit) select 0;
+	if !(isNil "_carry") then {
+		R3F_LOG_joueur_deplace_objet = objNull;
+		_carry setVariable ["R3F_LOG_est_transporte_par", objNull, true];
+		detach _carry;
+		sleep 3;
+	};
+	private _mk1 = createMarkerLocal [format ["PAR_marker_%1", PAR_Grp_ID], getPosATL _unit];
 	_mk1 setMarkerTypeLocal "loc_Hospital";
-	_mk1 setMarkerTextLocal format ["%1 Injured", name player];
+	_mk1 setMarkerTextLocal format ["%1 Injured", name _unit];
 	_mk1 setMarkerColor "ColorRed";
 } else {
 	[_unit] call PAR_fn_deathSound;
 	sleep 3;
 };
 
-waitUntil { sleep 0.5; isNull objectParent _unit };
+waitUntil { sleep 0.1; isNull objectParent _unit };
 _unit switchMove "AinjPpneMstpSnonWrflDnon_rolltoback";
 _unit playMoveNow "AinjPpneMstpSnonWrflDnon_rolltoback";
-sleep 5;
-
+sleep 10;
 if (!alive _unit) exitWith {};
-waituntil { sleep 1; (round (getPos _unit select 2) <= 0) };
 
 private _bld = [_unit] call PAR_spawn_blood;
 private _cnt = 0;
-private ["_medic", "_msg"];
+
 while { alive _unit && ([_unit] call PAR_is_wounded) && time <= (_unit getVariable ["PAR_BleedOutTimer", 0])} do {
 	if (_cnt == 0) then {
 		_unit setOxygenRemaining 1;
 		if ( {alive _x} count PAR_AI_bros > 0 ) then {
-			_medic = _unit getVariable ["PAR_myMedic", nil];
-			if (isNil "_medic") then {
+			if (isNil {_unit getVariable "PAR_myMedic"}) then {
 				_unit groupchat localize "STR_PAR_UC_01";
-				_medic = [_unit] call PAR_fn_medic;
-				if (!isNil "_medic") then { [_unit, _medic] call PAR_fn_911 };
+				[_unit] call PAR_fn_medic;
 			};
 		} else {
-			_msg = format [localize "STR_PAR_UC_03", name player];
+			private _msg = format [localize "STR_PAR_UC_03", name player];
 			if ([player] call PAR_is_wounded) then {
 				_msg = format [localize "STR_PAR_UC_02", name player];
 			};
-			_last_msg = player getVariable ["PAR_last_message", 0];
+			private _last_msg = player getVariable ["PAR_last_message", 0];
 			if (time > _last_msg) then {
 				[_unit, _msg] call PAR_fn_globalchat;
 				player setVariable ["PAR_last_message", round(time + 20)];
@@ -80,8 +86,15 @@ if (time > _unit getVariable ["PAR_BleedOutTimer", 0]) exitWith {
 // Good end
 if (isPlayer _unit) then {
 	(group _unit) selectLeader _unit;
-	if (primaryWeapon _unit != "") then { _unit selectWeapon primaryWeapon _unit };
+	if (currentWeapon _unit != primaryWeapon _unit) then {
+		if (PAR_weapons_state select 0 != "") exitWith { _unit selectWeapon PAR_weapons_state };
+		if (primaryWeapon _unit != "") exitWith { _unit selectWeapon (primaryWeapon _unit) };
+	};
 } else {
 	_unit setSpeedMode (speedMode group player);
 	_unit doFollow player;
 };
+
+sleep 10;   //time to recover
+_unit setCaptive false;
+_unit allowDamage true;

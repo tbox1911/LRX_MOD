@@ -1,5 +1,7 @@
 // PAR Manage Action
 
+if (PAR_revive == 0) exitWith {};
+
 private ["_unit", "_wnded_list", "_id1", "_id2", "_id3"];
 private _checkAction = {
 	params ["_unit"];

@@ -49,6 +49,7 @@ PAR_unblock_AI = {
 			_unit = _x;
 			if (isNull (objectParent _unit) && (player distance2D _unit) < 50 && !([_unit] call PAR_is_wounded)) then {
 				_unit stop true;
+				_unit action ["CancelAction", _unit];
 				sleep 1;
 				_unit doWatch objNull;
 				_unit switchmove "";
@@ -69,6 +70,7 @@ PAR_unblock_AI = {
 				_unit stop false;
 				_unit enableAI "ALL";
 				[_unit] joinSilent (group player);
+				_unit action ["CancelAction", _unit];
 				sleep 0.2;
 				_unit doFollow player;
 				if (surfaceIsWater (getPos _unit)) then {
@@ -86,8 +88,7 @@ PAR_unblock_AI = {
 };
 PAR_fn_globalchat = {
 	params ["_speaker", "_msg"];
-	if (isDedicated) exitWith {};
-	if (!(local _speaker)) exitWith {};
+	if (isDedicated || !(local _speaker) || _msg == "") exitWith {};
 	if ((_speaker getVariable ["PAR_Grp_ID","0"]) == format ["Bros_%1", PAR_Grp_ID] || isPlayer _speaker) then {
 		player globalChat _msg;
 	};
@@ -138,35 +139,19 @@ PAR_public_EH = {
 		};
 	};
 };
-PAR_revive_max = {
+PAR_revive_cur = {
 	params ["_unit"];
-
-	private _cur_revive = (_unit getVariable ["PAR_revive_max", PAR_ai_revive]) - 1;
-	_unit setVariable ["PAR_revive_max", _cur_revive];
+	(PAR_ai_revive_max - count (_unit getVariable ["PAR_revive_history", []]));
+};
+PAR_revive_dec = {
+	params ["_unit"];
+	private _cur_revive = ([_unit] call PAR_revive_cur);
 	private _msg = format ["%1, %2 Revive left.", name _unit, _cur_revive];
 	if (_cur_revive == 0) then { _msg = format ["CRITICAL! %1 LAST Revive !!", name _unit] };
 	[_unit, _msg] call PAR_fn_globalchat;
-
-	private _timer = 20;
-	while { _timer >= 0 && alive _unit } do {
-		private _near_medical = (count (nearestObjects [_unit, [PAR_medical_source], 12]) > 0);
-		if (_near_medical) then {
-			if (_unit distance2D player < 50) then {
-				private _msg = format ["%1 is Healing faster...", name _unit];
-				[_unit, _msg] call PAR_fn_globalchat;
-			};
-			sleep 25;
-		} else {
-			sleep 60;
-		};
-		_timer = _timer - 1;
-	};
-
-	if (!alive _unit) exitWith {};
-	private _revive = (_unit getVariable ["PAR_revive_max", PAR_ai_revive]) + 1;
-	_unit setVariable ["PAR_revive_max", _revive];
-	private _msg = format ["%1 revive restored (%2) !!", name _unit, _revive];
-	[_unit, _msg] call PAR_fn_globalchat;
+	private _history = _unit getVariable ["PAR_revive_history", []];
+	_history pushBack round (time + PAR_AI_recover_revive);
+	_unit setVariable ["PAR_revive_history", _history];
 };
 PAR_spawn_gargbage = {
 	params ["_target"];
@@ -194,8 +179,9 @@ PAR_fn_AI_Damage_EH = {
     _unit setVariable ["PAR_Grp_ID", format["Bros_%1", PAR_Grp_ID], true];
 	_unit setVariable ["PAR_isUnconscious", false, true];
 	_unit setVariable ["PAR_isDragged", 0, true];
-	_unit setVariable ["PAR_myMedic", nil];
-	_unit setVariable ["PAR_busy", nil];
+	_unit setVariable ["PAR_Grp_AI", group _unit];
+	_unit setVariable ["ace_sys_wounds_uncon", false];	
+	_unit setVariable ["PAR_revive_history", []];
 	_unit setVariable ["PAR_revive_max", PAR_ai_revive];
 };
 
@@ -203,10 +189,8 @@ PAR_fn_AI_Damage_EH = {
 PAR_Player_Init = {
 	player setVariable ["PAR_isUnconscious", false, true];
 	player setVariable ["PAR_isDragged", 0, true];
-	player setVariable ["ace_sys_wounds_uncon", false];
 	player setVariable ["PAR_Grp_ID", format["Bros_%1", PAR_Grp_ID], true];
-	player setVariable ["PAR_myMedic", nil];
-	player setVariable ["PAR_busy", nil];
+	player setVariable ["ace_sys_wounds_uncon", false];
 	player setCustomAimCoef 0.35;
 	player setUnitRecoilCoefficient 0.6;
 	player setCaptive false;
@@ -217,35 +201,8 @@ PAR_Player_Init = {
 	showMap true;
 };
 
-PAR_HandleDamage_EH = {
-	params ["_unit", "_selectionName", "_amountOfDamage", "_killer", "_projectile", "_hitPartIndex", "_instigator"];
-	if (isNull _unit) exitWith {0};
-	if (!isNull _instigator) then {
-		if (isNull (getAssignedCuratorLogic _instigator)) then {
-			_killer = _instigator;
-		};
-	} else {
-		if (!(_killer isKindOf "CAManBase")) then {
-			_killer = effectiveCommander _killer;
-		};
-	};
-
-	private _isNotWounded = !([_unit] call PAR_is_wounded);
-	private _veh_unit = objectParent _unit;
-
-	if (_isNotWounded && _amountOfDamage >= 0.86) then {
-		if !(isNull _veh_unit) then {[_unit, _veh_unit] spawn PAR_fn_eject};
-		_unit setVariable ["PAR_isUnconscious", true, true];
-		[_unit, _killer] spawn PAR_Player_Unconscious;
-	};
-
-	_amountOfDamage min 0.86;
-};
-
 PAR_Player_Unconscious = {
 	params [ "_unit", "_killer" ];
-
-	R3F_LOG_joueur_deplace_objet = objNull;
 
 	// Death message
 	if (PAR_EnableDeathMessages && !isNil "_killer" && _killer != _unit) then {

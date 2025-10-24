@@ -6,7 +6,7 @@ class CfgPatches
 		name = "pSiKO AI Revive";
 		author = "pSiKO";
 		url = "https://forums.bohemia.net/forums/topic/217186-release-liberation-rx/";
-		requiredAddons[] = {"cba_main"};
+		requiredAddons[] = { "CBA_main" };
 		weapons[] = {};
 		units[] = {};
 	};
