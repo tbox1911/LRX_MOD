@@ -15,15 +15,14 @@ _unit setVariable ["PAR_busy", nil];
 _unit setVariable ["PAR_BleedOutTimer", round(time + PAR_bleedout), true];
 _unit setVariable ["PAR_isDragged", 0, true];
 [_unit, _unit] call PAR_fn_medicRelease;
-sleep 1;
 
 if (_unit == player) then {
+	disableUserInput true;
 	private _carry = (attachedObjects _unit) select 0;
 	if !(isNil "_carry") then {
 		R3F_LOG_joueur_deplace_objet = objNull;
 		_carry setVariable ["R3F_LOG_est_transporte_par", objNull, true];
 		detach _carry;
-		sleep 3;
 	};
 	private _mk1 = createMarkerLocal [format ["PAR_marker_%1", PAR_Grp_ID], getPosATL _unit];
 	_mk1 setMarkerTypeLocal "loc_Hospital";
@@ -31,14 +30,13 @@ if (_unit == player) then {
 	_mk1 setMarkerColor "ColorRed";
 } else {
 	[_unit] call PAR_fn_deathSound;
-	sleep 3;
 };
 
 waitUntil { sleep 0.1; isNull objectParent _unit };
+sleep 3;
 _unit switchMove "AinjPpneMstpSnonWrflDnon_rolltoback";
 _unit playMoveNow "AinjPpneMstpSnonWrflDnon_rolltoback";
 sleep 10;
-if (!alive _unit) exitWith {};
 
 private _bld = [_unit] call PAR_spawn_blood;
 private _cnt = 0;
@@ -71,11 +69,12 @@ while { alive _unit && ([_unit] call PAR_is_wounded) && time <= (_unit getVariab
 
 if (!isNull _bld) then { _bld spawn {sleep (30 + floor(random 30)); deleteVehicle _this} };
 
-if (isPlayer _unit) then {
+if (_unit == player) then {
 	deletemarker format ["PAR_marker_%1", PAR_Grp_ID];
+	disableUserInput false;
+	disableUserInput true;
+	disableUserInput false;
 };
-
-if (!alive _unit) exitWith {};
 
 // Bad end
 if (time > _unit getVariable ["PAR_BleedOutTimer", 0]) exitWith {
@@ -84,7 +83,7 @@ if (time > _unit getVariable ["PAR_BleedOutTimer", 0]) exitWith {
 };
 
 // Good end
-if (isPlayer _unit) then {
+if (_unit == player) then {
 	(group _unit) selectLeader _unit;
 	if (currentWeapon _unit != primaryWeapon _unit) then {
 		if (PAR_weapons_state select 0 != "") exitWith { _unit selectWeapon PAR_weapons_state };
