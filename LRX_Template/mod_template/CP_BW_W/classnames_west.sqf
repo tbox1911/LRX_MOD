@@ -1,5 +1,4 @@
 // *** FRIENDLIES ***
-GRLIB_side_friendly = WEST;
 GRLIB_color_friendly = "ColorKhaki";
 
 // Erweitert um Fahrzeuge von US und BW  Z@Warrior

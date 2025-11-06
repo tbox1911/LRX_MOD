@@ -1,5 +1,4 @@
 // *** FRIENDLIES ***
-GRLIB_side_friendly = WEST;
 GRLIB_west_modder = "Lord_Kamephis";
 
 // Default classname: scripts\shared\default_classnames.sqf

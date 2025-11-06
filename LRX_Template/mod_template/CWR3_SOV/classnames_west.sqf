@@ -1,5 +1,4 @@
 // *** FRIENDLIES ***
-GRLIB_side_friendly = EAST;
 GRLIB_east_modder = "Z@Warrior";
 
 // All class MUST be defined !

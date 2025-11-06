@@ -1,5 +1,4 @@
 // *** FRIENDLIES ***
-GRLIB_side_friendly = WEST;
 GRLIB_west_modder = "Z@Warrior";
 
 // Tonali Defence Forces - Cold War Rearmed III

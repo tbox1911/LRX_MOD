@@ -1,5 +1,4 @@
 // *** BADDIES ***
-GRLIB_side_enemy = EAST;
 GRLIB_east_modder = "Levibugs";
 
 // All class MUST be defined !

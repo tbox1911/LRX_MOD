@@ -1,5 +1,4 @@
 // *** FRIENDLIES ***
-GRLIB_side_friendly = East;
 GRLIB_west_modder = "Community";
 
 

@@ -1,5 +1,4 @@
 // *** FRIENDLIES ***
-GRLIB_side_friendly = EAST;
 GRLIB_west_modder = "Z@Warrior";
 
 // 3CB ChDKZ (Chernarussian Movement of the Red Star)

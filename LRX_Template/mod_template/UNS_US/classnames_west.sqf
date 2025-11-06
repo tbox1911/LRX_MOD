@@ -1,7 +1,6 @@
 // *** FRIENDLIES ***
 // Default classname: scripts\shared\default_classnames.sqf
 // Advanced definition: scripts\shared\classnames.sqf
-GRLIB_side_friendly = WEST;
 GRLIB_west_modder = "Z@Warrior / pSiKO";
 
 // Unsung Men (US 1st Infantery Division'65)

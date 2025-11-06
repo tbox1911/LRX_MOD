@@ -1,5 +1,4 @@
 // *** FRIENDLIES ***
-GRLIB_side_friendly = WEST;
 GRLIB_west_modder = "Z@Warrior";
 
 // British Armed Forces '82 - Cold War Rearmed III
