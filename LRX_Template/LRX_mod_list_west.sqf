@@ -79,7 +79,7 @@ LRX_mod_list_west = [
 	"SPE_GER",			// Z@Warrior DLC Spearhead 1944
 	"SPE_US",			// Z@Warrior DLC Spearhead 1944
 	"SW_TOR",	 		// Community
-	"TFM_MMSLI_W",		// Legend_TS13
+	"TFM_MSLI_W",		// Legend_TS13
 	"TFM_MSCA_D",		// Legend_TS13
 	"TFM_MSCA_W",		// Legend_TS13
 	"TFM_MSLI_D",		// Legend_TS13
