@@ -1,4 +1,5 @@
 // *** BADDIES ***
+GRLIB_east_modder = "Z@Warrior";
 
 // All class MUST be defined !
 

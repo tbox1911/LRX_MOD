@@ -19,6 +19,7 @@ LRX_mod_list_east = [
 	"CFP_O_SYARMY", 	// Community
 	"CFP_SUDAN",
 	"CP_AFRF",			// Z@warrior
+	"CP_AFRF_W",		// Z@warrior	
 	"CP_AFU",			// Z@Warrior Armed Forces of Ukraine
 	"CP_BELKA_D",		// Z@Warrior CUP Belka Desert
 	"CP_BELKA_W",		// Z@Warrior CUP Belka Woodland
