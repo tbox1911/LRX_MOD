@@ -17,7 +17,7 @@ LRX_mod_list_west = [
 	"CFP_O_IQARMY", 	// Community
 	"CFP_O_NKARMY", 	// Community
 	"CP_AFRF",			// Z@warrior
-	"CP_AFRF_W",		// Z@warrior	
+	"CP_AFRF_WI",		// Z@warrior	
 	"CP_AFU",			// Z@Warrior Armed Forces of Ukraine
 	"CP_BAF_DES",
 	"CP_BELKA_D",		// Z@Warrior CUP Belka Desert

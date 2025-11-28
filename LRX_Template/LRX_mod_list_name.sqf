@@ -22,7 +22,7 @@ LRX_mod_list_name = [
     ["CFP_O_SYARMY", "CFP Syrian Army", EAST],
     ["CFP_Sudan", "Sudan Rebel", EAST],
     ["CP_AFRF", "CUP AFRF MSV", EAST],
-    ["CP_AFRF_W", "CUP AFRF MSV Winter", EAST],
+    ["CP_AFRF_WI", "CUP AFRF MSV Winter", EAST],
     ["CP_AFU", "CUP Armed Forces of Ukraine", WEST],
     ["CP_BAF_DES", "CUP BAF Desert", WEST],
     ["CP_BELKA_D", "CUP Belka Desert", EAST],
