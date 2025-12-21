@@ -264,7 +264,7 @@ vehicle_rearm_sources_west = [
 	"UK3CB_LDF_O_T810_Reammo","UK3CB_LDF_O_T810_Repair",Arsenal_typename
 ];
 
-vehicle_big_units_west = [
+vehicle_big_west = [
 
 ];
 

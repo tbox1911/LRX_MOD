@@ -199,7 +199,7 @@ vehicle_rearm_sources_west = [
 	"land_simple_muni_ammo_black"
 ];
 
-vehicle_big_units_west = [
+vehicle_big_west = [
 ];
 
 GRLIB_vehicle_whitelist_west = [

@@ -213,7 +213,7 @@ vehicle_rearm_sources_west = [
 	"SAF2035_D_Typhoon_Ammo"
 ];
 
-vehicle_big_units_west = [
+vehicle_big_west = [
 ];
 
 GRLIB_vehicle_whitelist_west = [

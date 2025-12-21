@@ -177,6 +177,11 @@ opfor_statics = [
 	"CUP_O_AGS_TK"
 ];
 
+vehicle_big_east = [
+	"CUP_O_MI6A_TKA",
+	"CUP_O_MI6T_TKA"
+];
+
 opfor_recyclable = [
 	["CUP_O_KORD_high_TK",1,round (150 / GRLIB_recycling_percentage),1],
 	["CUP_O_ZU23_TK",1,round (200 / GRLIB_recycling_percentage),1],

@@ -362,7 +362,7 @@ vehicle_rearm_sources_west = [
 	"CUP_B_M113A3_Reammo_GER"
 ];
 
-vehicle_big_units_west = [
+vehicle_big_west = [
 ];
 
 GRLIB_vehicle_whitelist_west = [

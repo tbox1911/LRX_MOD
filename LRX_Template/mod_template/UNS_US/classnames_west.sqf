@@ -308,7 +308,7 @@ vehicle_rearm_sources_west = [
 	"uns_M35A2_ammo"
 ];
 
-vehicle_big_units_west = [
+vehicle_big_west = [
 
 ];
 

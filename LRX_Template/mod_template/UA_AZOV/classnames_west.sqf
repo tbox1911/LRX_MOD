@@ -312,7 +312,7 @@ vehicle_rearm_sources_west = [
 	"Arsenal_typename"
 ];
 
-vehicle_big_units_west = [
+vehicle_big_west = [
 
 ];
 

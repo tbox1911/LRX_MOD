@@ -322,7 +322,7 @@ vehicle_rearm_sources_west = [
 	"vn_b_wheeled_m54_ammo"
 ];
 
-vehicle_big_units_west = [
+vehicle_big_west = [
 
 ];
 

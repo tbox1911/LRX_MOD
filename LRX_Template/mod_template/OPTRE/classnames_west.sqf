@@ -201,7 +201,7 @@ vehicle_rearm_sources_west = [
 	"OPTRE_M313_UNSC"
 ];
 
-vehicle_big_units_west = [
+vehicle_big_west = [
 
 ];
 

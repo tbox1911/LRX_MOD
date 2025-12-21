@@ -360,7 +360,7 @@ vehicle_rearm_sources_west = [
 	"rnt_lkw_7t_mil_gl_kat_i_mun_fleck" // Redd'n Tank
 ];
 
-vehicle_big_units_west = [
+vehicle_big_west = [
 ];
 
 GRLIB_vehicle_whitelist_west = [

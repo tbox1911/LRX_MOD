@@ -212,7 +212,7 @@ vehicle_rearm_sources_west = [
 	"dvk_ita_des_m977_ammo"
 ];
 
-vehicle_big_units_west = [
+vehicle_big_west = [
 ];
 
 GRLIB_vehicle_whitelist_west = [

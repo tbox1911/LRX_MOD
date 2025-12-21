@@ -203,14 +203,14 @@ R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
 R3F_LOG_CFG_can_transport_cargo = R3F_LOG_CFG_can_transport_cargo +
 [
 // Cars
-["CUP_O_Hilux_unarmed_CR_CIV", 50],
-["CUP_I_LR_Ambulance_RACS", 50],
-["CUP_I_LR_MG_RACS", 50],
-["CUP_I_LR_Transport_RACS", 150],
-["CUP_I_MTVR_RACS", 150],
-["CUP_I_MTVR_Ammo_RACS", 150],
-["CUP_I_MTVR_Refuel_RACS", 150],
-["CUP_I_MTVR_Repair_RACS", 150],
+["CUP_O_Hilux_unarmed_CR_CIV", 30],
+["CUP_I_LR_Ambulance_RACS", 20],
+["CUP_I_LR_MG_RACS", 30],
+["CUP_I_LR_Transport_RACS", 35],
+["CUP_I_MTVR_RACS", 100],
+["CUP_I_MTVR_Ammo_RACS", 50],
+["CUP_I_MTVR_Refuel_RACS", 50],
+["CUP_I_MTVR_Repair_RACS", 50],
 ["CUP_I_TowingTractor_RACS", 20],
 // Troup Transporter
 ["CUP_I_AAV_Unarmed_RACS", 75],

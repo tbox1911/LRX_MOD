@@ -169,7 +169,7 @@ vehicle_rearm_sources_west = [
 	"EAW_Dodge1936_Pickup_Military_Ammo_ROC"
 ];
 
-vehicle_big_units_west = [
+vehicle_big_west = [
 ];
 
 GRLIB_vehicle_whitelist_west = [

@@ -275,7 +275,7 @@ vehicle_rearm_sources_west = [
 	"UK3CB_TKA_O_Ural_Ammo","UK3CB_TKA_O_Ural_Repair",huron_typename,Arsenal_typename
 ];
 
-vehicle_big_units_west = [
+vehicle_big_west = [
 
 ];
 

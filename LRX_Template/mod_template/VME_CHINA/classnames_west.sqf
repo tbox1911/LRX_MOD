@@ -307,7 +307,7 @@ vehicle_rearm_sources_west = [
 	"VME_PLA_SX2190Reammo"
 ];
 
-vehicle_big_units_west = [
+vehicle_big_west = [
 
 ];
 

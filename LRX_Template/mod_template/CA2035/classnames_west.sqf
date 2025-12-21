@@ -193,7 +193,7 @@ vehicle_rearm_sources_west = [
 	"I_Truck_02_ammo_F"
 ];
 
-vehicle_big_units_west = [
+vehicle_big_west = [
 
 ];
 

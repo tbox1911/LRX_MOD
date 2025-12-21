@@ -279,7 +279,7 @@ vehicle_rearm_sources_west = [
 	"uns_nvatruck_reammo"
 ];
 
-vehicle_big_units_west = [
+vehicle_big_west = [
 
 ];
 

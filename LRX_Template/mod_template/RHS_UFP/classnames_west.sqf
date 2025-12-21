@@ -270,7 +270,7 @@ vehicle_rearm_sources_west = [
 	"b_afougf_gaz66_ammo",Arsenal_typename
 ];
 
-vehicle_big_units_west = [
+vehicle_big_west = [
 
 ];
 

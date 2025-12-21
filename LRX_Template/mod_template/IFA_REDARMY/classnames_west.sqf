@@ -229,7 +229,7 @@ vehicle_rearm_sources_west = [
 	"LIB_US6_Ammo"
 ];
 
-vehicle_big_units_west = [
+vehicle_big_west = [
 
 ];
 

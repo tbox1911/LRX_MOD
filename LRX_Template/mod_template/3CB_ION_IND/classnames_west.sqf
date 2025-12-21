@@ -242,7 +242,7 @@ vehicle_rearm_sources_west = [
 	"UK3CB_ION_I_Urban_T810_Reammo","UK3CB_ION_I_Urban_T810_Repair",Arsenal_typename
 ];
 
-vehicle_big_units_west = [
+vehicle_big_west = [
 
 ];
 

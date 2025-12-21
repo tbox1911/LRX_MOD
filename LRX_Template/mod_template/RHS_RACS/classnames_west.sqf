@@ -244,7 +244,7 @@ vehicle_rearm_sources_west = [
 	"PRACS_M250_Ammo",Arsenal_typename
 ];
 
-vehicle_big_units_west = [
+vehicle_big_west = [
 
 ];
 

@@ -209,7 +209,7 @@ vehicle_rearm_sources_west = [
 	"CUP_B_FV432_Bulldog_GB_D"
 ];
 
-vehicle_big_units_west = [
+vehicle_big_west = [
 	"CUP_B_MK10_GB"
 ];
 

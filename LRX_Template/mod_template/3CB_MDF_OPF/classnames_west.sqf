@@ -250,7 +250,7 @@ vehicle_rearm_sources_west = [
 	"UK3CB_MDF_O_MTVR_Reammo","UK3CB_MDF_O_MTVR_Repair",Arsenal_typename
 ];
 
-vehicle_big_units_west = [
+vehicle_big_west = [
 
 ];
 
