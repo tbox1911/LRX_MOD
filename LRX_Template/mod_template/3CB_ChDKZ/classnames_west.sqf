@@ -240,10 +240,6 @@ vehicle_rearm_sources_west = [
 	"UK3CB_CHD_O_Kamaz_Ammo","UK3CB_CHD_O_Kamaz_Fuel"
 ];
 
-vehicle_big_west = [
-
-];
-
 GRLIB_vehicle_whitelist_west = [
 
 ];

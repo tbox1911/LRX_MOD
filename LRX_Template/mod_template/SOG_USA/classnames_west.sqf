@@ -322,10 +322,6 @@ vehicle_rearm_sources_west = [
 	"vn_b_wheeled_m54_ammo"
 ];
 
-vehicle_big_west = [
-
-];
-
 GRLIB_vehicle_whitelist_west = [
     "Land_vn_usaf_revetment_helipad_01",
 	"Land_vn_b_trench_firing_05",

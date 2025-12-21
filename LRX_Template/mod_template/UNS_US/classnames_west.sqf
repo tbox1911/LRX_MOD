@@ -308,10 +308,6 @@ vehicle_rearm_sources_west = [
 	"uns_M35A2_ammo"
 ];
 
-vehicle_big_west = [
-
-];
-
 GRLIB_vehicle_whitelist_west = [
 
 ];

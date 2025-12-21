@@ -276,10 +276,6 @@ ai_healing_sources_west = [
 vehicle_rearm_sources_west = [
 ];
 
-vehicle_big_west = [
-
-];
-
 GRLIB_vehicle_whitelist_west = [
     "Land_vn_o_tower_02",
 	"Land_vn_o_bunker_03",

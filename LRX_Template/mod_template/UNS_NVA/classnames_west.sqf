@@ -279,10 +279,6 @@ vehicle_rearm_sources_west = [
 	"uns_nvatruck_reammo"
 ];
 
-vehicle_big_west = [
-
-];
-
 GRLIB_vehicle_whitelist_west = [
 
 ];

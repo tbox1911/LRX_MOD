@@ -288,10 +288,6 @@ ai_healing_sources_west = [
 vehicle_rearm_sources_west = [
 ];
 
-vehicle_big_west = [
-
-];
-
 GRLIB_vehicle_whitelist_west = [
 	"Land_vn_tent_mash_01_03",
 	"Land_vn_bagfence_01_long_green_f",

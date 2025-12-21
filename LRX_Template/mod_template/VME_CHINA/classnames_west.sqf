@@ -307,10 +307,6 @@ vehicle_rearm_sources_west = [
 	"VME_PLA_SX2190Reammo"
 ];
 
-vehicle_big_west = [
-
-];
-
 GRLIB_vehicle_whitelist_west = [
 
 ];

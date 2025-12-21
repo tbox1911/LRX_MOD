@@ -187,10 +187,6 @@ vehicle_rearm_sources_west = [
 	"NORTH_FIN_FordV8_Ammo"
 ];
 
-vehicle_big_west = [
-
-];
-
 GRLIB_vehicle_whitelist_west = [
 
 ];

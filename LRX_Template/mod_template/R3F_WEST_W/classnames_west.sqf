@@ -214,10 +214,6 @@ vehicle_rearm_sources_west = [
 	"R3F_DCL_CE"
 ];
 
-vehicle_big_west = [
-
-];
-
 GRLIB_vehicle_whitelist_west = [
 
 ];

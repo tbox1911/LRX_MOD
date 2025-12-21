@@ -216,10 +216,6 @@ vehicle_rearm_sources_west = [
 	"LOP_UKR_KAMAZ_Ammo","LOP_UKR_KAMAZ_Fuel"
 ];
 
-vehicle_big_west = [
-
-];
-
 GRLIB_vehicle_whitelist_west = [
 
 ];

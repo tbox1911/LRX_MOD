@@ -255,10 +255,6 @@ vehicle_rearm_sources_west = [
 	"UK3CB_CW_US_B_LATE_M939_Reammo","UK3CB_BAF_MAN_HX60_Fuel_Sand_DDPM"
 ];
 
-vehicle_big_west = [
-
-];
-
 GRLIB_vehicle_whitelist_west = [
 
 ];

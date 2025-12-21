@@ -270,10 +270,6 @@ vehicle_rearm_sources_west = [
 	"b_afougf_gaz66_ammo",Arsenal_typename
 ];
 
-vehicle_big_west = [
-
-];
-
 GRLIB_vehicle_whitelist_west = [
 
 ];

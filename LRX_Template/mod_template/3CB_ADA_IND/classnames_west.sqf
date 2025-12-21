@@ -264,10 +264,6 @@ vehicle_rearm_sources_west = [
 	"UK3CB_ADA_I_Ural_Ammo","UK3CB_ADA_I_Ural_Repair",Arsenal_typename
 ];
 
-vehicle_big_west = [
-
-];
-
 GRLIB_vehicle_whitelist_west = [
 
 ];

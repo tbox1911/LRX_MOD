@@ -198,10 +198,6 @@ vehicle_rearm_sources_west = [
 	"CUP_I_nM1038_Ammo_ION_WIN","B_Slingload_01_Ammo_F"
 ];
 
-vehicle_big_west = [
-
-];
-
 GRLIB_vehicle_whitelist_west = [
 
 ];

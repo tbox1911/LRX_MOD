@@ -231,10 +231,6 @@ vehicle_rearm_sources_west = [
 "CUP_O_Kamaz_Reammo_RU","Land_Pod_Heli_Transport_04_ammo_F"
 ];
 
-vehicle_big_west = [
-
-];
-
 GRLIB_vehicle_whitelist_west = [
 
 ];

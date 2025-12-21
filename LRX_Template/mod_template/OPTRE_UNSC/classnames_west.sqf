@@ -201,10 +201,6 @@ vehicle_rearm_sources_west = [
 	"OPTRE_M313_UNSC"
 ];
 
-vehicle_big_west = [
-
-];
-
 GRLIB_vehicle_whitelist_west = [
 
 ];
