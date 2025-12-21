@@ -254,30 +254,22 @@ squads = [
 
 // Everything the AI troups should be able to resupply from
 ai_resupply_sources_west = [
-	Arsenal_typename,
-	FOB_typename,ammo_truck_typename,fuel_truck_typename,repair_truck_typename
 ];
 
 // Everything the AI troups should be able to healing from
 ai_healing_sources_west = [
-	Arsenal_typename,FOB_typename,Respawn_truck_typename,"Land_MedicalTent_01_MTP_closed_F"
 ];
 
 vehicle_rearm_sources_west = [
-	Arsenal_typename,
-	FOB_typename,ammo_truck_typename,fuel_truck_typename
 ];
 
 vehicle_big_units_west = [
-
 ];
 
 GRLIB_vehicle_whitelist_west = [
-
 ];
 
 GRLIB_vehicle_blacklist_west = [
-
 ];
 
 GRLIB_AirDrop_1 = [		// cost = 50 Unarmed Offroad

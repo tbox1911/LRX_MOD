@@ -346,21 +346,17 @@ uavs_west = [
 
 // Everything the AI troups should be able to resupply from
 ai_resupply_sources_west = [
-	Arsenal_typename,
-	FOB_typename,
 	"rnt_lkw_7t_mil_gl_kat_i_mun_fleck"  // Redd'n Tank
 ];
 
 // Everything the AI troups should be able to healing from
 ai_healing_sources_west = [
 	"CUP_B_M113A3_Med_GER",
-	FOB_typename,
 	"Redd_Tank_Fuchs_1A4_San_Flecktarn" // Redd'n Tank
 ];
 
 vehicle_rearm_sources_west = [
 	"CUP_B_M113A3_Reammo_GER",
-	FOB_typename,
 	"rnt_lkw_7t_mil_gl_kat_i_mun_fleck" // Redd'n Tank
 ];
 
