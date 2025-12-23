@@ -72,6 +72,9 @@ LRX_mod_list_east = [
 	"RHS_SLA",			// Z@Warrior SLA (Sahrani Liberation Army)
 	"RHS_UFP",			// Z@Warrior Ukrain Faction Project
 	"RHS_USAF",
+	"RHS_PLUS_BW",		// Z@Warrior RHS_PLUS Factions
+	"RHS_PLUS_MURKY",	// Z@Warrior RHS_PLUS Factions
+	"RHS_PLUS_UKRAINE",	// Z@Warrior RHS_PLUS Factions
 	"ROAF_BLU",			//Miledino
 	"RUS_GRU",  		// Community
 	"Ryan_ZD",			// Community
