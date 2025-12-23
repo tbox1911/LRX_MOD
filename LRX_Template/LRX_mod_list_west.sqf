@@ -69,6 +69,9 @@ LRX_mod_list_west = [
 	"RHS_USAF",
 	"RHS_SAF",			// Lord_Kamephis Serbian Armed Forces
 	"RHS_SVK_BW",		// Slovak Armed Forces
+	"RHS_PLUS_BW",		// Z@Warrior RHS_PLUS Factions
+	"RHS_PLUS_MURKY",	// Z@Warrior RHS_PLUS Factions
+	"RHS_PLUS_UKRAINE",	// Z@Warrior RHS_PLUS Factions
 	"ROAF_BLU",			// Miledino
 	"RUS_GRU",  		// Community
 	"SAF2035",
