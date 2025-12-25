@@ -107,11 +107,11 @@ heavy_vehicles = [
 air_vehicles = [
 	["CUP_I_CESSNA_T41_ARMED_RACS",3,500,3,GRLIB_perm_air],
 	["CUP_I_AH6J_RACS",3,600,3,GRLIB_perm_air],
-	["CUP_I_SA330_Puma_HC1_RACS",4,700,4,GRLIB_perm_tank],
-	["CUP_I_UH1H_RACS",5,8000,5,GRLIB_perm_air],
+	["CUP_I_SA330_Puma_HC1_RACS",4,600,4,GRLIB_perm_tank],
+	["CUP_I_UH1H_RACS",5,400,5,GRLIB_perm_air],
 	["CUP_I_UH1H_gunship_RACS",6,850,6,GRLIB_perm_air],
 	["CUP_I_UH60L_FFV_RACS", 6,900,6,GRLIB_perm_air],
-	["CUP_I_C130J_RACS",15,800,15,GRLIB_perm_max],
+	["CUP_I_C130J_RACS",15,500,15,GRLIB_perm_max],
 	["CUP_I_JAS39_RACS",20,1400,20,GRLIB_perm_max]
 ];
 
