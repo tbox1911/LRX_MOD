@@ -8,6 +8,11 @@ if (fileExists _mod_path) then {
     if (GRLIB_build_version == "internal-dev") exitWith {};
     private _version = parseNumber ((GRLIB_build_version select [1,5] splitString ".") joinString "");
     private _basename = (_path splitString "\") select 2;
+    if (_version <= 280) then {
+        if (_basename == "classnames_west.sqf") then {
+            if !(isNil "vehicle_big_units_west") then { vehicle_big_units_west = [] };
+        };
+    };
     if (_version <= 279) then {
         if (_basename in ["classnames_west.sqf", "classnames_east.sqf"]) then {
             GRLIB_side_civilian = CIVILIAN;
