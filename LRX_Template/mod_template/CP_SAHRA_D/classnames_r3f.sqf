@@ -351,7 +351,7 @@ R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +
 [
 	["CUP_I_M2StaticMG_RACS", 10],
 	["CUP_I_M2StaticMG_MiniTripod_RACS", 10],
-	["CUP_I_SearchLight_static_RACS" 10],
+	["CUP_I_SearchLight_static_RACS", 10],
 	["CUP_I_M119_RACS", 40],
 	["CUP_I_M252_RACS", 50]
 ];
