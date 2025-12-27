@@ -126,8 +126,13 @@ static_vehicles = [
 	["CUP_I_SearchLight_static_RACS",1,20,0,GRLIB_perm_log],
 	["CUP_I_M2StaticMG_RACS",1,100,0,GRLIB_perm_log],
 	["CUP_I_M2StaticMG_MiniTripod_RACS",1,100,0,GRLIB_perm_log],
-	["CUP_I_M119_RACS",0,450,0,GRLIB_perm_max],
-	["CUP_I_M252_RACS",0,350,0,GRLIB_perm_tank]
+	["CUP_I_Metis_AAF",1,240,0,GRLIB_perm_air],
+	["CUP_I_TOW2_TriPod_AAF",1,140,0,GRLIB_perm_log],
+	["CUP_I_SPG9_AAF",1,140,0,GRLIB_perm_tank],
+	["CUP_I_Igla_AA_pod_AAF",1,140,0,GRLIB_perm_tank],
+	["CUP_I_Stinger_AA_pod_AAF",1,180,0,GRLIB_perm_air],
+	["CUP_I_M252_RACS",0,350,0,GRLIB_perm_tank],
+	["CUP_I_M119_RACS",0,450,0,GRLIB_perm_max]	
 ];
 
 // *** Static Weapon with AI ***

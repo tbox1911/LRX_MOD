@@ -333,6 +333,11 @@ R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
 	"CUP_I_M2StaticMG_RACS",
 	"CUP_I_M2StaticMG_MiniTripod_RACS",
 	"CUP_I_SearchLight_static_RACS",
+	"CUP_I_Metis_AAF",
+	"CUP_I_TOW2_TriPod_AAF",
+	"CUP_I_SPG9_AAF",
+	"CUP_I_Igla_AA_pod_AAF",
+	"CUP_I_Stinger_AA_pod_AAF",
 	"CUP_I_M119_RACS",
 	"CUP_I_M252_RACS"
 ];
@@ -352,7 +357,12 @@ R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +
 	["CUP_I_M2StaticMG_RACS", 10],
 	["CUP_I_M2StaticMG_MiniTripod_RACS", 10],
 	["CUP_I_SearchLight_static_RACS", 10],
-	["CUP_I_M119_RACS", 40],
+	["CUP_I_Metis_AAF", 30],
+	["CUP_I_TOW2_TriPod_AAF", 25],
+	["CUP_I_SPG9_AAF", 25],
+	["CUP_I_Igla_AA_pod_AAF", 25],
+	["CUP_I_Stinger_AA_pod_AAF", 30],
+	["CUP_I_M119_RACS", 25],
 	["CUP_I_M252_RACS", 50]
 ];
 
