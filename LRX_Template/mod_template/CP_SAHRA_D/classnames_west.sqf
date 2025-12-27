@@ -82,6 +82,7 @@ light_vehicles = [
 	["CUP_I_RHIB2Turret_RACS",3,250,3,GRLIB_perm_log],
 	["CUP_I_LCVP_RACS",5,400,5,GRLIB_perm_tank],
 	["CUP_O_Hilux_unarmed_CR_CIV",1,50,1,0],
+	["CUP_O_Hilux_unarmed_TK_CIV",1,50,1,GRLIB_perm_inf],
 	["CUP_I_LR_Transport_RACS",1,100,1,0],
 	["C_Van_01_transport_F",1,15,7,0],
 	["CUP_I_MTVR_RACS",1,150,3,GRLIB_perm_inf],

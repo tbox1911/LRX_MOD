@@ -91,7 +91,7 @@ R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
 R3F_LOG_CFG_can_tow = R3F_LOG_CFG_can_tow +
 [
 // Cars
-"CUP_O_Hilux_unarmed_CR_CIV",
+"CUP_Hilux_Base",
 "CUP_I_LR_Ambulance_RACS",
 "CUP_I_LR_MG_RACS",
 "CUP_I_LR_Transport_RACS",
@@ -127,7 +127,7 @@ R3F_LOG_CFG_can_tow = R3F_LOG_CFG_can_tow +
 R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed +
 [
 // Cars
-"CUP_O_Hilux_unarmed_CR_CIV",
+"CUP_Hilux_Base",
 "CUP_I_LR_Ambulance_RACS",
 "CUP_I_LR_MG_RACS",
 "CUP_I_LR_Transport_RACS",
@@ -167,7 +167,7 @@ R3F_LOG_CFG_can_lift = R3F_LOG_CFG_can_lift +
 R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
 [
 // Cars
-"CUP_O_Hilux_unarmed_CR_CIV",
+"CUP_Hilux_Base",
 "CUP_I_LR_Ambulance_RACS",
 "CUP_I_LR_MG_RACS",
 "CUP_I_LR_Transport_RACS",
@@ -203,7 +203,7 @@ R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
 R3F_LOG_CFG_can_transport_cargo = R3F_LOG_CFG_can_transport_cargo +
 [
 // Cars
-["CUP_O_Hilux_unarmed_CR_CIV", 30],
+["CUP_Hilux_Base", 30],
 ["CUP_I_LR_Ambulance_RACS", 20],
 ["CUP_I_LR_MG_RACS", 30],
 ["CUP_I_LR_Transport_RACS", 35],
