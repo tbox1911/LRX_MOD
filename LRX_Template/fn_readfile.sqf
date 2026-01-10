@@ -10,7 +10,7 @@ if (fileExists _mod_path) then {
     private _basename = (_path splitString "\") select 2;
     if (_version <= 280) then {
         if (_basename == "classnames_west.sqf") then {
-            if !(isNil "vehicle_big_units_west") then { vehicle_big_units_west = [] };
+            if (isNil "vehicle_big_units_west") then { vehicle_big_units_west = vehicle_big_west };
         };
     };
     if (_version <= 279) then {
