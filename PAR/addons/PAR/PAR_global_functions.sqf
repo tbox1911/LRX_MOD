@@ -87,10 +87,16 @@ PAR_unblock_AI = {
 	};
 };
 PAR_fn_globalchat = {
-	params ["_speaker", "_msg"];
+	params ["_speaker", "_msg", ["_force", false]];
 	if (isDedicated || !(local _speaker) || _msg == "") exitWith {};
 	if ((_speaker getVariable ["PAR_Grp_ID","0"]) == format ["Bros_%1", PAR_Grp_ID] || isPlayer _speaker) then {
-		player globalChat _msg;
+		private _last_msg = _speaker getVariable ["PAR_last_message", 0];
+		private _delay = 30;
+		if (isPlayer _speaker) then { _delay = 15 };
+		if (_last_msg < time || _force) then {
+			player globalChat _msg;
+			_speaker setVariable ["PAR_last_message", round (time + _delay)];
+		};
 	};
 };
 PAR_fn_fixPos = {
@@ -148,7 +154,7 @@ PAR_revive_dec = {
 	private _cur_revive = ([_unit] call PAR_revive_cur);
 	private _msg = format ["%1, %2 Revive left.", name _unit, _cur_revive];
 	if (_cur_revive == 0) then { _msg = format ["CRITICAL! %1 LAST Revive !!", name _unit] };
-	[_unit, _msg] call PAR_fn_globalchat;
+	[_unit, _msg, true] call PAR_fn_globalchat;
 	private _history = _unit getVariable ["PAR_revive_history", []];
 	_history pushBack round (time + PAR_AI_recover_revive);
 	_unit setVariable ["PAR_revive_history", _history];
@@ -180,7 +186,7 @@ PAR_fn_AI_Damage_EH = {
 	_unit setVariable ["PAR_isUnconscious", false, true];
 	_unit setVariable ["PAR_isDragged", 0, true];
 	_unit setVariable ["PAR_Grp_AI", group _unit];
-	_unit setVariable ["ace_sys_wounds_uncon", false];	
+	_unit setVariable ["ace_sys_wounds_uncon", false];
 	_unit setVariable ["PAR_revive_history", []];
 	_unit setVariable ["PAR_revive_max", PAR_ai_revive];
 };
@@ -227,18 +233,31 @@ PAR_Player_Unconscious = {
 	// PAR AI Revive Call
 	[_unit] spawn PAR_fn_unconscious;
 
-	private _handle = ppEffectCreate ["colorCorrections", 1501]; 
-	_handle ppEffectEnable true; 
-	_handle ppEffectAdjust [1, 0.1, 0, [0, 0, 0, 0], [1, 1, 1, 0], [1, 1, 1, 0]]; 
-	_handle ppEffectCommit 3; 
+	private _handle = ppEffectCreate ["colorCorrections", 1501];
+	_handle ppEffectEnable true;
+	_handle ppEffectAdjust [1, 0.1, 0, [0, 0, 0, 0], [1, 1, 1, 0], [1, 1, 1, 0]];
+	_handle ppEffectCommit 3;
+
+	private _respawn_btn = (findDisplay 46) ctrlCreate ["RscButton", -1];
+	_respawn_btn ctrlSetPosition [0.5 - 0.1, 0.7, 0.2, 0.05];
+	_respawn_btn ctrlSetText "RESPAWN";
+	_respawn_btn ctrlSetBackgroundColor [0.8, 0.1, 0.1, 0.8];
+	_respawn_btn ctrlShow false;
+	_respawn_btn ctrlCommit 0;
+	_respawn_btn ctrlAddEventHandler ["ButtonClick", { player setDamage 1 }];
 
 	private ["_bleedOut", "_bleedout_message"];
 	while { !isNull _unit && alive _unit && (_unit getVariable ["PAR_isUnconscious", false])} do {
-		sleep 2;
 		_bleedOut = player getVariable ["PAR_BleedOutTimer", 0];
 		_bleedout_message = format [localize "STR_BLEEDOUT_MESSAGE", round (_bleedOut - time)];
 		titleText [ _bleedout_message, "PLAIN DOWN" ];
+		if (!ctrlShown _respawn_btn && PAR_bleedout - (_bleedOut - time) >= 20) then {
+			_respawn_btn ctrlShow true;
+        	_respawn_btn ctrlCommit 0;
+		};
+		sleep 1;
 	};
+	ctrlDelete _respawn_btn;
 	ppEffectDestroy _handle;
 	titleText [ "", "PLAIN DOWN" ];
 

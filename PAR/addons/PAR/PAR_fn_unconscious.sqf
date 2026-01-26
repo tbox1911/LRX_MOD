@@ -18,12 +18,7 @@ _unit setVariable ["PAR_isDragged", 0, true];
 
 if (_unit == player) then {
 	disableUserInput true;
-	private _carry = (attachedObjects _unit) select 0;
-	if !(isNil "_carry") then {
-		R3F_LOG_joueur_deplace_objet = objNull;
-		_carry setVariable ["R3F_LOG_est_transporte_par", objNull, true];
-		detach _carry;
-	};
+	{ detach _x } forEach (attachedObjects _unit);
 	private _mk1 = createMarkerLocal [format ["PAR_marker_%1", PAR_Grp_ID], getPosATL _unit];
 	_mk1 setMarkerTypeLocal "loc_Hospital";
 	_mk1 setMarkerTextLocal format ["%1 Injured", name _unit];
@@ -39,32 +34,23 @@ _unit playMoveNow "AinjPpneMstpSnonWrflDnon_rolltoback";
 sleep 10;
 
 private _bld = [_unit] call PAR_spawn_blood;
-private _cnt = 0;
 
 while { alive _unit && ([_unit] call PAR_is_wounded) && time <= (_unit getVariable ["PAR_BleedOutTimer", 0])} do {
-	if (_cnt == 0) then {
-		_unit setOxygenRemaining 1;
-		if ( {alive _x} count PAR_AI_bros > 0 ) then {
-			if (isNil {_unit getVariable "PAR_myMedic"}) then {
-				_unit groupchat localize "STR_PAR_UC_01";
-				[_unit] call PAR_fn_medic;
-			};
-		} else {
-			private _msg = format [localize "STR_PAR_UC_03", name player];
-			if ([player] call PAR_is_wounded) then {
-				_msg = format [localize "STR_PAR_UC_02", name player];
-			};
-			private _last_msg = player getVariable ["PAR_last_message", 0];
-			if (time > _last_msg) then {
-				[_unit, _msg] call PAR_fn_globalchat;
-				player setVariable ["PAR_last_message", round(time + 20)];
-			};
+	_unit setOxygenRemaining 1;
+	if ( {alive _x} count PAR_AI_bros > 0 ) then {
+		if (isNil {_unit getVariable "PAR_myMedic"}) then {
+			_unit groupchat localize "STR_PAR_UC_01";
+			[_unit] call PAR_fn_medic;
 		};
-		//systemchat str ((_unit getVariable ["PAR_BleedOutTimer", 0]) - time);
-		_cnt = 10;
+	} else {
+		private _msg = format [localize "STR_PAR_UC_03", name player];
+		if ([player] call PAR_is_wounded) then {
+			_msg = format [localize "STR_PAR_UC_02", name player];
+		};
+		[_unit, _msg] call PAR_fn_globalchat;
 	};
-	_cnt = _cnt - 1;
-	sleep 1;
+	//systemchat str ((_unit getVariable ["PAR_BleedOutTimer", 0]) - time);
+	sleep 10;
 };
 
 if (!isNull _bld) then { _bld spawn {sleep (30 + floor(random 30)); deleteVehicle _this} };

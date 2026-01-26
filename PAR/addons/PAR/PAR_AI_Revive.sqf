@@ -1,5 +1,5 @@
 /*
-  pSiKO AI Revive - v4.01 - SP/MP - AI
+  name: pSiKO AI Revive - SP/MP - AI
   aka: PAR Revive
 
 Author:
@@ -8,7 +8,7 @@ Author:
 Description:
 	give ablitty to ai to revive player or other ai
   unit sharing the same PAR_Grp_ID revive each others
-  
+
   CBA3 is used for configuration
 
 Instructions:
@@ -36,13 +36,15 @@ if (isDedicated) exitWith {
 waitUntil {
   sleep 1;
   (
-    !isNull player && player == player &&
+    !isNull player && isPlayer player &&
     getClientState == "BRIEFING READ" &&
     !isNull (findDisplay 46)
   )
 };
 
-diag_log "-_- pSiKO Ai Revive Mod v4.01 by pSiKO -_-";
+PAR_version = "4.5";
+diag_log format ["--- PAR Mod v%1 Loading...", PAR_version];
+player globalChat format ["PAR - pSiKO Ai Revive v%1 loading...", PAR_version];
 
 //--- Configuration ---------------------------------------//
 // PAR Main mode
@@ -97,16 +99,14 @@ PAR_MedGarbage = [
 ];
 PAR_medical_source = "Land_MedicalTent_01_base_F";
 
-//--- Init functions --------------------------------//
+//--- Init functions ------------------------------------//
 [] call compile preprocessFile "PAR\addons\PAR\PAR_global_functions.sqf";
 
 //--- PAR Manager ---------------------------------------//
 [] spawn PAR_AI_Manager;
 
-// Action Manager
+//--- Action Manager ------------------------------------//
 [] spawn PAR_ActionManager;
-
-diag_log "LRX PAR Mod Initialized.";
 
 player createDiarySubject["LRX","PAR"];
 player createDiaryRecord ["LRX", ["pSiKO Ai Revive", format ["PAR Only AI revive: <font color='#ff4000'>%1</font>", PAR_only_ai_revive]]];
@@ -114,4 +114,6 @@ player createDiaryRecord ["LRX", ["pSiKO Ai Revive", format ["PAR max revive per
 player createDiaryRecord ["LRX", ["pSiKO Ai Revive", format ["PAR max unit protected: <font color='#ff4000'>%1</font>", PAR_ai_limit]]];
 player createDiaryRecord ["LRX", ["pSiKO Ai Revive", format ["PAR Bleedout timer: <font color='#ff4000'>%1</font>", PAR_bleedout]]];
 player createDiaryRecord ["LRX", ["pSiKO Ai Revive", format ["PAR Revive: <font color='#00FE00'>Enabled</font>  Main mode: %1", PAR_revive]]];
-player createDiaryRecord ["LRX", ["pSiKO Ai Revive", format ["PAR Revive by <font color='#0040D0'>pSiKO</font> - v3.05"]]];
+player createDiaryRecord ["LRX", ["pSiKO Ai Revive", format ["PAR Revive by <font color='#0040D0'>pSiKO</font> - v%1", PAR_version]]];
+
+diag_log "--- PAR Mod Loaded. ---";

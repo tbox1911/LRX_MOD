@@ -18,7 +18,7 @@ if (!isPlayer _medic) then {
 		_medic playMoveNow "AinvPknlMstpSlayWrflDnon_medicOther";
 	};
 	[_wnded] call PAR_spawn_gargbage;
-	_cnt = 6;
+	_cnt = 7;
 	while { _cnt > 0 && (_wnded getVariable ["PAR_myMedic", objNull]) == _medic } do {
 		sleep 1;
 		_cnt = _cnt -1
