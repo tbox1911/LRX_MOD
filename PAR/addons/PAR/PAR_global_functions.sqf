@@ -1,5 +1,7 @@
 // PAR Remote Call - Server Side
-PAR_remote_sortie = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\server\PAR_remote_sortie.sqf";
+if (isServer) then {
+	PAR_remote_sortie = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\server\PAR_remote_sortie.sqf";
+};
 
 // PAR Global Functions - Client side
 PAR_EventHandler = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_EventHandler.sqf";

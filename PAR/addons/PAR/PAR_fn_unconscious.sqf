@@ -17,7 +17,7 @@ _unit setVariable ["PAR_isDragged", 0, true];
 [_unit, _unit] call PAR_fn_medicRelease;
 
 if (_unit == player) then {
-	disableUserInput true;
+	private _noesckey = (findDisplay 46) displayAddEventHandler ["KeyDown", "if ((_this select 1) == 1) then { true }"];
 	{ detach _x } forEach (attachedObjects _unit);
 	private _mk1 = createMarkerLocal [format ["PAR_marker_%1", PAR_Grp_ID], getPosATL _unit];
 	_mk1 setMarkerTypeLocal "loc_Hospital";
@@ -57,9 +57,7 @@ if (!isNull _bld) then { _bld spawn {sleep (30 + floor(random 30)); deleteVehicl
 
 if (_unit == player) then {
 	deletemarker format ["PAR_marker_%1", PAR_Grp_ID];
-	disableUserInput false;
-	disableUserInput true;
-	disableUserInput false;
+	(findDisplay 46) displayRemoveEventHandler ["KeyDown", _noesckey];
 };
 
 // Bad end

@@ -23,15 +23,15 @@ Based on:
   at : https://forums.bohemia.net/forums/topic/146926-farooqs-revive/
 _________________________________________________________________________*/
 
-if (!isDedicated && !hasInterface && isMultiplayer) exitWith {};
-if (isMultiplayer) then { waitUntil {sleep 1; getClientStateNumber > 8 } };
-waitUntil { sleep 1; alive player };
-if (!isNil "GRLIB_build_version") exitWith { diag_log "-- PAR loading Error : PAR is incompatible with LRX." };
-
 // PAR Remote Call - Server Side
 if (isDedicated) exitWith {
 	PAR_remote_sortie = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\server\PAR_remote_sortie.sqf";
 };
+
+if (!hasInterface && isMultiplayer) exitWith {};
+if (isMultiplayer) then { waitUntil {sleep 1; getClientStateNumber > 8 } };
+waitUntil { sleep 1; alive player };
+if (!isNil "GRLIB_build_version") exitWith { diag_log "-- PAR loading Error : PAR is incompatible with LRX." };
 
 waitUntil {
   sleep 1;
@@ -71,9 +71,6 @@ PAR_ai_revive_max = missionNamespace getVariable ["PAR_ai_revive", 7];
 // AI recover timer
 PAR_AI_recover_revive = (20*60);
 
-// Only AI revive (player is excluded)
-PAR_only_ai_revive = missionNamespace getVariable ["PAR_only_ai_revive", false];
-
 // Enable info killer message
 PAR_EnableDeathMessages = true;
 
@@ -109,7 +106,6 @@ PAR_medical_source = "Land_MedicalTent_01_base_F";
 [] spawn PAR_ActionManager;
 
 player createDiarySubject["LRX","PAR"];
-player createDiaryRecord ["LRX", ["pSiKO Ai Revive", format ["PAR Only AI revive: <font color='#ff4000'>%1</font>", PAR_only_ai_revive]]];
 player createDiaryRecord ["LRX", ["pSiKO Ai Revive", format ["PAR max revive per unit: <font color='#ff4000'>%1</font>", PAR_ai_revive]]];
 player createDiaryRecord ["LRX", ["pSiKO Ai Revive", format ["PAR max unit protected: <font color='#ff4000'>%1</font>", PAR_ai_limit]]];
 player createDiaryRecord ["LRX", ["pSiKO Ai Revive", format ["PAR Bleedout timer: <font color='#ff4000'>%1</font>", PAR_bleedout]]];

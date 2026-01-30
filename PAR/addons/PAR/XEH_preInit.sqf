@@ -37,6 +37,3 @@
     ],
     1
 ] call CBA_fnc_addSetting;
-
-// Only AI revive
-["PAR_only_ai_revive", "CHECKBOX", ["Only AI can revive (player is excluded)", ""], "pSiKo AI Revive", false, 1] call CBA_fnc_addSetting;
