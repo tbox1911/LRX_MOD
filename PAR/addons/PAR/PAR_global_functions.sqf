@@ -7,18 +7,19 @@ if (isServer) then {
 PAR_EventHandler = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_EventHandler.sqf";
 PAR_AI_Manager = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_AI_Manager.sqf";
 PAR_ActionManager = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_ActionManager.sqf";
-PAR_fn_nearestMedic = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_fn_nearestMedic.sqf";
-PAR_fn_medic = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_fn_medic.sqf";
-PAR_fn_medicRelease = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_fn_medicRelease.sqf";
-PAR_fn_medicRecall = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_fn_medicRecall.sqf";
-PAR_fn_checkMedic = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_fn_checkMedic.sqf";
 PAR_fn_911 = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_fn_911.sqf";
-PAR_fn_sortie = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_fn_sortie.sqf";
+PAR_fn_checkMedic = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_fn_checkMedic.sqf";
 PAR_fn_death = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_fn_death.sqf";
-PAR_fn_unconscious = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_fn_unconscious.sqf";
+PAR_fn_deathSound = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_fn_deathSound.sqf";
 PAR_fn_eject = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_fn_eject.sqf";
 PAR_fn_heal = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_fn_heal.sqf";
-PAR_fn_deathSound = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_fn_deathSound.sqf";
+PAR_fn_medic = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_fn_medic.sqf";
+PAR_fn_medicRecall = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_fn_medicRecall.sqf";
+PAR_fn_medicRelease = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_fn_medicRelease.sqf";
+PAR_fn_nearestMedic = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_fn_nearestMedic.sqf";
+PAR_fn_revive_ui = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_fn_revive_ui.sqf";
+PAR_fn_sortie = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_fn_sortie.sqf";
+PAR_fn_unconscious = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\PAR_fn_unconscious.sqf";
 F_ejectUnit = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\F_ejectUnit.sqf";
 F_getRND = compileFinal preprocessFileLineNumbers "PAR\addons\PAR\F_getRND.sqf";
 
@@ -211,6 +212,10 @@ PAR_Player_Init = {
 
 PAR_Player_Unconscious = {
 	params [ "_unit", "_killer" ];
+	openMap false;
+	closeDialog 0;
+	(uiNamespace getVariable ["RscDisplayArsenal", displayNull]) closeDisplay 1;
+	{ detach _x } forEach (attachedObjects _unit);
 
 	// Death message
 	if (PAR_EnableDeathMessages && !isNil "_killer" && _killer != _unit) then {
@@ -234,34 +239,7 @@ PAR_Player_Unconscious = {
 
 	// PAR AI Revive Call
 	[_unit] spawn PAR_fn_unconscious;
-
-	private _handle = ppEffectCreate ["colorCorrections", 1501];
-	_handle ppEffectEnable true;
-	_handle ppEffectAdjust [1, 0.1, 0, [0, 0, 0, 0], [1, 1, 1, 0], [1, 1, 1, 0]];
-	_handle ppEffectCommit 3;
-
-	private _respawn_btn = (findDisplay 46) ctrlCreate ["RscButton", -1];
-	_respawn_btn ctrlSetPosition [0.5 - 0.1, 0.7, 0.2, 0.05];
-	_respawn_btn ctrlSetText "RESPAWN";
-	_respawn_btn ctrlSetBackgroundColor [0.8, 0.1, 0.1, 0.8];
-	_respawn_btn ctrlShow false;
-	_respawn_btn ctrlCommit 0;
-	_respawn_btn ctrlAddEventHandler ["ButtonClick", { player setDamage 1 }];
-
-	private ["_bleedOut", "_bleedout_message"];
-	while { !isNull _unit && alive _unit && (_unit getVariable ["PAR_isUnconscious", false])} do {
-		_bleedOut = player getVariable ["PAR_BleedOutTimer", 0];
-		_bleedout_message = format [localize "STR_BLEEDOUT_MESSAGE", round (_bleedOut - time)];
-		titleText [ _bleedout_message, "PLAIN DOWN" ];
-		if (!ctrlShown _respawn_btn && PAR_bleedout - (_bleedOut - time) >= 20) then {
-			_respawn_btn ctrlShow true;
-        	_respawn_btn ctrlCommit 0;
-		};
-		sleep 1;
-	};
-	ctrlDelete _respawn_btn;
-	ppEffectDestroy _handle;
-	titleText [ "", "PLAIN DOWN" ];
+	[_unit] call PAR_fn_revive_ui;
 
 	// Player got revived
 	if !([_unit] call PAR_is_wounded) then {

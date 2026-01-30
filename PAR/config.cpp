@@ -31,4 +31,5 @@ class cfgFunctions
 	};
 };
 
-#include "com_config.hpp"
+#include "addons\PAR\com_config.hpp"
+#include "addons\PAR\deathscreen.hpp"

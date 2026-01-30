@@ -290,5 +290,17 @@
 			<Portuguese>CRÍTICO: %1 não poderá mais ser reanimado !!</Portuguese>
 			<Czech>KRITICKÉ: %1 už nebude možné oživit !!</Czech>
 		</Key>
+		<Key ID="STR_REVIVE_LABEL">
+			<Original>YOU ARE WOUNDED</Original>
+			<French>VOUS ETES BLESSE</French>
+			<German>DU BIST VERWUNDET</German>
+			<Spanish>ESTAS HERIDO</Spanish>
+			<Russian>ВЫ БЕЗ СОЗНАНИЯ</Russian>
+			<Chinesesimp>已重伤昏迷！</Chinesesimp>
+			<Chinese>已重傷昏迷！</Chinese>
+			<Japanese>負傷しました！</Japanese>
+			<Portuguese>VOCÊ ESTÁ FERIDO</Portuguese>
+			<Czech>JSTE ZRANĚNÍ</Czech>
+		</Key>		
 	</Package>
 </Project>
