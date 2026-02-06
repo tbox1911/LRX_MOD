@@ -119,7 +119,6 @@ opfor_vehicles = [
 	"CFP_O_SDARMY_T55_01",
 	"CFP_O_SDARMY_T72_01",
 	"CFP_O_SDARMY_M60_01"
-	
 ];
 
 opfor_vehicles_low_intensity = [

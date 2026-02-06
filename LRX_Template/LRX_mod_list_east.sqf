@@ -17,7 +17,7 @@ LRX_mod_list_east = [
 	"CFP_O_IQARMY", 	// Community
 	"CFP_O_NKARMY", 	// Community
 	"CFP_O_SYARMY", 	// Community
-	"CFP_SUDAN",
+	"CFP_O_SUDAN",
 	"CP_AFRF",			// Z@warrior
 	"CP_AFRF_WI",		// Z@warrior	
 	"CP_AFU",			// Z@Warrior Armed Forces of Ukraine
