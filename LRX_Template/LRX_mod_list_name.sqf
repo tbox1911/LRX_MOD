@@ -20,7 +20,7 @@ LRX_mod_list_name = [
     ["CFP_O_IQARMY", "CFP Iraq Army", EAST],
     ["CFP_O_NKARMY", "CFP North Korea Army", EAST],
     ["CFP_O_SYARMY", "CFP Syrian Army", EAST],
-    ["CFP_Sudan", "Sudan Rebel", EAST],
+    ["CFP_Sudan", "CFP Sudan Rebel", EAST],
     ["CP_AFRF", "CUP AFRF MSV", EAST],
     ["CP_AFRF_WI", "CUP AFRF MSV Winter", EAST],
     ["CP_AFU", "CUP Armed Forces of Ukraine", WEST],

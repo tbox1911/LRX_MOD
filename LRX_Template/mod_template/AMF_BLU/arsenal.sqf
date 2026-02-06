@@ -9,7 +9,8 @@ blacklisted_bag = [
 	"O_AMF_A_E_B_support_F",
 	"O_AMF_A_E_B_weapon_F",
 	"I_AMF_A_E_B_support_F",
-	"I_AMF_A_E_B_weapon_F"
+	"I_AMF_A_E_B_weapon_F",
+	"_LowaZephyr"
 ];
 
 blacklisted_weapon = [
