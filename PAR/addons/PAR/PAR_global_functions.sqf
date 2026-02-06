@@ -97,7 +97,7 @@ PAR_fn_globalchat = {
 		private _delay = 30;
 		if (isPlayer _speaker) then { _delay = 15 };
 		if (_last_msg < time || _force) then {
-			player globalChat _msg;
+			_speaker globalChat _msg;
 			_speaker setVariable ["PAR_last_message", round (time + _delay)];
 		};
 	};
