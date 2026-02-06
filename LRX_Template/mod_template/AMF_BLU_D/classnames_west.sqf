@@ -15,8 +15,8 @@ repair_sling_typename = "B_Slingload_01_Repair_F";
 fuel_sling_typename = "B_Slingload_01_Fuel_F";
 ammo_sling_typename = "B_Slingload_01_Ammo_F";
 medic_sling_typename = "B_Slingload_01_Medevac_F";
-pilot_classname = "amf_french_combat_pilot";
-crewman_classname = "B_T_Helicrew_F";
+pilot_classname = "B_AMF_UBAS_DA_PILOT_HK416";
+crewman_classname = "B_AMF_ARMORED_DA_SOLDIER";
 
 chimera_vehicle_overide = [
   ["B_Heli_Light_01_F", "AMF_gazelle_afte_f"],
@@ -28,32 +28,27 @@ chimera_vehicle_overide = [
 infantry_units_west = [
 	["Alsatian_Random_F",0,0,0,GRLIB_perm_max],
 	["Fin_random_F",0,0,0,0],
-	["B_Soldier_F",1,0,0,0],
-	["B_medic_F",1,0,0,0],
-	["B_engineer_F",1,0,0,0],
-	["B_Soldier_GL_F",1,0,0,GRLIB_perm_inf],
-	["B_Soldier_LAT_F",1,0,0,0],
-	["B_Sharpshooter_F",1,0,0,GRLIB_perm_inf],
-	["B_HeavyGunner_F",1,0,0,GRLIB_perm_inf],
-	["B_diver_F",1,0,0,GRLIB_perm_log],
+	["B_AMF_UBAS_DA_GUNNER_HK416",1,0,0,0],
+	["B_AMF_UBAS_DA_AUXSAN_HK416",1,0,0,0],
+	["B_Engineer_F",1,0,0,0],
+	["B_AMF_UBAS_DA_GV_HK416",1,0,0,GRLIB_perm_inf],
+	["B_AMF_UBAS_DA_GV_AT4_HK416",1,0,0,0],
+	["B_AMF_UBAS_DA_GV_ERYX_HK416",1,0,0,GRLIB_perm_log],
 	["B_Soldier_AA_F",1,0,0,GRLIB_perm_log],
-	["B_Soldier_AT_F",1,0,0,GRLIB_perm_log],
-	["B_sniper_F",1,0,0,GRLIB_perm_log],
+	["B_AMF_UBAS_DA_LG_HK416",1,0,0,GRLIB_perm_inf],
+	["B_AMF_UBAS_DA_MG_MAG58",1,0,0,GRLIB_perm_inf],
+	["B_AMF_UBAS_DA_MG_Minimi",1,0,0,GRLIB_perm_log],
+	["B_AMF_UBAS_DA_TP_HK417",1,0,0,GRLIB_perm_inf],
+	["B_AMF_UBAS_DA_TP_SCARHPR",1,0,0,GRLIB_perm_log],
+
+	["B_diver_F",1,0,0,GRLIB_perm_log],
 	[crewman_classname,1,0,0,GRLIB_perm_inf],
 	[pilot_classname,1,0,0,GRLIB_perm_log]
 ];
 
 units_loadout_overide = [
-	"B_Soldier_F",
-	"B_medic_F",
-	"B_engineer_F",
-	"B_Soldier_GL_F",
-	"B_Sharpshooter_F",
-	"B_Soldier_LAT_F",
-	"B_HeavyGunner_F",
-	"B_Soldier_AA_F",
-	"B_Soldier_AT_F",
-	"B_sniper_F"
+	"B_Engineer_F",
+	"B_Soldier_AA_F"
 ];
 
 light_vehicles = [
@@ -75,6 +70,18 @@ heavy_vehicles = [
 	["B_AMF_TANK_01",20,2250,25,GRLIB_perm_air],
 	["B_AMF_TANK_CE_02_F",20,2500,25,GRLIB_perm_air]
 ];
+
+// AMF_RAFALE_B_01_F
+// AMF_RAFALE_M_01_F
+// B_AMF_PLANE_TRANSPORT_01_F
+// B_AMF_PLANE_FIGHTER_02_F
+
+// amf_cougar
+// AMF_panther_FRA
+// AMF_TIGRE_01
+// AMF_gazelle_afte_f
+// B_AMF_Heli_Transport_01_F
+// amf_nh90_tth_transport
 
 air_vehicles = [
 	["B_UAV_01_F",0,10,0,GRLIB_perm_log],

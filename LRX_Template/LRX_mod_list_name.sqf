@@ -9,7 +9,7 @@ LRX_mod_list_name = [
     ["3CB_MDF_OPF", "3CB Malden Defence Force", EAST],
     ["3CB_TNA_OPF", "3CB Takistan National Army", EAST],
     ["ACR_A3", "Army of the Czech Republic", WEST],
-    ["AMF_BLU", "AMF French Forces", WEST],
+    ["AMF_BLU_D", "AMF French Forces", WEST],
     ["AMF_R3F_D", "AMF R3F French Forces - Desert", WEST],
     ["AMF_R3F_W", "AMF R3F French Forces - Woodland", WEST],
     ["ASZ_ITALY", "ASZ Italian Army", WEST],

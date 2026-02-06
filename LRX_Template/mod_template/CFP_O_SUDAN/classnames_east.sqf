@@ -145,7 +145,7 @@ opfor_battlegroup_vehicles = [
 	"CFP_O_SDARMY_BTR_80A_01",
 	"CFP_O_SDARMY_BTR_90_01",
 	"CFP_O_SDARMY_M113A3_01",
-	"CFP_O_SDARMY_Mi_24P_01",
+	"CUP_O_Mi24_D_Dynamic_TK",
 	"CFP_O_SDARMY_T55_01",
 	"CFP_O_SDARMY_T72_01",
 	"CFP_O_SDARMY_M60_01"
@@ -179,7 +179,7 @@ opfor_troup_transports_heli = [
 ];
 
 opfor_air = [
-	"CFP_O_SDARMY_Mi_24P_01",
+	"CUP_O_Mi24_D_Dynamic_TK",
 	"CFP_O_SDARMY_Mi_8MT_01",
 	"CFP_O_SDARMY_C130_01",
 	"CFP_O_SDARMY_SU_25_01"
@@ -228,7 +228,7 @@ opfor_recyclable = [
 	["CFP_O_SDARMY_Ural_Open_01",10,round (1200 / GRLIB_recycling_percentage),10],
 	["CFP_O_SDARMY_Ural_Refuel_01",10,round (1200 / GRLIB_recycling_percentage),10],
 	["CFP_O_SDARMY_Ural_Repair_01",10,round (1200 / GRLIB_recycling_percentage),10],
-	["CFP_O_SDARMY_Mi_24P_01",10,round (1200 / GRLIB_recycling_percentage),10],
+	["CUP_O_Mi24_D_Dynamic_TK",10,round (1200 / GRLIB_recycling_percentage),10],
 	["CFP_O_SDARMY_Mi_8MT_01",10,round (1200 / GRLIB_recycling_percentage),10],
 	["CFP_O_SDARMY_C130_01",10,round (1200 / GRLIB_recycling_percentage),10],
 	["CFP_O_SDARMY_SU_25_01",10,round (1200 / GRLIB_recycling_percentage),10],
