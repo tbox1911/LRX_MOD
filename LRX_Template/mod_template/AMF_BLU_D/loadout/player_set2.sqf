@@ -14,7 +14,7 @@ _unit addHandgunItem "AMF_17Rnd_9x19_Glock";
 
 _unit forceAddUniform "amf_uniform_01_DA_MD";
 _unit addVest "amf_SMB";
-_unit addItemToUniform "AMF_GR_DEFF1";
+_unit addItemToUniform "CUP_HandGrenade_RGD5";
 _unit addItemToUniform "AMF_GR_OFF1";
 _unit addItemToVest "AMF_17Rnd_9x19_Glock";
 

@@ -8,7 +8,7 @@ LRX_mod_list_west = [
 	"3CB_MDF_OPF",		// Z@Warrior 3CB Malden Defence Force
 	"3CB_TNA_OPF",		// Z@Warrior 3CB Takistan National Army
 	"ACR_A3",			// pSiKO Army of the Czech Republic
-	"AMF_BLU_D",			// Vladimir French Force
+	"AMF_BLU_D",		// AMF French Force (AIO)
 	"AMF_R3F_D",		// C0br4 French Forces
 	"AMF_R3F_W",		// C0br4 French Forces
 	"ASZ_ITALY",

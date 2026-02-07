@@ -19,7 +19,7 @@ _unit forceAddUniform "amf_uniform_01_DA_MD";
 _unit addVest "amf_SMB_FUS";
 _unit addBackpack "AMF_FELIN_BACKPACK_GV";
 
-_unit addItemToUniform "AMF_GR_DEFF1";
+_unit addItemToUniform "CUP_HandGrenade_RGD5";
 _unit addItemToUniform "AMF_GR_OFF1";
 _unit addItemToUniform "AMF_GR_FUMF5";
 for "_i" from 1 to 5 do {_unit addItemToVest "AMF_30Rnd_556x45_SS109_Tracer_Stanag";};
