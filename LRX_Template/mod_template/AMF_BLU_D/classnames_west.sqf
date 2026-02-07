@@ -210,7 +210,7 @@ GRLIB_vehicle_blacklist_west = [
 ];
 
 GRLIB_AirDrop_1 = [
-	"B_Quadbike_01_F"?
+	"B_Quadbike_01_F",
 	"CFP_B_USCIA_Datsun_PK_01",
 	"CFP_B_USCIA_Hilux_Unarmed_01",
 	"CFP_B_USCIA_MB_4WD_01",
