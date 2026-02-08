@@ -60,6 +60,7 @@ R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
 
 R3F_LOG_CFG_can_tow = R3F_LOG_CFG_can_tow +
 [
+    "CFP_B_USCIA_Hilux_Unarmed_01",
     "AMF_GBC180_PLATEAU_01",
     "AMF_GBC180_ViV",
     "AMF_GBC180_PERS_01",
@@ -79,6 +80,7 @@ R3F_LOG_CFG_can_tow = R3F_LOG_CFG_can_tow +
 
 R3F_LOG_CFG_can_be_towed = R3F_LOG_CFG_can_be_towed +
 [
+    "CFP_B_USCIA_Hilux_Unarmed_01",
     "AMF_GBC180_PLATEAU_01",
     "AMF_GBC180_ViV",
     "AMF_GBC180_PERS_01",
@@ -102,6 +104,7 @@ R3F_LOG_CFG_can_lift = R3F_LOG_CFG_can_lift +
 
 R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
 [
+    "CFP_B_USCIA_Hilux_Unarmed_01",
     "AMF_GBC180_PLATEAU_01",
     "AMF_GBC180_ViV",
     "AMF_GBC180_PERS_01",
@@ -121,6 +124,7 @@ R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
 
 R3F_LOG_CFG_can_transport_cargo = R3F_LOG_CFG_can_transport_cargo +
 [
+    ["CFP_B_USCIA_Hilux_Unarmed_01", 10],
     ["AMF_GBC180_PLATEAU_01",40],
     ["AMF_GBC180_ViV",40],
     ["AMF_GBC180_PERS_01",40],
