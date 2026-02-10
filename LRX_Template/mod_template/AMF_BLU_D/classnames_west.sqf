@@ -56,7 +56,7 @@ light_vehicles = [
 	["CFP_B_USCIA_Hilux_Unarmed_01",1,10,1,0],
 	["CFP_B_USCIA_Offroad_02",1,10,1,0],
 	["C_Van_01_transport_F",1,15,7,0],
-    ["AMF_GBC180_PLATEAU_03",5,30,5,inf],
+    ["AMF_GBC180_PLATEAU_03",5,30,5,GRLIB_perm_inf],
     ["AMF_GBC180_PERS_03",5,40,5,GRLIB_perm_log],
     ["amf_pvp_01_mag_DA_f",5,50,5,0],
     ["amf_pvp_01_top_DA_f",5,50,5,0],
