@@ -5,6 +5,7 @@
 
 box_transport_config = box_transport_config + [
     // the 'opfor_transport_truck' MUST be declared here
+    [ "C_Van_01_transport_F", -5.3, [0, -1.05, 0.2], [0, -2.6, 0.2] ],
     [ "AMF_GBC180_PERS_03", -5.3, [0, -0.2, 2.6], [0, -1.8, 2.6] ],
     [ "AMF_GBC180_PLATEAU_03", -5.3, [0, -0.2, 2.6], [0, -1.8, 2.6] ],
     [ "amf_nh90_tth_cargo", -10, [0, 0.2, -1.1], [0, 1.8, -1.1], [0, 3.4, -1.1] ],

@@ -29,7 +29,7 @@ infantry_units_west = [
 	["Alsatian_Random_F",0,0,0,GRLIB_perm_max],
 	["Fin_random_F",0,0,0,0],
 	["B_AMF_UBAS_DA_GUNNER_HK416",1,0,0,0],
-	["B_AMF_UBAS_DA_AUXSAN_HK416",1,0,0,0],
+	["B_medic_F",1,0,0,0],
 	["B_Engineer_F",1,0,0,0],
 	["B_AMF_UBAS_DA_GV_HK416",1,0,0,GRLIB_perm_inf],
 	["B_AMF_UBAS_DA_GV_AT4_HK416",1,0,0,0],
@@ -46,6 +46,7 @@ infantry_units_west = [
 ];
 
 units_loadout_overide = [
+	"B_medic_F",
 	"B_Engineer_F",
 	"B_Soldier_AA_F"
 ];
@@ -54,17 +55,18 @@ light_vehicles = [
 	["CFP_B_USCIA_Datsun_PK_02",1,10,1,0],
 	["CFP_B_USCIA_Hilux_Unarmed_01",1,10,1,0],
 	["CFP_B_USCIA_Offroad_02",1,10,1,0],
-    ["AMF_GBC180_PLATEAU_03",5,30,5,0],
-    ["AMF_GBC180_PERS_03",5,40,5,GRLIB_perm_inf],
+	["C_Van_01_transport_F",1,15,7,0],
+    ["AMF_GBC180_PLATEAU_03",5,30,5,inf],
+    ["AMF_GBC180_PERS_03",5,40,5,GRLIB_perm_log],
     ["amf_pvp_01_mag_DA_f",5,50,5,0],
     ["amf_pvp_01_top_DA_f",5,50,5,0],
 	["CUP_B_nM997_DF_USA_DES",5,60,5,0],
     ["AMF_VB2L_DA",5,60,5,0],
     ["AMF_VBL_762_DA",5,65,5,0],
     ["AMF_VBL_DA_127_01_F",5,70,5,0],
-    ["amf_VBAE_01_TDF_f",5,100,5,GRLIB_perm_log],
-    ["amf_VBAE_02_TDF_f",5,150,5,GRLIB_perm_inf],
-    ["amf_VBAE_03_TDF_f",5,200,5,GRLIB_perm_tank]
+    ["amf_VBAE_01_TDF_f",5,200,5,GRLIB_perm_inf],
+    ["amf_VBAE_02_TDF_f",5,250,5,GRLIB_perm_log],
+    ["amf_VBAE_03_TDF_f",5,270,5,GRLIB_perm_tank]
 ];
 
 heavy_vehicles = [
