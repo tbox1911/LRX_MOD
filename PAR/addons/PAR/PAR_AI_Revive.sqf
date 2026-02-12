@@ -80,6 +80,9 @@ PAR_AI_bros = [];
 // PAR player group ID
 PAR_Grp_ID = getPlayerUID player;
 
+// PAR message chat
+PAR_AI_old_msg = "";
+
 //--- Classnames ---------------------------------------//
 PAR_Medikit = "Medikit";
 PAR_AidKit = "FirstAidKit";
