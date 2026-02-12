@@ -222,14 +222,18 @@ R3F_LOG_CFG_can_be_lifted = R3F_LOG_CFG_can_be_lifted +
 R3F_LOG_CFG_can_be_transported_cargo = R3F_LOG_CFG_can_be_transported_cargo +
 [
 	["CFP_B_USARMY_1991_M2_Machine_Gun_Des_01",10],
-	["AMF_TVGuided_mmp_F",15],
+    ["CUP_O_KORD_high_TK", 10], 
+	["AMF_TVGuided_mmp_F",20],
+    ["CUP_O_Igla_AA_pod_TK",30],    
 	["AMF_Mo120_01_CE_F",30]
 ];
 
 R3F_LOG_CFG_can_be_moved_by_player = R3F_LOG_CFG_can_be_moved_by_player +
 [
 	"CFP_B_USARMY_1991_M2_Machine_Gun_Des_01",
+    "CUP_O_KORD_high_TK",
 	"AMF_TVGuided_mmp_F",
+    "CUP_O_Igla_AA_pod_TK",
 	"AMF_Mo120_01_CE_F",
 	"CFP_B_USARMY_1991_M119_Des_01"
 ];

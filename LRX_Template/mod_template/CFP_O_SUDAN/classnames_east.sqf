@@ -78,8 +78,6 @@ opfor_vehicles = [
 	"CFP_O_SDARMY_Pickup_PK_01",
 	"CFP_O_SDARMY_UAZ_DShKM_01",
 	"CFP_O_SDARMY_UAZ_GL_01",
-	"CFP_O_SDARMY_UAZ_01",
-	"CFP_O_SDARMY_UAZ_Open_01",
 	"CFP_O_SDARMY_UAZ_SPG_01",
 	"CFP_O_SDARMY_BMP_1_01",
 	"CFP_O_SDARMY_BMP_2_01",
@@ -168,6 +166,7 @@ opfor_statics = [
 	"CFP_O_SDARMY_DShKM_01",
 	"CFP_O_SDARMY_DShKM_Low_01",
 	"CFP_O_SDARMY_Podnos_2B14_01",
+	"CUP_O_Igla_AA_pod_TK",
 	"CFP_O_SDARMY_SPG_9_01"
 ];
 
@@ -194,8 +193,6 @@ opfor_recyclable = [
 	["CFP_O_SDARMY_Truck_01",10,round (100 / GRLIB_recycling_percentage),10],
 	["CFP_O_SDARMY_UAZ_DShKM_01",10,round (100 / GRLIB_recycling_percentage),10],
 	["CFP_O_SDARMY_UAZ_GL_01",10,round (120 / GRLIB_recycling_percentage),10],
-	["CFP_O_SDARMY_UAZ_01",10,round (80 / GRLIB_recycling_percentage),10],
-	["CFP_O_SDARMY_UAZ_Open_01",10,round (80 / GRLIB_recycling_percentage),10],
 	["CFP_O_SDARMY_UAZ_SPG_01",10,round (100 / GRLIB_recycling_percentage),10],
 	["CFP_O_SDARMY_Ural_01",10,round (100 / GRLIB_recycling_percentage),10],
 	["CFP_O_SDARMY_Ural_Ammunition_01",10,round (200 / GRLIB_recycling_percentage),10],
@@ -214,5 +211,6 @@ opfor_recyclable = [
 	["CFP_O_SDARMY_DShKM_01",10,round (30 / GRLIB_recycling_percentage),10],
 	["CFP_O_SDARMY_DShKM_Low_01",10,round (30 / GRLIB_recycling_percentage),10],
 	["CFP_O_SDARMY_Podnos_2B14_01",10,round (200 / GRLIB_recycling_percentage),10],
+	["CUP_O_Igla_AA_pod_TK",10,round (120 / GRLIB_recycling_percentage),10],
 	["CFP_O_SDARMY_SPG_9_01",10,round (120 / GRLIB_recycling_percentage),10]
 ];

@@ -107,10 +107,12 @@ blufor_air = [
 ];
 
 static_vehicles = [
-	["CFP_B_USARMY_1991_M2_Machine_Gun_Des_01",0,150,0,GRLIB_perm_inf],
+	["CFP_B_USARMY_1991_M2_Machine_Gun_Des_01",0,50,0,GRLIB_perm_inf],
+	["CUP_O_KORD_high_TK", 0,50,0,GRLIB_perm_log],	
 	["AMF_TVGuided_mmp_F",0,150,0,GRLIB_perm_log],
-	["AMF_Mo120_01_CE_F",0,150,0,GRLIB_perm_tank],
-	["CFP_B_USARMY_1991_M119_Des_01",0,150,0,GRLIB_perm_air]
+	["CUP_O_Igla_AA_pod_TK", 0,150,0,GRLIB_perm_log],
+	["AMF_Mo120_01_CE_F",0,650,0,GRLIB_perm_tank],
+	["CFP_B_USARMY_1991_M119_Des_01",0,450,0,GRLIB_perm_air]
 ];
 
 // *** Static Weapon with AI ***
@@ -249,4 +251,21 @@ GRLIB_AirDrop_5 = [
 
 GRLIB_AirDrop_6 = [
 	"B_Boat_Transport_01_F"
+];
+
+a3w_resistance_static = "CUP_O_Igla_AA_pod_TK";
+a3w_enemy_static = ["CFP_B_USARMY_1991_M2_Machine_Gun_Des_01", "CUP_O_KORD_high_TK"];
+a3w_resistance_squad = [
+	"B_AMF_UBAS_CCE_CDE_HK416",
+	"B_AMF_UBAS_CCE_AUXSAN_HK416",
+	"B_AMF_UBAS_CCE_LG_HK416",
+	"B_AMF_UBAS_CCE_MG_MAG58",
+	"B_AMF_UBAS_CCE_GV_AT4_HK416",
+	"B_AMF_UBAS_CCE_TP_HK417",
+	"B_AMF_UBAS_CCE_GV_HK416",
+	"B_AMF_UBAS_CCE_GUNNER_HK416",
+	"B_AMF_UBAS_CCE_GUNNER_HK416",
+	"B_AMF_UBAS_CCE_GUNNER_HK416",
+	"B_AMF_UBAS_CCE_GUNNER_HK416",
+	"B_AMF_UBAS_CCE_GUNNER_HK416"
 ];
