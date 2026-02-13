@@ -3,7 +3,7 @@ GRLIB_east_modder = "Community";
 
 // All class MUST be defined !
 
-opfor_crew = "O_Crew_F";
+opfor_crew = "CFP_O_SDARMY_Soldier_25";
 opfor_sentry = "CFP_O_SDARMY_Soldier_25";
 opfor_rifleman = "CFP_O_SDARMY_Soldier_02";
 opfor_grenadier = "CFP_O_SDARMY_Soldier_16";
@@ -21,7 +21,7 @@ opfor_sharpshooter = "CFP_O_SDARMY_Soldier_22";
 opfor_sniper = "CFP_O_SDARMY_Soldier_22";
 opfor_spotter = "CFP_O_SDARMY_Soldier_22";
 opfor_engineer = "CFP_O_SDARMY_Soldier_09";
-opfor_paratrooper = "O_soldier_PG_F";
+opfor_paratrooper = "CFP_O_SDARMY_Soldier_02";
 opfor_mrap_hmg = "CFP_O_SDARMY_HMMWV_DShKM_01";
 opfor_mrap_gmg = "CFP_O_SDARMY_UAZ_GL_01";
 opfor_transport_helo = "CFP_O_SDARMY_Mi_8MT_01";
@@ -204,10 +204,10 @@ opfor_recyclable = [
 	["CFP_O_SDARMY_C130_01",10,round (600 / GRLIB_recycling_percentage),10],
 	["CFP_O_SDARMY_SU_25_01",10,round (1200 / GRLIB_recycling_percentage),10],
 	["CFP_O_SDARMY_T55_01",10,round (700 / GRLIB_recycling_percentage),10],
-	["CFP_O_SDARMY_T72_01",10,round (800 / GRLIB_recycling_percentage),10],
-	["CFP_O_SDARMY_M60_01",10,round (60 / GRLIB_recycling_percentage),10],
-	["CFP_O_SDARMY_D30_01",10,round (80 / GRLIB_recycling_percentage),10],
-	["CFP_O_SDARMY_D30_AT_01",10,round (100 / GRLIB_recycling_percentage),10],
+	["CFP_O_SDARMY_T72_01",10,round (1300 / GRLIB_recycling_percentage),10],
+	["CFP_O_SDARMY_M60_01",10,round (1200 / GRLIB_recycling_percentage),10],
+	["CFP_O_SDARMY_D30_01",10,round (100 / GRLIB_recycling_percentage),10],
+	["CFP_O_SDARMY_D30_AT_01",10,round (170 / GRLIB_recycling_percentage),10],
 	["CFP_O_SDARMY_DShKM_01",10,round (30 / GRLIB_recycling_percentage),10],
 	["CFP_O_SDARMY_DShKM_Low_01",10,round (30 / GRLIB_recycling_percentage),10],
 	["CFP_O_SDARMY_Podnos_2B14_01",10,round (200 / GRLIB_recycling_percentage),10],

@@ -60,7 +60,6 @@ light_vehicles = [
     ["AMF_GBC180_PERS_03",5,40,5,GRLIB_perm_log],
     ["amf_pvp_01_mag_DA_f",5,50,5,0],
     ["amf_pvp_01_top_DA_f",5,50,5,0],
-	["CUP_B_nM997_DF_USA_DES",5,60,5,0],
     ["AMF_VB2L_DA",5,60,5,0],
     ["AMF_VBL_762_DA",5,65,5,0],
     ["AMF_VBL_DA_127_01_F",5,70,5,0],
@@ -224,7 +223,6 @@ GRLIB_AirDrop_1 = [
 GRLIB_AirDrop_2 = [
     "amf_pvp_01_mag_DA_f",
     "amf_pvp_01_top_DA_f",
-	"CUP_B_nM997_DF_USA_DES",
     "AMF_VB2L_DA"
 ];
 
