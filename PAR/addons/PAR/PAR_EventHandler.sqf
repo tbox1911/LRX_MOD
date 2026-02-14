@@ -35,12 +35,13 @@ if (_unit == player) then {
 					_killer = effectiveCommander _killer;
 				};
 			};
-			private _isNotWounded = !([_unit] call PAR_is_wounded);
-			if (_isNotWounded && _damage >= 0.86) then {
-				private _veh_unit = objectParent _unit;
-				if !(isNull _veh_unit) then {[_unit, _veh_unit] spawn PAR_fn_eject};
-				_unit setVariable ["PAR_isUnconscious", true, true];
-				[_unit, _killer] spawn PAR_Player_Unconscious;
+			if (!([_unit] call PAR_is_wounded) && !(captive _unit)) then {
+				if (_damage >= 0.86) then {
+					private _veh_unit = objectParent _unit;
+					if !(isNull _veh_unit) then {[_unit, _veh_unit] spawn PAR_fn_eject};
+					_unit setVariable ["PAR_isUnconscious", true, true];
+					[_unit, _killer] spawn PAR_Player_Unconscious;
+				};
 			};
 			_damage min 0.86;
 		}];

@@ -22,7 +22,7 @@ _unit addItemToUniform "CUP_HandGrenade_RGD5";
 _unit addItemToUniform "AMF_GR_OFF1";
 for "_i" from 1 to 5 do {_unit addItemToVest "AMF_30Rnd_556x45_SS109_Tracer_Stanag";};
 
-_unit addItemToBackpack "Medlkit";
+_unit addItemToBackpack "Medikit";
 for "_i" from 1 to 3 do {_unit addItemToBackpack "AMF_GR_FUMF5";};
 _unit addHeadgear "AMF_F3";
 _unit addGoggles "G_Combat";
@@ -31,4 +31,3 @@ _unit linkItem "ItemMap";
 _unit linkItem "ItemCompass";
 _unit linkItem "ItemRadio";
 _unit linkItem "AMF_ONYX_NVG";
-

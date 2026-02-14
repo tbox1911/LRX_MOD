@@ -3,25 +3,25 @@ GRLIB_east_modder = "Community";
 
 // All class MUST be defined !
 
-opfor_crew = "CFP_O_SDARMY_Soldier_25";
-opfor_sentry = "CFP_O_SDARMY_Soldier_25";
+opfor_crew = "CFP_O_SDARMY_Soldier_07";
+opfor_sentry = "CFP_O_SDARMY_Soldier_02";
 opfor_rifleman = "CFP_O_SDARMY_Soldier_02";
-opfor_grenadier = "CFP_O_SDARMY_Soldier_16";
+opfor_grenadier = "CFP_O_SDARMY_Soldier_19";
 opfor_squad_leader = "CFP_O_SDARMY_Soldier_21";
 opfor_team_leader = "CFP_O_SDARMY_Soldier_21";
 opfor_marksman = "CFP_O_SDARMY_Soldier_22";
 opfor_machinegunner = "CFP_O_SDARMY_Soldier_06";
-opfor_heavygunner = "CFP_O_SDARMY_Soldier_06";
-opfor_medic = "CFP_O_SDARMY_Soldier_08";
+opfor_heavygunner = "CFP_O_SDARMY_Soldier_18";
+opfor_medic = "CFP_O_SDARMY_Soldier_14";
 opfor_rpg = "CFP_O_SDARMY_Soldier_16";
-opfor_at = "CFP_O_SDARMY_Soldier_03";
-opfor_aa = "CFP_O_SDARMY_Soldier_04";
-opfor_officer = "CFP_O_SDARMY_Soldier_20";
-opfor_sharpshooter = "CFP_O_SDARMY_Soldier_22";
+opfor_at = "CFP_O_SDARMY_Soldier_16";
+opfor_aa = "CFP_O_SDARMY_Soldier_17";
+opfor_officer = "CFP_O_SDARMY_Soldier_01";
+opfor_sharpshooter = "CFP_O_SDARMY_Soldier_18";
 opfor_sniper = "CFP_O_SDARMY_Soldier_22";
 opfor_spotter = "CFP_O_SDARMY_Soldier_22";
-opfor_engineer = "CFP_O_SDARMY_Soldier_09";
-opfor_paratrooper = "CFP_O_SDARMY_Soldier_02";
+opfor_engineer = "CFP_O_SDARMY_Soldier_15";
+opfor_paratrooper = "CFP_O_SDARMY_Soldier_19";
 opfor_mrap_hmg = "CFP_O_SDARMY_HMMWV_DShKM_01";
 opfor_mrap_gmg = "CFP_O_SDARMY_UAZ_GL_01";
 opfor_transport_helo = "CFP_O_SDARMY_Mi_8MT_01";
@@ -36,32 +36,31 @@ opfor_patrol = "Land_Cargo_Patrol_V3_F";
 opfor_hq = "Land_Cargo_HQ_V3_F";
 
 militia_squad = [
-	"CFP_O_SDARMY_Soldier_06",
-	"CFP_O_SDARMY_Soldier_19",
-	"CFP_O_SDARMY_Soldier_07",
-	"CFP_O_SDARMY_Soldier_09",
-	"CFP_O_SDARMY_Soldier_10",
-	"CFP_O_SDARMY_Soldier_20",
-	"CFP_O_SDARMY_Soldier_11",
-	"CFP_O_SDARMY_Soldier_02",
+	"CFP_O_SDARMY_Soldier_05",
+	"CFP_O_SDARMY_Soldier_08",
+	"CFP_O_SDARMY_Soldier_31",
+	"CFP_O_SDARMY_Soldier_32",
+	"CFP_O_SDARMY_Soldier_30",
+	"CFP_O_SDARMY_Soldier_01",
 	"CFP_O_SDARMY_Soldier_04",
 	"CFP_O_SDARMY_Soldier_03",
 	"CFP_O_SDARMY_Soldier_22",
 	"CFP_O_SDARMY_Soldier_21",
-	"CFP_O_SDARMY_Soldier_25",
-	"CFP_O_SDARMY_Soldier_16",
-	"CFP_O_SDARMY_Soldier_08"
+	"CFP_O_SDARMY_Soldier_02",
+	"CFP_O_SDARMY_Soldier_02",
+	"CFP_O_SDARMY_Soldier_02",
+	"CFP_O_SDARMY_Soldier_02"
 ];
 
 militia_loadout_overide = [
 ];
 
 militia_vehicles = [
-	"CFP_O_SDARMY_Walid_01",
 	"CFP_O_SDARMY_Walid_DShKM_01",
-	"CFP_O_SDARMY_HMMWV_01",
 	"CFP_O_SDARMY_HMMWV_DShKM_01",
 	"CFP_O_SDARMY_Pickup_PK_01",
+	"CFP_O_SDARMY_Pickup_PK_01",
+	"CFP_O_SDARMY_UAZ_DShKM_01",	
 	"CFP_O_SDARMY_UAZ_DShKM_01",
 	"CFP_O_SDARMY_UAZ_GL_01",
 	"CFP_O_SDARMY_UAZ_SPG_01"
@@ -71,9 +70,7 @@ opfor_boats = [
 ];
 
 opfor_vehicles = [
-	"CFP_O_SDARMY_Walid_01",
 	"CFP_O_SDARMY_Walid_DShKM_01",
-	"CFP_O_SDARMY_HMMWV_01",
 	"CFP_O_SDARMY_HMMWV_DShKM_01",
 	"CFP_O_SDARMY_Pickup_PK_01",
 	"CFP_O_SDARMY_UAZ_DShKM_01",
@@ -143,7 +140,7 @@ opfor_battlegroup_vehicles_low_intensity = [
 opfor_troup_transports_truck = [
 	opfor_transport_truck,
 	"CFP_O_SDARMY_M113A3_01",
-	"CFP_O_SDARMY_Walid_01",
+	"CFP_O_SDARMY_Walid_DShKM_01",
 	"CFP_O_SDARMY_Ural_01",
 	"CFP_O_SDARMY_Ural_Open_01"
 ];
@@ -164,6 +161,7 @@ opfor_air = [
 opfor_statics = [
 	"CFP_O_SDARMY_D30_AT_01",
 	"CFP_O_SDARMY_DShKM_01",
+	"CFP_O_SDARMY_DShKM_01",
 	"CFP_O_SDARMY_DShKM_Low_01",
 	"CFP_O_SDARMY_Podnos_2B14_01",
 	"CUP_O_Igla_AA_pod_TK",
@@ -181,13 +179,9 @@ opfor_recyclable = [
 	["CFP_O_SDARMY_BTR_80A_01",10,round (500 / GRLIB_recycling_percentage),10],
 	["CFP_O_SDARMY_BTR_90_01",10,round (600 / GRLIB_recycling_percentage),10],
 	["CFP_O_SDARMY_M113A3_01",10,round (500 / GRLIB_recycling_percentage),10],
-	["CFP_O_SDARMY_Walid_01",10,round (100 / GRLIB_recycling_percentage),10],
 	["CFP_O_SDARMY_Walid_DShKM_01",10,round (120 / GRLIB_recycling_percentage),10],
-	["CFP_O_SDARMY_HMMWV_01",10,round (100 / GRLIB_recycling_percentage),10],
 	["CFP_O_SDARMY_HMMWV_DShKM_01",10,round (120 / GRLIB_recycling_percentage),10],
 	["CFP_O_SDARMY_Land_Rover_Ambulance_01",10,round (100 / GRLIB_recycling_percentage),10],
-	["CFP_O_SDARMY_Offroad_01",10,round (50 / GRLIB_recycling_percentage),10],
-	["CFP_O_SDARMY_Offroad_Police_01",10,round (50 / GRLIB_recycling_percentage),10],
 	["CFP_O_SDARMY_Pickup_01",10,round (50 / GRLIB_recycling_percentage),10],
 	["CFP_O_SDARMY_Pickup_PK_01",10,round (60 / GRLIB_recycling_percentage),10],
 	["CFP_O_SDARMY_Truck_01",10,round (100 / GRLIB_recycling_percentage),10],
