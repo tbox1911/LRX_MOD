@@ -153,8 +153,8 @@ opfor_troup_transports_heli = [
 
 opfor_air = [
 	"CUP_O_Mi24_D_Dynamic_TK",
+	"CUP_O_Mi24_D_Dynamic_TK",	
 	"CFP_O_SDARMY_Mi_8MT_01",
-	"CFP_O_SDARMY_C130_01",
 	"CFP_O_SDARMY_SU_25_01"
 ];
 
