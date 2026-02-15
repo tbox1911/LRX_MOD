@@ -1,13 +1,14 @@
 params ["_path", ["_args", objNull]];
 private _ret = true;
 private _mod_path = ("LRX_Template\" + _path);
+private _basename = (_path splitString "\") select -1;
 
+// LRX Compatibility fix for older version
 if (fileExists _mod_path) then {
     [_args] call compileFinal preprocessFile _mod_path;
-    // LRX Compatibility fix for older version
+
     if (GRLIB_build_version == "internal-dev") exitWith {};
     private _version = parseNumber ((GRLIB_build_version select [1,5] splitString ".") joinString "");
-    private _basename = (_path splitString "\") select 2;
     if (_version <= 280) then {
         if (_basename == "classnames_west.sqf") then {
             if (isNil "vehicle_big_units_west") then { vehicle_big_units_west = vehicle_big_west };
@@ -30,5 +31,9 @@ if (fileExists _mod_path) then {
     };
 } else {
     _ret = false;
+    if (_basename == "crewman.sqf") then {
+		_args setUnitLoadout (getUnitLoadout (selectRandom militia_squad));
+        _ret = true;
+    };
 };
 _ret;
