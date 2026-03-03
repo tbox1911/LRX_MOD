@@ -119,7 +119,6 @@ opfor_battlegroup_vehicles = [
 	"CFP_O_SDARMY_T72_01",
 	"CFP_O_SDARMY_M60_01",
 	"CFP_O_SDARMY_Mi_8MT_01",
-	"CFP_O_SDARMY_Ural_01",
 	"CFP_O_SDARMY_Ural_Open_01"	
 ];
 
@@ -133,15 +132,13 @@ opfor_battlegroup_vehicles_low_intensity = [
 	"CFP_O_SDARMY_UAZ_DShKM_01",
 	"CFP_O_SDARMY_UAZ_GL_01",
 	"CFP_O_SDARMY_UAZ_SPG_01",
-	"CFP_O_SDARMY_Mi_8MT_01",
-	"CFP_O_SDARMY_Ural_01"
+	"CFP_O_SDARMY_Mi_8MT_01"
 ];
 
 opfor_troup_transports_truck = [
 	opfor_transport_truck,
 	"CFP_O_SDARMY_M113A3_01",
 	"CFP_O_SDARMY_Walid_DShKM_01",
-	"CFP_O_SDARMY_Ural_01",
 	"CFP_O_SDARMY_Ural_Open_01"
 ];
 
