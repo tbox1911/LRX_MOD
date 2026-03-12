@@ -118,8 +118,7 @@ opfor_battlegroup_vehicles = [
 	"CFP_O_SDARMY_T55_01",
 	"CFP_O_SDARMY_T72_01",
 	"CFP_O_SDARMY_M60_01",
-	"CFP_O_SDARMY_Mi_8MT_01",
-	"CFP_O_SDARMY_Ural_Open_01"	
+	"CFP_O_SDARMY_Mi_8MT_01"
 ];
 
 opfor_battlegroup_vehicles_low_intensity = [
