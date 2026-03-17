@@ -29,7 +29,7 @@ Box_Equipment_typename = "cwr3_crate_uniforms_us";
 SHOP_Man = "cwr3_c_citizen";
 SELL_Man = "cwr3_c_villager4";
 WRHS_Man = "cwr3_b_soldier80_captive";				// Man in Warehouse
-commander_classname = "cwr3_b_soldier82_light";			// Sell-Man in FOB
+FOB_Man = "cwr3_b_soldier82_light";			// Sell-Man in FOB
 repair_offroad = "CUP_O_V3S_Repair_TKA";
 
 //waterbarrel_typename = "";

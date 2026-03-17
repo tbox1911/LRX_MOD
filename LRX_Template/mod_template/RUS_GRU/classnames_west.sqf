@@ -29,7 +29,7 @@ basic_weapon_typename = "rhsusf_weapon_crate";
 SHOP_Man = "C_IDAP_Man_EOD_01_F";
 SELL_Man = "C_IDAP_Man_EOD_01_F";
 WRHS_Man = "C_IDAP_Man_EOD_01_F";						// Man in Warehouse
-commander_classname = "C_IDAP_Man_EOD_01_F";			// Sell-Man in FOB
+FOB_Man = "C_IDAP_Man_EOD_01_F";			// Sell-Man in FOB
 a3w_resistance_static = "RUS_VDV_kord";				// Ukraine (National Guard)
 
 //repair_offroad = "";

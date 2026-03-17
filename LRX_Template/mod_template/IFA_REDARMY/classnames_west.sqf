@@ -23,7 +23,7 @@ crewman_classname = "LIB_SOV_LC_rifleman";
 uavs_terminal_typename = "O_UavTerminal";
 basic_weapon_typename = "LIB_BasicWeaponsBox_SU";
 WRHS_Man = "LIB_CIV_SchoolTeacher";			// Man in Warehouse
-commander_classname = "LIB_CIV_Assistant";		// Sell-Man in FOB
+FOB_Man = "LIB_CIV_Assistant";		// Sell-Man in FOB
 
 
 chimera_vehicle_overide = [

@@ -62,7 +62,7 @@ militia_loadout_overide = [
 SHOP_Man = "CUP_C_C_Functionary_02";
 SELL_Man = "CUP_C_C_Worker_02";
 // WRHS_Man = "Flex_CUP_PLA_survivor";			// Man in Warehouse
-// commander_classname = "Flex_CUP_PLA_unarmed";
+// FOB_Man = "Flex_CUP_PLA_unarmed";
 
 a3w_divers_squad = [
     "O_diver_exp_F",

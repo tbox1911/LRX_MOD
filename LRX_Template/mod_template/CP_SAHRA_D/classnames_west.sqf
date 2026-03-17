@@ -35,7 +35,7 @@ Box_Equipment_typename = "CUP_BOX_RACS_Uniforms_F";
 SHOP_Man = "CUP_C_TK_Man_08_Jack";
 SELL_Man = "CUP_C_TK_Man_01_Waist";
 WRHS_Man = "CUP_I_RACS_Soldier_Unarmed";				// Man in Warehouse
-commander_classname = "CUP_I_RACS_Soldier_Unarmed";			// Sell-Man in FOB
+FOB_Man = "CUP_I_RACS_Soldier_Unarmed";			// Sell-Man in FOB
 
 //repair_offroad = "C_Truck_02_box_F";
 

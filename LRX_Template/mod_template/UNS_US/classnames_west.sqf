@@ -23,7 +23,7 @@ SHOP_Man = "uns_civilian4";	    //"C_Man_formal_1_F";
 SELL_Man = "uns_civilian3_b1";	//"C_Story_Mechanic_01_F";
 
 WRHS_Man = "uns_pilot16";				// Man in Warehouse
-commander_classname = "uns_pilot16";			// Sell-Man in FOB
+FOB_Man = "uns_pilot16";			// Sell-Man in FOB
 a3w_vip_vehicle = "uns_willys_2_arvn";
 a3w_br_planes = "uns_skymaster_civ_gold";
 

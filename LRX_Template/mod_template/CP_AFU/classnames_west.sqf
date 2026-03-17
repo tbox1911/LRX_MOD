@@ -21,7 +21,7 @@ A3W_BoxWps = "CUP_LocalBasicWeaponsBox";
 SHOP_Man = "CUP_C_C_Functionary_02";
 SELL_Man = "CUP_C_C_Mechanic_02";
 WRHS_Man = "CUP_C_C_Assistant_01";				// Man in Warehouse
-commander_classname = "CUP_B_TDF_Soldier_SquadLeader";	// Sell-Man in FOB
+FOB_Man = "CUP_B_TDF_Soldier_SquadLeader";	// Sell-Man in FOB
 
 /*
 a3w_sd_item  -> suite case

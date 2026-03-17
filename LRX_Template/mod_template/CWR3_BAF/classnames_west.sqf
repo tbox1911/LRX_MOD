@@ -43,7 +43,7 @@ Box_Equipment_typename = "";
 SHOP_Man = "cwr3_c_functionary3";
 SELL_Man = "cwr3_c_villager1";
 WRHS_Man = "cwr3_b_uk_soldier_captive";					// Man in Warehouse
-commander_classname = "cwr3_b_uk_soldier_light";			// Sell-Man in FOB
+FOB_Man = "cwr3_b_uk_soldier_light";			// Sell-Man in FOB
 
 repair_offroad = "CUP_O_V3S_Repair_TKA";
 

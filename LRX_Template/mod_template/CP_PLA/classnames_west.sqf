@@ -28,7 +28,7 @@ A3W_BoxWps = "AC_Box_BLK_Wps_F";
 SHOP_Man = "CUP_C_C_Functionary_02";
 SELL_Man = "CUP_C_C_Worker_02";
 WRHS_Man = "Flex_CUP_PLA_survivor";			// Man in Warehouse
-commander_classname = "Flex_CUP_PLA_unarmed";		// Sell-Man in FOB
+FOB_Man = "Flex_CUP_PLA_unarmed";		// Sell-Man in FOB
 
 
 /*

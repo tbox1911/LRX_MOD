@@ -25,7 +25,7 @@ basic_weapon_typename = "CUP_BOX_RU_Wps_F";
 SHOP_Man = "CUP_C_C_Functionary_02";
 SELL_Man = "CUP_C_C_Mechanic_02";
 WRHS_Man = "CUP_O_RU_Soldier_Light_EMR";	// Man in Warehouse
-commander_classname = "CUP_O_RU_Officer_EMR";	// Sell-Man in FOB
+FOB_Man = "CUP_O_RU_Officer_EMR";	// Sell-Man in FOB
 
 chimera_vehicle_overide = [
   ["B_Heli_Light_01_F", "CUP_O_UH1H_SLA"],

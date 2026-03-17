@@ -28,7 +28,7 @@ basic_weapon_typename = "rhsusf_weapon_crate";
 SHOP_Man = "UA_CIV_civilian";
 SELL_Man = "UA_CIV_civilian";
 WRHS_Man = "UA_CIV_civilian";						// Man in Warehouse
-commander_classname = "UA_CIV_civilian";			// Sell-Man in FOB
+FOB_Man = "UA_CIV_civilian";			// Sell-Man in FOB
 a3w_resistance_static = "UA_Azov_dshkm";				// Ukraine (National Guard)
 
 //repair_offroad = "";

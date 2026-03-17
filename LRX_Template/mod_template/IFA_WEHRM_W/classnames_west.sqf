@@ -23,7 +23,7 @@ basic_weapon_typename = "LIB_BasicWeaponsBox_GER";
 SHOP_Man = "LIB_CIV_Citizen_2";
 SELL_Man = "LIB_CIV_Villager_1";
 WRHS_Man = "LIB_CIV_SchoolTeacher";			// Man in Warehouse
-commander_classname = "LIB_CIV_Assistant";		// Sell-Man in FOB
+FOB_Man = "LIB_CIV_Assistant";		// Sell-Man in FOB
 
 chimera_vehicle_overide = [
 	["B_Heli_Light_01_F", "LIB_Kfz1_w"],

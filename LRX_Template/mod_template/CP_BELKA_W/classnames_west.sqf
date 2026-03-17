@@ -25,7 +25,7 @@ A3W_BoxWps = "AC_Box_BLK_Wps_F";
 SHOP_Man = "CUP_C_C_Functionary_02";
 SELL_Man = "CUP_C_C_Mechanic_02";
 WRHS_Man = "AC_BLK_O_Rifleman_Survivor_Modern";				// Man in Warehouse
-commander_classname = "AC_BLK_O_Rifleman_Unarmed_Modern";		// Sell-Man in FOB
+FOB_Man = "AC_BLK_O_Rifleman_Unarmed_Modern";		// Sell-Man in FOB
 
 /*
 a3w_sd_item  -> suite case

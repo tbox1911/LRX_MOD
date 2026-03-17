@@ -35,7 +35,7 @@ waterbarrel_typename = "Land_WaterBottle_01_stack_F";
 fuelbarrel_typename = "Land_MetalBarrel_F";
 foodbarrel_typename = "Land_FoodSacks_01_large_brown_idap_F";
 basic_weapon_typename = "Land_vn_pavn_weapons_stack1";
-commander_classname = "vn_b_men_army_28";
+FOB_Man = "vn_b_men_army_28";
 a3w_resistance_static = "vn_b_army_static_m2_high";
 blufor_flag = "vn_flag_usarmy";
 
