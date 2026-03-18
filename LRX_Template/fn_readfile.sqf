@@ -9,10 +9,14 @@ if (fileExists _mod_path) then {
 
     if (GRLIB_build_version == "internal-dev") exitWith {};
     private _version = parseNumber ((GRLIB_build_version select [1,5] splitString ".") joinString "");
+    if (_version <= 290) then {
+        if (_basename == "classnames_west.sqf") then {
+            if (isNil "commander_classname") then { commander_classname = FOB_Man };
+        };
+    };
     if (_version <= 280) then {
         if (_basename == "classnames_west.sqf") then {
             if (isNil "vehicle_big_units_west") then { vehicle_big_units_west = vehicle_big_west };
-            if (isNil "commander_classname") then { commander_classname = FOB_Man };
         };
     };
     if (_version <= 279) then {
