@@ -19,6 +19,7 @@ ammo_sling_typename = "B_Slingload_01_Ammo_F";
 medic_sling_typename = "B_Slingload_01_Medevac_F";
 pilot_classname = "EAW_SNLF_Seaman2C_1937";
 crewman_classname = "EAW_Japanese_ArmyCrew_1941";
+FOB_Man = "B_officer_F";
 
 // [CLASSNAME, MANPOWER, AMMO, FUEL, RANK]
 infantry_units_west = [

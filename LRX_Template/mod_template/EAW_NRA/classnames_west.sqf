@@ -18,6 +18,7 @@ ammo_sling_typename = "B_Slingload_01_Ammo_F";
 medic_sling_typename = "B_Slingload_01_Medevac_F";
 pilot_classname = "EAW_Chinese_Rifleman_Shorts_Base";
 crewman_classname = "EAW_Chinese_Rifleman_Shorts_Base";
+FOB_Man = "B_officer_F";
 
 // [CLASSNAME, MANPOWER, AMMO, FUEL, RANK]
 infantry_units_west = [

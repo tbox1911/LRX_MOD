@@ -25,6 +25,7 @@ huron_typename = "UK3CB_ION_I_Urban_Merlin";
 FOB_typename = "Land_Cargo_HQ_V1_F";
 FOB_box_typename = "B_Slingload_01_Cargo_F";
 FOB_truck_typename = "B_Truck_01_box_F";
+FOB_Man = "B_officer_F";
 Respawn_truck_typename = "UK3CB_ION_I_Urban_M113_AMB";
 ammo_truck_typename = "UK3CB_ION_I_Urban_T810_Reammo";
 fuel_truck_typename = "UK3CB_ION_I_Urban_T810_Refuel";

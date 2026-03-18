@@ -15,6 +15,7 @@ ammo_sling_typename = "land_simple_muni_ammo_black";
 medic_sling_typename = "land_simple_muni_medical";
 pilot_classname = "TIOW_Cad_Tnk836th";
 crewman_classname = "TIOW_B_Ren_G_Engineer";
+FOB_Man = "B_officer_F";
 
 // [CLASSNAME, MANPOWER, AMMO, FUEL, RANK]
 infantry_units_west = [

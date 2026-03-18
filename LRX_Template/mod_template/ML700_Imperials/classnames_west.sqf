@@ -15,6 +15,7 @@ ammo_sling_typename = "land_simple_muni_ammo_black";
 medic_sling_typename = "land_simple_muni_medical";
 pilot_classname = "ML700_IMP_Cadian_Pilot_Armed";
 crewman_classname = "ML700_Cadian_Rifleman_light";
+FOB_Man = "B_officer_F";
 
 // [CLASSNAME, MANPOWER, AMMO, FUEL, RANK]
 infantry_units_west = [

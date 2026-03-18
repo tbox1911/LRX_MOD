@@ -15,6 +15,7 @@ fuel_truck_typename = "rhsusf_M978A4_usarmy_wd";
 pilot_classname = "rhsusf_army_ucp_helipilot";
 crewman_classname = "rhsusf_army_ucp_crewman";
 basic_weapon_typename = "Box_Syndicate_Ammo_F";
+FOB_Man = "B_officer_F";
 
 chimera_vehicle_overide = [
   ["B_Heli_Light_01_F", "RHS_MELB_MH6M"],

@@ -24,6 +24,7 @@ repair_truck_typename = "OPTRE_m1087_stallion_unsc_repair";
 GRLIB_sar_wreck = "OPTRE_Objects_Wreck_Pelican";
 repair_offroad = "OPTRE_forklift";
 Radio_tower = "Land_Razor_Tower";
+FOB_Man = "B_officer_F";
 
 chimera_vehicle_overide = [
   ["B_Heli_Light_01_F",  "OPTRE_UNSC_hornet"],

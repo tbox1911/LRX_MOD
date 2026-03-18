@@ -18,6 +18,7 @@ ammo_sling_typename = "B_Slingload_01_Ammo_F";
 medic_sling_typename = "B_Slingload_01_Medevac_F";
 pilot_classname = "ASZ_Pilot_GSuit_AM";
 crewman_classname = "B_mas_itr_crew_F";
+FOB_Man = "B_officer_F";
 
 chimera_vehicle_overide = [
   ["B_Heli_Light_01_F", "ASZ_AH6_EI_reos"],

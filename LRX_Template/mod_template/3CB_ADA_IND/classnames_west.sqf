@@ -36,6 +36,7 @@ medic_sling_typename = "B_Slingload_01_Medevac_F";
 pilot_classname = "UK3CB_ADA_I_HELI_PILOT";
 crewman_classname = "UK3CB_ADA_I_CREW";
 basic_weapon_typename = "UK3CB_FNFAL_Equipbox_Opfor";
+FOB_Man = "B_officer_F";
 
 chimera_vehicle_overide = [
 //  ["B_Heli_Light_01_F", "C_Heli_Light_01_civil_F"],

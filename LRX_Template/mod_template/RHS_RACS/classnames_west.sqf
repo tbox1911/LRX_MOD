@@ -25,6 +25,7 @@ pilot_classname = "PRACS_Heli_pilot";
 crewman_classname = "PRACS_Paratrooper";
 uavs_terminal_typename = "";
 basic_weapon_typename = "PRACS_weapon_crate";
+FOB_Man = "B_officer_F";
 
 chimera_vehicle_overide = [
 //  ["B_Heli_Light_01_F", "C_Heli_Light_01_civil_F"],

@@ -21,6 +21,7 @@ pilot_classname = "CUP_I_PMC_Pilot";
 crewman_classname = "CUP_I_PMC_Winter_Crew";
 uavs_terminal_typename = "I_UavTerminal";
 basic_weapon_typename = "CUP_BOX_PMC_WpsSpecial_F";
+FOB_Man = "B_officer_F";
 
 chimera_vehicle_overide = [
   ["B_Heli_Light_01_F","CUP_I_MH6M_ION"],

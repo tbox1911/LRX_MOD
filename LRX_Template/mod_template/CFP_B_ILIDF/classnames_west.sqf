@@ -18,7 +18,7 @@ ammo_sling_typename = "B_Slingload_01_Ammo_F";
 medic_sling_typename = "B_Slingload_01_Medevac_F";
 pilot_classname = "CFP_B_ILIDF_Pilot_01";
 crewman_classname = "CFP_B_ILIDF_Crew_01";
-
+FOB_Man = "B_officer_F";
 
 
 // [CLASSNAME, MANPOWER, AMMO, FUEL, RANK]

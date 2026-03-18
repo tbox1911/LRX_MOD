@@ -12,6 +12,7 @@ if (fileExists _mod_path) then {
     if (_version <= 280) then {
         if (_basename == "classnames_west.sqf") then {
             if (isNil "vehicle_big_units_west") then { vehicle_big_units_west = vehicle_big_west };
+            if (isNil "commander_classname") then { commander_classname = FOB_Man };
         };
     };
     if (_version <= 279) then {

@@ -6,7 +6,6 @@ GRLIB_west_modder = "Z@Warrior";
 // Requires: IFA3 AIO; optional additionally: WW2 Tanks, Flying Legends, Secret Weapons Reloaded
 
 FOB_typename = "Land_WW2_Kladovka2";
-FOB_Man = "O_officer_F";
 Respawn_truck_typename = "LIB_Zis5v_Med";
 FOB_box_typename = "B_Slingload_01_Cargo_F";
 FOB_truck_typename = "LIB_US6_Ammo";

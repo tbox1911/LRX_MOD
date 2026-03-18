@@ -22,7 +22,7 @@ uavs_terminal_typename = "B_UavTerminal";
 blufor_flag = "rhssaf_flag_serbia";
 mobile_respawn = "Land_TentDome_F";
 mobile_respawn_bag = "B_Kitbag_Base";
-
+FOB_Man = "B_officer_F";
 
 // [CLASSNAME, MANPOWER, AMMO, FUEL, RANK]
 infantry_units_west = [

@@ -4,7 +4,6 @@ GRLIB_west_modder = "Community";
 
 huron_typename = "RUS_VKS_east_mi8amtsh";		// Mi-8MTV-2 (Cargo)
 FOB_typename = "Land_Cargo_HQ_V3_F";
-FOB_Man = "RUS_MSV_seniorsergeant";
 FOB_box_typename = "B_Slingload_01_Cargo_F";
 FOB_truck_typename = "VTN_KAMAZ5350_UB2_REPAIR_FLR";
 Respawn_truck_typename = "VTN_KAMAZ63501_AT_EMR";
@@ -29,7 +28,7 @@ basic_weapon_typename = "rhsusf_weapon_crate";
 SHOP_Man = "C_IDAP_Man_EOD_01_F";
 SELL_Man = "C_IDAP_Man_EOD_01_F";
 WRHS_Man = "C_IDAP_Man_EOD_01_F";						// Man in Warehouse
-FOB_Man = "C_IDAP_Man_EOD_01_F";			// Sell-Man in FOB
+FOB_Man = "RUS_MSV_seniorsergeant";			// Sell-Man in FOB
 a3w_resistance_static = "RUS_VDV_kord";				// Ukraine (National Guard)
 
 //repair_offroad = "";
