@@ -132,11 +132,17 @@ opfor_air = [
 
 // Additional Airplanes from Mod Flying Legends
 if (isClass(configFile >> "CfgPatches" >> "sab_flyinglegends")) then {
-	opfor_air pushBack ["sab_fl_f4u", "sab_fl_p51d", "sab_fl_sbd"];
+	opfor_air pushBack "sab_fl_f4u";
+	opfor_air pushBack "sab_fl_p51d";
+	opfor_air pushBack "sab_fl_sbd";
 };
 
 if (isClass(configFile >> "CfgPatches" >> "sab_sw_a26")) then {
-	opfor_air pushBack ["sab_sw_p38", "sab_sw_p40", "sab_sw_a26", "sab_sw_tbf","sab_sw_b17"];
+	opfor_air pushBack "sab_sw_p38";
+	opfor_air pushBack "sab_sw_p40";
+	opfor_air pushBack "sab_sw_a26";
+	opfor_air pushBack "sab_sw_tbf";
+	opfor_air pushBack "sab_sw_b17";		
 };
 
 opfor_statics = [

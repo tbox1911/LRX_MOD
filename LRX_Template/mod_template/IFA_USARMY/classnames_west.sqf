@@ -110,9 +110,9 @@ blufor_air = [
 
 // Additional Airplanes from Mod Flying Legends
 if (isClass(configFile >> "CfgPatches" >> "sab_flyinglegends")) then {
-	blufor_air pushBack ["sab_fl_f4u"];
-	blufor_air pushBack ["sab_fl_p51d"];
-	blufor_air pushBack ["sab_fl_sbd"];
+	blufor_air pushBack "sab_fl_f4u";
+	blufor_air pushBack "sab_fl_p51d";
+	blufor_air pushBack "sab_fl_sbd";
 };
 
 static_vehicles = [
