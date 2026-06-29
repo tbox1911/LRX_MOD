@@ -13,6 +13,6 @@ whitelisted_from_arsenal = [
 	"ItemRadio",
 	"ItemWatch",
 	"ItemMap",
-		"SatchelCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag",
 	"B_Parachute"
 ];
