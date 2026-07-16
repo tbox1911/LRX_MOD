@@ -48,7 +48,9 @@ blufor_flag = "SPE_FlagCarrier_GER";
 
 chimera_vehicle_overide = [
 	["B_Heli_Light_01_F",  "SPE_OpelBlitz_Open"],
-	["B_Heli_Transport_01_F", "Land_HelipadEmpty_F"]
+	["B_Heli_Transport_01_F", "Land_HelipadEmpty_F"],
+	["B_MRAP_01_F", "SPE_GER_R200_Hood"],
+	["B_LSV_01_unarmed_F", "SPE_ST_OpelBlitz_Open"]		
 ];
 
 // [CLASSNAME, MANPOWER, AMMO, FUEL, RANK]

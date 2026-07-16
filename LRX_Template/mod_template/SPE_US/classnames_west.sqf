@@ -43,7 +43,9 @@ blufor_flag = "SPE_FlagCarrier_USA";
 
 chimera_vehicle_overide = [
 	["B_Heli_Light_01_F",  "SPE_US_M3_Halftrack_Unarmed_Open"],
-	["B_Heli_Transport_01_F", "Land_HelipadEmpty_F"]
+	["B_Heli_Transport_01_F", "Land_HelipadEmpty_F"],
+	["B_MRAP_01_F", "SPE_US_G503_MB"],
+	["B_LSV_01_unarmed_F", "SPE_US_M3_Halftrack_Unarmed_Open"]	
 ];
 
 // [CLASSNAME, MANPOWER, AMMO, FUEL, RANK]
