@@ -95,10 +95,9 @@ light_vehicles = [
 	["SPEX_LCVP",1,50,2,0],
 	// Land
 	["SPE_FR_G503_MB",1,20,2,0],
+	["SPE_FR_G503_MB_Armoured",1,75,5,0],
 	["SPE_FFI_R200_Hood",1,22,2,0],
 	["SPE_FFI_R200_MG34",1,35,2,0],
-	["SPE_US_G503_MB",1,50,2,0],
-	["SPE_US_G503_MB_Armoured",1,75,5,0],
 	["SPE_FR_M3_Halftrack_Unarmed_Open",1,100,8,0],
 	["SPE_FR_M3_Halftrack_Unarmed",1,100,8,GRLIB_perm_inf],
 	["SPE_FR_M3_Halftrack",1,275,8,GRLIB_perm_log],
