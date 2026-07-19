@@ -28,6 +28,7 @@ Arsenal_typename = "Land_SPE_Ammobox_German_01_stack";
 PAR_Medikit = "SPE_GER_Medkit";
 PAR_AidKit = "SPE_GER_FirstAidKit";
 GRLIB_sar_wreck = "SPE_FW190F8_MRWreck";
+GRLIB_chopper_enabled = false;
 Box_Weapon_typename = "SPE_BasicWeaponsBox_GER";
 Box_Ammo_typename = "SPE_BasicAmmunitionBox_GER";
 Box_Support_typename = "SPE_Mine_Ammo_Box_Ger";

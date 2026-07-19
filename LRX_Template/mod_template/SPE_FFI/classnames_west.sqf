@@ -23,6 +23,7 @@ Arsenal_typename = "Land_SPE_Ammocrate_US_07_Stack";
 PAR_Medikit = "SPE_US_Medkit";
 PAR_AidKit = "SPE_US_FirstAidKit";
 GRLIB_sar_wreck = "SPE_FW190F8_MRWreck";
+GRLIB_chopper_enabled = false;
 Box_Weapon_typename = "SPE_BasicWeaponsBox_US";
 Box_Ammo_typename = "SPE_BasicAmmunitionBox_US";
 Box_Support_typename = "SPE_Mine_AmmoBox_US";
