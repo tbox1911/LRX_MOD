@@ -65,7 +65,7 @@ a3w_divers_squad = [
 ];
 
 militia_vehicles = [
-	"SPE_OpelBlitz_Open",
+	"SPE_SdKfz250_1",
 	"SPE_OpelBlitz_Flak38",
 	"SPE_SdKfz250_1"
 ];
@@ -75,7 +75,6 @@ opfor_boats = [
 
 opfor_vehicles = [
 	"SPE_OpelBlitz_Flak38",
-	"SPE_OpelBlitz_Open",
 	"SPE_SdKfz250_1",
 	"SPE_PzKpfwIII_J",
 	"SPE_PzKpfwIII_L",
