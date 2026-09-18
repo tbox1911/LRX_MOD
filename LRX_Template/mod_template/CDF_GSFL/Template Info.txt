@@ -1,0 +1,36 @@
+Template Modder: Legend_TS13
+Requested by: Tovarish Lew (LRX Discord Community Member)
+Date Submitted: 9/6/2026
+Untested at the time of submission. I will test and update if needed when I have time.
+
+West Faction/Blufor:	CDF Green Sea Foreign Legion (CDF-GSFL)
+Suggested Name for LRX Menu: "CDF Green Sea Foreign Legion"
+Updated Files:		classnames_west, classnames_r3f, classnames_taxi, classnames_transport
+
+Info: Composed of volunteers from abroad, particularly the English speaking countries and the Czech republic, were established in the first days of 
+the ChDKZ Resurgance and the supporting Russian invasion.
+
+
+East Faction/Opfor:	South Zagoria All Volunteer Batallion (S-ZAVB)
+Suggested for LRX Menu: "S. Zagoria Volunteer Batallion"
+Updated Files:		classnames_east, classnames_transport
+
+Info:  An elite volunteer component of the pro-Russian ChDKZ.
+
+Required Mods (5):
+
+CDF-GSFL
+https://steamcommunity.com/sharedfiles/filedetails/?id=2872102180
+
+RHSUSAF
+https://steamcommunity.com/workshop/filedetails/?id=843577117
+
+RHSAFRF
+https://steamcommunity.com/workshop/filedetails/?id=843425103
+
+RHSGREF
+https://steamcommunity.com/workshop/filedetails/?id=843593391
+
+RHSSAF
+https://steamcommunity.com/workshop/filedetails/?id=843632231
+

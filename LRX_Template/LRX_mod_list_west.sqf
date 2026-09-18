@@ -13,11 +13,12 @@ LRX_mod_list_west = [
 	"AMF_R3F_W",		// C0br4 French Forces
 	"ASZ_ITALY",
 	"BW_MOD",			// Z@Warrior Bundenswehr Tropentarn
+	"CDF_GSFL",			// Legend_TS13 CDF Green Sea Foreign Legion
 	"CFP_B_ILIDF", 		// Community
 	"CFP_O_IQARMY", 	// Community
 	"CFP_O_NKARMY", 	// Community
-	"CP_AFRF",			// Z@warrior
 	"CP_AFRF_WI",		// Z@warrior	
+	"CP_AFRF",			// Z@warrior
 	"CP_AFU",			// Z@Warrior Armed Forces of Ukraine
 	"CP_BAF_DES",
 	"CP_BELKA_D",		// Z@Warrior CUP Belka Desert
@@ -26,8 +27,8 @@ LRX_mod_list_west = [
 	"CP_BW_W",			// Z@Warrior CUP NATO (US,BAF,BW)
 	"CP_ION_WI",		// Z@Warrior CUP ION PMC Winter
 	"CP_MAF",			// Community
-	"CP_SAHRA_D",		// Z@Warrior
 	"CP_PLA",			// Z@Warrior
+	"CP_SAHRA_D",		// Z@Warrior
 	"CP_USMC_D",		// C0br4
 	"CP_USMC_W",		// C0br4
 	"CWR3_BAF",			// Z@Warrior Cold War Rearmed III - BAF
@@ -63,17 +64,18 @@ LRX_mod_list_west = [
 	"R3F_WEST_D", 		// C0br4
 	"R3F_WEST_W", 		// C0br4
 	"RHS_AFRF",
-	"RHS_RACS",			// Z@Warrior RACS (Royal Army Corps Sahrani)
-	"RHS_SLA",			// Z@Warrior SLA (Sahrani Liberation Army)
-	"RHS_UFP",			// Z@Warrior Ukrain Faction Project
-	"RHS_USAF",
-	"RHS_SAF",			// Lord_Kamephis Serbian Armed Forces
-	"RHS_SVK_BW",		// Slovak Armed Forces
 	"RHS_PLUS_BW",		// Z@Warrior RHS_PLUS Factions
 	"RHS_PLUS_MURKY",	// Z@Warrior RHS_PLUS Factions
 	"RHS_PLUS_UKRAINE",	// Z@Warrior RHS_PLUS Factions
+	"RHS_RACS",			// Z@Warrior RACS (Royal Army Corps Sahrani)
+	"RHS_SAF",			// Lord_Kamephis Serbian Armed Forces
+	"RHS_SLA",			// Z@Warrior SLA (Sahrani Liberation Army)
+	"RHS_SVK_BW",		// Slovak Armed Forces
+	"RHS_UFP",			// Z@Warrior Ukrain Faction Project
+	"RHS_USAF",
 	"ROAF_BLU",			// Miledino
 	"RUS_GRU",  		// Community
+	"S-VAZB", 			// Legend_TS13 Zagoria Volunteer Batallion
 	"SAF2035",
 	"SFP_SAF",
 	"SOG_USA",
@@ -83,10 +85,10 @@ LRX_mod_list_west = [
 	"SPE_GER",			// Z@Warrior DLC Spearhead 1944
 	"SPE_US",			// Z@Warrior DLC Spearhead 1944
 	"SW_TOR",	 		// Community
-	"TFM_MSLI_W",		// Legend_TS13
 	"TFM_MSCA_D",		// Legend_TS13
 	"TFM_MSCA_W",		// Legend_TS13
 	"TFM_MSLI_D",		// Legend_TS13
+	"TFM_MSLI_W",		// Legend_TS13
 	"TFM_SOG_CA",		// Legend_TS13
 	"TFM_SOG_LI",		// Legend_TS13
 	"UA_AZOV", 			// Community

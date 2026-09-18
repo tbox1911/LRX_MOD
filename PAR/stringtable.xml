@@ -232,15 +232,15 @@
 			<Original>Bad news, we lost soldier %1...</Original>
 			<French>Mauvaise nouvelle, on as perdu le soldat %1...</French>
 		</Key>
-		<Key ID="STR_PARAM_SQUAD_SIZE_START">
-			<Original>AI per squad at startup.</Original>
-			<Russian>Количество ИИ в отряде на старте.</Russian>
-			<French>IA par escouade au début.</French>
-			<Chinesesimp>每个小队的初始AI数量</Chinesesimp>
-			<Chinese>每個小隊的初始AI數量</Chinese>
-			<Japanese>ミッション開始時に扱える小隊内のAI数</Japanese>
-			<Portuguese>IA por esquadrão na inicialização.</Portuguese>
-			<Czech>AI Tým při startu.</Czech>
+		<Key ID="STR_PARAM_SQUAD_SIZE">
+			<Original>Max unit protected.</Original>
+			<Russian>Максимальное количество защищаемых юнитов.</Russian>
+			<French>Nombre maximal d'unités protégées.</French>
+			<Chinesesimp>最大受保护单位数</Chinesesimp>
+			<Chinese>最大受保護單位數</Chinese>
+			<Japanese>保護される最大ユニット数</Japanese>
+			<Portuguese>Número máximo de unidades protegidas.</Portuguese>
+			<Czech>Maximální počet chráněných jednotek.</Czech>
 		</Key>
 		<Key ID="STR_PAR_REVIVE_RESTORED">
 			<Original>%1 revive restored (%2) !!</Original>
